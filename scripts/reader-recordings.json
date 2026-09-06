@@ -2,8 +2,8 @@
   "checked": "2026-09-06",
   "podcasts": [
     {
-      "title": "The Principal Podcast: transforming public-sector organisations through systems thinking",
-      "kicker": "2026 · guest interview",
+      "title": "Consulting Leaders: transforming public-sector organisations through systems thinking",
+      "kicker": "2026 · John Degnan · also listed as The Principal Podcast",
       "description": "Public-service transformation, building RedQuadrant, winning consulting work, and sustaining client relationships.",
       "tags": [
         "audio",
@@ -45,6 +45,39 @@
         "audio"
       ],
       "url": "https://www.youtube.com/watch?v=0IBjnZlcdfQ"
+    },
+    {
+      "title": "Evolving Enterprises: public sector transformation",
+      "kicker": "31 May 2024 · Martin Parr · 22 minutes",
+      "description": "My route into consulting, seeing systems differently, and building public services around the people who use them.",
+      "tags": [
+        "audio",
+        "public-services",
+        "systems"
+      ],
+      "url": "https://podcasts.apple.com/gb/podcast/public-sector-transformation/id1698694598?i=1000657391954"
+    },
+    {
+      "title": "We, me and us 04: culture, clarity and conversations",
+      "kicker": "2025 · Pierre Neis · 37 minutes",
+      "description": "Leading in uncertain times, the five core practices, and the balance between structure and self-organisation.",
+      "tags": [
+        "video",
+        "audio",
+        "leadership"
+      ],
+      "url": "https://www.youtube.com/watch?v=z4NotP-0opU"
+    },
+    {
+      "title": "Baachu Talk: Benjamin Taylor",
+      "kicker": "24 November 2021 · episode 27 · 63 minutes",
+      "description": "A conversation about public-service transformation and cybernetics.",
+      "tags": [
+        "audio",
+        "systems",
+        "public-services"
+      ],
+      "url": "https://music.amazon.com/podcasts/c7a55442-085a-4103-946e-35b6833b85f1/episodes/56802c7e-a1db-41ce-9702-cdb5499e2571/baachu-talk-baachu-talk-episode-27---benjamin-taylor-aantlerboy-public-service-transformation-academy-fellow-of-the-cybernetics-society"
     }
   ],
   "written": [
@@ -223,6 +256,37 @@
       "url": "https://www.youtube.com/watch?v=gI5sFwR1dCc",
       "source": "https://www.systemspractice.org/resources/meta-contextuality-through-medium-bongard-games-why-methods-and-practices-depend-context",
       "sourceLabel": "SCiO presentation details"
+    },
+    {
+      "title": "The future of work is: no jobs",
+      "kicker": "13 July 2022 · Future of Work Scotland · 85 minutes",
+      "description": "A public talk and discussion on the future of work.",
+      "tags": [
+        "video",
+        "leadership",
+        "business"
+      ],
+      "url": "https://www.youtube.com/watch?v=46CTwKZEEbA"
+    },
+    {
+      "title": "Management cybernetics and the Force in organisational life",
+      "kicker": "27 October 2020 · Pierre Neis · 113 minutes",
+      "description": "Organisational dynamics, culture, the five worlds, and the Viable System Model.",
+      "tags": [
+        "video",
+        "systems"
+      ],
+      "url": "https://www.youtube.com/watch?v=vLr6IvZmRho"
+    },
+    {
+      "title": "Co-creating new realities",
+      "kicker": "Pierre Neis · recorded conversation · 177 minutes",
+      "description": "A long-form public conversation with Benjamin P Taylor.",
+      "tags": [
+        "video",
+        "systems"
+      ],
+      "url": "https://www.youtube.com/watch?v=By26DsZD6f0"
     }
   ]
 }
