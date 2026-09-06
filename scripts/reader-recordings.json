@@ -79,7 +79,9 @@
         "systems",
         "scio"
       ],
-      "url": "https://www.youtube.com/watch?v=2JIZojh42PA"
+      "url": "https://www.youtube.com/watch?v=2JIZojh42PA",
+      "source": "https://www.systemspractice.org/resources/systems-leadership-change-theory-and-practice",
+      "sourceLabel": "SCiO presentation details"
     },
     {
       "title": "The four quadrants of thinking threats",
@@ -90,7 +92,9 @@
         "systems",
         "scio"
       ],
-      "url": "https://www.youtube.com/watch?v=G2TrCcUinoI"
+      "url": "https://www.youtube.com/watch?v=G2TrCcUinoI",
+      "source": "https://www.systemspractice.org/resources/four-quadrants-thinking-threats",
+      "sourceLabel": "SCiO presentation details"
     },
     {
       "title": "Introduction to the Viable System Model",
@@ -101,10 +105,12 @@
         "systems",
         "scio"
       ],
-      "url": "https://www.youtube.com/watch?v=PyfpA1WSHcI"
+      "url": "https://www.youtube.com/watch?v=PyfpA1WSHcI",
+      "source": "https://www.systemspractice.org/resources/introduction-vsm-1",
+      "sourceLabel": "SCiO presentation details"
     },
     {
-      "title": "System leadership",
+      "title": "System leadership: what does it mean to lead a system?",
       "kicker": "2016 · SCiO recording",
       "description": "A talk at the SCiO Open Day in London on 11 July 2016.",
       "tags": [
@@ -112,7 +118,9 @@
         "systems",
         "scio"
       ],
-      "url": "https://www.youtube.com/watch?v=JW6drku8E3w"
+      "url": "https://www.youtube.com/watch?v=JW6drku8E3w",
+      "source": "https://www.systemspractice.org/resources/system-leadership-what-does-it-mean-lead-system",
+      "sourceLabel": "SCiO presentation details"
     },
     {
       "title": "Systems thinking and consultancy",
@@ -148,7 +156,7 @@
     },
     {
       "title": "Cadenced culture: high-performing teams based on trust",
-      "kicker": "2023 · Compass Tech Summit · 38 minutes",
+      "kicker": "2023 · StretchCon at Compass Tech Summit · 38 minutes",
       "description": "Building the conditions for trust and effective work in teams.",
       "tags": [
         "video",
@@ -206,11 +214,15 @@
     {
       "title": "Meta-contextuality through the medium of Bongard games",
       "description": "A presentation on pattern, context and the limits of method.",
-      "kicker": "Earlier public recording",
+      "kicker": "October 2017 · SCiO · 61 minutes",
       "tags": [
-        "video"
+        "video",
+        "systems",
+        "scio"
       ],
-      "url": "https://www.youtube.com/watch?v=gI5sFwR1dCc&t=2505s"
+      "url": "https://www.youtube.com/watch?v=gI5sFwR1dCc",
+      "source": "https://www.systemspractice.org/resources/meta-contextuality-through-medium-bongard-games-why-methods-and-practices-depend-context",
+      "sourceLabel": "SCiO presentation details"
     }
   ]
 }

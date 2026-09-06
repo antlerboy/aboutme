@@ -21,4 +21,5 @@ for page in root.rglob('*.html'):
             title=html.unescape(title.group(1));url=html.unescape(canonical.group(1));description=html.unescape(desc.group(1)) if desc else title
             meta='<meta property="og:type" content="website"><meta property="og:title" content="'+html.escape(title,quote=True)+'"><meta property="og:description" content="'+html.escape(description,quote=True)+'"><meta property="og:url" content="'+html.escape(url,quote=True)+'"><meta name="twitter:card" content="summary">'
             text=text.replace('</head>',meta+'</head>')
+    text = text.replace(' , ', ', ')
     page.write_text(text)

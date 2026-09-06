@@ -14,7 +14,7 @@
   let visible = pageSize;
   let current = [];
 
-  const escape = value => String(value ?? '').replaceAll('—', ', ').replaceAll('–', '-')
+  const escape = value => String(value ?? '').replaceAll('—', ', ').replaceAll('–', '-').replaceAll(' , ', ', ')
     .replaceAll('&', '&amp;')
     .replaceAll('<', '&lt;')
     .replaceAll('>', '&gt;')
