@@ -72,7 +72,7 @@
     lastPortrait = next;
     const item = gallery[next];
     galleryImage.src = item.src;
-    galleryImage.alt = `Benjamin P Taylor — ${item.label}`;
+    galleryImage.alt = `Benjamin P Taylor; ${item.label}`;
     galleryTitle.textContent = item.label;
     if (item.href) {
       galleryLink.href = item.href;
@@ -103,7 +103,7 @@
     { type: 'old essay', title: 'Meta-contextuality, Bongard games, systems thinking, consultancy, transformation', note: 'Pattern recognition, context, and the difficulty of transferring a practice without flattening what made it work.', href: 'https://medium.com/@antlerboy/meta-contextuality-bongard-games-systems-thinking-consultancy-transformation-226b6b4341dc' },
     { type: 'organisation oddity', title: 'The pinball organisation', note: 'What signposting and referral can feel like when the organisation optimises the hand-off rather than the help.', href: 'https://www.linkedin.com/posts/antlerboy_the-pinball-organisation-doing-the-wrong-activity-6878604568263974912-Urc1' },
     { type: 'organisational force field', title: 'The Force in organisational life', note: 'An attempt to name something that is obvious when you feel it and surprisingly difficult to describe.', href: 'https://www.linkedin.com/posts/antlerboy_the-force-in-organisational-life-the-story-activity-6704281264242860033-sQi5' },
-    { type: 'recording rescued from history', title: 'Ackoff at Bell Labs — the “tape”', note: 'Russell Ackoff in full flow. One of those things worth finding before the link disappears again.', href: 'https://www.linkedin.com/posts/antlerboy_tape-of-ackoffs-bell-lab-lecture-activity-6837624850144735232-iIkr/' },
+    { type: 'recording rescued from history', title: 'Ackoff at Bell Labs; the “tape”', note: 'Russell Ackoff in full flow. One of those things worth finding before the link disappears again.', href: 'https://www.linkedin.com/posts/antlerboy_tape-of-ackoffs-bell-lab-lecture-activity-6837624850144735232-iIkr/' },
     { type: 'syscoi rabbit hole', title: 'Growing an economy of death', note: 'Death, organisations, economic assumptions, and the things systems quietly optimise for.', href: 'https://stream.syscoi.com/2024/02/05/growing-an-economy-of-death/' },
     { type: 'archive', title: 'Years of SCiO systems practice resources', note: 'A large, uneven, excellent pile of talks, papers, methods, and people. Deliberately not curated down to ten favourites.', href: 'https://www.systemspractice.org/resources' },
     { type: 'reading list', title: 'systems | complexity | cybernetics reading', note: 'A broad working list, including things I agree with, things I don’t, classics, peculiarities, and useful starting points.', href: 'https://link.redquadrant.com/systemscomplexitycyberneticsreading' },
