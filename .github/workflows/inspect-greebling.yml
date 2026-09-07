@@ -1,0 +1,36 @@
+name: Inspect existing Greebling publication
+on:
+  push:
+    paths: [".github/workflows/inspect-greebling.yml"]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Inspect public source archive and current site
+        run: |
+          mkdir -p inspection/source
+          python3 - <<'PY'
+          import json, pathlib, socket, urllib.request, zipfile
+          root=pathlib.Path('inspection')
+          archive=pathlib.Path('web-estate/greebling-source-2026-09-05.zip')
+          with zipfile.ZipFile(archive) as z:
+              z.extractall(root/'source')
+          results={}
+          for domain in ['greebling.com','www.greebling.com']:
+              try:
+                  req=urllib.request.Request('https://'+domain+'/',headers={'User-Agent':'Public-site-maintenance/1.0'})
+                  with urllib.request.urlopen(req,timeout=25) as r:
+                      results[domain]={'status':r.status,'url':r.url,'headers':dict(r.headers),'addresses':socket.gethostbyname_ex(domain)[2]}
+                      (root/(domain+'.html')).write_bytes(r.read())
+              except Exception as e:results[domain]={'error':str(e)}
+          (root/'inspection.json').write_text(json.dumps(results,indent=2))
+          print(json.dumps(results,indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: greebling-source-and-live-inspection
+          path: inspection
