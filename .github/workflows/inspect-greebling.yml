@@ -16,7 +16,7 @@ jobs:
           python3 - <<'PY'
           import json, pathlib, socket, urllib.request, zipfile
           root=pathlib.Path('inspection')
-          archive=pathlib.Path('web-estate/greebling-source-2026-09-05.zip')
+          archive=pathlib.Path('web-estate/greebling/greebling-source-2026-09-05.zip')
           with zipfile.ZipFile(archive) as z:
               z.extractall(root/'source')
           results={}
@@ -31,6 +31,7 @@ jobs:
           print(json.dumps(results,indent=2))
           PY
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: greebling-source-and-live-inspection
           path: inspection
