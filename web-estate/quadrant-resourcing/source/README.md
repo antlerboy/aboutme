@@ -1,0 +1,1 @@
+Quadrant Resourcing replacement. Existing /clients, /candidates, /public-services, and /contact-us routes retained. Mailto contacts recovered from the existing public site. No Wix scripts, forms, fonts, or runtime dependencies. Domain cutover and mailbox end-to-end delivery remain separate checks. No hosting cancellation has been made.

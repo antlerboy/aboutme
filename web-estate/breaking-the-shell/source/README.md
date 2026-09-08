@@ -1,0 +1,1 @@
+Breaking the Shell v1: original method sequence preserved with four categories. No participant examples or client documents are published. Browser-only state is intentional under the strategy. Real-time shared rooms are outside this release.

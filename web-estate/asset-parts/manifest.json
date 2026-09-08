@@ -1,0 +1,190 @@
+{
+  "format_version": 1,
+  "reason": "Lossless chunks for large assets that exceed connector request size; run python3 web-estate/restore-source-assets.py before using these source packages.",
+  "assets": [
+    {
+      "path": "web-estate/peter-block-community/source/dist/downloads/peter-block-community-original-slides.pptx",
+      "size_bytes": 2127671,
+      "sha256": "bbd2f8d0c77ce75427a111f0e0e00f8df840d27d22ac8f6d5fe99ea9a9e7af5e",
+      "parts": [
+        "web-estate/asset-parts/bbd2f8d0c77ce75427a111f0e0e00f8df840d27d22ac8f6d5fe99ea9a9e7af5e/part-0000.bin",
+        "web-estate/asset-parts/bbd2f8d0c77ce75427a111f0e0e00f8df840d27d22ac8f6d5fe99ea9a9e7af5e/part-0001.bin",
+        "web-estate/asset-parts/bbd2f8d0c77ce75427a111f0e0e00f8df840d27d22ac8f6d5fe99ea9a9e7af5e/part-0002.bin",
+        "web-estate/asset-parts/bbd2f8d0c77ce75427a111f0e0e00f8df840d27d22ac8f6d5fe99ea9a9e7af5e/part-0003.bin",
+        "web-estate/asset-parts/bbd2f8d0c77ce75427a111f0e0e00f8df840d27d22ac8f6d5fe99ea9a9e7af5e/part-0004.bin"
+      ]
+    },
+    {
+      "path": "web-estate/breaking-the-shell/source/dist/downloads/breaking-the-shell-original-slides.pptx",
+      "size_bytes": 18253341,
+      "sha256": "0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587",
+      "parts": [
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0000.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0001.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0002.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0003.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0004.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0005.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0006.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0007.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0008.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0009.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0010.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0011.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0012.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0013.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0014.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0015.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0016.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0017.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0018.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0019.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0020.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0021.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0022.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0023.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0024.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0025.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0026.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0027.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0028.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0029.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0030.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0031.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0032.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0033.bin",
+        "web-estate/asset-parts/0669e0eeab99d1871232473176f4e57f6c6ed8793694b1e0906db9c6390cb587/part-0034.bin"
+      ]
+    },
+    {
+      "path": "web-estate/breaking-the-shell/source/dist/images/brick.png",
+      "size_bytes": 2933982,
+      "sha256": "6525ba896f753ba2bc0e2693143eb5a839645d8ca426076afd7c83b85dea2952",
+      "parts": [
+        "web-estate/asset-parts/6525ba896f753ba2bc0e2693143eb5a839645d8ca426076afd7c83b85dea2952/part-0000.bin",
+        "web-estate/asset-parts/6525ba896f753ba2bc0e2693143eb5a839645d8ca426076afd7c83b85dea2952/part-0001.bin",
+        "web-estate/asset-parts/6525ba896f753ba2bc0e2693143eb5a839645d8ca426076afd7c83b85dea2952/part-0002.bin",
+        "web-estate/asset-parts/6525ba896f753ba2bc0e2693143eb5a839645d8ca426076afd7c83b85dea2952/part-0003.bin",
+        "web-estate/asset-parts/6525ba896f753ba2bc0e2693143eb5a839645d8ca426076afd7c83b85dea2952/part-0004.bin",
+        "web-estate/asset-parts/6525ba896f753ba2bc0e2693143eb5a839645d8ca426076afd7c83b85dea2952/part-0005.bin"
+      ]
+    },
+    {
+      "path": "web-estate/breaking-the-shell/source/dist/images/image4.png",
+      "size_bytes": 2542105,
+      "sha256": "d260243000a6716818ac9bf42abad9d542bce9e082d5522ec8b748a54b4fc0b6",
+      "parts": [
+        "web-estate/asset-parts/d260243000a6716818ac9bf42abad9d542bce9e082d5522ec8b748a54b4fc0b6/part-0000.bin",
+        "web-estate/asset-parts/d260243000a6716818ac9bf42abad9d542bce9e082d5522ec8b748a54b4fc0b6/part-0001.bin",
+        "web-estate/asset-parts/d260243000a6716818ac9bf42abad9d542bce9e082d5522ec8b748a54b4fc0b6/part-0002.bin",
+        "web-estate/asset-parts/d260243000a6716818ac9bf42abad9d542bce9e082d5522ec8b748a54b4fc0b6/part-0003.bin",
+        "web-estate/asset-parts/d260243000a6716818ac9bf42abad9d542bce9e082d5522ec8b748a54b4fc0b6/part-0004.bin"
+      ]
+    },
+    {
+      "path": "web-estate/breaking-the-shell/source/dist/images/image5.png",
+      "size_bytes": 2933982,
+      "sha256": "6525ba896f753ba2bc0e2693143eb5a839645d8ca426076afd7c83b85dea2952",
+      "parts": [
+        "web-estate/asset-parts/6525ba896f753ba2bc0e2693143eb5a839645d8ca426076afd7c83b85dea2952/part-0000.bin",
+        "web-estate/asset-parts/6525ba896f753ba2bc0e2693143eb5a839645d8ca426076afd7c83b85dea2952/part-0001.bin",
+        "web-estate/asset-parts/6525ba896f753ba2bc0e2693143eb5a839645d8ca426076afd7c83b85dea2952/part-0002.bin",
+        "web-estate/asset-parts/6525ba896f753ba2bc0e2693143eb5a839645d8ca426076afd7c83b85dea2952/part-0003.bin",
+        "web-estate/asset-parts/6525ba896f753ba2bc0e2693143eb5a839645d8ca426076afd7c83b85dea2952/part-0004.bin",
+        "web-estate/asset-parts/6525ba896f753ba2bc0e2693143eb5a839645d8ca426076afd7c83b85dea2952/part-0005.bin"
+      ]
+    },
+    {
+      "path": "web-estate/breaking-the-shell/source/dist/images/image6.png",
+      "size_bytes": 2522595,
+      "sha256": "7bf3d7d278c4c02ffc783af65b458ccca0d73117b5727978e4e6f892c4e4a768",
+      "parts": [
+        "web-estate/asset-parts/7bf3d7d278c4c02ffc783af65b458ccca0d73117b5727978e4e6f892c4e4a768/part-0000.bin",
+        "web-estate/asset-parts/7bf3d7d278c4c02ffc783af65b458ccca0d73117b5727978e4e6f892c4e4a768/part-0001.bin",
+        "web-estate/asset-parts/7bf3d7d278c4c02ffc783af65b458ccca0d73117b5727978e4e6f892c4e4a768/part-0002.bin",
+        "web-estate/asset-parts/7bf3d7d278c4c02ffc783af65b458ccca0d73117b5727978e4e6f892c4e4a768/part-0003.bin",
+        "web-estate/asset-parts/7bf3d7d278c4c02ffc783af65b458ccca0d73117b5727978e4e6f892c4e4a768/part-0004.bin"
+      ]
+    },
+    {
+      "path": "web-estate/breaking-the-shell/source/dist/images/image7.png",
+      "size_bytes": 2580179,
+      "sha256": "8986b35aeab253d2c26727c66c6b251ceab70f9d2b5faf918e0fc00f9e8fa6b0",
+      "parts": [
+        "web-estate/asset-parts/8986b35aeab253d2c26727c66c6b251ceab70f9d2b5faf918e0fc00f9e8fa6b0/part-0000.bin",
+        "web-estate/asset-parts/8986b35aeab253d2c26727c66c6b251ceab70f9d2b5faf918e0fc00f9e8fa6b0/part-0001.bin",
+        "web-estate/asset-parts/8986b35aeab253d2c26727c66c6b251ceab70f9d2b5faf918e0fc00f9e8fa6b0/part-0002.bin",
+        "web-estate/asset-parts/8986b35aeab253d2c26727c66c6b251ceab70f9d2b5faf918e0fc00f9e8fa6b0/part-0003.bin",
+        "web-estate/asset-parts/8986b35aeab253d2c26727c66c6b251ceab70f9d2b5faf918e0fc00f9e8fa6b0/part-0004.bin"
+      ]
+    },
+    {
+      "path": "web-estate/breaking-the-shell/source/dist/images/image8.png",
+      "size_bytes": 7534890,
+      "sha256": "6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069",
+      "parts": [
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0000.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0001.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0002.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0003.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0004.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0005.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0006.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0007.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0008.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0009.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0010.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0011.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0012.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0013.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0014.bin"
+      ]
+    },
+    {
+      "path": "web-estate/breaking-the-shell/source/dist/images/mindset.png",
+      "size_bytes": 7534890,
+      "sha256": "6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069",
+      "parts": [
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0000.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0001.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0002.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0003.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0004.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0005.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0006.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0007.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0008.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0009.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0010.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0011.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0012.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0013.bin",
+        "web-estate/asset-parts/6f560a1623487295f33d7b391b9b6e5cac6f1d6854465f3612dcbd29a52b2069/part-0014.bin"
+      ]
+    },
+    {
+      "path": "web-estate/breaking-the-shell/source/dist/images/paper.png",
+      "size_bytes": 2580179,
+      "sha256": "8986b35aeab253d2c26727c66c6b251ceab70f9d2b5faf918e0fc00f9e8fa6b0",
+      "parts": [
+        "web-estate/asset-parts/8986b35aeab253d2c26727c66c6b251ceab70f9d2b5faf918e0fc00f9e8fa6b0/part-0000.bin",
+        "web-estate/asset-parts/8986b35aeab253d2c26727c66c6b251ceab70f9d2b5faf918e0fc00f9e8fa6b0/part-0001.bin",
+        "web-estate/asset-parts/8986b35aeab253d2c26727c66c6b251ceab70f9d2b5faf918e0fc00f9e8fa6b0/part-0002.bin",
+        "web-estate/asset-parts/8986b35aeab253d2c26727c66c6b251ceab70f9d2b5faf918e0fc00f9e8fa6b0/part-0003.bin",
+        "web-estate/asset-parts/8986b35aeab253d2c26727c66c6b251ceab70f9d2b5faf918e0fc00f9e8fa6b0/part-0004.bin"
+      ]
+    },
+    {
+      "path": "web-estate/breaking-the-shell/source/dist/images/partition.png",
+      "size_bytes": 2522595,
+      "sha256": "7bf3d7d278c4c02ffc783af65b458ccca0d73117b5727978e4e6f892c4e4a768",
+      "parts": [
+        "web-estate/asset-parts/7bf3d7d278c4c02ffc783af65b458ccca0d73117b5727978e4e6f892c4e4a768/part-0000.bin",
+        "web-estate/asset-parts/7bf3d7d278c4c02ffc783af65b458ccca0d73117b5727978e4e6f892c4e4a768/part-0001.bin",
+        "web-estate/asset-parts/7bf3d7d278c4c02ffc783af65b458ccca0d73117b5727978e4e6f892c4e4a768/part-0002.bin",
+        "web-estate/asset-parts/7bf3d7d278c4c02ffc783af65b458ccca0d73117b5727978e4e6f892c4e4a768/part-0003.bin",
+        "web-estate/asset-parts/7bf3d7d278c4c02ffc783af65b458ccca0d73117b5727978e4e6f892c4e4a768/part-0004.bin"
+      ]
+    }
+  ]
+}

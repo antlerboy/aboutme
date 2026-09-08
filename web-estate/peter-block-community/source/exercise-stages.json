@@ -1,0 +1,32 @@
+[
+  {
+    "label": "Set up",
+    "title": "Form groups of three",
+    "html": "<p>Form groups of three. Sit facing in together, with your knees a maximum of nine inches apart. It should be just close enough to be slightly uncomfortable – not very uncomfortable! No barriers – no books, pens, glasses, cups, papers, no folded knees.</p><p>Each of you will have four minutes each to answer a simple question.</p>"
+  },
+  {
+    "label": "Choose a question",
+    "title": "You choose the question",
+    "html": "<p class=\"question-label\">Basic:</p><p class=\"prompt\">Why is it important for you to be here today?</p><p class=\"question-label\">Advanced:</p><p class=\"prompt\">What cross-roads are you at right now?</p><p>You choose the question and you choose how personal you want to get – adoption, bereavement – or a new car?</p><h3>Listen with curiosity</h3><p>The others – very important. You must resist the urge to assist, advise, judge, evaluate, guide, coach or in any other way help. Just get really, really curious. Don’t advise, judge etc with your active listening. Just listen. Ask follow-up questions:</p><p>‘That’s interesting – tell me more about that?’</p><p>‘That’s interesting – tell me more about X?’ (But use their words, don’t make your question advice or judgement).</p><p>And the best of all:</p><p>‘And why is that important to you?’</p><p>Everyone, raise your left hand. Point at someone in your group. Repeat until you have a winner. Now, the winner chooses who goes first.</p>"
+  },
+  {
+    "label": "Round 1",
+    "title": "Four minutes · person 1",
+    "html": "<p class=\"prompt\">Why is it important for you to be here today?</p><p class=\"question-label\">Advanced:</p><p class=\"prompt\">What cross-roads are you at right now?</p><h3>Deepening question</h3><p class=\"prompt\">And why is that important to you?</p><p>That’s interesting – tell me more about that?</p><details class=\"round-guidance\"><summary>Facilitator guidance for this round</summary><p>First round, four minutes. Stop on time, it’s important to stop when people still want to say more. Ask how it felt to not help, advise. How it felt to be questioned. Two or three comments are enough for the room, throughout.</p></details>"
+  },
+  {
+    "label": "Round 2",
+    "title": "Four minutes · person 2",
+    "html": "<p class=\"prompt\">Why is it important for you to be here today?</p><p class=\"question-label\">Advanced:</p><p class=\"prompt\">What cross-roads are you at right now?</p><h3>Deepening question</h3><p class=\"prompt\">And why is that important to you?</p><p>That’s interesting – tell me more about that?</p><details class=\"round-guidance\"><summary>Facilitator guidance for this round</summary><p>Second round, four minutes. Stop on time. Ask how the experience feels now.</p></details>"
+  },
+  {
+    "label": "Round 3",
+    "title": "Four minutes · person 3",
+    "html": "<p class=\"prompt\">Why is it important for you to be here today?</p><p class=\"question-label\">Advanced:</p><p class=\"prompt\">What cross-roads are you at right now?</p><h3>Deepening question</h3><p class=\"prompt\">And why is that important to you?</p><p>That’s interesting – tell me more about that?</p><details class=\"round-guidance\"><summary>Facilitator guidance for this round</summary><p>Third round, four minutes. Stop on time. Ask how they feel about the other members of their group.</p></details>"
+  },
+  {
+    "label": "Recognise gifts",
+    "title": "Recognise each other’s gifts",
+    "html": "<p>Now, that was the warm-up. This is the most difficult. As hard as we find it in our culture to not fix, help, identify, there’s something we find harder – to recognize each other’s gifts.</p><p>So this round, it’s much much quicker, but more difficult. Each of you in turn has to turn to each of the other two and tell them one gift, one thing you recognize and value in them.</p><p>And the only thing more difficult than recognizing someone else’s gifts? To recognize your own. So, when you receive the acknowledgement of your gifts, you’re not allowed to brush it off, laugh it off, undermine it, give a compliment directly back. You just have to let in sink in. So you’re only allowed to respond in two ways. The basic:</p><p class=\"question-label\">Basic:</p><p class=\"prompt\">Thank you very much, I enjoyed hearing that…</p><p class=\"question-label\">Advanced:</p><p class=\"prompt\">…please, tell me more!</p><details><summary>Response wording from the facilitator guidance</summary><p>‘Thank you very much, I enjoyed hearing that’</p><p>Or the advanced</p><p>‘Thank you very much, I enjoyed hearing that… please tell me some more’</p></details>"
+  }
+]
