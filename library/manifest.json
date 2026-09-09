@@ -359,6 +359,16 @@
         "systems",
         "writing"
       ]
+    },
+    {
+      "slug": "public-service-writing",
+      "title": "Public-service articles and interviews",
+      "type": "collection",
+      "description": "Publisher-identified writing and interviews in the public-service press.",
+      "tags": [
+        "public-services",
+        "writing"
+      ]
     }
   ],
   "resources": [
@@ -3187,6 +3197,150 @@
       "pages": [
         "videos",
         "talks-and-sessions"
+      ]
+    },
+    {
+      "title": "A surprising new role for local government",
+      "year": 2021,
+      "format": "Article",
+      "url": "https://www.themj.co.uk/surprising-role-local-government",
+      "description": "Benjamin Taylor and Kate Cooper; The MJ. Publisher access terms apply.",
+      "tags": [
+        "public-services",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "public-service-transformation",
+        "public-service-writing"
+      ]
+    },
+    {
+      "title": "Long live commissioning",
+      "year": 2021,
+      "format": "Article",
+      "url": "https://www.themj.co.uk/long-live-commissioning",
+      "description": "Benjamin Taylor; The MJ. Publisher access terms apply.",
+      "tags": [
+        "public-services",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "public-service-transformation",
+        "public-service-writing"
+      ]
+    },
+    {
+      "title": "Compassion, care and reconstruction",
+      "year": 2020,
+      "format": "Article",
+      "url": "https://www.themj.co.uk/compassion-care-reconstruction",
+      "description": "Benjamin Taylor; The MJ. Publisher access terms apply.",
+      "tags": [
+        "public-services",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "public-service-transformation",
+        "public-service-writing"
+      ]
+    },
+    {
+      "title": "Creating success from a crisis",
+      "year": 2020,
+      "format": "Article",
+      "url": "https://www.themj.co.uk/creating-success-crisis",
+      "description": "Benjamin Taylor; The MJ. Publisher access terms apply.",
+      "tags": [
+        "public-services",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "public-service-transformation",
+        "public-service-writing"
+      ]
+    },
+    {
+      "title": "The days after: creating a new learning  community",
+      "year": 2020,
+      "format": "Article",
+      "url": "https://www.themj.co.uk/days-creating-learning%C2%A0-community",
+      "description": "Benjamin Taylor; The MJ. Publisher access terms apply.",
+      "tags": [
+        "public-services",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "public-service-transformation",
+        "public-service-writing"
+      ]
+    },
+    {
+      "title": "Lessons learned from two years of the State of Transformation",
+      "year": 2019,
+      "format": "Article",
+      "url": "https://www.themj.co.uk/lessons-learned-transformation",
+      "description": "Benjamin Taylor; The MJ. Publisher access terms apply.",
+      "tags": [
+        "public-services",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "public-service-transformation",
+        "public-service-writing"
+      ]
+    },
+    {
+      "title": "Commissioning's pivotal role on the road to transformation",
+      "year": 2017,
+      "format": "Article",
+      "url": "https://www.themj.co.uk/commissioning-pivotal-role-road-transformation",
+      "description": "Benjamin Taylor; The MJ. Publisher access terms apply.",
+      "tags": [
+        "public-services",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "public-service-transformation",
+        "public-service-writing"
+      ]
+    },
+    {
+      "title": "Focus on outcomes to achieve better social care results with less money",
+      "year": 2017,
+      "format": "Article",
+      "url": "https://www.publicfinance.co.uk/opinion/2017/04/focus-outcomes-achieve-better-social-care-results-less-money",
+      "description": "Benjamin Taylor; Public Finance. Publisher author index verified; full article access was unavailable.",
+      "tags": [
+        "public-services",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "public-service-transformation",
+        "public-service-writing"
+      ]
+    },
+    {
+      "title": "Commissioning for the future",
+      "year": 2016,
+      "format": "Interview",
+      "url": "https://www.publicsectorexecutive.com/News/commissioning-for-the-future",
+      "description": "Interview with Benjamin Taylor; Public Sector Executive. Public interview.",
+      "tags": [
+        "public-services",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "public-service-transformation",
+        "public-service-writing"
       ]
     }
   ]

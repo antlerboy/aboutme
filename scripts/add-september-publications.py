@@ -36,3 +36,6 @@ for item in items:
     if url not in text: text=text.replace('</urlset>','<url><loc>'+url+'</loc><lastmod>2026-09-09</lastmod></url>\n</urlset>')
 sitemap.write_text(text)
 print('Published two September library additions and updated collection/search records')
+
+import runpy
+runpy.run_path(str(root/"scripts/add-public-service-bibliography.py"))
