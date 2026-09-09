@@ -298,3 +298,7 @@ save('search', shell({ slug: 'search', title: 'Search all public work', descript
 console.log('Rebuilt the curated library pages.');
 
 save('videos', shell({ slug: 'videos', title: 'Videos and recorded conversations', description: 'Recorded talks, interviews, and public sessions with Benjamin P Taylor.', eyebrow: 'Watch', body: cardSection('Interviews', '', readerRecordings.podcasts.filter(item => item.tags.includes('video') || item.video).map(item => ({...item, url:item.video || item.url})), {toolbar:true}) + cardSection('Public talks and sessions', '', readerRecordings.recordings, {alt:true}), scripts: ['/library/app.js'] }));
+
+// Keep later additions when rebuilding the original collections.
+import { execFileSync } from 'node:child_process';
+execFileSync('python3', ['scripts/add-september-publications.py'], { stdio: 'inherit' });

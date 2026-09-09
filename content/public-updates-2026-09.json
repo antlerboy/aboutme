@@ -1,0 +1,39 @@
+[
+  {
+    "slug": "one-way-only-wont-work",
+    "title": "One-way only won’t work",
+    "subtitle": "Don’t rebuild Whitehall inside mayoral authorities; turn civil service secondments into a public service talent exchange",
+    "kicker": "2026 · Author’s version · The MJ",
+    "description": "Civil service secondments should become a reciprocal public service talent exchange, carrying capability and learning in both directions.",
+    "url": "/library/one-way-only-wont-work/",
+    "source": "https://www.themj.co.uk/one-way-only-won-t-work",
+    "tags": [
+      "public-services",
+      "writing"
+    ],
+    "pages": [
+      "articles-and-essays",
+      "public-service-transformation"
+    ],
+    "bodyFile": "one-way-only.html"
+  },
+  {
+    "slug": "what-the-boundary-cannot-carry-alone",
+    "title": "What the boundary cannot carry alone",
+    "subtitle": "The organisational conditions for relational public services",
+    "kicker": "v3 · 26 August 2026 · Benjamin P Taylor and Philip Boxer",
+    "description": "A working paper on the organisational conditions needed to support relational public services, including authority, information, funding, risk and learning.",
+    "url": "/library/what-the-boundary-cannot-carry-alone/",
+    "download": "/library/files/preprints/2026-what-the-boundary-cannot-carry-alone-v3-taylor-boxer.pdf",
+    "tags": [
+      "public-services",
+      "systems",
+      "writing"
+    ],
+    "pages": [
+      "preprints-and-working-papers",
+      "relational-public-services"
+    ],
+    "draft": true
+  }
+]

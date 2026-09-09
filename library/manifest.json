@@ -1,6 +1,6 @@
 {
   "title": "Benjamin P Taylor public work library",
-  "updated": "2026-09-06",
+  "updated": "2026-09-09",
   "pages": [
     {
       "slug": "cybernetics-is-not-the-banana",
@@ -338,9 +338,61 @@
         "systems",
         "index"
       ]
+    },
+    {
+      "slug": "one-way-only-wont-work",
+      "title": "One-way only won’t work",
+      "type": "writing",
+      "description": "Civil service secondments should become a reciprocal public service talent exchange, carrying capability and learning in both directions.",
+      "tags": [
+        "public-services",
+        "writing"
+      ]
+    },
+    {
+      "slug": "what-the-boundary-cannot-carry-alone",
+      "title": "What the boundary cannot carry alone",
+      "type": "writing",
+      "description": "A working paper on the organisational conditions needed to support relational public services, including authority, information, funding, risk and learning.",
+      "tags": [
+        "public-services",
+        "systems",
+        "writing"
+      ]
     }
   ],
   "resources": [
+    {
+      "title": "What the boundary cannot carry alone",
+      "year": 2026,
+      "format": "Working paper",
+      "url": "/library/what-the-boundary-cannot-carry-alone/",
+      "description": "A working paper on the organisational conditions needed to support relational public services, including authority, information, funding, risk and learning.",
+      "tags": [
+        "public-services",
+        "systems",
+        "writing"
+      ],
+      "pages": [
+        "preprints-and-working-papers",
+        "relational-public-services"
+      ]
+    },
+    {
+      "title": "One-way only won’t work",
+      "year": 2026,
+      "format": "Article",
+      "url": "/library/one-way-only-wont-work/",
+      "description": "Civil service secondments should become a reciprocal public service talent exchange, carrying capability and learning in both directions.",
+      "tags": [
+        "public-services",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "public-service-transformation"
+      ]
+    },
     {
       "title": "smartCompass",
       "year": 2026,

@@ -20,6 +20,8 @@ jobs:
         uses: actions/checkout@v7
       - name: Add the systems practice collection and catalogue records
         run: python3 scripts/add-systems-practice.py
+      - name: Add September publications
+        run: python3 scripts/add-september-publications.py
       - name: Prepare static site
         run: |
           mkdir -p _site
