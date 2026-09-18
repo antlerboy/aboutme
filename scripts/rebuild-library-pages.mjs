@@ -302,3 +302,4 @@ save('videos', shell({ slug: 'videos', title: 'Videos and recorded conversations
 // Keep later additions when rebuilding the original collections.
 import { execFileSync } from 'node:child_process';
 execFileSync('python3', ['scripts/add-september-publications.py'], { stdio: 'inherit' });
+execFileSync('python3', ['scripts/add-scio-case-studies.py'], { stdio: 'inherit' });
