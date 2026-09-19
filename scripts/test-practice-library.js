@@ -12,6 +12,19 @@ async function main(){
  if(process.env.DEPLOY_COMMIT){const response=await context.request.get(base+'/library/practice-publication.json');assert.equal(response.status(),200);assert.equal((await response.json()).commit,process.env.DEPLOY_COMMIT);report.checks.push('live deployment commit');}
  for(const width of [1365,390]){await page.setViewportSize({width,height:900});const response=await page.goto(base+'/library/systems-methods-practice/',{waitUntil:'networkidle'});assert.equal(response.status(),200);assert(await page.locator('.alpha-notice').isVisible());assert.equal(await page.locator('.practice-directory a').count(),26);assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));await page.screenshot({path:path.join(out,'practice-library-'+width+'.png'),fullPage:true});}
  report.checks.push('all 26 case links','visible alpha and craft framing','desktop and mobile layout');
+ for(const width of [1365,390]){
+  await page.setViewportSize({width,height:900});
+  const response=await page.goto(base+'/library/public-service-writing/',{waitUntil:'load'});assert.equal(response.status(),200);
+  assert.equal(await page.locator('tbody tr').count(),11);
+  assert.equal(await page.getByRole('columnheader',{name:'Access and review',exact:true}).count(),1);
+  assert.equal(await page.locator('tbody tr').filter({hasText:'News report quoting Benjamin Taylor'}).count(),1);
+  assert(await page.getByText('Public article read; quoted participant, not credited as author',{exact:true}).isVisible());
+  const region=page.getByRole('region',{name:'Public-service bibliography'});await region.focus();
+  assert(await region.evaluate(el=>document.activeElement===el));
+  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
+  await page.screenshot({path:path.join(out,'bibliography-'+width+'.png'),fullPage:true});
+ }
+ report.checks.push('bibliography credit and access notes; keyboard scroll region; desktop and mobile containment');
  for(const route of ['','publications/','talks-and-sessions/','systems-leadership-change-practice/','viable-system-model/','facilitation-and-systems-consulting/','visual-models/']){const response=await page.goto(base+'/library/'+route,{waitUntil:'load'});assert.equal(response.status(),200);assert.equal(await page.locator('#systems-methods-practice').count(),1);assert(await page.locator('#systems-methods-practice a[href="/library/systems-methods-practice/"]').count()>0);}
  report.checks.push('seven existing entry routes');
  for(const route of ['catalogue','search']){const response=await context.request.get(base+'/library/'+route+'/catalogue.json');assert.equal(response.status(),200);const catalogue=await response.json();const urls=new Set(catalogue.documents.map(x=>x.url));assert(urls.has('/library/systems-methods-practice/'));for(const lab of meta.labs)assert(urls.has(meta.url+lab.id+'/'),route+': '+lab.id);for(const suffix of ['', 'coverage/','resources/','worksheets/','answers/','tutor-notes/','downloads/systems-methods-practice.zip'])assert(urls.has(meta.url+suffix));}
