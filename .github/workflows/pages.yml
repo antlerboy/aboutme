@@ -24,6 +24,8 @@ jobs:
         run: python3 scripts/add-september-publications.py
       - name: Add the SCiO practice accounts
         run: python3 scripts/add-scio-case-studies.py
+      - name: Build the individual large-group method index
+        run: python3 scripts/build-large-group-index.py
       - name: Prepare static site
         run: |
           mkdir -p _site

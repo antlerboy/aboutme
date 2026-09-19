@@ -25,6 +25,27 @@ async function main(){
   await page.screenshot({path:path.join(out,'bibliography-'+width+'.png'),fullPage:true});
  }
  report.checks.push('bibliography credit and access notes; keyboard scroll region; desktop and mobile containment');
+ const methods=JSON.parse(fs.readFileSync('content/large-group-methods.json','utf8'));
+ for(const width of [1440,390]){
+  await page.setViewportSize({width,height:900});
+  const response=await page.goto(base+'/library/large-group-processes/',{waitUntil:'networkidle'});assert.equal(response.status(),200);
+  assert.equal(await page.locator('.method').count(),methods.count);
+  const query=page.getByRole('searchbox',{name:'Find a method or model'}),visible=page.locator('.method:not([hidden])');
+  await query.fill('cafe');assert.equal(await visible.count(),4,'Accent-insensitive individual café methods');
+  await query.fill('no-such-method-zz');assert.equal(await visible.count(),0);assert(await page.locator('#method-empty').isVisible());
+  await query.fill('Syntegration');assert.equal(await visible.count(),1);assert(await visible.getByRole('link',{name:'Large-group processes, Benjamin Taylor (2024)'}).count());
+  await visible.locator('summary').click();assert(await visible.getByRole('link',{name:'Large-group processes, Benjamin Taylor (2024)'}).isVisible());
+  await page.getByRole('button',{name:'Reset search'}).click();assert.equal(await visible.count(),methods.count);
+  await page.getByLabel('Collection',{exact:true}).selectOption('Overview');assert.equal(await visible.count(),methods.overview_count);
+  await page.getByLabel('Complexity',{exact:true}).selectOption('Structural');
+  await page.getByLabel('Purpose',{exact:true}).selectOption('Solutions design');assert.equal(await visible.count(),11);
+  await page.getByRole('button',{name:'Reset search'}).click();assert.equal(await visible.count(),methods.count);
+  assert(await query.evaluate(el=>document.activeElement===el),'Reset restores keyboard focus');
+  assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));
+  await page.screenshot({path:path.join(out,'large-group-'+width+'.png')});
+ }
+ report.checks.push('complete individual-method count, accents, empty-search recovery, independent filters, source links, keyboard reset, desktop and mobile layout');
+ const plain=await browser.newContext({javaScriptEnabled:false});const plainPage=await plain.newPage();await plainPage.goto(base+'/library/large-group-processes/');assert.equal(await plainPage.locator('.method').count(),methods.count);await plain.close();
  for(const route of ['','publications/','talks-and-sessions/','systems-leadership-change-practice/','viable-system-model/','facilitation-and-systems-consulting/','visual-models/']){const response=await page.goto(base+'/library/'+route,{waitUntil:'load'});assert.equal(response.status(),200);assert.equal(await page.locator('#systems-methods-practice').count(),1);assert(await page.locator('#systems-methods-practice a[href="/library/systems-methods-practice/"]').count()>0);}
  report.checks.push('seven existing entry routes');
  for(const route of ['catalogue','search']){const response=await context.request.get(base+'/library/'+route+'/catalogue.json');assert.equal(response.status(),200);const catalogue=await response.json();const urls=new Set(catalogue.documents.map(x=>x.url));assert(urls.has('/library/systems-methods-practice/'));for(const lab of meta.labs)assert(urls.has(meta.url+lab.id+'/'),route+': '+lab.id);for(const suffix of ['', 'coverage/','resources/','worksheets/','answers/','tutor-notes/','downloads/systems-methods-practice.zip'])assert(urls.has(meta.url+suffix));}

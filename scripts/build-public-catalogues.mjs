@@ -59,7 +59,7 @@ async function fetchWordPress(endpoint, source) {
   if (!posts.length) throw new Error(`${source.label} returned no public posts.`);
   return posts.map(post => {
     const title = plain(post.title?.rendered);
-    const excerpt = plain(post.excerpt?.rendered).slice(0, 420);
+    const excerpt = [...plain(post.excerpt?.rendered)].slice(0, 420).join('');
     const content = plain(post.content?.rendered || '');
     return { id: `${source.key}-${post.id}`, date: post.date.slice(0, 10), year: post.date.slice(0, 4), title, url: post.link, excerpt, topics: topicsFor(`${title} ${excerpt} ${content}`), source: source.key };
   });

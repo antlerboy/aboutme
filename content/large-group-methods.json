@@ -1,0 +1,2067 @@
+{
+  "updated": "2026-09-19",
+  "title": "Large-group methods, models, and participation formats",
+  "overview_count": 78,
+  "count": 114,
+  "classification_note": "The complexity and purpose labels reproduce Benjamin Taylor’s teaching overview on PDF page 46. They are a way into comparison, not universal classifications. Individual slides sometimes use different positions. Families, methods, supporting models, and examples are explicitly distinguished.",
+  "source_note": "The former 15 cards were document collections, including an overview folder. This index includes every named entry in the overview, the additional named examples on page 50, selected supporting models discussed in the deck, and the individual Liberating Structures guides. It is not a claim to enumerate every method in existence. Similar labels are retained where the teaching source lists them separately.",
+  "methods": [
+    {
+      "title": "Future Search",
+      "page": 63,
+      "summary": "A cross-section of stakeholders works on a shared future and the action needed to pursue it.",
+      "complexity": "Perceptual",
+      "focus": "Visioning and alignment",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=63",
+          "locator": "PDF page 63"
+        }
+      ],
+      "id": "future-search"
+    },
+    {
+      "title": "Three Horizons",
+      "page": 109,
+      "summary": "Explore the current pattern, emerging alternatives, and the transition between them.",
+      "complexity": "Perceptual",
+      "focus": "Visioning and alignment",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=109",
+          "locator": "PDF page 109"
+        }
+      ],
+      "id": "three-horizons"
+    },
+    {
+      "title": "Scenario Planning",
+      "page": 113,
+      "summary": "Explore several plausible futures and test what they would mean for present choices.",
+      "complexity": "Perceptual",
+      "focus": "Visioning and alignment",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=113",
+          "locator": "PDF page 113"
+        }
+      ],
+      "id": "scenario-planning"
+    },
+    {
+      "title": "TIP - The Integral Process",
+      "page": 119,
+      "summary": "Work with multiple perspectives and developmental complexity in group inquiry.",
+      "complexity": "Perceptual",
+      "focus": "Visioning and alignment",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=119",
+          "locator": "PDF page 119"
+        }
+      ],
+      "id": "tip-the-integral-process"
+    },
+    {
+      "title": "Preferred Futuring",
+      "page": 56,
+      "summary": "Develop a narrative of a preferred future to guide collective planning.",
+      "complexity": "Perceptual",
+      "focus": "Visioning and alignment",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=56",
+          "locator": "PDF page 56"
+        }
+      ],
+      "id": "preferred-futuring"
+    },
+    {
+      "title": "Delphi Method",
+      "page": 56,
+      "summary": "Use successive rounds of structured enquiry to explore forecasts and areas of agreement.",
+      "complexity": "Perceptual",
+      "focus": "Visioning and alignment",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=56",
+          "locator": "PDF page 56"
+        }
+      ],
+      "id": "delphi-method"
+    },
+    {
+      "title": "Stakeholder mapping",
+      "page": 56,
+      "summary": "Make stakeholder relationships and perspectives visible for discussion.",
+      "complexity": "Perceptual",
+      "focus": "Visioning and alignment",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=56",
+          "locator": "PDF page 56"
+        }
+      ],
+      "id": "stakeholder-mapping"
+    },
+    {
+      "title": "ICA Strategic Planning Process",
+      "page": 46,
+      "summary": "Listed in the deck's visioning and alignment column; a separate worked account is not supplied here.",
+      "complexity": "Perceptual",
+      "focus": "Visioning and alignment",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=46",
+          "locator": "PDF page 46"
+        }
+      ],
+      "id": "ica-strategic-planning-process"
+    },
+    {
+      "title": "Participatory Narrative Inquiry",
+      "page": 56,
+      "summary": "Collect and interpret stories together to explore patterns in experience.",
+      "complexity": "Perceptual",
+      "focus": "Visioning and alignment",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=56",
+          "locator": "PDF page 56"
+        }
+      ],
+      "id": "participatory-narrative-inquiry"
+    },
+    {
+      "title": "Causal Layered Analysis (CLA)",
+      "page": 56,
+      "summary": "Examine an issue through surface accounts, systemic causes, worldviews, and underlying stories.",
+      "complexity": "Perceptual",
+      "focus": "Visioning and alignment",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=56",
+          "locator": "PDF page 56"
+        }
+      ],
+      "id": "causal-layered-analysis-cla"
+    },
+    {
+      "title": "Soft Systems Methodology",
+      "page": 68,
+      "summary": "Use structured inquiry and conceptual models to explore different understandings of a problematic situation.",
+      "complexity": "Perceptual",
+      "focus": "Solutions design",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=68",
+          "locator": "PDF page 68"
+        }
+      ],
+      "id": "soft-systems-methodology"
+    },
+    {
+      "title": "Cognitive Edge methods / Cynefin / SenseMaker",
+      "page": 120,
+      "summary": "Use narrative material and participatory sense-making to explore patterns in complex situations.",
+      "complexity": "Perceptual",
+      "focus": "Solutions design",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=120",
+          "locator": "PDF page 120"
+        }
+      ],
+      "id": "cognitive-edge-methods-cynefin-sensemaker"
+    },
+    {
+      "title": "Polarity Management",
+      "page": 121,
+      "summary": "Explore interdependent tensions and the consequences of overemphasising either pole.",
+      "complexity": "Perceptual",
+      "focus": "Solutions design",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=121",
+          "locator": "PDF page 121"
+        }
+      ],
+      "id": "polarity-management"
+    },
+    {
+      "title": "Citizens' assemblies and variants",
+      "page": 125,
+      "summary": "Bring a broadly representative group into informed deliberation on a public issue.",
+      "complexity": "Perceptual",
+      "focus": "Solutions design",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=125",
+          "locator": "PDF page 125"
+        }
+      ],
+      "id": "citizens-assemblies-and-variants"
+    },
+    {
+      "title": "AmericaSpeaks 21st Century Town Meeting",
+      "page": 56,
+      "summary": "A structured approach to large-scale participatory deliberation.",
+      "complexity": "Perceptual",
+      "focus": "Solutions design",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=56",
+          "locator": "PDF page 56"
+        }
+      ],
+      "id": "americaspeaks-21st-century-town-meeting"
+    },
+    {
+      "title": "Meta-Planning",
+      "page": 56,
+      "summary": "Generate, arrange, and prioritise contributions to a shared discussion.",
+      "complexity": "Perceptual",
+      "focus": "Solutions design",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=56",
+          "locator": "PDF page 56"
+        }
+      ],
+      "id": "meta-planning"
+    },
+    {
+      "title": "Converge-diverge model",
+      "page": 56,
+      "summary": "Move between opening up possibilities and narrowing them into choices.",
+      "complexity": "Perceptual",
+      "focus": "Solutions design",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=56",
+          "locator": "PDF page 56"
+        }
+      ],
+      "id": "converge-diverge-model"
+    },
+    {
+      "title": "Open Space Technology (OST)",
+      "page": 71,
+      "summary": "Participants propose the agenda and take responsibility for conversations they want to pursue.",
+      "complexity": "Perceptual",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=71",
+          "locator": "PDF page 71"
+        }
+      ],
+      "id": "open-space-technology-ost"
+    },
+    {
+      "title": "Art of Hosting",
+      "page": 126,
+      "summary": "Combine participatory practices to support shared inquiry and collective work.",
+      "complexity": "Perceptual",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=126",
+          "locator": "PDF page 126"
+        }
+      ],
+      "id": "art-of-hosting"
+    },
+    {
+      "title": "Deep Democracy (Lewis Method)",
+      "page": 128,
+      "summary": "Surface minority views and work with the tensions around a majority decision.",
+      "complexity": "Perceptual",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=128",
+          "locator": "PDF page 128"
+        }
+      ],
+      "id": "deep-democracy-lewis-method"
+    },
+    {
+      "title": "Gurteen Knowledge Café",
+      "page": 129,
+      "summary": "Use small-group conversations and whole-group reflection to develop understanding.",
+      "complexity": "Perceptual",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=129",
+          "locator": "PDF page 129"
+        }
+      ],
+      "id": "gurteen-knowledge-cafe"
+    },
+    {
+      "title": "ProAction Café",
+      "page": 56,
+      "summary": "Use structured conversations to help participants work on questions and proposed action.",
+      "complexity": "Perceptual",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=56",
+          "locator": "PDF page 56"
+        }
+      ],
+      "id": "proaction-cafe"
+    },
+    {
+      "title": "Open Dialogue",
+      "page": 56,
+      "summary": "An approach named in the deck for inclusive listening and understanding.",
+      "complexity": "Perceptual",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=56",
+          "locator": "PDF page 56"
+        }
+      ],
+      "id": "open-dialogue"
+    },
+    {
+      "title": "Storytelling and narrative practices",
+      "page": 56,
+      "summary": "Use stories to explore experience and the meanings people give it.",
+      "complexity": "Perceptual",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=56",
+          "locator": "PDF page 56"
+        }
+      ],
+      "id": "storytelling-and-narrative-practices"
+    },
+    {
+      "title": "Fishbowl Conversations",
+      "page": 56,
+      "summary": "Move people between an active conversation and an observing group.",
+      "complexity": "Perceptual",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=56",
+          "locator": "PDF page 56"
+        }
+      ],
+      "id": "fishbowl-conversations"
+    },
+    {
+      "title": "Whole-Scale Change",
+      "page": 75,
+      "summary": "Bring a cross-section of a system together to plan and take ownership of change.",
+      "complexity": "Structural",
+      "focus": "Visioning and alignment",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=75",
+          "locator": "PDF page 75"
+        }
+      ],
+      "id": "whole-scale-change"
+    },
+    {
+      "title": "Real-Time Strategic Change / Real-Time Work Design",
+      "page": 74,
+      "summary": "Combine whole-system participation with planning, decisions, and implementation.",
+      "complexity": "Structural",
+      "focus": "Visioning and alignment",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=74",
+          "locator": "PDF page 74"
+        }
+      ],
+      "id": "real-time-strategic-change-real-time-work-design"
+    },
+    {
+      "title": "Hoshin Kanri",
+      "page": 131,
+      "summary": "Connect strategic direction with work at different organisational levels through repeated dialogue and review.",
+      "complexity": "Structural",
+      "focus": "Visioning and alignment",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=131",
+          "locator": "PDF page 131"
+        }
+      ],
+      "id": "hoshin-kanri"
+    },
+    {
+      "title": "Axelrod Conference Model",
+      "page": 79,
+      "summary": "Use a linked series of conferences to develop shared understanding and organisational redesign.",
+      "complexity": "Structural",
+      "focus": "Visioning and alignment",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=79",
+          "locator": "PDF page 79"
+        }
+      ],
+      "id": "axelrod-conference-model"
+    },
+    {
+      "title": "Participatory Systems Mapping",
+      "page": 57,
+      "summary": "Map interdependencies with the people involved in the situation.",
+      "complexity": "Structural",
+      "focus": "Visioning and alignment",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=57",
+          "locator": "PDF page 57"
+        }
+      ],
+      "id": "participatory-systems-mapping"
+    },
+    {
+      "title": "Strategic Change Accelerator (IBM ACT)",
+      "page": 57,
+      "summary": "Listed as an approach to adaptation, design, and alignment; the deck provides only a brief description.",
+      "complexity": "Structural",
+      "focus": "Visioning and alignment",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=57",
+          "locator": "PDF page 57"
+        }
+      ],
+      "id": "strategic-change-accelerator-ibm-act"
+    },
+    {
+      "title": "Whole Systems Approach",
+      "page": 78,
+      "summary": "Bring systems inquiry and participatory design together around a shared situation.",
+      "complexity": "Structural",
+      "focus": "Visioning and alignment",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=78",
+          "locator": "PDF page 78"
+        }
+      ],
+      "id": "whole-systems-approach"
+    },
+    {
+      "title": "Viable System Model facilitation",
+      "page": 57,
+      "summary": "Use the Viable System Model to enquire into organisational viability and design.",
+      "complexity": "Structural",
+      "focus": "Visioning and alignment",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=57",
+          "locator": "PDF page 57"
+        }
+      ],
+      "id": "viable-system-model-facilitation"
+    },
+    {
+      "title": "Boundary Critique (Critical Systems Heuristics)",
+      "page": 57,
+      "summary": "Examine who and what a decision includes, excludes, benefits, or disadvantages.",
+      "complexity": "Structural",
+      "focus": "Visioning and alignment",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=57",
+          "locator": "PDF page 57"
+        }
+      ],
+      "id": "boundary-critique-critical-systems-heuristics"
+    },
+    {
+      "title": "M&G Taylor Method / Decision Accelerator / DesignShop",
+      "page": 80,
+      "summary": "Use intensive collaborative design, visual work, and iterative exploration of an issue.",
+      "complexity": "Structural",
+      "focus": "Solutions design",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=80",
+          "locator": "PDF page 80"
+        }
+      ],
+      "id": "m-g-taylor-method-decision-accelerator-designshop"
+    },
+    {
+      "title": "Consensus Workshop Method",
+      "page": 88,
+      "summary": "Generate ideas, cluster them, and develop shared meaning and agreement.",
+      "complexity": "Structural",
+      "focus": "Solutions design",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=88",
+          "locator": "PDF page 88"
+        }
+      ],
+      "id": "consensus-workshop-method"
+    },
+    {
+      "title": "Rapid Improvement Events / GE Work-Out",
+      "page": 134,
+      "summary": "Bring relevant people together for focused decisions, process redesign, and practical action.",
+      "complexity": "Structural",
+      "focus": "Solutions design",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=134",
+          "locator": "PDF page 134"
+        }
+      ],
+      "id": "rapid-improvement-events-ge-work-out"
+    },
+    {
+      "title": "Participatory Innovation Model",
+      "page": 136,
+      "summary": "Involve stakeholders in defining challenges and developing responses to them.",
+      "complexity": "Structural",
+      "focus": "Solutions design",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=136",
+          "locator": "PDF page 136"
+        }
+      ],
+      "id": "participatory-innovation-model"
+    },
+    {
+      "title": "Gemba Kaizen",
+      "page": 57,
+      "summary": "Improve work through attention to the place and process in which it happens.",
+      "complexity": "Structural",
+      "focus": "Solutions design",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=57",
+          "locator": "PDF page 57"
+        }
+      ],
+      "id": "gemba-kaizen"
+    },
+    {
+      "title": "Design Charrettes",
+      "page": 57,
+      "summary": "Use concentrated collaborative design sessions with people holding different perspectives.",
+      "complexity": "Structural",
+      "focus": "Solutions design",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=57",
+          "locator": "PDF page 57"
+        }
+      ],
+      "id": "design-charrettes"
+    },
+    {
+      "title": "Value Stream Mapping",
+      "page": 57,
+      "summary": "Map how work and information move through a process to examine delays and waste.",
+      "complexity": "Structural",
+      "focus": "Solutions design",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=57",
+          "locator": "PDF page 57"
+        }
+      ],
+      "id": "value-stream-mapping"
+    },
+    {
+      "title": "Cross-Impact Analysis",
+      "page": 57,
+      "summary": "Explore how developments or decisions might affect one another.",
+      "complexity": "Structural",
+      "focus": "Solutions design",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=57",
+          "locator": "PDF page 57"
+        }
+      ],
+      "id": "cross-impact-analysis"
+    },
+    {
+      "title": "GameStorming",
+      "page": 46,
+      "summary": "Named in the overview's solutions-design column; the deck does not supply a separate worked account.",
+      "complexity": "Structural",
+      "focus": "Solutions design",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=46",
+          "locator": "PDF page 46"
+        }
+      ],
+      "id": "gamestorming"
+    },
+    {
+      "title": "Participatory / Community Mapping",
+      "page": 57,
+      "summary": "Create a map together to explore community relationships and local experience.",
+      "complexity": "Structural",
+      "focus": "Solutions design",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=57",
+          "locator": "PDF page 57"
+        }
+      ],
+      "id": "participatory-community-mapping"
+    },
+    {
+      "title": "Participatory budgeting",
+      "page": 57,
+      "summary": "Involve communities in deciding how to allocate a defined public budget.",
+      "complexity": "Structural",
+      "focus": "Solutions design",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=57",
+          "locator": "PDF page 57"
+        }
+      ],
+      "id": "participatory-budgeting"
+    },
+    {
+      "title": "The Organization Workshop",
+      "page": 89,
+      "summary": "Explore recurring patterns of power and relationships through experience and reflection.",
+      "complexity": "Structural",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=89",
+          "locator": "PDF page 89"
+        }
+      ],
+      "id": "the-organization-workshop"
+    },
+    {
+      "title": "Participative Design Workshops (PDW)",
+      "page": 92,
+      "summary": "Enable people doing the work to participate in redesigning it.",
+      "complexity": "Structural",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=92",
+          "locator": "PDF page 92"
+        }
+      ],
+      "id": "participative-design-workshops-pdw"
+    },
+    {
+      "title": "Triple Task Approach",
+      "page": 140,
+      "summary": "Combine work on a shared task with reflection on the group's process and experience.",
+      "complexity": "Structural",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=140",
+          "locator": "PDF page 140"
+        }
+      ],
+      "id": "triple-task-approach"
+    },
+    {
+      "title": "GroupWorks Patterns",
+      "page": 141,
+      "summary": "Use a pattern language to examine and design group processes.",
+      "complexity": "Structural",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=141",
+          "locator": "PDF page 141"
+        }
+      ],
+      "id": "groupworks-patterns"
+    },
+    {
+      "title": "Pattern Language for Large Groups",
+      "page": 57,
+      "summary": "Named as a framework for thinking about the design of group processes.",
+      "complexity": "Structural",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=57",
+          "locator": "PDF page 57"
+        }
+      ],
+      "id": "pattern-language-for-large-groups"
+    },
+    {
+      "title": "Generative Scribing",
+      "page": 57,
+      "summary": "Use visual work to reflect emerging patterns and meaning in a group's conversation.",
+      "complexity": "Structural",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=57",
+          "locator": "PDF page 57"
+        }
+      ],
+      "id": "generative-scribing"
+    },
+    {
+      "title": "Appreciative Inquiry (AI) Summit",
+      "page": 61,
+      "summary": "Enquire into valued experience and use it to imagine and work towards a preferred future.",
+      "complexity": "Dynamic",
+      "focus": "Visioning and alignment",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=61",
+          "locator": "PDF page 61"
+        }
+      ],
+      "id": "appreciative-inquiry-ai-summit"
+    },
+    {
+      "title": "Interactive Planning",
+      "page": 142,
+      "summary": "Work back from an idealised design to examine what could be changed in the present.",
+      "complexity": "Dynamic",
+      "focus": "Visioning and alignment",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=142",
+          "locator": "PDF page 142"
+        }
+      ],
+      "id": "interactive-planning"
+    },
+    {
+      "title": "Search Conference",
+      "page": 143,
+      "summary": "Use participatory inquiry into the environment, a desired future, and collective action.",
+      "complexity": "Dynamic",
+      "focus": "Visioning and alignment",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=143",
+          "locator": "PDF page 143"
+        }
+      ],
+      "id": "search-conference"
+    },
+    {
+      "title": "Large-Scale Interactive Process (LSIP)",
+      "page": 144,
+      "summary": "Bring many stakeholders into shared planning and decisions about change.",
+      "complexity": "Dynamic",
+      "focus": "Visioning and alignment",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=144",
+          "locator": "PDF page 144"
+        }
+      ],
+      "id": "large-scale-interactive-process-lsip"
+    },
+    {
+      "title": "Future Back Planning",
+      "page": 58,
+      "summary": "Start with a desired future and reason back to present action.",
+      "complexity": "Dynamic",
+      "focus": "Visioning and alignment",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=58",
+          "locator": "PDF page 58"
+        }
+      ],
+      "id": "future-back-planning"
+    },
+    {
+      "title": "Scenario Narratives",
+      "page": 58,
+      "summary": "Develop accounts of alternative futures to examine their implications.",
+      "complexity": "Dynamic",
+      "focus": "Visioning and alignment",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=58",
+          "locator": "PDF page 58"
+        }
+      ],
+      "id": "scenario-narratives"
+    },
+    {
+      "title": "Problem Solving Team Build / MacDonald Team Discipline",
+      "page": 93,
+      "summary": "Build shared understanding of a problem, develop options, and agree responsibilities for action.",
+      "complexity": "Dynamic",
+      "focus": "Solutions design",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=93",
+          "locator": "PDF page 93"
+        }
+      ],
+      "id": "problem-solving-team-build-macdonald-team-discipline"
+    },
+    {
+      "title": "Breaking the Shell",
+      "page": 98,
+      "summary": "Distinguish external constraints, organisational barriers, and assumptions the group can challenge.",
+      "complexity": "Dynamic",
+      "focus": "Solutions design",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=98",
+          "locator": "PDF page 98"
+        }
+      ],
+      "id": "breaking-the-shell"
+    },
+    {
+      "title": "Liberating Structures",
+      "page": 145,
+      "summary": "A repertoire of participation formats that can be combined for different purposes.",
+      "complexity": "Dynamic",
+      "focus": "Solutions design",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=145",
+          "locator": "PDF page 145"
+        }
+      ],
+      "id": "liberating-structures"
+    },
+    {
+      "title": "Fast Cycle Full Participation",
+      "page": 146,
+      "summary": "Use intensive, time-bounded participation to develop decisions with the relevant stakeholders.",
+      "complexity": "Dynamic",
+      "focus": "Solutions design",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=146",
+          "locator": "PDF page 146"
+        }
+      ],
+      "id": "fast-cycle-full-participation"
+    },
+    {
+      "title": "Think Like a Genius",
+      "page": 58,
+      "summary": "Listed as an approach to adaptive brainstorming; the deck provides only a brief account.",
+      "complexity": "Dynamic",
+      "focus": "Solutions design",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=58",
+          "locator": "PDF page 58"
+        }
+      ],
+      "id": "think-like-a-genius"
+    },
+    {
+      "title": "Technology of Participation (ToP)",
+      "page": 58,
+      "summary": "A family of structured facilitation practices; its component methods have different purposes.",
+      "complexity": "Dynamic",
+      "focus": "Solutions design",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=58",
+          "locator": "PDF page 58"
+        }
+      ],
+      "id": "technology-of-participation-top"
+    },
+    {
+      "title": "SimuReal",
+      "page": 58,
+      "summary": "Use a simulation to explore organisational dynamics and possible responses.",
+      "complexity": "Dynamic",
+      "focus": "Solutions design",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=58",
+          "locator": "PDF page 58"
+        }
+      ],
+      "id": "simureal"
+    },
+    {
+      "title": "Design Thinking Workshops",
+      "page": 58,
+      "summary": "Combine inquiry into experience, collaborative design, prototyping, and feedback.",
+      "complexity": "Dynamic",
+      "focus": "Solutions design",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=58",
+          "locator": "PDF page 58"
+        }
+      ],
+      "id": "design-thinking-workshops"
+    },
+    {
+      "title": "Syntegration / Team Syntegrity",
+      "page": 105,
+      "summary": "Use a designed pattern of topic groups, roles, and repeated conversations to work on a complex question.",
+      "complexity": "Dynamic",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=105",
+          "locator": "PDF page 105"
+        }
+      ],
+      "id": "syntegration-team-syntegrity"
+    },
+    {
+      "title": "When Cultures Meet / Encounters With The Other",
+      "page": 103,
+      "summary": "Explore the experience of cultural difference and the possibility of working together across it.",
+      "complexity": "Dynamic",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=103",
+          "locator": "PDF page 103"
+        }
+      ],
+      "id": "when-cultures-meet-encounters-with-the-other"
+    },
+    {
+      "title": "Constellations",
+      "page": 148,
+      "summary": "Use spatial representation to enquire into perceived relationships and patterns in a system.",
+      "complexity": "Dynamic",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=148",
+          "locator": "PDF page 148"
+        }
+      ],
+      "id": "constellations"
+    },
+    {
+      "title": "People Need People / Warm Data Labs",
+      "page": 147,
+      "summary": "Explore relationships across contexts through conversational inquiry.",
+      "complexity": "Dynamic",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=147",
+          "locator": "PDF page 147"
+        }
+      ],
+      "id": "people-need-people-warm-data-labs"
+    },
+    {
+      "title": "World Café",
+      "page": 100,
+      "summary": "Connect small-group conversations around shared questions, with movement between tables.",
+      "complexity": "Dynamic",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=100",
+          "locator": "PDF page 100"
+        }
+      ],
+      "id": "world-cafe"
+    },
+    {
+      "title": "Collaborative Development Action Inquiry (CDAI)",
+      "page": 149,
+      "summary": "Combine action and reflection with attention to development and participation.",
+      "complexity": "Dynamic",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=149",
+          "locator": "PDF page 149"
+        }
+      ],
+      "id": "collaborative-development-action-inquiry-cdai"
+    },
+    {
+      "title": "Power+Systems TOOTs",
+      "page": 150,
+      "summary": "Reflect on experience from different systemic positions using Time Out of Time conversations.",
+      "complexity": "Dynamic",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=150",
+          "locator": "PDF page 150"
+        }
+      ],
+      "id": "power-systems-toots"
+    },
+    {
+      "title": "Theory U",
+      "page": 151,
+      "summary": "A change approach combining attention, listening, sensing, and experimentation.",
+      "complexity": "Dynamic",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=151",
+          "locator": "PDF page 151"
+        }
+      ],
+      "id": "theory-u"
+    },
+    {
+      "title": "Social Presencing Theatre",
+      "page": 155,
+      "summary": "Use embodied practices to enquire into social situations and possible movement.",
+      "complexity": "Dynamic",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=155",
+          "locator": "PDF page 155"
+        }
+      ],
+      "id": "social-presencing-theatre"
+    },
+    {
+      "title": "Circle Methodology",
+      "page": 58,
+      "summary": "Use a circle-based form to organise participation, listening, and dialogue.",
+      "complexity": "Dynamic",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=58",
+          "locator": "PDF page 58"
+        }
+      ],
+      "id": "circle-methodology"
+    },
+    {
+      "title": "Collaborative Leadership Development",
+      "page": 58,
+      "summary": "Named as a participatory approach to developing leadership across a system.",
+      "complexity": "Dynamic",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=58",
+          "locator": "PDF page 58"
+        }
+      ],
+      "id": "collaborative-leadership-development"
+    },
+    {
+      "title": "Strategic Forum",
+      "page": 58,
+      "summary": "Bring stakeholders into a structured discussion of strategic and cultural questions.",
+      "complexity": "Dynamic",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=58",
+          "locator": "PDF page 58"
+        }
+      ],
+      "id": "strategic-forum"
+    },
+    {
+      "title": "Systemic Design",
+      "page": 58,
+      "summary": "Combine systems inquiry and participatory design around a situation.",
+      "complexity": "Dynamic",
+      "focus": "Emergent change",
+      "collection": "Overview",
+      "source": "deck",
+      "status": "Overview entry",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=58",
+          "locator": "PDF page 58"
+        }
+      ],
+      "id": "systemic-design"
+    },
+    {
+      "title": "Janssen’s Four Rooms of Change",
+      "page": 67,
+      "summary": "A model discussed alongside Future Search for exploring different experiences of change.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Supporting models",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=67",
+          "locator": "PDF page 67"
+        }
+      ],
+      "id": "janssens-four-rooms-of-change"
+    },
+    {
+      "title": "CATWOE",
+      "page": 70,
+      "summary": "A set of questions within Soft Systems Methodology for examining a purposeful activity model.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Supporting models",
+      "source": "deck",
+      "status": "Teaching account",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=70",
+          "locator": "PDF page 70"
+        }
+      ],
+      "id": "catwoe"
+    },
+    {
+      "title": "Berkana Two Loops model",
+      "page": 109,
+      "summary": "A comparison mentioned alongside Three Horizons; a separate worked account is not supplied.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Supporting models",
+      "source": "deck",
+      "status": "Mention only",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=109",
+          "locator": "PDF page 109"
+        }
+      ],
+      "id": "berkana-two-loops-model"
+    },
+    {
+      "title": "Panarchy adaptive cycle",
+      "page": 109,
+      "summary": "A comparison mentioned alongside Three Horizons; a separate worked account is not supplied.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Supporting models",
+      "source": "deck",
+      "status": "Mention only",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=109",
+          "locator": "PDF page 109"
+        }
+      ],
+      "id": "panarchy-adaptive-cycle"
+    },
+    {
+      "title": "Talking circles",
+      "page": 50,
+      "summary": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Further examples",
+      "source": "deck",
+      "status": "Mention only",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=50",
+          "locator": "PDF page 50"
+        }
+      ],
+      "id": "talking-circles"
+    },
+    {
+      "title": "Ubuntu Circles",
+      "page": 50,
+      "summary": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Further examples",
+      "source": "deck",
+      "status": "Mention only",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=50",
+          "locator": "PDF page 50"
+        }
+      ],
+      "id": "ubuntu-circles"
+    },
+    {
+      "title": "Participatory Rural Appraisal (PRA)",
+      "page": 50,
+      "summary": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Further examples",
+      "source": "deck",
+      "status": "Mention only",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=50",
+          "locator": "PDF page 50"
+        }
+      ],
+      "id": "participatory-rural-appraisal-pra"
+    },
+    {
+      "title": "Hackathons",
+      "page": 50,
+      "summary": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Further examples",
+      "source": "deck",
+      "status": "Mention only",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=50",
+          "locator": "PDF page 50"
+        }
+      ],
+      "id": "hackathons"
+    },
+    {
+      "title": "BarCamp and unconferences",
+      "page": 50,
+      "summary": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Further examples",
+      "source": "deck",
+      "status": "Mention only",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=50",
+          "locator": "PDF page 50"
+        }
+      ],
+      "id": "barcamp-and-unconferences"
+    },
+    {
+      "title": "Transition design",
+      "page": 50,
+      "summary": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Further examples",
+      "source": "deck",
+      "status": "Mention only",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=50",
+          "locator": "PDF page 50"
+        }
+      ],
+      "id": "transition-design"
+    },
+    {
+      "title": "Conflict Transformation Circles",
+      "page": 50,
+      "summary": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Further examples",
+      "source": "deck",
+      "status": "Mention only",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=50",
+          "locator": "PDF page 50"
+        }
+      ],
+      "id": "conflict-transformation-circles"
+    },
+    {
+      "title": "Facilitated Power Analysis",
+      "page": 50,
+      "summary": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Further examples",
+      "source": "deck",
+      "status": "Mention only",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=50",
+          "locator": "PDF page 50"
+        }
+      ],
+      "id": "facilitated-power-analysis"
+    },
+    {
+      "title": "Circling",
+      "page": 50,
+      "summary": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Further examples",
+      "source": "deck",
+      "status": "Mention only",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=50",
+          "locator": "PDF page 50"
+        }
+      ],
+      "id": "circling"
+    },
+    {
+      "title": "T-groups",
+      "page": 50,
+      "summary": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Further examples",
+      "source": "deck",
+      "status": "Mention only",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=50",
+          "locator": "PDF page 50"
+        }
+      ],
+      "id": "t-groups"
+    },
+    {
+      "title": "Encounter groups",
+      "page": 50,
+      "summary": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Further examples",
+      "source": "deck",
+      "status": "Mention only",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=50",
+          "locator": "PDF page 50"
+        }
+      ],
+      "id": "encounter-groups"
+    },
+    {
+      "title": "Scrum",
+      "page": 50,
+      "summary": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Further examples",
+      "source": "deck",
+      "status": "Mention only",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=50",
+          "locator": "PDF page 50"
+        }
+      ],
+      "id": "scrum"
+    },
+    {
+      "title": "Mob programming",
+      "page": 50,
+      "summary": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Further examples",
+      "source": "deck",
+      "status": "Mention only",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=50",
+          "locator": "PDF page 50"
+        }
+      ],
+      "id": "mob-programming"
+    },
+    {
+      "title": "EST",
+      "page": 50,
+      "summary": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Further examples",
+      "source": "deck",
+      "status": "Mention only",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=50",
+          "locator": "PDF page 50"
+        }
+      ],
+      "id": "est"
+    },
+    {
+      "title": "Landmark programmes",
+      "page": 50,
+      "summary": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Further examples",
+      "source": "deck",
+      "status": "Mention only",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=50",
+          "locator": "PDF page 50"
+        }
+      ],
+      "id": "landmark-programmes"
+    },
+    {
+      "title": "Tony Robbins workshops",
+      "page": 50,
+      "summary": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Further examples",
+      "source": "deck",
+      "status": "Mention only",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=50",
+          "locator": "PDF page 50"
+        }
+      ],
+      "id": "tony-robbins-workshops"
+    },
+    {
+      "title": "Theatre of the Oppressed",
+      "page": 50,
+      "summary": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Further examples",
+      "source": "deck",
+      "status": "Mention only",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=50",
+          "locator": "PDF page 50"
+        }
+      ],
+      "id": "theatre-of-the-oppressed"
+    },
+    {
+      "title": "Legislative Theatre",
+      "page": 58,
+      "summary": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Further examples",
+      "source": "deck",
+      "status": "Mention only",
+      "sources": [
+        {
+          "title": "Large-group processes, Benjamin Taylor (2024)",
+          "url": "https://antlerboy.com/library/files/talks/large-group-processes.pdf#page=58",
+          "locator": "PDF page 58"
+        }
+      ],
+      "id": "legislative-theatre"
+    },
+    {
+      "title": "1-2-4-All",
+      "summary": "Begin with individual reflection, develop ideas in pairs and fours, then share selected insights with the whole group.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Liberating Structures guides",
+      "source": "shared-guide",
+      "status": "Guide read",
+      "sources": [
+        {
+          "title": "1-2-4-all.pdf",
+          "url": "https://www.dropbox.com/scl/fo/in3pvj22abhuz1aznr42t/ADbXaiB5LCpdy1OcuBZ7pbs?rlkey=yyoqyaq03g5seg2svafdb2uum&dl=0&preview=Liberating%20Structures%2F1-2-4-all.pdf",
+          "locator": "Individual guide, read 19 September 2026"
+        },
+        {
+          "title": "1-1-1-2-4-all.pdf",
+          "url": "https://www.dropbox.com/scl/fo/in3pvj22abhuz1aznr42t/ADbXaiB5LCpdy1OcuBZ7pbs?rlkey=yyoqyaq03g5seg2svafdb2uum&dl=0&preview=Liberating%20Structures%2F1-1-1-2-4-all.pdf",
+          "locator": "Individual guide, read 19 September 2026"
+        }
+      ],
+      "credit": "Liberating Structures: Henri Lipmanowicz and Keith McCandless; most supplied one-page guides designed by Jenny Yung for Scrum Facilitators. Individual source terms apply.",
+      "id": "1-2-4-all"
+    },
+    {
+      "title": "15% Solutions",
+      "summary": "Identify practical first steps within present scope, then use group discussion to develop and select them.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Liberating Structures guides",
+      "source": "shared-guide",
+      "status": "Guide read",
+      "sources": [
+        {
+          "title": "15Solutions.pdf",
+          "url": "https://www.dropbox.com/scl/fo/in3pvj22abhuz1aznr42t/ADbXaiB5LCpdy1OcuBZ7pbs?rlkey=yyoqyaq03g5seg2svafdb2uum&dl=0&preview=Liberating%20Structures%2F15Solutions.pdf",
+          "locator": "Individual guide, read 19 September 2026"
+        }
+      ],
+      "credit": "Liberating Structures: Henri Lipmanowicz and Keith McCandless; most supplied one-page guides designed by Jenny Yung for Scrum Facilitators. Individual source terms apply.",
+      "id": "15-solutions"
+    },
+    {
+      "title": "Conversation Café",
+      "summary": "Use small circles, agreed ground rules, and a talking object to support listening and reflection on a shared question.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Liberating Structures guides",
+      "source": "shared-guide",
+      "status": "Guide read",
+      "sources": [
+        {
+          "title": "17-conversations-cafe.pdf",
+          "url": "https://www.dropbox.com/scl/fo/in3pvj22abhuz1aznr42t/ADbXaiB5LCpdy1OcuBZ7pbs?rlkey=yyoqyaq03g5seg2svafdb2uum&dl=0&preview=Liberating%20Structures%2F17-conversations-cafe.pdf",
+          "locator": "Individual guide, read 19 September 2026"
+        }
+      ],
+      "credit": "Liberating Structures: Henri Lipmanowicz and Keith McCandless; most supplied one-page guides designed by Jenny Yung for Scrum Facilitators. Individual source terms apply.",
+      "id": "conversation-cafe"
+    },
+    {
+      "title": "25/10 Crowdsourcing",
+      "summary": "Exchange and score idea cards over five rounds, then examine the strongest proposals and possible first steps.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Liberating Structures guides",
+      "source": "shared-guide",
+      "status": "Guide read",
+      "sources": [
+        {
+          "title": "25_10 Crowdsourcing.pdf",
+          "url": "https://www.dropbox.com/scl/fo/in3pvj22abhuz1aznr42t/ADbXaiB5LCpdy1OcuBZ7pbs?rlkey=yyoqyaq03g5seg2svafdb2uum&dl=0&preview=Liberating%20Structures%2F25_10%20Crowdsourcing.pdf",
+          "locator": "Individual guide, read 19 September 2026"
+        }
+      ],
+      "credit": "Liberating Structures: Henri Lipmanowicz and Keith McCandless; most supplied one-page guides designed by Jenny Yung for Scrum Facilitators. Individual source terms apply.",
+      "id": "25-10-crowdsourcing"
+    },
+    {
+      "title": "Appreciative Interviews",
+      "summary": "Interview a partner about an experience of success, then compare the conditions that made it possible.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Liberating Structures guides",
+      "source": "shared-guide",
+      "status": "Guide read",
+      "sources": [
+        {
+          "title": "Appreciative Interview.pdf",
+          "url": "https://www.dropbox.com/scl/fo/in3pvj22abhuz1aznr42t/ADbXaiB5LCpdy1OcuBZ7pbs?rlkey=yyoqyaq03g5seg2svafdb2uum&dl=0&preview=Liberating%20Structures%2FAppreciative%20Interview.pdf",
+          "locator": "Individual guide, read 19 September 2026"
+        }
+      ],
+      "credit": "Liberating Structures: Henri Lipmanowicz and Keith McCandless; most supplied one-page guides designed by Jenny Yung for Scrum Facilitators. Individual source terms apply.",
+      "id": "appreciative-interviews"
+    },
+    {
+      "title": "Heard, Seen, Respected",
+      "summary": "Practise listening in pairs, then reflect on the experience and patterns with a wider group.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Liberating Structures guides",
+      "source": "shared-guide",
+      "status": "Guide read",
+      "sources": [
+        {
+          "title": "HeardSeenRespected.pdf",
+          "url": "https://www.dropbox.com/scl/fo/in3pvj22abhuz1aznr42t/ADbXaiB5LCpdy1OcuBZ7pbs?rlkey=yyoqyaq03g5seg2svafdb2uum&dl=0&preview=Liberating%20Structures%2FHeardSeenRespected.pdf",
+          "locator": "Individual guide, read 19 September 2026"
+        }
+      ],
+      "credit": "Liberating Structures: Henri Lipmanowicz and Keith McCandless; most supplied one-page guides designed by Jenny Yung for Scrum Facilitators. Individual source terms apply.",
+      "id": "heard-seen-respected"
+    },
+    {
+      "title": "Shift & Share",
+      "summary": "Move small groups between stations where people present an idea, discuss it, and receive feedback.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Liberating Structures guides",
+      "source": "shared-guide",
+      "status": "Guide read",
+      "sources": [
+        {
+          "title": "ShiftandShare.pdf",
+          "url": "https://www.dropbox.com/scl/fo/in3pvj22abhuz1aznr42t/ADbXaiB5LCpdy1OcuBZ7pbs?rlkey=yyoqyaq03g5seg2svafdb2uum&dl=0&preview=Liberating%20Structures%2FShiftandShare.pdf",
+          "locator": "Individual guide, read 19 September 2026"
+        }
+      ],
+      "credit": "Liberating Structures: Henri Lipmanowicz and Keith McCandless; most supplied one-page guides designed by Jenny Yung for Scrum Facilitators. Individual source terms apply.",
+      "id": "shift-share"
+    },
+    {
+      "title": "TRIZ (Liberating Structures)",
+      "summary": "Imagine how to produce an unwanted result, identify where current practice resembles it, and decide what to stop.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Liberating Structures guides",
+      "source": "shared-guide",
+      "status": "Guide read",
+      "sources": [
+        {
+          "title": "Triz.pdf",
+          "url": "https://www.dropbox.com/scl/fo/in3pvj22abhuz1aznr42t/ADbXaiB5LCpdy1OcuBZ7pbs?rlkey=yyoqyaq03g5seg2svafdb2uum&dl=0&preview=Liberating%20Structures%2FTriz.pdf",
+          "locator": "Individual guide, read 19 September 2026"
+        }
+      ],
+      "credit": "Liberating Structures: Henri Lipmanowicz and Keith McCandless; most supplied one-page guides designed by Jenny Yung for Scrum Facilitators. Individual source terms apply.",
+      "id": "triz-liberating-structures"
+    },
+    {
+      "title": "Impromptu Networking",
+      "summary": "Use repeated paired conversations to share challenges and notice patterns across the group.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Liberating Structures guides",
+      "source": "shared-guide",
+      "status": "Guide read",
+      "sources": [
+        {
+          "title": "Impromptu Networking.pdf",
+          "url": "https://www.dropbox.com/scl/fo/in3pvj22abhuz1aznr42t/ADbXaiB5LCpdy1OcuBZ7pbs?rlkey=yyoqyaq03g5seg2svafdb2uum&dl=0&preview=Liberating%20Structures%2FImpromptu%20Networking.pdf",
+          "locator": "Individual guide, read 19 September 2026"
+        }
+      ],
+      "credit": "Liberating Structures: Henri Lipmanowicz and Keith McCandless; most supplied one-page guides designed by Jenny Yung for Scrum Facilitators. Individual source terms apply.",
+      "id": "impromptu-networking"
+    },
+    {
+      "title": "Critical Uncertainties",
+      "summary": "Build scenarios around two critical uncertainties, then compare robust and hedging strategies across those futures.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Liberating Structures guides",
+      "source": "shared-guide",
+      "status": "Guide read",
+      "sources": [
+        {
+          "title": "Critical Uncertainties.pdf",
+          "url": "https://www.dropbox.com/scl/fo/in3pvj22abhuz1aznr42t/ADbXaiB5LCpdy1OcuBZ7pbs?rlkey=yyoqyaq03g5seg2svafdb2uum&dl=0&preview=Liberating%20Structures%2FCritical%20Uncertainties.pdf",
+          "locator": "Individual guide, read 19 September 2026"
+        }
+      ],
+      "credit": "Liberating Structures: Henri Lipmanowicz and Keith McCandless; most supplied one-page guides designed by Jenny Yung for Scrum Facilitators. Individual source terms apply.",
+      "id": "critical-uncertainties"
+    },
+    {
+      "title": "Mad Tea",
+      "summary": "Use rotating pairs in concentric circles for short exchanges responding to sentence prompts.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Liberating Structures guides",
+      "source": "shared-guide",
+      "status": "Guide read",
+      "sources": [
+        {
+          "title": "MadTea.pdf",
+          "url": "https://www.dropbox.com/scl/fo/in3pvj22abhuz1aznr42t/ADbXaiB5LCpdy1OcuBZ7pbs?rlkey=yyoqyaq03g5seg2svafdb2uum&dl=0&preview=Liberating%20Structures%2FMadTea.pdf",
+          "locator": "Individual guide, read 19 September 2026"
+        }
+      ],
+      "credit": "Liberating Structures: Henri Lipmanowicz and Keith McCandless; most supplied one-page guides designed by Jenny Yung for Scrum Facilitators. Individual source terms apply.",
+      "id": "mad-tea"
+    },
+    {
+      "title": "Troika Consulting",
+      "summary": "Work in threes so each person can present a challenge and listen to two colleagues explore possible responses.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Liberating Structures guides",
+      "source": "shared-guide",
+      "status": "Guide read",
+      "sources": [
+        {
+          "title": "TroikaConsulting.pdf",
+          "url": "https://www.dropbox.com/scl/fo/in3pvj22abhuz1aznr42t/ADbXaiB5LCpdy1OcuBZ7pbs?rlkey=yyoqyaq03g5seg2svafdb2uum&dl=0&preview=Liberating%20Structures%2FTroikaConsulting.pdf",
+          "locator": "Individual guide, read 19 September 2026"
+        }
+      ],
+      "credit": "Liberating Structures: Henri Lipmanowicz and Keith McCandless; most supplied one-page guides designed by Jenny Yung for Scrum Facilitators. Individual source terms apply.",
+      "id": "troika-consulting"
+    },
+    {
+      "title": "Min Specs",
+      "summary": "List possible requirements, test which are indispensable to the purpose, and remove unnecessary constraints.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Liberating Structures guides",
+      "source": "shared-guide",
+      "status": "Guide read",
+      "sources": [
+        {
+          "title": "Minspec.pdf",
+          "url": "https://www.dropbox.com/scl/fo/in3pvj22abhuz1aznr42t/ADbXaiB5LCpdy1OcuBZ7pbs?rlkey=yyoqyaq03g5seg2svafdb2uum&dl=0&preview=Liberating%20Structures%2FMinspec.pdf",
+          "locator": "Individual guide, read 19 September 2026"
+        }
+      ],
+      "credit": "Liberating Structures: Henri Lipmanowicz and Keith McCandless; most supplied one-page guides designed by Jenny Yung for Scrum Facilitators. Individual source terms apply.",
+      "id": "min-specs"
+    },
+    {
+      "title": "User Experience Fishbowl",
+      "summary": "Let an inner group discuss its experience while an outer group listens, develops questions, and then joins the exchange.",
+      "complexity": "Not classified",
+      "focus": "Not classified",
+      "collection": "Liberating Structures guides",
+      "source": "shared-guide",
+      "status": "Guide read",
+      "sources": [
+        {
+          "title": "UX Fishbowl.pdf",
+          "url": "https://www.dropbox.com/scl/fo/in3pvj22abhuz1aznr42t/ADbXaiB5LCpdy1OcuBZ7pbs?rlkey=yyoqyaq03g5seg2svafdb2uum&dl=0&preview=Liberating%20Structures%2FUX%20Fishbowl.pdf",
+          "locator": "Individual guide, read 19 September 2026"
+        }
+      ],
+      "credit": "Liberating Structures: Henri Lipmanowicz and Keith McCandless; most supplied one-page guides designed by Jenny Yung for Scrum Facilitators. Individual source terms apply.",
+      "id": "user-experience-fishbowl"
+    }
+  ]
+}

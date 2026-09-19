@@ -1,6 +1,6 @@
 {
   "title": "Benjamin P Taylor public work library",
-  "updated": "2026-09-18",
+  "updated": "2026-09-19",
   "pages": [
     {
       "slug": "cybernetics-is-not-the-banana",
@@ -126,7 +126,7 @@
       "slug": "large-group-processes",
       "title": "Large-group processes",
       "type": "body-of-work",
-      "description": "Whole-system and participatory methods, with a process mentor.",
+      "description": "114 methods, models, and participation formats from my teaching material and shared collection.",
       "tags": [
         "practice",
         "tools"
@@ -3498,6 +3498,1716 @@
         "articles-and-essays",
         "public-service-transformation",
         "public-service-writing"
+      ]
+    },
+    {
+      "title": "Future Search",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#future-search",
+      "description": "A cross-section of stakeholders works on a shared future and the action needed to pursue it. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Three Horizons",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#three-horizons",
+      "description": "Explore the current pattern, emerging alternatives, and the transition between them. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Scenario Planning",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#scenario-planning",
+      "description": "Explore several plausible futures and test what they would mean for present choices. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "TIP - The Integral Process",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#tip-the-integral-process",
+      "description": "Work with multiple perspectives and developmental complexity in group inquiry. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Preferred Futuring",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#preferred-futuring",
+      "description": "Develop a narrative of a preferred future to guide collective planning. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Delphi Method",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#delphi-method",
+      "description": "Use successive rounds of structured enquiry to explore forecasts and areas of agreement. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Stakeholder mapping",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#stakeholder-mapping",
+      "description": "Make stakeholder relationships and perspectives visible for discussion. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "ICA Strategic Planning Process",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#ica-strategic-planning-process",
+      "description": "Listed in the deck's visioning and alignment column; a separate worked account is not supplied here. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Participatory Narrative Inquiry",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#participatory-narrative-inquiry",
+      "description": "Collect and interpret stories together to explore patterns in experience. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Causal Layered Analysis (CLA)",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#causal-layered-analysis-cla",
+      "description": "Examine an issue through surface accounts, systemic causes, worldviews, and underlying stories. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Soft Systems Methodology",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#soft-systems-methodology",
+      "description": "Use structured inquiry and conceptual models to explore different understandings of a problematic situation. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Cognitive Edge methods / Cynefin / SenseMaker",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#cognitive-edge-methods-cynefin-sensemaker",
+      "description": "Use narrative material and participatory sense-making to explore patterns in complex situations. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Polarity Management",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#polarity-management",
+      "description": "Explore interdependent tensions and the consequences of overemphasising either pole. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Citizens' assemblies and variants",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#citizens-assemblies-and-variants",
+      "description": "Bring a broadly representative group into informed deliberation on a public issue. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "AmericaSpeaks 21st Century Town Meeting",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#americaspeaks-21st-century-town-meeting",
+      "description": "A structured approach to large-scale participatory deliberation. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Meta-Planning",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#meta-planning",
+      "description": "Generate, arrange, and prioritise contributions to a shared discussion. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Converge-diverge model",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#converge-diverge-model",
+      "description": "Move between opening up possibilities and narrowing them into choices. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Open Space Technology (OST)",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#open-space-technology-ost",
+      "description": "Participants propose the agenda and take responsibility for conversations they want to pursue. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Art of Hosting",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#art-of-hosting",
+      "description": "Combine participatory practices to support shared inquiry and collective work. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Deep Democracy (Lewis Method)",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#deep-democracy-lewis-method",
+      "description": "Surface minority views and work with the tensions around a majority decision. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Gurteen Knowledge Café",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#gurteen-knowledge-cafe",
+      "description": "Use small-group conversations and whole-group reflection to develop understanding. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "ProAction Café",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#proaction-cafe",
+      "description": "Use structured conversations to help participants work on questions and proposed action. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Open Dialogue",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#open-dialogue",
+      "description": "An approach named in the deck for inclusive listening and understanding. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Storytelling and narrative practices",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#storytelling-and-narrative-practices",
+      "description": "Use stories to explore experience and the meanings people give it. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Fishbowl Conversations",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#fishbowl-conversations",
+      "description": "Move people between an active conversation and an observing group. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Whole-Scale Change",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#whole-scale-change",
+      "description": "Bring a cross-section of a system together to plan and take ownership of change. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Real-Time Strategic Change / Real-Time Work Design",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#real-time-strategic-change-real-time-work-design",
+      "description": "Combine whole-system participation with planning, decisions, and implementation. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Hoshin Kanri",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#hoshin-kanri",
+      "description": "Connect strategic direction with work at different organisational levels through repeated dialogue and review. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Axelrod Conference Model",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#axelrod-conference-model",
+      "description": "Use a linked series of conferences to develop shared understanding and organisational redesign. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Participatory Systems Mapping",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#participatory-systems-mapping",
+      "description": "Map interdependencies with the people involved in the situation. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Strategic Change Accelerator (IBM ACT)",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#strategic-change-accelerator-ibm-act",
+      "description": "Listed as an approach to adaptation, design, and alignment; the deck provides only a brief description. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Whole Systems Approach",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#whole-systems-approach",
+      "description": "Bring systems inquiry and participatory design together around a shared situation. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Viable System Model facilitation",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#viable-system-model-facilitation",
+      "description": "Use the Viable System Model to enquire into organisational viability and design. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Boundary Critique (Critical Systems Heuristics)",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#boundary-critique-critical-systems-heuristics",
+      "description": "Examine who and what a decision includes, excludes, benefits, or disadvantages. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "M&G Taylor Method / Decision Accelerator / DesignShop",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#m-g-taylor-method-decision-accelerator-designshop",
+      "description": "Use intensive collaborative design, visual work, and iterative exploration of an issue. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Consensus Workshop Method",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#consensus-workshop-method",
+      "description": "Generate ideas, cluster them, and develop shared meaning and agreement. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Rapid Improvement Events / GE Work-Out",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#rapid-improvement-events-ge-work-out",
+      "description": "Bring relevant people together for focused decisions, process redesign, and practical action. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Participatory Innovation Model",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#participatory-innovation-model",
+      "description": "Involve stakeholders in defining challenges and developing responses to them. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Gemba Kaizen",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#gemba-kaizen",
+      "description": "Improve work through attention to the place and process in which it happens. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Design Charrettes",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#design-charrettes",
+      "description": "Use concentrated collaborative design sessions with people holding different perspectives. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Value Stream Mapping",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#value-stream-mapping",
+      "description": "Map how work and information move through a process to examine delays and waste. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Cross-Impact Analysis",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#cross-impact-analysis",
+      "description": "Explore how developments or decisions might affect one another. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "GameStorming",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#gamestorming",
+      "description": "Named in the overview's solutions-design column; the deck does not supply a separate worked account. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Participatory / Community Mapping",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#participatory-community-mapping",
+      "description": "Create a map together to explore community relationships and local experience. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Participatory budgeting",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#participatory-budgeting",
+      "description": "Involve communities in deciding how to allocate a defined public budget. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "The Organization Workshop",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#the-organization-workshop",
+      "description": "Explore recurring patterns of power and relationships through experience and reflection. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Participative Design Workshops (PDW)",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#participative-design-workshops-pdw",
+      "description": "Enable people doing the work to participate in redesigning it. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Triple Task Approach",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#triple-task-approach",
+      "description": "Combine work on a shared task with reflection on the group's process and experience. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "GroupWorks Patterns",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#groupworks-patterns",
+      "description": "Use a pattern language to examine and design group processes. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Pattern Language for Large Groups",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#pattern-language-for-large-groups",
+      "description": "Named as a framework for thinking about the design of group processes. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Generative Scribing",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#generative-scribing",
+      "description": "Use visual work to reflect emerging patterns and meaning in a group's conversation. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Appreciative Inquiry (AI) Summit",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#appreciative-inquiry-ai-summit",
+      "description": "Enquire into valued experience and use it to imagine and work towards a preferred future. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Interactive Planning",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#interactive-planning",
+      "description": "Work back from an idealised design to examine what could be changed in the present. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Search Conference",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#search-conference",
+      "description": "Use participatory inquiry into the environment, a desired future, and collective action. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Large-Scale Interactive Process (LSIP)",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#large-scale-interactive-process-lsip",
+      "description": "Bring many stakeholders into shared planning and decisions about change. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Future Back Planning",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#future-back-planning",
+      "description": "Start with a desired future and reason back to present action. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Scenario Narratives",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#scenario-narratives",
+      "description": "Develop accounts of alternative futures to examine their implications. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Problem Solving Team Build / MacDonald Team Discipline",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#problem-solving-team-build-macdonald-team-discipline",
+      "description": "Build shared understanding of a problem, develop options, and agree responsibilities for action. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Breaking the Shell",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#breaking-the-shell",
+      "description": "Distinguish external constraints, organisational barriers, and assumptions the group can challenge. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Liberating Structures",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#liberating-structures",
+      "description": "A repertoire of participation formats that can be combined for different purposes. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Fast Cycle Full Participation",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#fast-cycle-full-participation",
+      "description": "Use intensive, time-bounded participation to develop decisions with the relevant stakeholders. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Think Like a Genius",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#think-like-a-genius",
+      "description": "Listed as an approach to adaptive brainstorming; the deck provides only a brief account. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Technology of Participation (ToP)",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#technology-of-participation-top",
+      "description": "A family of structured facilitation practices; its component methods have different purposes. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "SimuReal",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#simureal",
+      "description": "Use a simulation to explore organisational dynamics and possible responses. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Design Thinking Workshops",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#design-thinking-workshops",
+      "description": "Combine inquiry into experience, collaborative design, prototyping, and feedback. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Syntegration / Team Syntegrity",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#syntegration-team-syntegrity",
+      "description": "Use a designed pattern of topic groups, roles, and repeated conversations to work on a complex question. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "When Cultures Meet / Encounters With The Other",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#when-cultures-meet-encounters-with-the-other",
+      "description": "Explore the experience of cultural difference and the possibility of working together across it. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Constellations",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#constellations",
+      "description": "Use spatial representation to enquire into perceived relationships and patterns in a system. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "People Need People / Warm Data Labs",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#people-need-people-warm-data-labs",
+      "description": "Explore relationships across contexts through conversational inquiry. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "World Café",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#world-cafe",
+      "description": "Connect small-group conversations around shared questions, with movement between tables. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Collaborative Development Action Inquiry (CDAI)",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#collaborative-development-action-inquiry-cdai",
+      "description": "Combine action and reflection with attention to development and participation. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Power+Systems TOOTs",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#power-systems-toots",
+      "description": "Reflect on experience from different systemic positions using Time Out of Time conversations. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Theory U",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#theory-u",
+      "description": "A change approach combining attention, listening, sensing, and experimentation. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Social Presencing Theatre",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#social-presencing-theatre",
+      "description": "Use embodied practices to enquire into social situations and possible movement. Overview. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Circle Methodology",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#circle-methodology",
+      "description": "Use a circle-based form to organise participation, listening, and dialogue. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Collaborative Leadership Development",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#collaborative-leadership-development",
+      "description": "Named as a participatory approach to developing leadership across a system. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Strategic Forum",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#strategic-forum",
+      "description": "Bring stakeholders into a structured discussion of strategic and cultural questions. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Systemic Design",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#systemic-design",
+      "description": "Combine systems inquiry and participatory design around a situation. Overview. Overview entry.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Janssen’s Four Rooms of Change",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#janssens-four-rooms-of-change",
+      "description": "A model discussed alongside Future Search for exploring different experiences of change. Supporting models. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "CATWOE",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#catwoe",
+      "description": "A set of questions within Soft Systems Methodology for examining a purposeful activity model. Supporting models. Teaching account.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Berkana Two Loops model",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#berkana-two-loops-model",
+      "description": "A comparison mentioned alongside Three Horizons; a separate worked account is not supplied. Supporting models. Mention only.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Panarchy adaptive cycle",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#panarchy-adaptive-cycle",
+      "description": "A comparison mentioned alongside Three Horizons; a separate worked account is not supplied. Supporting models. Mention only.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Talking circles",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#talking-circles",
+      "description": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Ubuntu Circles",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#ubuntu-circles",
+      "description": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Participatory Rural Appraisal (PRA)",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#participatory-rural-appraisal-pra",
+      "description": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Hackathons",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#hackathons",
+      "description": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "BarCamp and unconferences",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#barcamp-and-unconferences",
+      "description": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Transition design",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#transition-design",
+      "description": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Conflict Transformation Circles",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#conflict-transformation-circles",
+      "description": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Facilitated Power Analysis",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#facilitated-power-analysis",
+      "description": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Circling",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#circling",
+      "description": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "T-groups",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#t-groups",
+      "description": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Encounter groups",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#encounter-groups",
+      "description": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Scrum",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#scrum",
+      "description": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Mob programming",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#mob-programming",
+      "description": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "EST",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#est",
+      "description": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Landmark programmes",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#landmark-programmes",
+      "description": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Tony Robbins workshops",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#tony-robbins-workshops",
+      "description": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Theatre of the Oppressed",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#theatre-of-the-oppressed",
+      "description": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Legislative Theatre",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#legislative-theatre",
+      "description": "Named as a further example in the teaching material. A developed comparison or account is not supplied in this collection. Further examples. Mention only.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "1-2-4-All",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#1-2-4-all",
+      "description": "Begin with individual reflection, develop ideas in pairs and fours, then share selected insights with the whole group. Liberating Structures guides. Guide read.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "15% Solutions",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#15-solutions",
+      "description": "Identify practical first steps within present scope, then use group discussion to develop and select them. Liberating Structures guides. Guide read.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Conversation Café",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#conversation-cafe",
+      "description": "Use small circles, agreed ground rules, and a talking object to support listening and reflection on a shared question. Liberating Structures guides. Guide read.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "25/10 Crowdsourcing",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#25-10-crowdsourcing",
+      "description": "Exchange and score idea cards over five rounds, then examine the strongest proposals and possible first steps. Liberating Structures guides. Guide read.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Appreciative Interviews",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#appreciative-interviews",
+      "description": "Interview a partner about an experience of success, then compare the conditions that made it possible. Liberating Structures guides. Guide read.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Heard, Seen, Respected",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#heard-seen-respected",
+      "description": "Practise listening in pairs, then reflect on the experience and patterns with a wider group. Liberating Structures guides. Guide read.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Shift & Share",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#shift-share",
+      "description": "Move small groups between stations where people present an idea, discuss it, and receive feedback. Liberating Structures guides. Guide read.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "TRIZ (Liberating Structures)",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#triz-liberating-structures",
+      "description": "Imagine how to produce an unwanted result, identify where current practice resembles it, and decide what to stop. Liberating Structures guides. Guide read.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Impromptu Networking",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#impromptu-networking",
+      "description": "Use repeated paired conversations to share challenges and notice patterns across the group. Liberating Structures guides. Guide read.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Critical Uncertainties",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#critical-uncertainties",
+      "description": "Build scenarios around two critical uncertainties, then compare robust and hedging strategies across those futures. Liberating Structures guides. Guide read.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Mad Tea",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#mad-tea",
+      "description": "Use rotating pairs in concentric circles for short exchanges responding to sentence prompts. Liberating Structures guides. Guide read.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Troika Consulting",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#troika-consulting",
+      "description": "Work in threes so each person can present a challenge and listen to two colleagues explore possible responses. Liberating Structures guides. Guide read.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "Min Specs",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#min-specs",
+      "description": "List possible requirements, test which are indispensable to the purpose, and remove unnecessary constraints. Liberating Structures guides. Guide read.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
+      ]
+    },
+    {
+      "title": "User Experience Fishbowl",
+      "year": 2024,
+      "format": "Method index",
+      "url": "/library/large-group-processes/#user-experience-fishbowl",
+      "description": "Let an inner group discuss its experience while an outer group listens, develops questions, and then joins the exchange. Liberating Structures guides. Guide read.",
+      "tags": [
+        "systems",
+        "practice",
+        "facilitation"
+      ],
+      "pages": [
+        "large-group-processes"
       ]
     }
   ]
