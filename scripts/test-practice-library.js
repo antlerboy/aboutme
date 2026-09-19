@@ -33,7 +33,7 @@ async function main(){
   const query=page.getByRole('searchbox',{name:'Find a method or model'}),visible=page.locator('.method:not([hidden])');
   await query.fill('cafe');assert.equal(await visible.count(),4,'Accent-insensitive individual café methods');
   await query.fill('no-such-method-zz');assert.equal(await visible.count(),0);assert(await page.locator('#method-empty').isVisible());
-  await query.fill('Syntegration');assert.equal(await visible.count(),1);assert(await visible.getByRole('link',{name:'Large-group processes, Benjamin Taylor (2024)'}).count());
+  await query.fill('Syntegration');assert.equal(await visible.count(),1);
   await visible.locator('summary').click();assert(await visible.getByRole('link',{name:'Large-group processes, Benjamin Taylor (2024)'}).isVisible());
   await page.getByRole('button',{name:'Reset search'}).click();assert.equal(await visible.count(),methods.count);
   await page.getByLabel('Collection',{exact:true}).selectOption('Overview');assert.equal(await visible.count(),methods.overview_count);
