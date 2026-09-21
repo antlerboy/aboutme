@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Free online SysPrac26 follow-up workshops and 20-minute chats with Benjamin P Taylor.">
+  <title>SysPrac26 workshops | Benjamin P Taylor</title>
+  <style>
+    :root {
+      --red: #99141B;
+      --chocolate: #3E0908;
+     --gold: #ED4703;
+      --grey: #A7A8AA;
+      --ink: #171515;
+      --paper: #ffffff;
+      --wash: #f8f5f4;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { background: var(--paper); }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: Calibri, Aptos, "Segoe UI", sans-serif;
+      font-size: 1.0625rem;
+      line-height: 1.55;
+    }
+
+    a { color: inherit; }
+
+    .site-header {
+      border-top: 0.45rem solid var(--red);
+      border-bottom: 1px solid var(--grey);
+    }
+
+    .site-header__inner,
+    main,
+    .site-footer__inner {
+      width: min(100% - 2.25rem, 72rem);
+      margin: 0 auto;
+    }
+
+    .site-header__inner {
+      padding: 1rem 0;
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      align-items: baseline;
+    }
+
+    .wordmark {
+      color: var(--red);
+      font-weight: 700;
+      letter-spacing: 0.01em;
+      text-decoration: none;
+    }
+
+    .section-label {
+      color: var(--chocolate);
+      font-size: 0.95rem;
+      font-weight: 700;
+    }
+
+    main { padding: 3.5rem 0 4rem; }
+
+    .intro {
+      max-width: 50rem;
+      border-left: 0.4rem solid var(--gold);
+      padding-left: 1.2rem;
+      margin-bottom: 3.4rem;
+    }
+
+    h1,
+    h2,
+    h3,
+    p { margin-top: 0; }
+
+    h1 {
+      color: var(--red);
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      line-height: 1.08;
+      margin-bottom: 1.1rem;
+      max-width: 42rem;
+    }
+
+    h2 {
+      color: var(--chocolate);
+      font-size: clamp(1.45rem, 3vw, 2.1rem);
+      line-height: 1.17;
+      margin-bottom: 1.15rem;
+    }
+
+    h3 {
+      color: var(--chocolate);
+      font-size: 1.35rem;
+      line-height: 1.22;
+      margin-bottom: 0.65rem;
+    }
+
+    .lead {
+      font-size: 1.2rem;
+      max-width: 45rem;
+      margin-bottom: 0;
+    }
+
+    .workshops {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1.35rem;
+      margin-bottom: 3.7rem;
+    }
+
+    .session {
+      border: 1px solid var(--grey);
+      border-top: 0.5rem solid var(--red);
+      padding: 1.55rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      min-height: 100%;
+    }
+
+    .session:nth-child(2) { border-top-color: var(--gold); }
+
+    .session__type {
+      color: var(--red);
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      margin-bottom: 0.55rem;
+    }
+
+    .session:nth-child(2) .session__type { color: var(--gold); }
+
+    .session__time {
+      color: var(--chocolate);
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .session__copy { margin-bottom: 1.5rem; }
+
+    .button {
+      display: inline-block;
+      margin-top: auto;
+      padding: 0.72rem 1rem;
+      background: var(--red);
+      border: 2px solid var(--red);
+      color: var(--paper);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .button:hover,
+    .button:focus-visible {
+      background: var(--chocolate);
+      border-color: var(--chocolate);
+    }
+
+    .conversation {
+      background: var(--wash);
+      border-top: 0.5rem solid var(--chocolate);
+      padding: clamp(1.45rem, 4vw, 2.35rem);
+    }
+
+    .conversation__grid {
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) minmax(16rem, 1fr);
+      gap: 2rem;
+      align-items: start;
+    }
+
+    .availability {
+      border-left: 0.25rem solid var(--gold);
+      padding-left: 1rem;
+      margin: 0;
+    }
+
+    .availability dt {
+      color: var(--chocolate);
+      font-weight: 700;
+      margin-top: 0.9rem;
+    }
+
+    .availability dt:first-child { margin-top: 0; }
+    .availability dd { margin: 0.15rem 0 0; }
+
+    .conversation .button { background: var(--chocolate); border-color: var(--chocolate); }
+    .conversation .button:hover,
+    .conversation .button:focus-visible { background: var(--red); border-color: var(--red); }
+
+    .note {
+      max-width: 50rem;
+      margin: 2.2rem 0 0;
+    }
+
+    .more-links {
+      border-top: 1px solid var(--grey);
+      margin-top: 3.7rem;
+      padding-top: 2.25rem;
+    }
+
+    .more-links__intro { max-width: 46rem; }
+
+    .more-links ul {
+      columns: 2 17rem;
+      column-gap: 2.5rem;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .more-links li {
+      break-inside: avoid;
+      margin: 0 0 0.8rem;
+    }
+
+    .more-links a {
+      color: var(--red);
+      font-weight: 700;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.14em;
+    }
+
+    .more-links a:hover,
+    .more-links a:focus-visible { color: var(--chocolate); }
+
+    .site-footer {
+      border-top: 1px solid var(--grey);
+      color: var(--chocolate);
+      font-size: 0.95rem;
+    }
+
+    .site-footer__inner { padding: 1.25rem 0 1.8rem; }
+
+    @media (max-width: 46rem) {
+      .site-header__inner { align-items: flex-start; flex-direction: column; }
+      main { padding-top: 2.3rem; }
+      .workshops,
+      .conversation__grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="wordmark" href="/">Benjamin P Taylor</a>
+      <span class="section-label">SysPrac26 follow-up</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <h1 id="page-title">Sorry to say, I ₽]�H]�\��X̍��O���\��H�XY��H[H�[��[��H���ܚ����ۛ[�H[��XY�^H\�H��YK]�H�\��[ۜˈ����Z]\�ۙK܈���Y�[�H��[�]\�]�HH�ܝ[��ܛX[�][�H�[�����]�\\�][H�[�ˏ�����X�[ۏ����X�[ۈ\�XK[X�[Y�OH��ܚ����]]H����YH��ܚ����]]H������H�X�[�\�����]��\��H��ܚ���ȏ��\�X�H�\��H��\��[ۈ����\��H��\��[ۗ��\H��]�Hۛ[�H�ܚ������ϔ�\�[ZX��ۜ�[[�Έ[[���]�]Z�[��ݙ\��ς��\��H��\��[ۗ��[YH��[YH]][YOH����LKL�L��MN�
+�N����Y�\�^H��\[X�\����L��Mx�$�L΍
+O�[YO����R�[YH0��ۛ[�H0����YO����\��H��\��[ۗ����H���H�[���]H�ۜ�[[���[][ۜ�\���H[��YHH�\�[K�]\�[��][�[��]H�ۜ�[[��[���]�YH]����H�\��H��]ۈ��Y�H�΋����˙����K���Kٛܛ\���K�Q�R\S���TՓ�L�S�Lё�ِ\�Q��ԚW�������]Y��T^�KݚY]ٛܛO�\�\X�\�YY]܈���Y�\�\��܈��\[X�\��O���\�X�O���\�X�H�\��H��\��[ۈ����\��H��\��[ۗ��\H��]�Hۛ[�H�ܚ������ϓXZ�[���[][ۘ[X�KX�\�YX�X��\��X�\�ܙ[�\�O�ς��\��H��\��[ۗ��[YH��[YH]][YOH����LLLL����
+�N���\��^H��ؙ\����L���8�$�M��[YO����R�[YH0��ۛ[�H0����YO����\��H��\��[ۗ����H���H�[�ܚ��]�]]Z�\��XZ�H�[][ۘ[X�KX�\�Y�X�X�Hܙ[�\�K�]\�[�[�^�\[ۘ[[�]\�\X\���[�H�[�[���[���]����H�\��H��]ۈ��Y�H�΋����˙����K���Kٛܛ\���K�Q�R\SٔU��S����QV��ZL��\Q�NU[�YZNT��[UҚMLٍ��ݚY]ٛܛO�\�\X�\�YY]܈���Y�\�\��܈��ؙ\��O���\�X�O���]�����X�[ۏ����X�[ۈ�\��H��۝�\��][ۈ�\�XK[X�[Y�OH��۝�\��][ۋ]]H���]��\��H��۝�\��][ۗ��ܚY���]����YH��۝�\��][ۋ]]H������H�[Z[�]H�]�����Y�[�H�[��\����Y][��\�H�Y�܈�ܚ��]�]\�Z]\��ܚ���\�\�Y�[�܈[�K����HH[YH]�Z]�[�K�H����[��Y�H����ۛH���]\�H�[]�Z[X�K����H�\��H��]ۈ��Y�H�΋���[[�\������K���K��[[�\��K��\�[�Y[�����Y[\��X֜�֌L�U���S��Ԑ�K\�N^���ҙ�]��Y�ړ^QM���[��٘W�Ց��ўQ\�\�ڙK\��^O�ݏ]�YH������HH�[Z[�]H���O���]����\��H�]�Z[X�[]H����\��^HH��ؙ\�����L��MKL��
+KLΌMKL΍
+K܈M�MO������Y^HH��ؙ\�����L�L��LN�LN��܈L������[[Y\�����R�[YO�������]�����X�[ۏ����\��H���H��[�H�[�����H�X�[�\�H�]܈���H�[�[�H��[�[��]Z[��܈XX��X�[�\��[�H���Y�\�\�������X�[ۈ�\��H�[ܙK[[��Ȉ\�XK[X�[Y�OH�[ܙK[[���]]H����YH�[ܙK[[���]]H��[ܙHX�\��^ܙO�����\��H�[ܙK[[�����[��ȏ���YH�[]YX�\���[��ܚ�[�K[��X�X�[�\��\��\�\��[��\�[\��X�X�K����[��O�H�Y�H�΋���[��X�[ۋ��\�[\�Ȉ\��]H�؛[�Ȉ�[H����[�\��ܙY�\��\���H�X�\��\�H[��O�O��O��O�H�Y�H�΋����X[K��\���K���K��YKȈ\��]H�؛[�Ȉ�[H����[�\��ܙY�\��\����\�[\���[][�]Hو[�]Z\�O�O��O��O�H�Y�H�΋����˜�\�[\��X�X�K�ܙ���T��P͈�\��]H�؛[�Ȉ�[H����[�\��ܙY�\��\����\��X̍��ۙ�\�[��O�O��O��O�H�Y�H�΋����˛[��Y[����KٙYY�\�Y���\��X̍�Ȉ\��]H�؛[�Ȉ�[H����[�\��ܙY�\��\�����\��X̍�ۈ[��Y[��O��O��O�H�Y�H�΋����˜�\�[\��X�X�K�ܙ�Ȉ\��]H�؛[�Ȉ�[H����[�\��ܙY�\��\�����S��O��O��O�H�Y�H�΋���[��X�[ۋ��\�[\���\�[\�][��[����X�X�KȈ\��]H�؛[�Ȉ�[H����[�\��ܙY�\��\����\�[\�Y]���X�X�O�O��O��O�H�Y�H�΋��[�\���K���Kȏ�[�\���K���O�O��O���[����X�[ۏ���XZ[�������\��\��H��]KY���\����]��\��H��]KY���\���[��\����[��[Z[�^[܏�]���ٛ��\���؛�O���[�<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Free online SysPrac26 follow-up workshops and 20-minute chats with Benjamin P Taylor.">
+  <title>SysPrac26 workshops | Benjamin P Taylor</title>
+  <style>
+    :root {
+      --red: #99141B;
+      --chocolate: #3E0908;
+      --gold: #ED7703;
+      --grey: #A7A8AA;
+      --ink: #171515;
+      --paper: #ffffff;
+      --wash: #f8f5f4;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { background: var(--paper); }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: Calibri, Aptos, "Segoe UI", sans-serif;
+      font-size: 1.0625rem;
+      line-height: 1.55;
+    }
+
+    a { color: inherit; }
+
+    .site-header {
+      border-top: 0.45rem solid var(--red);
+      border-bottom: 1px solid var(--grey);
+    }
+
+    .site-header__inner,
+    main,
+    .site-footer__inner {
+      width: min(100% - 2.25rem, 72rem);
+      margin: 0 auto;
+    }
+
+    .site-header__inner {
+      padding: 1rem 0;
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      align-items: baseline;
+    }
+
+    .wordmark {
+      color: var(--red);
+      font-weight: 700;
+      letter-spacing: 0.01em;
+      text-decoration: none;
+    }
+
+    .section-label {
+      color: var(--chocolate);
+      font-size: 0.95rem;
+      font-weight: 700;
+    }
+
+    main { padding: 3.5rem 0 4rem; }
+
+    .intro {
+      max-width: 50rem;
+      border-left: 0.4rem solid var(--gold);
+      padding-left: 1.2rem;
+      margin-bottom: 3.4rem;
+    }
+
+    h1,
+    h2,
+    h3,
+    p { margin-top: 0; }
+
+    h1 {
+      color: var(--red);
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      line-height: 1.08;
+      margin-bottom: 1.1rem;
+      max-width: 42rem;
+    }
+
+    h2 {
+      color: var(--chocolate);
+      font-size: clamp(1.45rem, 3vw, 2.1rem);
+      line-height: 1.17;
+      margin-bottom: 1.15rem;
+    }
+
+    h3 {
+      color: var(--chocolate);
+      font-size: 1.35rem;
+      line-height: 1.22;
+      margin-bottom: 0.65rem;
+    }
+
+    .lead {
+      font-size: 1.2rem;
+      max-width: 45rem;
+      margin-bottom: 0;
+    }
+
+    .workshops {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1.35rem;
+      margin-bottom: 3.7rem;
+    }
+
+    .session {
+      border: 1px solid var(--grey);
+      border-top: 0.5rem solid var(--red);
+      padding: 1.55rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      min-height: 100%;
+    }
+
+    .session:nth-child(2) { border-top-color: var(--gold); }
+
+    .session__type {
+      color: var(--red);
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      margin-bottom: 0.55rem;
+    }
+
+    .session:nth-child(2) .session__type { color: var(--gold); }
+
+    .session__time {
+      color: var(--chocolate);
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .session__copy { margin-bottom: 1.5rem; }
+
+    .button {
+      display: inline-block;
+      margin-top: auto;
+      padding: 0.72rem 1rem;
+      background: var(--red);
+      border: 2px solid var(--red);
+      color: var(--paper);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .button:hover,
+    .button:focus-visible {
+      background: var(--chocolate);
+      border-color: var(--chocolate);
+    }
+
+    .conversation {
+      background: var(--wash);
+      border-top: 0.5rem solid var(--chocolate);
+      padding: clamp(1.45rem, 4vw, 2.35rem);
+    }
+
+    .conversation__grid {
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) minmax(16rem, 1fr);
+      gap: 2rem;
+      align-items: start;
+    }
+
+    .availability {
+      border-left: 0.25rem solid var(--gold);
+      padding-left: 1rem;
+      margin: 0;
+    }
+
+    .availability dt {
+      color: var(--chocolate);
+      font-weight: 700;
+      margin-top: 0.9rem;
+    }
+
+    .availability dt:first-child { margin-top: 0; }
+    .availability dd { margin: 0.15rem 0 0; }
+
+    .conversation .button { background: var(--chocolate); border-color: var(--chocolate); }
+    .conversation .button:hover,
+    .conversation .button:focus-visible { background: var(--red); border-color: var(--red); }
+
+    .note {
+      max-width: 50rem;
+      margin: 2.2rem 0 0;
+    }
+
+    .more-links {
+      border-top: 1px solid var(--grey);
+      margin-top: 3.7rem;
+      padding-top: 2.25rem;
+    }
+
+    .more-links__intro { max-width: 46rem; }
+
+    .more-links ul {
+      columns: 2 17rem;
+      column-gap: 2.5rem;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .more-links li {
+      break-inside: avoid;
+      margin: 0 0 0.8rem;
+    }
+
+    .more-links a {
+      color: var(--red);
+      font-weight: 700;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.14em;
+    }
+
+    .more-links a:hover,
+    .more-links a:focus-visible { color: var(--chocolate); }
+
+    .site-footer {
+      border-top: 1px solid var(--grey);
+      color: var(--chocolate);
+      font-size: 0.95rem;
+    }
+
+    .site-footer__inner { padding: 1.25rem 0 1.8rem; }
+
+    @media (max-width: 46rem) {
+      .site-header__inner { align-items: flex-start; flex-direction: column; }
+      main { padding-top: 2.3rem; }
+      .workshops,
+      .conversation__grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="wordmark" href="/">Benjamin P Taylor</a>
+      <span class="section-label">SysPrac26 follow-up</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <h1 id="page-title">Sorry to say, I can’t be at SysPrac26</h1>
+      <p class="lead">I am running the two workshops online instead. They are free, live sessions. Book either one, or both. If you would rather have a short, informal chat, you can book that separately below.</p>
+    </section>
+
+    <section aria-labelledby="workshops-title">
+      <h2 id="workshops-title">Book a webinar</h2>
+      <div class="workshops">
+        <article class="session">
+          <p class="session__type">Live online workshop</p>
+          <h3>Systemic consulting: helping without taking over</h3>
+          <p class="session__time"><time datetime="2026-09-30T12:15:00+01:00">Wednesday 30 September 2026, 12:15–13:45</time><br>UK time · online · free</p>
+          <p class="session__copy">We will look at the consulting relationship from inside the system, rather than pretending that the consultant stands outside it.</p>
+          <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLScKqPOVNe3QNQ3FFCfAsUFlJ3Rhi_WD_Pj6jPBIud2O01QxOQ/viewform?usp=publish-editor">Register for 30 September</a>
+        </article>
+
+        <article class="session">
+          <p class="session__type">Live online workshop</p>
+          <h3>Making relational, place-based public services ordinary</h3>
+          <p class="session__time"><time datetime="2026-10-08T12:30:00+01:00">Thursday 8 October 2026, 12:30–14:00</time><br>UK time · online · free</p>
+          <p class="session__copy">We will work with what it takes to make relational, place-based practice ordinary, rather than an exceptional pilot that disappears when the funding runs out.</p>
+          <a class="button" href="https://docs.google.com/forms/d/e/1FAIpQLSfPQTn7uNGow5EZwYi2CxEqFY8eT8mnaei9RZYmTWJi53f4Kg/viewform?usp=publish-editor">Register for 8 October</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="conversation" aria-labelledby="conversation-title">
+      <div class="conversation__grid">
+        <div>
+          <h2 id="conversation-title">Book a 20-minute chat</h2>
+          <p>If you want to ask something, test a thought, or work out whether either workshop is useful for you, choose a time that suits you. The booking page shows only slots that are still available.</p>
+          <a class="button" href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ139W3cyNccRCX1-s8M9z_PzxsJgivrQfkjMyDq7W_Uo7H_fa_8_VGkwFxYEpHJmprKje-rJExQ?gv=true">Choose a 20-minute slot</a>
+        </div>
+        <dl class="availability">
+          <dt>Thursday 1 October</dt>
+          <dd>12:15, 12:45, 13:15, 13:45, or 14:15</dd>
+          <dt>Friday 9 October</dt>
+          <dd>10:00, 10:30, 11:00, 11:30, or 12:00</dd>
+          <dt>All times</dt>
+          <dd>UK time</dd>
+        </dl>
+      </div>
+    </section>
+
+    <p class="note">You can book a webinar, a chat, or both. I will send the joining details for each webinar to people who register.</p>
+
+    <section class="more-links" aria-labelledby="more-links-title">
+      <h2 id="more-links-title">More places to explore</h2>
+      <p class="more-links__intro">Some related places to find work, people, and practical resources around systems practice.</p>
+      <ul>
+        <li><a href="https://transduction.systems/" target="_blank" rel="noopener noreferrer">The Necessary Tangle</a></li>
+        <li><a href="https://stream.syscoi.com/home/" target="_blank" rel="noopener noreferrer">Systems Community of Inquiry</a></li>
+        <li><a href="https://www.systemspractice.org/SYSPRAC26" target="_blank" rel="noopener noreferrer">SysPrac26 conference</a></li>
+        <li><a href="https://www.linkedin.com/feed/hashtag/sysprac26/" target="_blank" rel="noopener noreferrer">#SysPrac26 on LinkedIn</a></li>
+        <li><a href="https://www.systemspractice.org/" target="_blank" rel="noopener noreferrer">SCiO</a></li>
+        <li><a href="https://transduction.systems/systems-thinking/practice/" target="_blank" rel="noopener noreferrer">Systems methods practice</a></li>
+        <li><a href="https://antlerboy.com/">antlerboy.com</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">Benjamin P Taylor</div>
+  </footer>
+</body>
+</html>
