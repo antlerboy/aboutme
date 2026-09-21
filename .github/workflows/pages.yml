@@ -38,6 +38,7 @@ jobs:
           cp -R library _site/library
           cp -R toolshed _site/toolshed
           cp -R conversations _site/conversations
+          cp -R sysprac26 _site/sysprac26
           cp practice-rules.js _site/practice-rules.js
           touch _site/.nojekyll
       - name: Refresh public catalogues
