@@ -45,6 +45,8 @@ jobs:
         run: node scripts/build-public-catalogues.mjs _site/library
       - name: Keep feedback shortcut on every generated page
         run: python3 scripts/ensure-feedback.py _site
+      - name: Add first-party visit analytics to every page
+        run: python3 scripts/inject-visit-analytics.py _site
       - name: Install pinned browser test runner
         run: |
           npm install --prefix /tmp/practice-browser --no-save playwright@1.55.0
