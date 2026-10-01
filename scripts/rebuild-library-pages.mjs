@@ -229,6 +229,7 @@ resourcePage({ slug: 'relational-public-services', title: 'Relational public ser
 ] }] });
 
 resourcePage({ slug: 'facilitation-and-systems-consulting', title: 'Facilitation and systems consulting', description: 'Helping from inside a system without pretending to stand outside it.', groups: [{ title: 'Material', items: [
+  { title: 'Systemic consulting practice guide', meta: '2026 · full online guide', description: 'Contracting, inquiry, power, learning, and intervention, with the September session account, practice cases, and downloads.', url: '/flawfulconsulting/' },
   { title: 'Systemic consulting: rethinking the consultant’s role', meta: '2025 · SysPrac25 · SCiO public resource', description: 'Consulting as partnership, dialogue, and co-creation.', url: 'https://www.systemspractice.org/resources/systemic-consulting-rethinking-consultants-role-workshop-sysprac25' },
   { title: 'Systems consulting and facilitation,  STSP26', meta: '2026 · conference presentation', description: 'A later conference presentation on systems consulting and facilitation.', url: 'https://www.dropbox.com/scl/fi/ca3lalnnjdkt06rx39nm6/2026-03-24-STSP26-systems-conulting-and-facilitation-Benjamin-P-Taylor.pdf?rlkey=u5txcu880d7ht4ceu8ognmu7z&dl=0' },
   { title: 'Metaphor', meta: '2021 · Niki Jobson and Benjamin P Taylor · SCiO', description: 'Metaphor, framing, and problem-setting.', url: 'https://www.systemspractice.org/resources/metaphor-presented-scio-development-event' },

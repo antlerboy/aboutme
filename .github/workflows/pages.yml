@@ -28,6 +28,7 @@ jobs:
         run: python3 scripts/build-large-group-index.py
       - name: Prepare static site
         run: |
+          python3 scripts/build-flawfulconsulting.py
           mkdir -p _site
           cp index.html _site/index.html
           cp 404.html _site/404.html
@@ -39,6 +40,7 @@ jobs:
           cp -R toolshed _site/toolshed
           cp -R conversations _site/conversations
           cp -R sysprac26 _site/sysprac26
+          cp -R flawfulconsulting _site/flawfulconsulting
           cp practice-rules.js _site/practice-rules.js
           touch _site/.nojekyll
       - name: Refresh public catalogues
@@ -55,6 +57,10 @@ jobs:
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
         run: node scripts/test-practice-library.js
+      - name: Check systemic consulting guide and downloads
+        env:
+          NODE_PATH: /tmp/practice-browser/node_modules
+        run: node scripts/test-flawfulconsulting.js
       - name: Record publication identity
         env:
           DEPLOY_COMMIT: ${{ github.sha }}
