@@ -26,6 +26,11 @@ jobs:
         run: python3 scripts/add-scio-case-studies.py
       - name: Build the individual large-group method index
         run: python3 scripts/build-large-group-index.py
+      - name: Restore verified TRIP26 source image
+        uses: actions/cache@v4
+        with:
+          path: build-cache
+          key: trip26-original-34981a69cad81b153b59117e5b548877ba5edbc71c7fdf492bf6f5b33f96dc93
       - name: Prepare static site
         run: |
           python3 scripts/build-flawfulconsulting.py
@@ -43,6 +48,12 @@ jobs:
           cp -R flawfulconsulting _site/flawfulconsulting
           cp practice-rules.js _site/practice-rules.js
           touch _site/.nojekyll
+          test -s _site/sysprac26/relational/index.html
+      - name: Include the unchanged TRIP26 infographic and workshop extension
+        run: |
+          python3 -m venv /tmp/relational-python
+          /tmp/relational-python/bin/pip install pymupdf==1.26.7 cairosvg==2.8.2
+          /tmp/relational-python/bin/python scripts/build-relational-visual.py _site
       - name: Refresh public catalogues
         run: node scripts/build-public-catalogues.mjs _site/library
       - name: Keep feedback shortcut on every generated page
@@ -61,6 +72,10 @@ jobs:
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
         run: node scripts/test-flawfulconsulting.js
+      - name: Check relational page, original infographic, and working tool
+        env:
+          NODE_PATH: /tmp/practice-browser/node_modules
+        run: node scripts/test-relational-guide.js
       - name: Record publication identity
         env:
           DEPLOY_COMMIT: ${{ github.sha }}
@@ -76,6 +91,13 @@ jobs:
         with:
           name: practice-library-build-check
           path: validation/practice-library
+          if-no-files-found: ignore
+      - name: Preserve relational build evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: relational-build-check
+          path: validation/relational
           if-no-files-found: ignore
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6
@@ -113,10 +135,23 @@ jobs:
           LIBRARY_BASE_URL: https://antlerboy.com
           DEPLOY_COMMIT: ${{ github.sha }}
         run: node scripts/test-practice-library.js
+      - name: Check the actual live relational page and original infographic
+        env:
+          NODE_PATH: /tmp/practice-browser/node_modules
+          RELATIONAL_BASE_URL: https://antlerboy.com
+          DEPLOY_COMMIT: ${{ github.sha }}
+        run: node scripts/test-relational-guide.js
       - name: Preserve live test evidence
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: practice-library-live-check
           path: validation/practice-library
+          if-no-files-found: ignore
+      - name: Preserve relational live evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: relational-live-check
+          path: validation/relational
           if-no-files-found: ignore
