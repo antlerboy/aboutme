@@ -7,7 +7,9 @@ const assert = require('assert/strict');
 const {chromium} = require('playwright');
 const out = path.resolve('validation/relational');
 const expectedHash = '34981a69cad81b153b59117e5b548877ba5edbc71c7fdf492bf6f5b33f96dc93';
-const route = '/sysprac26/relational/';
+const route = '/relational/';
+const legacy = '/sysprac26/relational/';
+const canonical = 'https://antlerboy.com/relational/';
 const stem = '2026-10-08 RedQuadrant relational public services combined infographic v0.02 BT';
 const hash = data => crypto.createHash('sha256').update(data).digest('hex');
 const sleep = ms => new Promise(resolve => setTimeout(resolve,ms));
@@ -42,6 +44,7 @@ let server, browser;
       manifest=await response.json();
       if(process.env.DEPLOY_COMMIT) assert.equal(manifest.commit,process.env.DEPLOY_COMMIT);
       assert.equal(manifest.original_image_sha256,expectedHash);
+      assert.equal(manifest.canonical_url,canonical);
       break;
     } catch(error) {
       if(attempt===11 || !process.env.RELATIONAL_BASE_URL) throw error;
@@ -61,7 +64,22 @@ let server, browser;
     const asset=await api.get(base+route+encodeURIComponent(stem+'.'+ext));
     assert.equal(asset.status(),200,ext+' download missing');
     assert.ok((await asset.body()).length>10000);
+    const oldAsset=await api.get(base+legacy+encodeURIComponent(stem+'.'+ext));
+    assert.equal(oldAsset.status(),200,'Legacy '+ext+' link broken');
+    assert.equal(hash(await oldAsset.body()),hash(await asset.body()));
   }
+  const oldSvg=await api.get(base+legacy+'ordinary-map.svg');
+  assert.equal(oldSvg.status(),200);
+  assert.equal(hash(await oldSvg.body()),hash(await svg.body()));
+  const sitemap=await api.get(base+'/sitemap.xml');
+  assert.equal(sitemap.status(),200);
+  const sitemapText=await sitemap.text();
+  assert.ok(sitemapText.includes('<loc>'+canonical+'</loc>'));
+  assert.ok(!sitemapText.includes(legacy));
+  const sessions=await api.get(base+'/sysprac26/');
+  assert.equal(sessions.status(),200);
+  assert.ok((await sessions.text()).includes('href="/relational/"'));
+
   const page=await context.newPage();
   const errors=[];
   page.on('pageerror',error=>errors.push(error.message));
@@ -70,6 +88,12 @@ let server, browser;
   const response=await page.goto(base+route,{waitUntil:'networkidle',timeout:60000});
   assert.equal(response.status(),200,'Canonical page is unavailable');
   await page.locator('h1').filter({hasText:'Making relational public services ordinary'}).waitFor();
+  assert.equal(await page.title(),'Relational public services | Benjamin P Taylor');
+  assert.equal(await page.locator('link[rel="canonical"]').getAttribute('href'),canonical);
+  assert.equal(await page.locator('meta[property="og:url"]').getAttribute('content'),canonical);
+  assert.ok(!(await page.locator('.hero').innerText()).includes('8 October 2026'));
+  assert.ok((await page.locator('.hero').innerText()).includes('Tools') || (await page.locator('.hero').innerText()).includes('tools'));
+  assert.equal(await page.locator('a[href*="/sysprac26/relational/"]').count(),0);
   await page.locator('#steps button').first().waitFor();
   assert.equal(await page.locator('#steps button').count(),9);
   const image=page.locator('#visual img');
@@ -99,12 +123,31 @@ let server, browser;
   await page.waitForFunction(expected=>document.querySelector('#field-purpose').value===expected,examplePurpose);
   await page.locator('#steps button').last().click();
   assert.ok((await page.locator('#step-panel').innerText()).includes(examplePurpose));
+
+  // Same-origin device storage must survive the change in page path.
+  await page.locator('#remember').check();
+  assert.ok(await page.evaluate(()=>localStorage.getItem('rq-relational-workbench-v1')));
+  for(const [suffix,fragment] of [['','#tool'],['index.html','#visual']]) {
+    await page.goto(base+legacy+suffix+'?origin=legacy'+fragment,{waitUntil:'domcontentloaded',timeout:60000});
+    await page.waitForURL(base+route+'?origin=legacy'+fragment,{timeout:30000});
+    await page.locator('#steps button').first().click();
+    assert.equal(await page.locator('#field-purpose').inputValue(),examplePurpose);
+  }
+  await page.locator('#remember').uncheck();
+  assert.equal(await page.evaluate(()=>localStorage.getItem('rq-relational-workbench-v1')),null);
   await page.setViewportSize({width:390,height:844});
   await page.evaluate(()=>window.scrollTo(0,0));
   await page.screenshot({path:path.join(out,'mobile-top.png')});
   assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+2),'Mobile overflow');
   assert.deepEqual(errors,[],'Browser runtime errors');
-  const result={status:'passed',base,commit:manifest.commit,originalImageSHA256:expectedHash,checks:['canonical page returns 200','verified original embedded intact','SVG, PNG, and PDF downloads','desktop and mobile layout','nine-step tool','Asha example','export and import round trip','no browser runtime errors']};
+
+  const nojs=await browser.newContext({javaScriptEnabled:false});
+  const fallback=await nojs.newPage();
+  await fallback.goto(base+legacy,{waitUntil:'domcontentloaded',timeout:60000});
+  await fallback.waitForURL(base+route,{timeout:30000});
+  assert.equal(await fallback.locator('h1').innerText(),'Making relational public services ordinary');
+  await nojs.close();
+  const result={status:'passed',base,canonical,commit:manifest.commit,originalImageSHA256:expectedHash,checks:['canonical page returns 200','general relational hub framing and canonical metadata','legacy page and index.html redirect preserve query and fragment','no-JavaScript redirect fallback','existing saved work survives route change','sitemap and workshop index use canonical route','verified original embedded intact','SVG, PNG, and PDF downloads at new and legacy addresses','desktop and mobile layout','nine-step tool','Asha example','export and import round trip','no browser runtime errors']};
   fs.writeFileSync(path.join(out,'result.json'),JSON.stringify(result,null,2)+'\n');
   console.log(JSON.stringify(result,null,2));
 })().catch(error=>{fs.mkdirSync(out,{recursive:true});fs.writeFileSync(path.join(out,'failure.txt'),error.stack);console.error(error);process.exitCode=1;}).finally(async()=>{if(browser)await browser.close();if(server)server.close();});
