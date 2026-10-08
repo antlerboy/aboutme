@@ -56,6 +56,8 @@ jobs:
           /tmp/relational-python/bin/python scripts/build-relational-visual.py _site
       - name: Refresh public catalogues
         run: node scripts/build-public-catalogues.mjs _site/library
+      - name: Publish the relational topic hub and redirect the workshop address
+        run: python3 scripts/publish-relational-hub.py _site
       - name: Keep feedback shortcut on every generated page
         run: python3 scripts/ensure-feedback.py _site
       - name: Add first-party visit analytics to every page
@@ -72,7 +74,7 @@ jobs:
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
         run: node scripts/test-flawfulconsulting.js
-      - name: Check relational page, original infographic, and working tool
+      - name: Check relational hub, legacy redirect, infographic, and working tool
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
         run: node scripts/test-relational-guide.js
@@ -135,7 +137,7 @@ jobs:
           LIBRARY_BASE_URL: https://antlerboy.com
           DEPLOY_COMMIT: ${{ github.sha }}
         run: node scripts/test-practice-library.js
-      - name: Check the actual live relational page and original infographic
+      - name: Check the live relational hub, legacy redirect, and original infographic
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
           RELATIONAL_BASE_URL: https://antlerboy.com
