@@ -110,6 +110,7 @@ def build():
         if marker not in html:
             raise ValueError('Cannot locate visual section; refusing an unreviewed page edit')
         html = html.replace(marker, download_links + marker, 1)
+    html = html.replace('"ordinary-map.svg"', '"' + STEM + '.svg"')
     html = html.replace('First edition: 8 October 2026 &middot; v0.01', 'Updated: 8 October 2026 &middot; v0.02')
     (PAGE / 'index.html').write_text(html, encoding='utf-8')
     manifest = {
