@@ -74,6 +74,8 @@ def build(root):
                         '<a href="#resources">Tools and papers</a>')
     text = text.replace('Updated: 8 October 2026 &middot; v0.02',
                         'Updated: 8 October 2026 &middot; v0.03')
+    if 'id="posts-collection"' not in text:
+        text = text.replace('</main>', '<section id="posts-collection" class="section"><div class="wrap"><h2>Posts on relational public services</h2><p><a href="https://chosen-path.org/2026/03/21/collection-of-posts-on-relational-public-services/">Read the original collection of posts on Chosen Path</a>.</p><p><a href="/library/lgr-map/">Explore the big, messy LGR and devolution map</a>.</p></div></section></main>', 1)
     page.write_text(text, encoding='utf-8')
 
     # Update published navigation and catalogue URLs, without changing archive

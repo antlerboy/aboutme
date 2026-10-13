@@ -229,6 +229,10 @@ resourcePage({ slug: 'relational-public-services', title: 'Relational public ser
 ] }] });
 
 resourcePage({ slug: 'facilitation-and-systems-consulting', title: 'Facilitation and systems consulting', description: 'Helping from inside a system without pretending to stand outside it.', groups: [{ title: 'Material', items: [
+  {"title": "Facilitation and workshop design reading list", "description": "Original working document.", "url": "https://docs.google.com/document/d/1OdGHAOcehnAurCc00vcF_vnA4N8L4UUynDhbD5J1yPc/edit?tab=t.0"},
+  {"title": "Consulting skills reading list", "description": "Original working document.", "url": "https://docs.google.com/document/d/185jk4Z43JsU39QxoKOcuNwgvETZKHsJ7guR4qLYG53g/edit?usp=sharing"},
+  {"title": "RedQuadrant facilitation tools", "description": "Original working document.", "url": "https://docs.google.com/document/d/1ARHMRY_qbfpxQh0-mmL2dUyWPJPRjTL3eg-jySPtyZQ/edit?usp=sharing"},
+
   { title: 'Systemic consulting practice guide', meta: '2026 · full online guide', description: 'Contracting, inquiry, power, learning, and intervention, with the September session account, practice cases, and downloads.', url: '/flawfulconsulting/' },
   { title: 'Systemic consulting: rethinking the consultant’s role', meta: '2025 · SysPrac25 · SCiO public resource', description: 'Consulting as partnership, dialogue, and co-creation.', url: 'https://www.systemspractice.org/resources/systemic-consulting-rethinking-consultants-role-workshop-sysprac25' },
   { title: 'Systems consulting and facilitation,  STSP26', meta: '2026 · conference presentation', description: 'A later conference presentation on systems consulting and facilitation.', url: 'https://www.dropbox.com/scl/fi/ca3lalnnjdkt06rx39nm6/2026-03-24-STSP26-systems-conulting-and-facilitation-Benjamin-P-Taylor.pdf?rlkey=u5txcu880d7ht4ceu8ognmu7z&dl=0' },
