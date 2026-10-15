@@ -6,6 +6,7 @@ GitHub Pages serves static files, so the old page uses a browser redirect with
 a no-JavaScript fallback. Query strings and section fragments survive in JS.
 """
 from pathlib import Path
+from runpy import run_path
 import json
 import re
 import shutil
@@ -129,6 +130,9 @@ def build(root):
     # Existing index.html, slash, and fragment links all use the same redirect.
     if not (topic / 'tool.js').is_file() or not (topic / 'ordinary-map.svg').is_file():
         raise FileNotFoundError('The new page is missing its tool or infographic')
+    # Add the same verified reading route to the topic hub and library collection.
+    recent = run_path(str(Path(__file__).with_name('add-relational-recent-posts.py')))
+    recent['build'](root)
     print(json.dumps({'canonical_url': CANONICAL, 'redirect_from': OLD,
                       'updated_link_files': changed, 'legacy_assets_preserved': True}, indent=2))
 
