@@ -68,14 +68,14 @@ async function fetchWordPress(endpoint, source) {
 function libraryDocuments() {
   const manifest = JSON.parse(readFileSync('library/manifest.json', 'utf8'));
   const pages = manifest.pages.map(page => ({ id: `library-page-${page.slug}`, date: '', year: '', title: page.title, url: `/library/${page.slug}/`, excerpt: page.description || '', topics: topicsFor(`${page.title} ${page.description || ''} ${(page.tags || []).join(' ')}`, page.tags || []), source: 'library' }));
-  const resources = manifest.resources.map((resource, index) => ({ id: `library-resource-${index}`, date: String(resource.year || ''), year: String(resource.year || ''), title: resource.title, url: resource.url, excerpt: [resource.description, resource.format].filter(Boolean).join(' · '), topics: topicsFor(`${resource.title} ${resource.description || ''} ${(resource.tags || []).join(' ')} ${resource.format || ''}`, resource.tags || []), source: 'library' }));
+  const resources = manifest.resources.map((resource, index) => ({ id: `library-resource-${index}`, date: String(resource.date || resource.year || ''), year: String(resource.year || ''), title: resource.title, url: resource.url, excerpt: [resource.description, resource.format].filter(Boolean).join(' · '), searchAliases: (resource.relatedLinks || []).map(link => link.title).join(' '), topics: topicsFor(`${resource.title} ${resource.description || ''} ${(resource.tags || []).join(' ')} ${resource.format || ''}`, resource.tags || []), source: 'library' }));
   return [...pages, ...resources];
 }
 
 function catalogue(documents, sources) {
   const index = Object.create(null);
   documents.forEach((document, position) => {
-    for (const token of tokens(`${document.title} ${document.excerpt} ${document.topics.join(' ')}`)) (index[token] ||= []).push(position);
+    for (const token of tokens(`${document.title} ${document.excerpt} ${document.searchAliases || ''} ${document.topics.join(' ')}`)) (index[token] ||= []).push(position);
   });
   return { generatedAt: new Date().toISOString(), documents, index, years: [...new Set(documents.map(document => document.year).filter(Boolean))].sort((a, b) => b.localeCompare(a)), topics: topicRules.map(([key, label]) => ({ key, label })), sources };
 }
@@ -99,7 +99,44 @@ const reuse = process.env.CATALOGUE_REUSE === '1';
 const chosen = reuse ? existingDocuments('chosen-path') : await fetchWordPress('https://public-api.wordpress.com/wp/v2/sites/chosenpath.wordpress.com/posts', sourceList[0]);
 const syscoi = reuse ? existingDocuments('syscoi') : await fetchWordPress('https://public-api.wordpress.com/wp/v2/sites/syscoi.wordpress.com/posts', sourceList[1]);
 const library = libraryDocuments();
+
+// Merge only versions explicitly reconciled in the topic's source register.
+// Preserve source memberships so all source filters can still find the work.
+function mergeSystemsLeadershipVersions(documents) {
+  const topic = JSON.parse(readFileSync('content/systems-leadership.json', 'utf8'));
+  const keyFor = value => {
+    const url = new URL(value, 'https://antlerboy.com/');
+    url.pathname = url.pathname.replace(/\/$/, '');
+    return url.href;
+  };
+  const canonicalByUrl = new Map();
+  for (const item of topic.groups.flatMap(group => group.items)) {
+    for (const url of [item.url, ...(item.aliases || []), ...(item.links || []).map(link => link.url)]) {
+      canonicalByUrl.set(keyFor(url), item.url);
+    }
+  }
+  const grouped = new Map();
+  const result = [];
+  for (const document of documents) {
+    const canonical = canonicalByUrl.get(keyFor(document.url));
+    if (!canonical) {
+      result.push(document);
+      continue;
+    }
+    const existing = grouped.get(canonical);
+    if (existing) {
+      existing.sourceKeys = [...new Set([...existing.sourceKeys, document.source])];
+      existing.searchAliases += ` ${document.title} ${document.excerpt} ${document.searchAliases || ''}`;
+      existing.topics = [...new Set([...existing.topics, ...document.topics])];
+    } else {
+      const merged = { ...document, url: canonical, sourceKeys: [document.source], searchAliases: document.searchAliases || '' };
+      grouped.set(canonical, merged);
+      result.push(merged);
+    }
+  }
+  return result;
+}
 save('chosen-path', catalogue(chosen, [sourceList[0]]));
 save('syscoi', catalogue(syscoi, [sourceList[1]]));
 save('catalogue', catalogue(library, [sourceList[2]]));
-save('search', catalogue([...library, ...chosen, ...syscoi], sourceList));
+save('search', catalogue(mergeSystemsLeadershipVersions([...library, ...chosen, ...syscoi]), sourceList));

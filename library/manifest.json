@@ -1,6 +1,6 @@
 {
   "title": "Benjamin P Taylor public work library",
-  "updated": "2026-09-19",
+  "updated": "2026-10-18",
   "pages": [
     {
       "slug": "cybernetics-is-not-the-banana",
@@ -24,9 +24,9 @@
     },
     {
       "slug": "systems-leadership-change-practice",
-      "title": "Systems leadership, change and convening",
+      "title": "Systems leadership, change, and convening",
       "type": "body-of-work",
-      "description": "Seeing and acting across boundaries, including systems convening.",
+      "description": "My writing and talks on systems leadership, systems change, and convening: recurring patterns, purpose, power, boundaries, and the capacity to act together.",
       "tags": [
         "systems",
         "leadership"
@@ -886,22 +886,6 @@
       ]
     },
     {
-      "title": "Systems Leadership, Change, Theory and Practice; OU systems community",
-      "year": 2023,
-      "format": "PDF",
-      "url": "https://www.dropbox.com/scl/fi/bmng5qcqxwie1mojxnuj8/2023-06-28-Benjamin-Taylor-for-OU-systems-community-Systems-Leadership-Change-Theory-and-Practice-v0.6BT.pdf?rlkey=ygyopazm2jijrg3k0ax3krrt9&dl=0",
-      "description": "A substantial presentation on systems leadership, change, theory and practice.",
-      "tags": [
-        "systems",
-        "leadership",
-        "change"
-      ],
-      "pages": [
-        "systems-leadership-change-practice",
-        "talks-and-sessions"
-      ]
-    },
-    {
       "title": "Everything is contingent (well, not everything); Requisite Agility",
       "year": 2023,
       "format": "session material",
@@ -957,53 +941,6 @@
       ],
       "pages": [
         "four-dynamics"
-      ]
-    },
-    {
-      "title": "Systems convening, systems practice, systems theory",
-      "year": 2022,
-      "format": "PDF",
-      "url": "https://www.dropbox.com/scl/fi/d38g20o5y801fcu74vl1v/2022-06-13-systems-convening-systems-practice-systems-theory-v0.6DM-with-notes.pdf?rlkey=jj99ek5balfhotcmjnbv73sgg&dl=0",
-      "description": "How systems convening relates to systems practice, leadership and theory.",
-      "tags": [
-        "systems",
-        "leadership",
-        "convening"
-      ],
-      "pages": [
-        "systems-leadership-change-practice",
-        "talks-and-sessions"
-      ]
-    },
-    {
-      "title": "Systems convening shared folder",
-      "year": 2022,
-      "format": "Dropbox folder",
-      "url": "https://www.dropbox.com/scl/fo/4hs8l98k790ci2qizlr3q/AM1dLNakFp8WzPmGHvAlxwo?rlkey=9qam6r9dp7os640591y0o9bvy&dl=0",
-      "description": "Recordings and supporting material from the systems-convening session.",
-      "tags": [
-        "systems",
-        "convening",
-        "recordings"
-      ],
-      "pages": [
-        "systems-leadership-change-practice"
-      ]
-    },
-    {
-      "title": "Systems Leadership, Change, Theory and Practice; SCiO",
-      "year": 2022,
-      "format": "PDF",
-      "url": "https://www.dropbox.com/scl/fi/gwx4hma8vw7cmixgx069y/2022-07-11-Benjamin-Taylor-at-SCiO-Systems-Leadership-Change-Theory-and-Practice-v0.4BT.pdf?rlkey=cssx06tl5dzjdn761z8xx91bl&dl=0",
-      "description": "A presentation for the SCiO systems-practice community.",
-      "tags": [
-        "systems",
-        "leadership",
-        "change"
-      ],
-      "pages": [
-        "systems-leadership-change-practice",
-        "talks-and-sessions"
       ]
     },
     {
@@ -2651,20 +2588,6 @@
       ]
     },
     {
-      "title": "What can systems thinking and change learn to become?",
-      "year": "2026",
-      "format": "Chapter appendix",
-      "url": "https://chosen-path.org/wp-content/uploads/2026/04/benjamin_taylor_what_can_systems_change_learn_to_become_appendix_from_understanding_systems_to_change_the_world.pdf",
-      "description": "Appendix to Understanding Systems to Change the World.",
-      "tags": [
-        "writing",
-        "systems"
-      ],
-      "pages": [
-        "articles-and-essays"
-      ]
-    },
-    {
       "title": "The situation facing UK public libraries and the need to change the status and approach of interlending",
       "year": "2011",
       "format": "Journal article",
@@ -2725,21 +2648,6 @@
       ]
     },
     {
-      "title": "Systems leadership, change, theory and practice",
-      "year": "2023",
-      "format": "PDF",
-      "url": "/library/files/talks/systems-leadership-change-theory-and-practice.pdf",
-      "description": "A substantial public presentation.",
-      "tags": [
-        "systems",
-        "leadership"
-      ],
-      "pages": [
-        "talks-and-sessions",
-        "systems-leadership-change-practice"
-      ]
-    },
-    {
       "title": "Five key questions for transformation",
       "year": "",
       "format": "PDF",
@@ -2752,36 +2660,6 @@
       "pages": [
         "talks-and-sessions",
         "public-service-transformation"
-      ]
-    },
-    {
-      "title": "Systems convening and boundary work",
-      "year": "2025",
-      "format": "PDF",
-      "url": "/library/files/talks/systems-convening-and-boundaries.pdf",
-      "description": "Core slides on convening across boundaries.",
-      "tags": [
-        "systems",
-        "leadership"
-      ],
-      "pages": [
-        "talks-and-sessions",
-        "systems-leadership-change-practice"
-      ]
-    },
-    {
-      "title": "Spaces and leadership stands",
-      "year": "2025",
-      "format": "PDF",
-      "url": "/library/files/talks/spaces-and-leadership-stands.pdf",
-      "description": "A short working deck.",
-      "tags": [
-        "leadership",
-        "practice"
-      ],
-      "pages": [
-        "talks-and-sessions",
-        "systems-leadership-change-practice"
       ]
     },
     {
@@ -3083,22 +2961,6 @@
       "pages": [
         "podcasts",
         "articles-and-essays"
-      ]
-    },
-    {
-      "title": "Systems leadership, change, theory and practice",
-      "year": "",
-      "format": "Recorded talk",
-      "url": "https://www.youtube.com/watch?v=2JIZojh42PA",
-      "description": "A presentation on systems leadership and systems change, followed by questions.",
-      "tags": [
-        "video",
-        "systems",
-        "scio"
-      ],
-      "pages": [
-        "videos",
-        "talks-and-sessions"
       ]
     },
     {
@@ -5208,6 +5070,370 @@
       ],
       "pages": [
         "large-group-processes"
+      ]
+    },
+    {
+      "title": "Where are the systems in ‘systems leadership’?",
+      "year": 2026,
+      "format": "Essay",
+      "url": "https://chosen-path.org/2026/10/18/where-are-the-systems-in-systems-leadership/",
+      "description": "What I mean by systems leadership, how it differs from leadership and personal development, and why changing recurring patterns requires more than developing the people at the top. Includes my response to the public health paper shared by Greg Fell.",
+      "date": "2026-10-18",
+      "tags": [
+        "change",
+        "leadership",
+        "public-services",
+        "systems",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "systems-leadership-change-practice"
+      ]
+    },
+    {
+      "title": "Six ways to see systems leadership",
+      "year": 2021,
+      "format": "Article",
+      "url": "https://i2insights.org/2021/06/22/systems-leadership/",
+      "description": "Six overlapping approaches to systems leadership, with different implications for effectiveness, power, legitimacy, and change. The concise introduction to the framework.",
+      "date": "2021-06-22",
+      "tags": [
+        "change",
+        "leadership",
+        "systems",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "systems-leadership-change-practice"
+      ]
+    },
+    {
+      "title": "A schema for better understanding systems leadership and systems change",
+      "year": 2021,
+      "format": "Essay",
+      "url": "https://stream.syscoi.com/2021/06/21/a-schema-for-better-understanding-systems-leadership-and-systems-change/",
+      "description": "The fuller companion to ‘Six ways’, with examples, references, and the assumptions and risks of each approach, including individual development masquerading as leadership development.",
+      "date": "2021-06-21",
+      "tags": [
+        "change",
+        "leadership",
+        "systems",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "systems-leadership-change-practice"
+      ]
+    },
+    {
+      "title": "A response to The Inner Work of System Leadership",
+      "year": 2026,
+      "format": "Critical response",
+      "url": "https://stream.syscoi.com/2026/03/18/a-response-to-the-inner-work-of-system-leadership-kania-ruparell-senge-and-hamilton-2026/",
+      "description": "Questions the claim that inner work is a prerequisite for systems change, and argues for explicit attention to power, conflict, incentives, enforcement, and learning through action.",
+      "date": "2026-03-18",
+      "tags": [
+        "change",
+        "leadership",
+        "power",
+        "systems",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "systems-leadership-change-practice"
+      ]
+    },
+    {
+      "title": "What can systems thinking and change learn to become?",
+      "year": 2024,
+      "format": "Chapter appendix PDF",
+      "url": "https://chosen-path.org/wp-content/uploads/2026/04/benjamin_taylor_what_can_systems_change_learn_to_become_appendix_from_understanding_systems_to_change_the_world.pdf",
+      "description": "Eight pitfalls in systems thinking and change, from mistaking a model for reality to ignoring power and lived experience, with eight practical responses. Published in 2024; this extract was shared in 2026.",
+      "tags": [
+        "change",
+        "power",
+        "practice",
+        "systems",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "systems-leadership-change-practice"
+      ]
+    },
+    {
+      "title": "What is #systemschange exactly? Why and when do we need it?",
+      "year": 2024,
+      "format": "Essay",
+      "url": "https://chosen-path.org/2024/04/17/what-is-systemschange-exactly-why-and-when-do-we-need-it/",
+      "description": "Different meanings of systems change, and the importance of perspectives, boundaries, identities, rules, and power when deciding what needs to change.",
+      "date": "2024-04-17",
+      "tags": [
+        "change",
+        "power",
+        "systems",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "systems-leadership-change-practice"
+      ]
+    },
+    {
+      "title": "What might systems leadership be? And how does it relate to systems change? A happily tentative essay",
+      "year": 2020,
+      "format": "Essay",
+      "url": "https://stream.syscoi.com/2020/08/03/what-might-systems-leadership-be-and-how-does-it-relate-to-systems-change-a-happily-tentative-essay/",
+      "description": "The exploratory essay that preceded the 2021 framework, surveying different meanings of leadership, change, and convening, with examples and further reading.",
+      "date": "2020-08-03",
+      "tags": [
+        "change",
+        "leadership",
+        "systems",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "systems-leadership-change-practice"
+      ]
+    },
+    {
+      "title": "Lankelly Chase’s approach to working with complexity — with comments",
+      "year": 2018,
+      "format": "Annotated response",
+      "url": "https://stream.syscoi.com/2018/06/04/lankelly-chases-approach-to-working-with-complexity-with-comments/",
+      "description": "My annotations question whether desirable behaviours explain systemic effectiveness, and examine the roles of structure, incentives, power, participation, and accountability.",
+      "date": "2018-06-04",
+      "tags": [
+        "change",
+        "power",
+        "public-services",
+        "systems",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "systems-leadership-change-practice"
+      ]
+    },
+    {
+      "title": "An instant review of Whole-System Development: The Capacity to Act Together — Janoff (2026)",
+      "year": 2026,
+      "format": "Review",
+      "url": "https://stream.syscoi.com/2026/07/01/an-instant-review-of-whole-system-development-the-capacity-to-act-together-janoff-2026/",
+      "description": "How working with differences can develop the capacity for joint action, with questions about power, boundaries, and learning after the event.",
+      "date": "2026-07-01",
+      "tags": [
+        "convening",
+        "leadership",
+        "practice",
+        "systems",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "systems-leadership-change-practice"
+      ],
+      "relatedLinks": [
+        {
+          "title": "A wise perspective on building the capacity to act together in ‘whole systems’",
+          "label": "Read the shorter Chosen Path version",
+          "url": "https://chosen-path.org/2026/07/01/a-wise-perspective-on-building-the-capacity-to-act-together-in-whole-systems/"
+        }
+      ]
+    },
+    {
+      "title": "What if the most valuable thing in ‘whole system’ work is not seeing the whole system at all?",
+      "year": 2026,
+      "format": "Essay",
+      "url": "https://chosen-path.org/2026/04/14/what-if-the-most-valuable-thing-in-whole-system-work-is-not-seeing-the-whole-system-at-all/",
+      "description": "How bringing people together can expand understanding without revealing a complete, objective ‘whole system’. A later reflection connecting convening to the critical questions in my 2024 appendix.",
+      "date": "2026-04-14",
+      "tags": [
+        "convening",
+        "leadership",
+        "practice",
+        "systems",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "systems-leadership-change-practice"
+      ]
+    },
+    {
+      "title": "Is ‘systems convening’ a thing?",
+      "year": 2021,
+      "format": "Essay",
+      "url": "https://chosen-path.org/2021/09/15/is-systems-convening-a-thing/",
+      "description": "A critical examination of systems convening as an observed practice: social learning, context, naming, recognition, and the risks of turning it into a formula.",
+      "date": "2021-09-15",
+      "tags": [
+        "convening",
+        "leadership",
+        "systems",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "systems-leadership-change-practice"
+      ]
+    },
+    {
+      "title": "Something new has been named: #systemsconvening",
+      "year": 2021,
+      "format": "Article",
+      "url": "https://chosen-path.org/2021/08/05/something-new-has-been-named-systemsconvening/",
+      "description": "Why naming systems convening can recognise and support people already doing the work, and how codification and fashionable adoption can distort it.",
+      "date": "2021-08-05",
+      "tags": [
+        "convening",
+        "leadership",
+        "systems",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "systems-leadership-change-practice"
+      ]
+    },
+    {
+      "title": "Systems convening and boundary work",
+      "year": 2025,
+      "format": "PDF",
+      "url": "/library/files/talks/systems-convening-and-boundaries.pdf",
+      "description": "A compact route into systems convening and working across boundaries.",
+      "tags": [
+        "convening",
+        "leadership",
+        "practice",
+        "systems"
+      ],
+      "pages": [
+        "systems-leadership-change-practice",
+        "talks-and-sessions"
+      ]
+    },
+    {
+      "title": "Spaces and leadership stands",
+      "year": 2025,
+      "format": "PDF",
+      "url": "/library/files/talks/spaces-and-leadership-stands.pdf",
+      "description": "Systemic position and possible leadership responses.",
+      "tags": [
+        "leadership",
+        "practice",
+        "systems"
+      ],
+      "pages": [
+        "systems-leadership-change-practice",
+        "talks-and-sessions"
+      ]
+    },
+    {
+      "title": "Systems Leadership, Systems Change, Systems Theory, and Systems Practice (And Systems Convening)",
+      "year": 2023,
+      "format": "Presentation PDF",
+      "url": "https://chosen-path.org/wp-content/uploads/2024/04/2023-06-28-benjamin-taylor-for-ou-systems-community-systems-leadership-change-theory-and-practice-v0.6bt17.pdf",
+      "description": "The later presentation bringing together systems leadership, change, theory, practice, and convening, with questions about legitimacy, effectiveness, and learning.",
+      "date": "2023-06-28",
+      "tags": [
+        "change",
+        "convening",
+        "leadership",
+        "practice",
+        "systems"
+      ],
+      "pages": [
+        "systems-leadership-change-practice",
+        "talks-and-sessions"
+      ]
+    },
+    {
+      "title": "Systems Leadership, Change, Theory and Practice — SCiO",
+      "year": 2022,
+      "format": "Recorded talk and presentation",
+      "url": "https://www.systemspractice.org/resources/systems-leadership-change-theory-and-practice",
+      "description": "The SCiO session developing the two 2021 articles, exploring the different meanings of systems leadership and systems change. SCiO’s resource page brings the recording and presentation together.",
+      "date": "2022-07-11",
+      "tags": [
+        "change",
+        "leadership",
+        "scio",
+        "systems",
+        "video"
+      ],
+      "pages": [
+        "systems-leadership-change-practice",
+        "talks-and-sessions",
+        "videos"
+      ],
+      "relatedLinks": [
+        {
+          "title": "Benjamin Taylor — July 2022 — SCiO Open Meeting",
+          "label": "Watch the recording",
+          "url": "https://www.youtube.com/watch?v=2JIZojh42PA"
+        },
+        {
+          "title": "What do ‘systems leadership’ and ‘systems change’ mean to you? What questions would you like me to answer?",
+          "label": "Read the accompanying questions and introduction",
+          "url": "https://chosen-path.org/2022/07/11/what-do-systems-leadership-and-systems-change-mean-to-you-what-questions-would-you-like-me-to-answer/"
+        }
+      ]
+    },
+    {
+      "title": "What the hell is systems | complexity | cybernetics anyway?",
+      "year": 2022,
+      "format": "Session introduction, recording, and resources",
+      "url": "https://chosen-path.org/2022/06/13/what-the-hell-is-systems-complexity-cybernetics-anyway/",
+      "description": "How systems thinking and practice can contribute to systems convening, through framing, boundaries, power, agency, and learning. The session, ‘Systems convening, systems thinking, and systems practice’, is available below.",
+      "date": "2022-06-13",
+      "tags": [
+        "convening",
+        "leadership",
+        "practice",
+        "recordings",
+        "systems",
+        "video"
+      ],
+      "pages": [
+        "systems-leadership-change-practice",
+        "talks-and-sessions",
+        "videos"
+      ],
+      "relatedLinks": [
+        {
+          "title": "Systems Convening, Systems Thinking, and Systems Practice, with Benjamin Taylor",
+          "label": "Watch the PSTA recording",
+          "url": "https://www.youtube.com/watch?v=XdvRUwVSu3I"
+        },
+        {
+          "title": "Systems convening session files",
+          "label": "Open the session files",
+          "url": "https://www.dropbox.com/scl/fo/4hs8l98k790ci2qizlr3q/AM1dLNakFp8WzPmGHvAlxwo?rlkey=9qam6r9dp7os640591y0o9bvy&dl=0"
+        }
+      ]
+    },
+    {
+      "title": "The walls come back: why relational public services fail after they work",
+      "year": 2026,
+      "format": "Essay",
+      "url": "https://chosen-path.org/2026/08/12/the-walls-come-back-why-relational-public-services-fail-after-they-work/",
+      "description": "Why successful relational pilots remain fragile when funding, authority, measures, and accountability retain the previous arrangements, and what must change for the work to last.",
+      "date": "2026-08-12",
+      "tags": [
+        "change",
+        "public-services",
+        "relational",
+        "systems",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "systems-leadership-change-practice"
       ]
     }
   ]

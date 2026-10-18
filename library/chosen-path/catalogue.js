@@ -50,7 +50,7 @@
     current = scoreDocuments(terms)
       .filter(({ document }) => year.value === 'all' || document.year === year.value)
       .filter(({ document }) => activeTopic === 'all' || document.topics.includes(activeTopic))
-      .filter(({ document }) => !source || source.value === 'all' || document.source === source.value);
+      .filter(({ document }) => !source || source.value === 'all' || document.source === source.value || document.sourceKeys?.includes(source.value));
 
     const direction = sort.value;
     current.sort((a, b) => {
