@@ -115,6 +115,14 @@ function mergeSystemsLeadershipVersions(documents) {
       canonicalByUrl.set(keyFor(url), item.url);
     }
   }
+  // Authored essays can appear as full originals, pointers, and component posts.
+  // Preserve their source memberships while linking to the reviewed main work.
+  const recentWriting = JSON.parse(readFileSync('content/recent-writing.json', 'utf8'));
+  for (const item of recentWriting.works) {
+    for (const url of [item.url, ...(item.aliases || [])]) {
+      canonicalByUrl.set(keyFor(url), item.url);
+    }
+  }
   const grouped = new Map();
   const result = [];
   for (const document of documents) {
