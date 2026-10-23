@@ -269,7 +269,7 @@ resourcePage({ slug: 'outcomes-and-complexity', title: 'Outcomes and complexity'
 resourcePage({ slug: 'five-core-practices', title: 'Five core leadership practices', description: 'Intent, honest conversations, clarity, culture, and learning as practical disciplines of leadership.', groups: [{ title: 'Material', items: [
   { title: 'Clarity practices', meta: '2024 · presentation', description: 'An extended teaching deck on clarity and the five core practices.', url: '/library/files/talks/clarity-practices.pdf' },
   { title: 'Five core leadership practices,  StretchCon', meta: '2022 · extended presentation', description: 'The five practices with reading recommendations.', url: 'https://www.dropbox.com/scl/fi/mumd3h20uux050a6noe7q/2022-11-28-Benjamin-Taylor-five-core-leadership-practices-for-Stretchcon-extended-with-reading-recommendations.pdf?rlkey=zc8jzlmbelk81jn1xxaw1y80c&dl=0' },
-  { title: 'Five core leadership practices for LinkedIn', meta: '2021 · short visual account', description: 'A compact introduction.', url: 'https://www.dropbox.com/scl/fi/dojeq5hdnlcezbieuhn3c/Benjamin-Taylor-five-core-leadership-practices-for-linkedin.pdf?rlkey=bnv58vc15zll8rli72i7x8yhl&dl=0' },
+  { title: 'Five core leadership practices for LinkedIn', meta: 'December 2020 · short visual account', description: 'A compact introduction.', url: 'https://www.dropbox.com/scl/fi/dojeq5hdnlcezbieuhn3c/Benjamin-Taylor-five-core-leadership-practices-for-linkedin.pdf?rlkey=bnv58vc15zll8rli72i7x8yhl&dl=0' },
 ] }] });
 
 resourcePage({ slug: 'large-group-processes', title: 'Large-group processes', description: 'Whole-system and participatory methods, with a searchable collection and a detailed teaching deck.', groups: [{ title: 'Material', items: [

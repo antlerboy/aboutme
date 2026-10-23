@@ -1,6 +1,6 @@
 {
   "title": "Benjamin P Taylor public work library",
-  "updated": "2026-10-21",
+  "updated": "2026-10-23",
   "pages": [
     {
       "slug": "cybernetics-is-not-the-banana",
@@ -459,18 +459,18 @@
       ]
     },
     {
-      "title": "Transformation with and without easy answers",
-      "year": 2026,
+      "title": "Transformation with and without easy answers — Dennis Vergne",
       "format": "visual or article",
       "url": "https://www.dropbox.com/scl/fi/y9tultqci5zu29c37g10q/Transformation-with-and-without-easy-answers.pdf?rlkey=kzrcftri46adkca5md4z1561n&dl=0",
-      "description": "A visual comparison of transformation with and without predetermined answers.",
+      "description": "A visual account by Dennis Vergne, first published in the Capital Ambition transformation book. The original publication date has not been verified.",
       "tags": [
         "visual",
         "publication"
       ],
       "pages": [
         "visual-models"
-      ]
+      ],
+      "date": "Historical; publication date unverified"
     },
     {
       "title": "The ladder of relationality in public service",
@@ -697,17 +697,17 @@
     },
     {
       "title": "35 doughnuts",
-      "year": 2026,
       "format": "visual or article",
       "url": "https://www.dropbox.com/scl/fi/c66vmp2bkusv6i1dd6ldi/35-doughnuts.pdf?rlkey=ffozdnv00ymkn3ctylrqrcpe0&dl=0",
-      "description": "A visual piece about systems, boundaries and repeated attempts to make the world fit the diagram.",
+      "description": "An analysis of responses to Ja Cattell’s appeal for ideas about UK recovery after coronavirus, including listening to people, sustainability, and Doughnut Economics. Publication date unverified.",
       "tags": [
         "visual",
         "publication"
       ],
       "pages": [
         "visual-models"
-      ]
+      ],
+      "date": "Historical; publication date unverified"
     },
     {
       "title": "The map is the territory - Cybernetics is not the banana, part two",
@@ -1194,10 +1194,10 @@
     },
     {
       "title": "Five core leadership practices for LinkedIn",
-      "year": 2021,
+      "year": 2020,
       "format": "PDF",
       "url": "https://www.dropbox.com/scl/fi/dojeq5hdnlcezbieuhn3c/Benjamin-Taylor-five-core-leadership-practices-for-linkedin.pdf?rlkey=bnv58vc15zll8rli72i7x8yhl&dl=0",
-      "description": "A compact visual account of the five practices.",
+      "description": "Benjamin Taylor’s five core practices, dated December 2020 on the document cover.",
       "tags": [
         "leadership",
         "visual"
@@ -1205,7 +1205,8 @@
       "pages": [
         "five-core-practices",
         "visual-models"
-      ]
+      ],
+      "date": "2020-12"
     },
     {
       "title": "Cybernetics is not the banana; a story of practice transfer",
@@ -2146,8 +2147,8 @@
       "title": "Worldwide systems-thinking events map",
       "year": "",
       "format": "Map",
-      "url": "https://goo.gl/4PXkCg",
-      "description": "Nick Ananin's map of systems-thinking events.",
+      "url": "https://transduction.systems/events/",
+      "description": "A worldwide directory of systems, cybernetics, and complexity events, collected by Benjamin P Taylor.",
       "tags": [
         "systems",
         "events"
@@ -5550,6 +5551,42 @@
       ],
       "year": 2026,
       "format": "Essay",
+      "pages": [
+        "articles-and-essays"
+      ]
+    },
+    {
+      "title": "When a chief executive sorts it out, what changes for the next family?",
+      "date": "2026-10-23",
+      "year": 2026,
+      "format": "Essay",
+      "url": "https://chosen-path.org/2026/10/23/suppose-a-chief-executive-makes-a-phone-call-and-sorts-out-a-problem-that-public-services-have-spent-months-passing-between-them-what-happens-to-the-next-person-to-face-the-same-problem/",
+      "description": "A personal intervention can solve one problem while leaving the same barrier for the next family. Drawing on Leading for Place, I ask who owes residents an answer about changes to rules, funding, and responsibility.",
+      "tags": [
+        "public-services",
+        "systems",
+        "relational",
+        "leadership",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays"
+      ]
+    },
+    {
+      "title": "When a pilot works, who changes the rules?",
+      "date": "2026-10-22",
+      "year": 2026,
+      "format": "Essay",
+      "url": "https://chosen-path.org/2026/10/22/if-a-public-service-testlearngrow-idea-succeeds-because-someone-senior-makes-an-exception-to-a-funding-rule-what-happens-when-that-person-changes-jobs/",
+      "description": "A pilot can help one family while leaving the next dependent on another exception. I examine how Test, Learn and Grow can turn learning into changes to funding, authority, and accountability.",
+      "tags": [
+        "public-services",
+        "systems",
+        "relational",
+        "leadership",
+        "writing"
+      ],
       "pages": [
         "articles-and-essays"
       ]

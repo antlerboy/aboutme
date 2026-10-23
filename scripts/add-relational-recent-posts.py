@@ -9,6 +9,9 @@ import re
 import sys
 
 POSTS = [
+    {'date': '23 October 2026', 'title': 'When a chief executive sorts it out, what changes for the next family?', 'url': 'https://chosen-path.org/2026/10/23/suppose-a-chief-executive-makes-a-phone-call-and-sorts-out-a-problem-that-public-services-have-spent-months-passing-between-them-what-happens-to-the-next-person-to-face-the-same-problem/', 'summary': 'A personal intervention can solve one problem while leaving the same barrier for the next family. Drawing on Leading for Place, I ask who owes residents an answer about changes to rules, funding, and responsibility.'},
+    {'date': '22 October 2026', 'title': 'When a pilot works, who changes the rules?', 'url': 'https://chosen-path.org/2026/10/22/if-a-public-service-testlearngrow-idea-succeeds-because-someone-senior-makes-an-exception-to-a-funding-rule-what-happens-when-that-person-changes-jobs/', 'summary': 'A pilot can help one family while leaving the next dependent on another exception. I examine how Test, Learn and Grow can turn learning into changes to funding, authority, and accountability.'},
+
     {
         'date': '13 October 2026',
         'title': 'Legibility without destruction',
@@ -45,7 +48,7 @@ def section():
         items.append('<li><strong><a href="' + escape(post['url'], quote=True) + '">' + escape(post['title']) + '</a></strong><p><small>' + escape(post['date']) + ' | Benjamin P Taylor | Published post</small></p><p>' + escape(post['summary']) + '</p></li>')
     return (START + '\n<section id="recent-relational-writing" class="section"><div class="wrap">'
             '<h2>Recent writing: legibility, devolution, and practical change</h2>'
-            '<p>Selected published posts, added 15 October 2026. Each article links to its LinkedIn discussion.</p>'
+            '<p>Selected published posts, updated 23 October 2026. Each article links to its LinkedIn discussion.</p>'
             '<ul class="resource-list">' + ''.join(items) + '</ul></div></section>\n' + END)
 
 
