@@ -66,3 +66,6 @@
 @media (prefers-reduced-motion: reduce) {
   .antler-branch, .banana-button { transition: none !important; }
 }
+
+/* Banana peel keeps the original quiet, inline control and interaction. */
+.banana-skin { display:inline-block; width:1.35em; height:1em; vertical-align:-.12em; overflow:visible; }
