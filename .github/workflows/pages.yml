@@ -14,10 +14,15 @@ concurrency:
   cancel-in-progress: false
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     steps:
       - name: Check out repository
         uses: actions/checkout@v7
+      - name: Set up Node.js 24
+        uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
       - name: Add the systems practice collection and catalogue records
         run: python3 scripts/add-systems-practice.py
       - name: Add September publications
@@ -66,7 +71,7 @@ jobs:
         run: python3 scripts/inject-visit-analytics.py _site
       - name: Install pinned browser test runner
         run: |
-          npm install --prefix /tmp/practice-browser --no-save playwright@1.55.0
+          npm install --prefix /tmp/practice-browser --no-save playwright@1.64.1
           /tmp/practice-browser/node_modules/.bin/playwright install --with-deps chromium
       - name: Check library navigation, catalogue, search and mobile layout
         env:
@@ -123,15 +128,20 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v5
   verify-live:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     needs: deploy
     permissions:
       contents: read
     steps:
       - uses: actions/checkout@v7
+      - name: Set up Node.js 24
+        uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
       - name: Install pinned browser test runner
         run: |
-          npm install --prefix /tmp/practice-browser --no-save playwright@1.55.0
+          npm install --prefix /tmp/practice-browser --no-save playwright@1.64.1
           /tmp/practice-browser/node_modules/.bin/playwright install --with-deps chromium
       - name: Check the actual live library and catalogues
         env:
