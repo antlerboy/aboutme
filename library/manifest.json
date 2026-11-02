@@ -1,6 +1,6 @@
 {
   "title": "Benjamin P Taylor public work library",
-  "updated": "2026-10-24",
+  "updated": "2026-11-02",
   "pages": [
     {
       "slug": "cybernetics-is-not-the-banana",
@@ -130,6 +130,17 @@
       "tags": [
         "practice",
         "tools"
+      ]
+    },
+    {
+      "slug": "large-group-processes/mentor",
+      "title": "Large group process mentor",
+      "type": "body-of-work",
+      "description": "Portable instructions for using Benjamin Taylor's large group process guidance in your own AI assistant: choosing approaches, challenging designs, and planning follow-through.",
+      "tags": [
+        "practice",
+        "tools",
+        "facilitation"
       ]
     },
     {
