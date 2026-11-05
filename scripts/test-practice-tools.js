@@ -136,6 +136,7 @@ async function main() {
   await page.locator('#grip').fill('4');
   assert(await page.locator('#tool-results').isHidden());
   await page.locator('#import-assessment').setInputFiles(assessmentPath);
+  await page.getByText('Assessment loaded. Check the scores, then calculate.', { exact: true }).waitFor();
   assert.equal(await page.locator('#grip').inputValue(), '3');
   await page.locator('#assessment-form button[type="submit"]').click();
   assert((await page.locator('#ranking article').first().innerText()).includes('100.0%'));
