@@ -1,6 +1,6 @@
 # Public work and practical routes
 
-Antlerboy is Benjamin's personal public-work and practice hub. It connects the writing, resources, tools, and facilitated support without treating a community-curated link as his authorship or endorsement.
+Antlerboy connects Benjamin's public writing, practical guides, tools, and facilitated support. Catalogue badges identify entries from the writing archive, the curated library, and the community link record.
 
 The roles are explicit at `/library/use/#where-things-live`: Chosen Path holds the writing archive, SysCoI the broad community link record, The Necessary Tangle the source-backed field atlas, RedQuadrant consulting and implementation, and PSTA capability development. Greebling remains the full directory.
 
@@ -15,7 +15,7 @@ The roles are explicit at `/library/use/#where-things-live`: Chosen Path holds t
 
 RedQuadrant owns the programme record at `https://redquadrant.com/records/leading-transformation.json`. `content/leading-transformation.json` is its reviewed local snapshot. It supplies the 24-module curriculum, fees, support routes, and delivery/materials status for `/toolshed/`.
 
-The scheduled publication checks this snapshot against the owner record. A change stops the build, so a stale curriculum or fee doesn't silently remain live. To reconcile an authorised change:
+The publishing workflow checks the snapshot against the owner record. A difference stops the build and requires review before the next publication. To reconcile an authorised change:
 
 ```text
 python scripts/sync-programme-record.py --refresh

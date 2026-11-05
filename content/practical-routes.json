@@ -3,8 +3,8 @@
   "routes": [
     {
       "id": "recurring-barrier",
-      "title": "A good project keeps meeting the same barrier",
-      "intro": "A relationship or an exception gets one person through. The rule, hand-off, or funding condition remains for the next person.",
+      "title": "Rules, funding, and responsibility",
+      "intro": "A project may help people through individual interventions or exceptions. Identify what would have to change for others to get the same help.",
       "time": "20 minutes with someone who sees another part of the work",
       "prompts": ["Follow one person's experience far enough to see the recurring difficulty.", "Name the decision that would change it, who can make it, and who is affected but absent.", "Ask what answer is owed, by whom, and by when. Record disagreement and what would change your account."],
       "output": "A short account of the barrier, an identified decision, and an agreed next conversation.",
@@ -18,8 +18,8 @@
     },
     {
       "id": "difficult-conversation",
-      "title": "I need a more useful agreement or a difficult conversation",
-      "intro": "Start with the work, your own contribution, and what each person can honestly commit to.",
+      "title": "Agreements and difficult conversations",
+      "intro": "Clarify what you can each do, what you need from one another, and what you have been avoiding.",
       "time": "Five minutes alone, then a rehearsal with a colleague",
       "prompts": ["Write down the help being requested, the help you can offer, and the responsibility you can take.", "Separate what you have observed from what you infer. Include your part in the difficulty.", "Rehearse the question or request you need to put to the other person. Check what would count as a workable agreement."],
       "output": "A prepared opening, a clear request, and a proposed agreement you can revisit.",
@@ -33,8 +33,8 @@
     },
     {
       "id": "choose-intervention",
-      "title": "I need to choose a group process or intervention",
-      "intro": "A method comes with assumptions about purpose, participation, authority, and what happens after the meeting.",
+      "title": "Choosing a group process",
+      "intro": "Choose a process for the work people need to do, the decisions they can make, and the resources available afterwards.",
       "time": "Half an hour with the sponsor or a design partner",
       "prompts": ["Specify the work participants need to do and which decisions are open to them.", "Identify whose knowledge, interests, and authority need to be present. Ask who might bear the consequences without a voice.", "Compare plausible processes against those conditions, and make follow-through someone's actual responsibility."],
       "output": "A justified process choice, its conditions, and an explicit plan for decisions and follow-through.",
@@ -48,8 +48,8 @@
     },
     {
       "id": "team-pattern",
-      "title": "A team or organisation keeps reproducing a difficult pattern",
-      "intro": "Examine roles and relationships alongside individual behaviour. Treat your first explanation as a hypothesis.",
+      "title": "Recurring patterns in a team",
+      "intro": "Describe the recurring difficulty. Use a model to examine how roles, relationships, and decisions might be producing it, including your part.",
       "time": "30 minutes with people in different positions",
       "prompts": ["Choose a recurring event and describe it without assigning motives.", "Use the Four Dynamics or VSM to look for a different explanation. Check it with people in other roles.", "Choose a small change to a relationship, role, or decision. Name what you will observe, including unintended effects."],
       "output": "A testable account of the pattern and one change with a review date.",
@@ -63,8 +63,8 @@
     },
     {
       "id": "delivery-choice",
-      "title": "We need to examine a commissioning or delivery arrangement",
-      "intro": "Compare what an arrangement requires with the purpose, relationships, capability, and accountability it has to support.",
+      "title": "Commissioning and delivery choices",
+      "intro": "Compare arrangements against the outcomes sought, the work involved, and what each would ask of the people using and providing services.",
       "time": "A working session with different parties to the arrangement",
       "prompts": ["State the outcome sought, whose experience will show whether it is happening, and the decisions available.", "Use a Compass to open the inquiry, or compare delivery arrangements with the arms-lengthiness tool.", "Record the mismatches and conditions you would need to change. Check the judgement with people who would do and experience the work."],
       "output": "An options note that makes assumptions, differences, and necessary conditions visible.",
@@ -78,8 +78,8 @@
     },
     {
       "id": "develop-practice",
-      "title": "I want to develop a method through real work",
-      "intro": "Use a technical dry run to find a misunderstanding, then examine what changes when the method meets a real situation.",
+      "title": "Developing a method through practice",
+      "intro": "Try a method on a defined question, compare your attempt with the worked example, and decide what support you need before using it with others.",
       "time": "One exercise, a comparison, and a conversation about transfer",
       "prompts": ["Choose a method for a specific question. Say why its assumptions fit and where they might fail.", "Attempt an exercise before opening the worked comparison. Record what you changed your mind about.", "Choose a modest real-world application with someone affected by the work, and agree how you will learn from it."],
       "output": "An attempted model, a reasoned revision, and a plan for supported application.",
