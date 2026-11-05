@@ -2,7 +2,7 @@
 
 Antlerboy connects Benjamin's public writing, practical guides, tools, and facilitated support. Catalogue badges identify entries from the writing archive, the curated library, and the community link record.
 
-The roles are explicit at `/library/use/#where-things-live`: Chosen Path holds the writing archive, SysCoI the broad community link record, The Necessary Tangle the source-backed field atlas, RedQuadrant consulting and implementation, and PSTA capability development. Greebling remains the full directory.
+The roles are explicit at `/library/use/#where-things-live`: Chosen Path holds the writing archive, SysCoI the broad community link record, The Necessary Tangle the source-backed field atlas, RedQuadrant consulting and implementation, and the PSTA capability development. Greebling remains the full directory.
 
 ## Maintained sources
 

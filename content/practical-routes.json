@@ -69,11 +69,11 @@
       "prompts": ["State the outcome sought, whose experience will show whether it is happening, and the decisions available.", "Use a Compass to open the inquiry, or compare delivery arrangements with the arms-lengthiness tool.", "Record the mismatches and conditions you would need to change. Check the judgement with people who would do and experience the work."],
       "output": "An options note that makes assumptions, differences, and necessary conditions visible.",
       "resources": [
-        {"title": "PSTA Compasses: choose an assessment route", "url": "https://publicservicetransformation.org/tools/"},
+        {"title": "Choose a Compass from the Public Service Transformation Academy", "url": "https://publicservicetransformation.org/tools/"},
         {"title": "Arms-lengthiness: compare delivery arrangements", "url": "/arms-lengthiness/"},
         {"title": "Outcomes, complexity, and the measures we use", "url": "/library/outcomes-and-complexity/"}
       ],
-      "support": {"title": "Explore PSTA commissioning programmes", "url": "https://publicservicetransformation.org/programmes/"},
+      "support": {"title": "Explore commissioning programmes with the PSTA", "url": "https://publicservicetransformation.org/programmes/"},
       "note": "Purpose, outcomes sought, and whose experience matters:\n\nOptions and decisions available:\n\nEvidence, assumptions, and differences of view:\n\nFit and mismatches in each arrangement:\n\nConditions or capabilities that would need to change:\n\nWho will test this judgement, and next decision date:\n"
     },
     {

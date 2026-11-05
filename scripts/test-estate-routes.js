@@ -82,10 +82,10 @@ async function main() {
   for (const module of record.modules) assert.equal(await page.getByRole('heading', { name: module.title, exact: true, includeHidden: true }).count(), 1);
   await page.locator('#curriculum summary').first().click();
   assert(await page.getByRole('heading', { name: record.modules[0].title, exact: true }).isVisible());
-  assert.equal(await page.getByRole('link', { name: 'Explore Leading Transformation through PSTA' }).getAttribute('href'), record.routes.psta.url);
+  assert.equal(await page.getByRole('link', { name: 'Explore Leading Transformation through the PSTA' }).getAttribute('href'), record.routes.psta.url);
   assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 2));
   await page.screenshot({ path: path.join(out, 'toolshed-mobile.png'), fullPage: true });
-  report.checks.push('24 current module titles; programme source version and PSTA route; mobile curriculum layout');
+  report.checks.push('24 current module titles; programme source version and the PSTA route; mobile curriculum layout');
   const nojs = await browser.newContext({ javaScriptEnabled: false });
   const plain = await nojs.newPage();
   await plain.goto(base + '/library/use/');

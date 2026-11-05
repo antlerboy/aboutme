@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "selection_as_of": "2026-11-05T22:40:13.208130+00:00",
+  "source_commit": null,
+  "source_paths": [
+    "content/latest.json",
+    "content/latest-fallbacks.json"
+  ],
+  "review_after_days": 14,
+  "review_needed": false,
+  "review_due_topics": [],
+  "expired_topics": [],
+  "fallback_topics": [],
+  "next_transition_at": null,
+  "selected": [
+    {
+      "topic": "public-service-accountability",
+      "source": "Chosen Path · 23 October 2026",
+      "title": "When a chief executive sorts it out, what changes for the next family?",
+      "summary": "A personal intervention can solve one problem while leaving the same barrier for the next family. Drawing on Leading for Place, I ask who owes residents an answer about changes to rules, funding, and responsibility.",
+      "href": "https://chosen-path.org/2026/10/23/suppose-a-chief-executive-makes-a-phone-call-and-sorts-out-a-problem-that-public-services-have-spent-months-passing-between-them-what-happens-to-the-next-person-to-face-the-same-problem/",
+      "link_label": "Read it",
+      "reviewed_on": "2026-11-05",
+      "evergreen": true,
+      "selection_role": "primary"
+    },
+    {
+      "topic": "participation-and-power",
+      "source": "SysCoI · original essay · 7 October 2026",
+      "title": "Myron’s maxims: participation, power, and the work of change",
+      "summary": "An examination of participation, direction, real work, and responsibility. What do useful maxims hide when they are treated as universal truths?",
+      "href": "https://stream.syscoi.com/2026/10/07/myrons-maxims-participation-power-and-the-work-of-change-taylor-2026/",
+      "link_label": "Read it",
+      "reviewed_on": "2026-11-05",
+      "evergreen": true,
+      "selection_role": "primary"
+    },
+    {
+      "topic": "systems-leadership",
+      "source": "Chosen Path · 18 October 2026",
+      "title": "Where are the systems in ‘systems leadership’?",
+      "summary": "Investigating and changing recurring patterns, including our own part in them. A combined essay on leadership development, public health, power, and the conditions that keep problems recurring.",
+      "href": "https://chosen-path.org/2026/10/18/where-are-the-systems-in-systems-leadership/",
+      "link_label": "Read it",
+      "reviewed_on": "2026-11-05",
+      "evergreen": true,
+      "selection_role": "primary"
+    }
+  ],
+  "candidates": [
+    {
+      "topic": "public-service-accountability",
+      "source": "Chosen Path · 23 October 2026",
+      "title": "When a chief executive sorts it out, what changes for the next family?",
+      "summary": "A personal intervention can solve one problem while leaving the same barrier for the next family. Drawing on Leading for Place, I ask who owes residents an answer about changes to rules, funding, and responsibility.",
+      "href": "https://chosen-path.org/2026/10/23/suppose-a-chief-executive-makes-a-phone-call-and-sorts-out-a-problem-that-public-services-have-spent-months-passing-between-them-what-happens-to-the-next-person-to-face-the-same-problem/",
+      "link_label": "Read it",
+      "reviewed_on": "2026-11-05",
+      "evergreen": true,
+      "selection_role": "primary"
+    },
+    {
+      "topic": "participation-and-power",
+      "source": "SysCoI · original essay · 7 October 2026",
+      "title": "Myron’s maxims: participation, power, and the work of change",
+      "summary": "An examination of participation, direction, real work, and responsibility. What do useful maxims hide when they are treated as universal truths?",
+      "href": "https://stream.syscoi.com/2026/10/07/myrons-maxims-participation-power-and-the-work-of-change-taylor-2026/",
+      "link_label": "Read it",
+      "reviewed_on": "2026-11-05",
+      "evergreen": true,
+      "selection_role": "primary"
+    },
+    {
+      "topic": "systems-leadership",
+      "source": "Chosen Path · 18 October 2026",
+      "title": "Where are the systems in ‘systems leadership’?",
+      "summary": "Investigating and changing recurring patterns, including our own part in them. A combined essay on leadership development, public health, power, and the conditions that keep problems recurring.",
+      "href": "https://chosen-path.org/2026/10/18/where-are-the-systems-in-systems-leadership/",
+      "link_label": "Read it",
+      "reviewed_on": "2026-11-05",
+      "evergreen": true,
+      "selection_role": "primary"
+    },
+    {
+      "topic": "legibility-and-local-life",
+      "source": "Chosen Path · 13 October 2026",
+      "title": "Legibility without destruction",
+      "summary": "How can government understand what happens in a place without requiring local life to organise itself around a data return? Citizen-held measures, inquiry, assurance, and control.",
+      "href": "https://chosen-path.org/2026/10/13/legibility-without-destruction/",
+      "link_label": "Read it",
+      "reviewed_on": "2026-11-05",
+      "evergreen": true,
+      "selection_role": "fallback"
+    },
+    {
+      "topic": "relationships-and-management",
+      "source": "Chosen Path · 20 October 2026",
+      "title": "Peter Block has a deeply irritating habit; he consistently Gives Good Guru and makes you think, damnit.",
+      "summary": "Peter Block on relationships, resistance, and what our management and commissioning practices ask of people. What would change if the way we worked embodied the relationships we wanted?",
+      "href": "https://chosen-path.org/2026/10/20/peter-block-has-a-deeply-irritating-habit-he-consistently-gives-good-guru-and-makes-you-think-damnit/",
+      "link_label": "Read it",
+      "reviewed_on": "2026-11-05",
+      "evergreen": true,
+      "selection_role": "fallback"
+    },
+    {
+      "topic": "perspectives-on-systems",
+      "source": "Chosen Path · 22 September 2026",
+      "title": "No escape, no prison – on other perspectives on systems | cybernetics | complexity",
+      "summary": "Stability, change, and the limits of our ways of seeing. A response to criticism of the six-diagram account, with the longer original essay, diagrams, and self-critique.",
+      "href": "https://chosen-path.org/2026/09/22/no-escape-no-prison-on-other-perspectives-on-systems-cybernetics-complexity/",
+      "link_label": "Read it",
+      "reviewed_on": "2026-11-05",
+      "evergreen": true,
+      "selection_role": "fallback"
+    }
+  ]
+}
