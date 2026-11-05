@@ -1,6 +1,6 @@
 {
   "title": "Benjamin P Taylor public work library",
-  "updated": "2026-11-02",
+  "updated": "2026-11-05",
   "pages": [
     {
       "slug": "cybernetics-is-not-the-banana",
@@ -34,11 +34,12 @@
     },
     {
       "slug": "four-dynamics",
-      "title": "Four dynamics and robust systems",
+      "title": "Four team dynamics",
       "type": "body-of-work",
-      "description": "Differentiation, homogenisation, individuation and integration.",
+      "description": "Segment, blend, empower, and harmonise. Diagnose a pattern, examine its relationships, and design an intervention you can test.",
       "tags": [
         "systems",
+        "practice",
         "organisation"
       ]
     },
@@ -389,6 +390,17 @@
       "tags": [
         "public-services",
         "writing"
+      ]
+    },
+    {
+      "slug": "arms-lengthiness",
+      "title": "The arms-lengthiness tool",
+      "type": "body-of-work",
+      "description": "Compare delivery arrangements across 21 dimensions. Examine relative fit, mismatches, and the conditions a model would need to work.",
+      "tags": [
+        "systems",
+        "practice",
+        "organisation"
       ]
     }
   ],
@@ -2504,7 +2516,8 @@
         "organisation"
       ],
       "pages": [
-        "podcasts"
+        "podcasts",
+        "four-dynamics"
       ]
     },
     {
@@ -3050,7 +3063,8 @@
       ],
       "pages": [
         "videos",
-        "talks-and-sessions"
+        "talks-and-sessions",
+        "four-dynamics"
       ]
     },
     {
@@ -5618,6 +5632,158 @@
       "pages": [
         "articles-and-essays",
         "systems-leadership-change-practice"
+      ]
+    },
+    {
+      "title": "Connections and distinctions",
+      "year": 2026,
+      "format": "Practice guide and tool",
+      "url": "/four-dynamics/connections/",
+      "description": "The four dynamics bring several bodies of practice into conversation. Their terms illuminate different things, and shouldn’t be collapsed into one theory.",
+      "tags": [
+        "systems",
+        "practice",
+        "organisation"
+      ],
+      "pages": [
+        "four-dynamics"
+      ]
+    },
+    {
+      "title": "Diagnose the dynamics",
+      "year": 2026,
+      "format": "Practice guide and tool",
+      "url": "/four-dynamics/diagnose/",
+      "description": "Use recent events, compare experiences, and form a working judgement. The output is an experiment to discuss with the people involved.",
+      "tags": [
+        "systems",
+        "practice",
+        "organisation"
+      ],
+      "pages": [
+        "four-dynamics"
+      ]
+    },
+    {
+      "title": "Four team dynamics",
+      "year": 2026,
+      "format": "Practice guide and tool",
+      "url": "/four-dynamics/",
+      "description": "Segment, blend, empower, and harmonise. Diagnose the patterns in a team or organisation, and choose what to change.",
+      "tags": [
+        "systems",
+        "practice",
+        "organisation"
+      ],
+      "pages": [
+        "four-dynamics"
+      ]
+    },
+    {
+      "title": "Choose an intervention",
+      "year": 2026,
+      "format": "Practice guide and tool",
+      "url": "/four-dynamics/intervene/",
+      "description": "Change what people can actually do together. Try a bounded move, notice its effects, and adjust the rhythm.",
+      "tags": [
+        "systems",
+        "practice",
+        "organisation"
+      ],
+      "pages": [
+        "four-dynamics"
+      ]
+    },
+    {
+      "title": "Watch, listen, and read",
+      "year": 2026,
+      "format": "Practice guide and tool",
+      "url": "/four-dynamics/resources/",
+      "description": "The presentations, conversations, and adjoining work behind the four dynamics.",
+      "tags": [
+        "systems",
+        "practice",
+        "organisation"
+      ],
+      "pages": [
+        "four-dynamics"
+      ]
+    },
+    {
+      "title": "Cadenced culture: the full StretchCon presentation",
+      "year": 2023,
+      "format": "PDF · 101 slides",
+      "url": "/four-dynamics/materials/stretchcon-cadenced-culture.pdf",
+      "description": "The long presentation, with diagnosis, prescription, rituals, practices, and theory annexes.",
+      "tags": [
+        "systems",
+        "practice",
+        "organisation",
+        "stretchcon"
+      ],
+      "pages": [
+        "four-dynamics",
+        "talks-and-sessions"
+      ]
+    },
+    {
+      "title": "Arms-lengthiness",
+      "year": 2026,
+      "format": "Practice guide and tool",
+      "url": "/arms-lengthiness/",
+      "description": "A practical tool for choosing governance and delivery arrangements: 21 questions, 11 model families, relative fit, and the gaps worth examining.",
+      "tags": [
+        "systems",
+        "practice",
+        "organisation"
+      ],
+      "pages": [
+        "arms-lengthiness"
+      ]
+    },
+    {
+      "title": "Method and resources",
+      "year": 2026,
+      "format": "Practice guide and tool",
+      "url": "/arms-lengthiness/method/",
+      "description": "The relative-fit calculation, its limits, capability questions, public resources, and all 231 delivery model profile scores.",
+      "tags": [
+        "systems",
+        "practice",
+        "organisation"
+      ],
+      "pages": [
+        "arms-lengthiness"
+      ]
+    },
+    {
+      "title": "Eleven model families",
+      "year": 2026,
+      "format": "Practice guide and tool",
+      "url": "/arms-lengthiness/models/",
+      "description": "Eleven families of governance and delivery model, with their uses, capability requirements, risks, and questions for a decision.",
+      "tags": [
+        "systems",
+        "practice",
+        "organisation"
+      ],
+      "pages": [
+        "arms-lengthiness"
+      ]
+    },
+    {
+      "title": "Assess the arrangement you need",
+      "year": 2026,
+      "format": "Practice guide and tool",
+      "url": "/arms-lengthiness/tool/",
+      "description": "Compare 21 requirements with 11 delivery model profiles. Inspect differences, test small changes, and download or print your assessment.",
+      "tags": [
+        "systems",
+        "practice",
+        "organisation"
+      ],
+      "pages": [
+        "arms-lengthiness"
       ]
     }
   ]

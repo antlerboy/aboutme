@@ -41,6 +41,7 @@ jobs:
       - name: Prepare static site
         run: |
           python3 scripts/build-flawfulconsulting.py
+          python3 scripts/add-practice-microsites.py
           mkdir -p _site
           cp index.html _site/index.html
           cp 404.html _site/404.html
@@ -53,6 +54,8 @@ jobs:
           cp -R conversations _site/conversations
           cp -R sysprac26 _site/sysprac26
           cp -R flawfulconsulting _site/flawfulconsulting
+          cp -R four-dynamics _site/four-dynamics
+          cp -R arms-lengthiness _site/arms-lengthiness
           cp practice-rules.js _site/practice-rules.js
           touch _site/.nojekyll
           test -s _site/sysprac26/relational/index.html
@@ -73,6 +76,12 @@ jobs:
         run: |
           npm install --prefix /tmp/practice-browser --no-save playwright@1.64.1
           /tmp/practice-browser/node_modules/.bin/playwright install --with-deps chromium
+      - name: Check practice tool files and disclosure boundaries
+        run: python3 scripts/check-practice-tools.py _site
+      - name: Check practice tool interactions and mobile layout
+        env:
+          NODE_PATH: /tmp/practice-browser/node_modules
+        run: node scripts/test-practice-tools.js
       - name: Check library navigation, catalogue, search and mobile layout
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
@@ -92,8 +101,16 @@ jobs:
           python3 - <<'PY'
           import json,os
           from pathlib import Path
+          Path('_site/practice-tools-publication.json').write_text(json.dumps({'commit':os.environ['DEPLOY_COMMIT'],'resources':['four-dynamics','arms-lengthiness']},indent=2)+'\n')
           Path('_site/library/practice-publication.json').write_text(json.dumps({'commit':os.environ['DEPLOY_COMMIT'],'resource':'systems-methods-practice','status':'alpha'},indent=2)+'\n')
           PY
+      - name: Preserve practice tool build evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: practice-tools-build-check
+          path: validation/practice-tools
+          if-no-files-found: ignore
       - name: Preserve test evidence
         if: always()
         uses: actions/upload-artifact@v4
@@ -143,6 +160,12 @@ jobs:
         run: |
           npm install --prefix /tmp/practice-browser --no-save playwright@1.64.1
           /tmp/practice-browser/node_modules/.bin/playwright install --with-deps chromium
+      - name: Check the live practice tools
+        env:
+          NODE_PATH: /tmp/practice-browser/node_modules
+          TOOLS_BASE_URL: https://antlerboy.com
+          DEPLOY_COMMIT: ${{ github.sha }}
+        run: node scripts/test-practice-tools.js
       - name: Check the actual live library and catalogues
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
@@ -155,6 +178,13 @@ jobs:
           RELATIONAL_BASE_URL: https://antlerboy.com
           DEPLOY_COMMIT: ${{ github.sha }}
         run: node scripts/test-relational-guide.js
+      - name: Preserve practice tool live evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: practice-tools-live-check
+          path: validation/practice-tools
+          if-no-files-found: ignore
       - name: Preserve live test evidence
         if: always()
         uses: actions/upload-artifact@v4
