@@ -53,11 +53,12 @@ async function main() {
     assert.equal((await response.json()).commit, process.env.DEPLOY_COMMIT);
     report.checks.push('live deployment commit');
   }
-  const pages = ['four-dynamics', 'arms-lengthiness'].flatMap(slug => routes(path.join(root, slug)));
+  const routeRoot = process.env.TOOLS_BASE_URL ? process.cwd() : root;
+  const pages = ['four-dynamics', 'arms-lengthiness'].flatMap(slug => routes(path.join(routeRoot, slug)));
   for (const width of [1440, 390]) {
     await page.setViewportSize({ width, height: 1000 });
     for (const file of pages) {
-      const route = '/' + path.relative(root, path.dirname(file)).split(path.sep).join('/') + '/';
+      const route = '/' + path.relative(routeRoot, path.dirname(file)).split(path.sep).join('/') + '/';
       const response = await page.goto(base + route, { waitUntil: 'networkidle' });
       assert.equal(response.status(), 200, route);
       assert.equal(await page.locator('h1').count(), 1, route);
@@ -70,6 +71,15 @@ async function main() {
     }
   }
   report.checks.push(pages.length + ' guide pages at desktop and mobile sizes; navigation, metadata, and overflow');
+  for (const collection of ['catalogue', 'search']) {
+    const response = await context.request.get(base + '/library/' + collection + '/catalogue.json');
+    assert.equal(response.status(), 200);
+    const urls = new Set((await response.json()).documents.map(item => item.url));
+    for (const route of ['/four-dynamics/', '/four-dynamics/diagnose/', '/arms-lengthiness/', '/arms-lengthiness/tool/']) {
+      assert(urls.has(route), collection + ': missing tool record ' + route);
+    }
+  }
+  report.checks.push('both microsites and working tools appear in the library and global search catalogues');
   await page.setViewportSize({ width: 1440, height: 1000 });
   await page.goto(base + '/four-dynamics/diagnose/', { waitUntil: 'networkidle' });
   await page.getByRole('button', { name: 'Show prompts for action' }).click();
