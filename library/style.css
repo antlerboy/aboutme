@@ -145,6 +145,30 @@ h3 { color: var(--chocolate); font-size: 1.18rem; }
 .catalogue-result { max-width: 920px; border-top: 1px solid var(--line); padding: 22px 0; }
 .catalogue-result h3 { font-family: Georgia, "Times New Roman", serif; font-size: 1.45rem; }
 .catalogue-result p:not(.eyebrow) { max-width: 820px; margin: 10px 0; color: #383230; }
+.catalogue-result .source-badge { color: var(--chocolate); background: #f4e9de; border: 1px solid var(--line); }
+.provenance { margin-bottom: 12px; }
+.catalogue-controls { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+.catalogue-controls .field-wide { grid-column: 1 / -1; }
+.catalogue-controls .field { min-width: 0; }
+.catalogue-controls .field input, .catalogue-controls .field select { min-width: 0; max-width: 100%; flex: initial; }
+.catalogue-results { grid-template-columns: minmax(0, 1fr); }
+.catalogue-result { min-width: 0; overflow-wrap: anywhere; }
+.search-help { max-width: 75ch; }
+.route-index { display: grid; gap: 10px; padding-left: 22px; }
+.route { scroll-margin-top: 25px; }
+.route .wrap { max-width: 900px; }
+.route ol li { margin: 12px 0; max-width: 75ch; }
+.working-note { margin: 24px 0; border: 1px solid var(--line); border-radius: 10px; padding: 18px; }
+.working-note summary { cursor: pointer; font-weight: 750; font-size: 1.1rem; }
+.working-note label { display: block; margin: 18px 0 8px; font-weight: 700; }
+.working-note textarea { width: 100%; box-sizing: border-box; min-height: 300px; padding: 12px; font: 1rem/1.6 Arial, sans-serif; color: #292323; border: 1px solid #8c7870; border-radius: 5px; resize: vertical; }
+.site-roles dt { font-weight: 750; margin-top: 20px; }
+.site-roles dd { margin: 5px 0 0; max-width: 75ch; }
+@media print {
+  .working-note { break-inside: avoid; }
+  .working-note textarea { border: 0; min-height: 260px; }
+  .working-note button, .route-index { display: none; }
+}
 
 footer { border-top: 1px solid var(--line); padding: 30px 0 45px; color: var(--muted); font-size: .9rem; }
 

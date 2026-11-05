@@ -402,6 +402,17 @@
         "practice",
         "organisation"
       ]
+    },
+    {
+      "slug": "use",
+      "title": "Start with your situation",
+      "type": "practical-routes",
+      "description": "Six routes from a live question to a working note and next step, using the public writing, tools, and facilitated support.",
+      "tags": [
+        "practice",
+        "public-services",
+        "systems"
+      ]
     }
   ],
   "resources": [
@@ -5784,6 +5795,72 @@
       ],
       "pages": [
         "arms-lengthiness"
+      ]
+    },
+    {
+      "title": "A good project keeps meeting the same barrier",
+      "url": "/library/use/#recurring-barrier",
+      "description": "A relationship or an exception gets one person through. The rule, hand-off, or funding condition remains for the next person. A short account of the barrier, an identified decision, and an agreed next conversation.",
+      "format": "Practical route and downloadable working note",
+      "year": "2026",
+      "tags": [
+        "practice",
+        "public-services"
+      ]
+    },
+    {
+      "title": "I need a more useful agreement or a difficult conversation",
+      "url": "/library/use/#difficult-conversation",
+      "description": "Start with the work, your own contribution, and what each person can honestly commit to. A prepared opening, a clear request, and a proposed agreement you can revisit.",
+      "format": "Practical route and downloadable working note",
+      "year": "2026",
+      "tags": [
+        "practice",
+        "public-services"
+      ]
+    },
+    {
+      "title": "I need to choose a group process or intervention",
+      "url": "/library/use/#choose-intervention",
+      "description": "A method comes with assumptions about purpose, participation, authority, and what happens after the meeting. A justified process choice, its conditions, and an explicit plan for decisions and follow-through.",
+      "format": "Practical route and downloadable working note",
+      "year": "2026",
+      "tags": [
+        "practice",
+        "public-services"
+      ]
+    },
+    {
+      "title": "A team or organisation keeps reproducing a difficult pattern",
+      "url": "/library/use/#team-pattern",
+      "description": "Examine roles and relationships alongside individual behaviour. Treat your first explanation as a hypothesis. A testable account of the pattern and one change with a review date.",
+      "format": "Practical route and downloadable working note",
+      "year": "2026",
+      "tags": [
+        "practice",
+        "public-services"
+      ]
+    },
+    {
+      "title": "We need to examine a commissioning or delivery arrangement",
+      "url": "/library/use/#delivery-choice",
+      "description": "Compare what an arrangement requires with the purpose, relationships, capability, and accountability it has to support. An options note that makes assumptions, differences, and necessary conditions visible.",
+      "format": "Practical route and downloadable working note",
+      "year": "2026",
+      "tags": [
+        "practice",
+        "public-services"
+      ]
+    },
+    {
+      "title": "I want to develop a method through real work",
+      "url": "/library/use/#develop-practice",
+      "description": "Use a technical dry run to find a misunderstanding, then examine what changes when the method meets a real situation. An attempted model, a reasoned revision, and a plan for supported application.",
+      "format": "Practical route and downloadable working note",
+      "year": "2026",
+      "tags": [
+        "practice",
+        "public-services"
       ]
     }
   ]

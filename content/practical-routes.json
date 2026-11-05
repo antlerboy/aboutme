@@ -1,0 +1,95 @@
+{
+  "updated": "2026-11-05",
+  "routes": [
+    {
+      "id": "recurring-barrier",
+      "title": "A good project keeps meeting the same barrier",
+      "intro": "A relationship or an exception gets one person through. The rule, hand-off, or funding condition remains for the next person.",
+      "time": "20 minutes with someone who sees another part of the work",
+      "prompts": ["Follow one person's experience far enough to see the recurring difficulty.", "Name the decision that would change it, who can make it, and who is affected but absent.", "Ask what answer is owed, by whom, and by when. Record disagreement and what would change your account."],
+      "output": "A short account of the barrier, an identified decision, and an agreed next conversation.",
+      "resources": [
+        {"title": "Relational public services: papers and practical questions", "url": "/library/relational-public-services/"},
+        {"title": "Systems leadership, power, and the capacity to act", "url": "/library/systems-leadership-change-practice/"},
+        {"title": "Practice accounts and evidence from RedQuadrant", "url": "https://redquadrant.com/practice-evidence/"}
+      ],
+      "support": {"title": "Discuss systems change with RedQuadrant", "url": "https://redquadrant.com/systems-change/"},
+      "note": "Situation and whose experience matters:\n\nRecurring barrier and evidence:\n\nDecision needed, and who can make it:\n\nWhose account is missing or disputed:\n\nAnswer owed, by whom, and by when:\n\nNext conversation or test:\n\nWhat would make us revise this account:\n"
+    },
+    {
+      "id": "difficult-conversation",
+      "title": "I need a more useful agreement or a difficult conversation",
+      "intro": "Start with the work, your own contribution, and what each person can honestly commit to.",
+      "time": "Five minutes alone, then a rehearsal with a colleague",
+      "prompts": ["Write down the help being requested, the help you can offer, and the responsibility you can take.", "Separate what you have observed from what you infer. Include your part in the difficulty.", "Rehearse the question or request you need to put to the other person. Check what would count as a workable agreement."],
+      "output": "A prepared opening, a clear request, and a proposed agreement you can revisit.",
+      "resources": [
+        {"title": "The systemic consulting field guide", "url": "/flawfulconsulting/"},
+        {"title": "Productive conversations and the Left-Hand Column", "url": "/library/productive-conversations/"},
+        {"title": "The Peter Block community exercise", "url": "https://community.antlerboy.com/"}
+      ],
+      "support": {"title": "Bring live practice to the Tool Shed", "url": "/toolshed/"},
+      "note": "Work we are trying to do:\n\nWhat I have observed:\n\nMy interpretations, concerns, and contribution:\n\nWhat I need to say or ask:\n\nWhat each of us can commit to:\n\nHow and when we will review the agreement:\n"
+    },
+    {
+      "id": "choose-intervention",
+      "title": "I need to choose a group process or intervention",
+      "intro": "A method comes with assumptions about purpose, participation, authority, and what happens after the meeting.",
+      "time": "Half an hour with the sponsor or a design partner",
+      "prompts": ["Specify the work participants need to do and which decisions are open to them.", "Identify whose knowledge, interests, and authority need to be present. Ask who might bear the consequences without a voice.", "Compare plausible processes against those conditions, and make follow-through someone's actual responsibility."],
+      "output": "A justified process choice, its conditions, and an explicit plan for decisions and follow-through.",
+      "resources": [
+        {"title": "Search and compare large-group processes", "url": "/library/large-group-processes/"},
+        {"title": "Breaking the Shell: exercise and facilitator kit", "url": "https://www.breakingtheshell.com/"},
+        {"title": "Inquiry and intervention in systemic consulting", "url": "/flawfulconsulting/"}
+      ],
+      "support": {"title": "Discuss facilitation and capability with RedQuadrant", "url": "https://redquadrant.com/training-and-development/"},
+      "note": "Purpose and work participants need to do:\n\nDecisions genuinely open, and who can make them:\n\nPeople and perspectives needed, including missing voices:\n\nProcesses considered, assumptions, and limits:\n\nChosen process and the conditions it needs:\n\nOwner of follow-through, resources, and review date:\n"
+    },
+    {
+      "id": "team-pattern",
+      "title": "A team or organisation keeps reproducing a difficult pattern",
+      "intro": "Examine roles and relationships alongside individual behaviour. Treat your first explanation as a hypothesis.",
+      "time": "30 minutes with people in different positions",
+      "prompts": ["Choose a recurring event and describe it without assigning motives.", "Use the Four Dynamics or VSM to look for a different explanation. Check it with people in other roles.", "Choose a small change to a relationship, role, or decision. Name what you will observe, including unintended effects."],
+      "output": "A testable account of the pattern and one change with a review date.",
+      "resources": [
+        {"title": "Four team dynamics: guide and working tool", "url": "/four-dynamics/"},
+        {"title": "Viable System Model: sources and practice", "url": "/library/viable-system-model/"},
+        {"title": "Public accounts of systems practice", "url": "/library/systems-practice-case-studies/"}
+      ],
+      "support": {"title": "Explore organisation design with RedQuadrant", "url": "https://redquadrant.com/organisation-design/"},
+      "note": "Recurring event, without inferred motives:\n\nPositions, roles, and relationships involved:\n\nInitial explanation and alternative accounts:\n\nEvidence to seek, including our own contribution:\n\nSmall change to test, owner, and limits:\n\nEffects to watch and date to review:\n"
+    },
+    {
+      "id": "delivery-choice",
+      "title": "We need to examine a commissioning or delivery arrangement",
+      "intro": "Compare what an arrangement requires with the purpose, relationships, capability, and accountability it has to support.",
+      "time": "A working session with different parties to the arrangement",
+      "prompts": ["State the outcome sought, whose experience will show whether it is happening, and the decisions available.", "Use a Compass to open the inquiry, or compare delivery arrangements with the arms-lengthiness tool.", "Record the mismatches and conditions you would need to change. Check the judgement with people who would do and experience the work."],
+      "output": "An options note that makes assumptions, differences, and necessary conditions visible.",
+      "resources": [
+        {"title": "PSTA Compasses: choose an assessment route", "url": "https://publicservicetransformation.org/tools/"},
+        {"title": "Arms-lengthiness: compare delivery arrangements", "url": "/arms-lengthiness/"},
+        {"title": "Outcomes, complexity, and the measures we use", "url": "/library/outcomes-and-complexity/"}
+      ],
+      "support": {"title": "Explore PSTA commissioning programmes", "url": "https://publicservicetransformation.org/programmes/"},
+      "note": "Purpose, outcomes sought, and whose experience matters:\n\nOptions and decisions available:\n\nEvidence, assumptions, and differences of view:\n\nFit and mismatches in each arrangement:\n\nConditions or capabilities that would need to change:\n\nWho will test this judgement, and next decision date:\n"
+    },
+    {
+      "id": "develop-practice",
+      "title": "I want to develop a method through real work",
+      "intro": "Use a technical dry run to find a misunderstanding, then examine what changes when the method meets a real situation.",
+      "time": "One exercise, a comparison, and a conversation about transfer",
+      "prompts": ["Choose a method for a specific question. Say why its assumptions fit and where they might fail.", "Attempt an exercise before opening the worked comparison. Record what you changed your mind about.", "Choose a modest real-world application with someone affected by the work, and agree how you will learn from it."],
+      "output": "An attempted model, a reasoned revision, and a plan for supported application.",
+      "resources": [
+        {"title": "Systems methods practice: alpha exercises and their limits", "url": "/library/systems-methods-practice/"},
+        {"title": "Find the sources and connections in The Necessary Tangle", "url": "https://transduction.systems/"},
+        {"title": "Read public accounts of methods used in practice", "url": "/library/systems-practice-case-studies/"}
+      ],
+      "support": {"title": "Explore the Tool Shed and Leading Transformation", "url": "/toolshed/"},
+      "note": "Question and real situation:\n\nMethod chosen, assumptions, and limits:\n\nMy first attempt:\n\nWhat comparison or feedback changed:\n\nProposed application and people involved:\n\nSupport needed and how we will review what happens:\n"
+    }
+  ]
+}

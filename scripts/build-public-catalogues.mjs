@@ -44,14 +44,25 @@ async function fetchWordPress(endpoint, source) {
     url.searchParams.set('per_page', '100');
     url.searchParams.set('page', String(page));
     url.searchParams.set('_fields', source.fullText ? 'id,date,link,title,excerpt,content' : 'id,date,link,title,excerpt');
-    const response = await fetch(url, { headers: { 'user-agent': 'antlerboy-public-catalogue/2.0' } });
-    if (!response.ok) throw new Error(`${source.label} returned ${response.status} for page ${page}`);
-    return { posts: await response.json(), totalPages: Number(response.headers.get('x-wp-totalpages') || 1) };
+    for (let attempt = 1; attempt <= 3; attempt += 1) {
+      try {
+        const response = await fetch(url, { headers: { 'user-agent': 'antlerboy-public-catalogue/2.0' }, signal: AbortSignal.timeout(45000) });
+        if (!response.ok) {
+          const error = new Error(`${source.label} returned ${response.status} for page ${page}`);
+          error.retryable = response.status === 429 || response.status >= 500;
+          throw error;
+        }
+        return { posts: await response.json(), totalPages: Number(response.headers.get('x-wp-totalpages') || 1) };
+      } catch (error) {
+        if (error.retryable === false || attempt === 3) throw error;
+        await new Promise(resolve => setTimeout(resolve, attempt * 1000));
+      }
+    }
   }
   const first = await fetchPage(1);
   const posts = [...first.posts];
   const pages = Array.from({ length: Math.max(0, first.totalPages - 1) }, (_, index) => index + 2);
-  const concurrency = 10;
+  const concurrency = 4;
   for (let index = 0; index < pages.length; index += concurrency) {
     const batches = await Promise.all(pages.slice(index, index + concurrency).map(fetchPage));
     for (const batch of batches) posts.push(...batch.posts);
