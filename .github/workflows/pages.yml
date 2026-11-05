@@ -23,6 +23,8 @@ jobs:
         with:
           node-version: '24'
           package-manager-cache: false
+      - name: Check three-item selection and expiry behaviour
+        run: python3 -m unittest discover -s tests -p test_curated_latest.py
       - name: Add the systems practice collection and catalogue records
         run: python3 scripts/add-systems-practice.py
       - name: Add September publications
@@ -59,6 +61,8 @@ jobs:
           cp practice-rules.js _site/practice-rules.js
           touch _site/.nojekyll
           test -s _site/sysprac26/relational/index.html
+      - name: Refresh the three current editorial selections
+        run: python3 scripts/render-latest-panel.py _site
       - name: Include the unchanged TRIP26 infographic and workshop extension
         run: |
           python3 -m venv /tmp/relational-python
