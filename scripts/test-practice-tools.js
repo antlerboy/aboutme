@@ -102,6 +102,7 @@ async function main() {
   assert.equal(await page.locator('#tool-results').isHidden(), true);
   const requests = [];
   page.on('request', req => requests.push({ method: req.method(), url: req.url() }));
+  await page.getByText('Resume work or inspect an illustrative profile', { exact: true }).click();
   await page.locator('#load-profile').selectOption('contracting');
   await page.locator('#assessment-form button[type="submit"]').click();
   assert(await page.locator('#tool-results').isVisible());
