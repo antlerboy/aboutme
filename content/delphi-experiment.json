@@ -1,0 +1,15 @@
+{
+  "updated": "2026-11-06",
+  "title": "Argue with a digital approximation of me",
+  "url": "https://delphi.co/antlerboy",
+  "description": "An AI experiment on Delphi. Try an argument on a digital approximation of Benjamin P Taylor, then say what helped or went wrong.",
+  "intro": "I've put an AI version of myself on Delphi. A bit of fun, and a chance to find out which of my habits survive being turned into software. Possibly the irritating ones.",
+  "howToTry": "Ask it about an idea, challenge an argument, or try a practical question. Delphi generates the replies. Check what it says against the sources, and decide whether it helps.",
+  "externalService": "The chat runs on Delphi, under Delphi's terms and privacy arrangements. This page only links to it; opening the page doesn't start a chat or send Delphi any information.",
+  "feedbackHeading": "Useful, wrong, or unnecessarily pompous?",
+  "feedback": "Tell me what you asked, what worked, and what went wrong. Include a reply or an excerpt if you can, with anything private removed. An example gives me something to work with.",
+  "feedbackEmail": "benjamin.taylor@redquadrant.com",
+  "feedbackSubject": "The Delphi version of Benjamin",
+  "feedbackBody": "Question I asked:\n\nWhat worked:\n\nWhat went wrong, or sounded unlike Benjamin:\n\nReply or excerpt (remove anything private):\n",
+  "homeIntro": "I've put an AI version of myself on Delphi. A bit of fun: try an argument on it, then tell me where it's useful, wrong, or unnecessarily pompous."
+}

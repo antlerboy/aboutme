@@ -5,7 +5,7 @@ import sys
 root = Path(sys.argv[1])
 tag = '<script defer src="https://transduction.systems/events/analytics.js"></script>'
 for page in root.rglob("*.html"):
-    if page.relative_to(root).parts[0] in {'four-dynamics', 'arms-lengthiness'}:
+    if page.relative_to(root).parts[0] in {'four-dynamics', 'arms-lengthiness', 'delphi'}:
         continue
     text = page.read_text(encoding="utf-8")
     if "analytics.js" in text:

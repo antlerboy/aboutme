@@ -31,3 +31,7 @@ The public page exposes the record URL and version in metadata, gives its last s
 The existing publishing workflow now runs `scripts/test-estate-routes.js` after the built catalogues are available and repeats it after publication. It checks desktop and mobile layouts, local note downloads and non-retention, shared queries and filters, all/any matching, provenance badges, invalid-filter recovery, reset focus, the current 24-module sequence, and no-JavaScript routes.
 
 The catalogue refresh uses bounded retries for transient network/server failures and limits simultaneous API requests. It fails on a persistent error instead of publishing a partial new catalogue.
+
+## Delphi experiment
+
+`content/delphi-experiment.json` holds the invitation and feedback wording. `python scripts/build-delphi.py` maintains `/delphi/`, its homepage invitation, its catalogue entry, and the sitemap. The page labels the AI experiment and links to the external Delphi service. It has no chat embed, form submission, scripts, background connections, or automatic visit beacon. Feedback uses an editable email, which the visitor chooses to send. The public link doesn't establish which material is in the model or how well it answers.

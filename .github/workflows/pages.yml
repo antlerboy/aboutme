@@ -40,6 +40,7 @@ jobs:
           python3 scripts/sync-programme-record.py --check
           python3 scripts/build-toolshed.py
           python3 scripts/apply-web-estate.py
+          python3 scripts/build-delphi.py
       - name: Restore verified TRIP26 source image
         uses: actions/cache@v4
         with:
@@ -63,6 +64,7 @@ jobs:
           cp -R flawfulconsulting _site/flawfulconsulting
           cp -R four-dynamics _site/four-dynamics
           cp -R arms-lengthiness _site/arms-lengthiness
+          cp -R delphi _site/delphi
           cp practice-rules.js _site/practice-rules.js
           touch _site/.nojekyll
           test -s _site/sysprac26/relational/index.html
@@ -99,6 +101,10 @@ jobs:
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
         run: node scripts/test-estate-routes.js
+      - name: Check the external AI experiment and feedback link
+        env:
+          NODE_PATH: /tmp/practice-browser/node_modules
+        run: node scripts/test-delphi.js
       - name: Check systemic consulting guide and downloads
         env:
           NODE_PATH: /tmp/practice-browser/node_modules
@@ -193,6 +199,11 @@ jobs:
           NODE_PATH: /tmp/practice-browser/node_modules
           LIBRARY_BASE_URL: https://antlerboy.com
         run: node scripts/test-estate-routes.js
+      - name: Check the live external AI experiment
+        env:
+          NODE_PATH: /tmp/practice-browser/node_modules
+          LIBRARY_BASE_URL: https://antlerboy.com
+        run: node scripts/test-delphi.js
       - name: Check the live relational hub, legacy redirect, and original infographic
         env:
           NODE_PATH: /tmp/practice-browser/node_modules

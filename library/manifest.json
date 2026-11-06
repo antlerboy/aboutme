@@ -1,6 +1,6 @@
 {
   "title": "Benjamin P Taylor public work library",
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "pages": [
     {
       "slug": "cybernetics-is-not-the-banana",
@@ -5861,6 +5861,18 @@
       "tags": [
         "practice",
         "public-services"
+      ]
+    },
+    {
+      "title": "Benjamin on Delphi (AI experiment)",
+      "url": "/delphi/",
+      "description": "An AI experiment on Delphi. Try an argument on a digital approximation of Benjamin P Taylor, then say what helped or went wrong.",
+      "format": "AI experiment on an external service",
+      "year": "2026",
+      "tags": [
+        "AI",
+        "experiment",
+        "feedback"
       ]
     }
   ]
