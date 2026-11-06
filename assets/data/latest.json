@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "selection_as_of": "2026-11-05T22:40:13.208130+00:00",
+  "selection_as_of": "2026-11-06T12:35:57.441255+00:00",
   "source_commit": null,
   "source_paths": [
     "content/latest.json",
@@ -14,13 +14,13 @@
   "next_transition_at": null,
   "selected": [
     {
-      "topic": "public-service-accountability",
-      "source": "Chosen Path · 23 October 2026",
-      "title": "When a chief executive sorts it out, what changes for the next family?",
-      "summary": "A personal intervention can solve one problem while leaving the same barrier for the next family. Drawing on Leading for Place, I ask who owes residents an answer about changes to rules, funding, and responsibility.",
-      "href": "https://chosen-path.org/2026/10/23/suppose-a-chief-executive-makes-a-phone-call-and-sorts-out-a-problem-that-public-services-have-spent-months-passing-between-them-what-happens-to-the-next-person-to-face-the-same-problem/",
+      "topic": "commissioning-and-lived-outcomes",
+      "source": "Chosen Path · 5 November 2026",
+      "title": "Who are we trying to help, and how would they know we’d made their lives better?",
+      "summary": "Chrissie Gregory and Sharon Davidson describe moving from service thinking to system thinking, bringing staff and family experience into leadership decisions, and what effective coproduction asks leaders to give up.",
+      "href": "https://chosen-path.org/2026/11/05/who-are-we-trying-to-help-and-how-would-they-know-wed-made-their-lives-better/",
       "link_label": "Read it",
-      "reviewed_on": "2026-11-05",
+      "reviewed_on": "2026-11-06",
       "evergreen": true,
       "selection_role": "primary"
     },
@@ -49,13 +49,13 @@
   ],
   "candidates": [
     {
-      "topic": "public-service-accountability",
-      "source": "Chosen Path · 23 October 2026",
-      "title": "When a chief executive sorts it out, what changes for the next family?",
-      "summary": "A personal intervention can solve one problem while leaving the same barrier for the next family. Drawing on Leading for Place, I ask who owes residents an answer about changes to rules, funding, and responsibility.",
-      "href": "https://chosen-path.org/2026/10/23/suppose-a-chief-executive-makes-a-phone-call-and-sorts-out-a-problem-that-public-services-have-spent-months-passing-between-them-what-happens-to-the-next-person-to-face-the-same-problem/",
+      "topic": "commissioning-and-lived-outcomes",
+      "source": "Chosen Path · 5 November 2026",
+      "title": "Who are we trying to help, and how would they know we’d made their lives better?",
+      "summary": "Chrissie Gregory and Sharon Davidson describe moving from service thinking to system thinking, bringing staff and family experience into leadership decisions, and what effective coproduction asks leaders to give up.",
+      "href": "https://chosen-path.org/2026/11/05/who-are-we-trying-to-help-and-how-would-they-know-wed-made-their-lives-better/",
       "link_label": "Read it",
-      "reviewed_on": "2026-11-05",
+      "reviewed_on": "2026-11-06",
       "evergreen": true,
       "selection_role": "primary"
     },
@@ -80,6 +80,17 @@
       "reviewed_on": "2026-11-05",
       "evergreen": true,
       "selection_role": "primary"
+    },
+    {
+      "topic": "public-service-accountability",
+      "source": "Chosen Path · 23 October 2026",
+      "title": "When a chief executive sorts it out, what changes for the next family?",
+      "summary": "A personal intervention can solve one problem while leaving the same barrier for the next family. Drawing on Leading for Place, I ask who owes residents an answer about changes to rules, funding, and responsibility.",
+      "href": "https://chosen-path.org/2026/10/23/suppose-a-chief-executive-makes-a-phone-call-and-sorts-out-a-problem-that-public-services-have-spent-months-passing-between-them-what-happens-to-the-next-person-to-face-the-same-problem/",
+      "link_label": "Read it",
+      "reviewed_on": "2026-11-05",
+      "evergreen": true,
+      "selection_role": "fallback"
     },
     {
       "topic": "legibility-and-local-life",

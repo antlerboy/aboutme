@@ -1,8 +1,57 @@
 {
-  "checked": "2026-10-23",
+  "checked": "2026-11-06",
   "coverage_start": "2026-09-21",
   "author": "Benjamin P Taylor",
   "works": [
+    {
+      "title": "Who are we trying to help, and how would they know we’d made their lives better?",
+      "date": "2026-11-05",
+      "url": "https://chosen-path.org/2026/11/05/who-are-we-trying-to-help-and-how-would-they-know-wed-made-their-lives-better/",
+      "aliases": [],
+      "authorship": "Benjamin P Taylor; complete original Chosen Path text reviewed 6 November 2026. Related coauthored work is credited in the description.",
+      "description": "Chrissie Gregory and Sharon Davidson describe moving from service thinking to system thinking, bringing staff and family experience into leadership decisions, and what effective coproduction asks leaders to give up.",
+      "tags": [
+        "public-services",
+        "commissioning",
+        "relational",
+        "leadership",
+        "writing"
+      ],
+      "author": "Benjamin P Taylor",
+      "source": "Chosen Path"
+    },
+    {
+      "title": "How much of your successful project is being held together by somebody else’s unpaid work?",
+      "date": "2026-11-03",
+      "url": "https://chosen-path.org/2026/11/03/how-much-of-your-successful-project-is-being-held-together-by-somebody-elses-unpaid-work/",
+      "aliases": [],
+      "authorship": "Benjamin P Taylor; complete original Chosen Path text reviewed 6 November 2026. Related coauthored work is credited in the description.",
+      "description": "Following the piece with Dr Amy Hochadel on Pride in Place, Benjamin examines costs passed to households, evidence residents can challenge, and six decisions before committing neighbourhood investment.",
+      "tags": [
+        "public-services",
+        "evidence",
+        "power",
+        "writing"
+      ],
+      "author": "Benjamin P Taylor",
+      "source": "Chosen Path"
+    },
+    {
+      "title": "Serbia’s students and the possibility of a government that learns.",
+      "date": "2026-11-02",
+      "url": "https://chosen-path.org/2026/11/02/serbias-students-and-the-possibility-of-a-government-that-learns/",
+      "aliases": [],
+      "authorship": "Benjamin P Taylor; complete original Chosen Path text reviewed 6 November 2026. Related coauthored work is credited in the description.",
+      "description": "Benjamin reflects on Serbia’s student movement, democratic accountability, independent scrutiny, and participation that does not depend on citizens remaining permanently exhausted.",
+      "tags": [
+        "systems",
+        "power",
+        "leadership",
+        "writing"
+      ],
+      "author": "Benjamin P Taylor",
+      "source": "Chosen Path"
+    },
     {
       "title": "When a chief executive sorts it out, what changes for the next family?",
       "date": "2026-10-23",
@@ -159,6 +208,16 @@
   ],
   "newsletter_issues": [
     {
+      "title": "Transduction – leading transformation – Issue #245",
+      "date": "2026-10-30",
+      "url": "https://chosen-path.org/2026/10/30/transduction-leading-transformation-issue-245/"
+    },
+    {
+      "title": "Transduction – leading transformation – Issue #244",
+      "date": "2026-10-23",
+      "url": "https://chosen-path.org/2026/10/23/transduction-leading-transformation-issue-244/"
+    },
+    {
       "title": "Transduction – leading transformation – Issue #243",
       "date": "2026-10-16",
       "url": "https://chosen-path.org/2026/10/16/transduction-leading-transformation-issue-243/"
@@ -180,8 +239,15 @@
     }
   ],
   "excluded_event_promotions": [
+    5578,
     5579,
-    5578
+    5697
   ],
-  "authorship_note": "WordPress publisher identity is insufficient: SysCoI originals were read and distinguished from curation. Chosen Path pointer to Myron and SysCoI pointer to systems leadership are aliases. The two later leadership posts are components of the combined essay."
+  "authorship_note": "WordPress publisher identity is insufficient: SysCoI originals were read and distinguished from curation. Chosen Path pointer to Myron and SysCoI pointer to systems leadership are aliases. The two later leadership posts are components of the combined essay.",
+  "successful_cutoff": "2026-11-06T12:36:00+00:00",
+  "source_review": {
+    "chosen_path": "Native chronological published list from 21 October overlap: 8 items, exhausted; all new full original posts and both newsletters read. The 2 November Islington event invitation remains historical, excluded from original-essay selections.",
+    "syscoi": "Native chronological published list from 21 October overlap: 6 items, exhausted; complete bodies inspected and original destination links distinguished. All six are third-party curation, excluded from Benjamin’s authored collection.",
+    "date_note": "Source publication dates retained; this is an editorial review on 6 November, not a claim the pieces were first published today."
+  }
 }
