@@ -41,6 +41,7 @@ async function main() {
     assert.equal(await page.locator('iframe,script,form,input,textarea').count(), 0);
     assert.equal(await page.locator('[data-delphi-link]').getAttribute('href'), data.url);
     assert.equal(await page.locator('[data-provenance-note]').innerText(), data.provenanceNote);
+    assert.equal(await page.locator('[data-privacy-note]').innerText(), data.privacyNote);
     assert((await page.locator('main').textContent()).includes(data.accessNote));
     const feedback = new URL(await page.locator('[data-delphi-feedback]').getAttribute('href'));
     assert.equal(feedback.protocol, 'mailto:');
