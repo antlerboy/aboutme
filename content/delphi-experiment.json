@@ -6,6 +6,7 @@
   "intro": "I've put an AI version of myself on Delphi. A bit of fun, and a chance to find out which of my habits survive being turned into software. Possibly the irritating ones.",
   "howToTry": "Ask it about an idea, challenge an argument, or try a practical question. Delphi generates the replies. Check what it says against the sources, and decide whether it helps.",
   "externalService": "The chat runs on Delphi, under Delphi's terms and privacy arrangements. This page only links to it; opening the page doesn't start a chat or send Delphi any information.",
+  "accessNote": "Opens Delphi; it may ask you to sign in.",
   "feedbackHeading": "Useful, wrong, or unnecessarily pompous?",
   "feedback": "Tell me what you asked, what worked, and what went wrong. Include a reply or an excerpt if you can, with anything private removed. An example gives me something to work with.",
   "feedbackEmail": "benjamin.taylor@redquadrant.com",
