@@ -20,7 +20,10 @@ async function main() {
         const type = { '.html': 'text/html', '.js': 'application/javascript', '.json': 'application/json', '.css': 'text/css' };
         res.setHeader('Content-Type', type[path.extname(file)] || 'application/octet-stream');
         res.end(fs.readFileSync(file));
-      } catch { res.writeHead(404); res.end(); }
+      } catch {
+        res.writeHead(404, { 'Content-Type': 'text/html' });
+        res.end(fs.readFileSync(path.join(root, '404.html')));
+      }
     });
     await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
     base = 'http://127.0.0.1:' + server.address().port;
@@ -72,6 +75,43 @@ async function main() {
   assert.equal(await page.locator('#catalogue-source').inputValue(), 'all');
   assert.equal(await page.locator('script:not([src])').count(), 0);
   report.checks.push('shared query and filter restoration; source/type labels; all/any matching; reset and focus; invalid filters and escaped input');
+  for (const width of [1365, 390]) {
+    await page.setViewportSize({ width, height: 900 });
+    const missing = '/library/relational-public-services-zz-moved.html?token=private-query#private-fragment';
+    const response = await page.goto(base + missing, { waitUntil: 'networkidle' });
+    assert.equal(response.status(), 404);
+    assert.equal(await page.locator('h1').innerText(), 'Not here.');
+    assert.equal(await page.locator('[data-missing-page]').innerText(), missing.split('?')[0]);
+    assert.equal(await page.locator('#catalogue-query').inputValue(), 'relational public services zz moved');
+    assert.equal(await page.locator('#catalogue-match').inputValue(), 'any');
+    assert(await page.locator('.catalogue-result').count() > 0);
+    assert.equal(page.url(), base + missing, 'The missing URL remains visible');
+    const searchLink = new URL(await page.locator('#catalogue-link').getAttribute('href'));
+    assert.equal(searchLink.pathname, '/library/search/');
+    assert.equal(searchLink.searchParams.get('q'), 'relational public services zz moved');
+    assert(!searchLink.href.includes('private-'), 'Do not carry query strings or fragments into search');
+    assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 2));
+    await page.locator('#catalogue-query').fill('cybernetics');
+    await page.locator('#catalogue-query').press('Enter');
+    assert(await page.locator('.catalogue-result').count() > 0);
+    assert.equal(page.url(), base + missing);
+    await page.screenshot({ path: path.join(out, 'missing-page-' + width + '.png'), fullPage: true });
+  }
+  await page.goto(base + '/library/relational%20public_services/index.html', { waitUntil: 'networkidle' });
+  assert.equal(await page.locator('#catalogue-query').inputValue(), 'relational public services');
+  assert(await page.locator('.catalogue-result').count() > 0);
+  // Hosting layers may reject malformed or HTML-like addresses before serving 404.html.
+  if (server) {
+    await page.goto(base + '/relational%20public_services%ZZ.html', { waitUntil: 'networkidle' });
+    assert.equal(await page.locator('#catalogue-query').inputValue(), 'relational%20public services%ZZ');
+    await page.goto(base + '/%3Cimg%20src=x%20onerror=alert(1)%3E.html', { waitUntil: 'networkidle' });
+    assert.equal(await page.locator('[data-missing-page] img').count(), 0);
+    assert.equal(await page.locator('[data-missing-page]').innerText(), '/%3Cimg%20src=x%20onerror=alert(1)%3E.html');
+  }
+  await page.goto(base + '/404.html', { waitUntil: 'networkidle' });
+  assert.equal(await page.locator('#catalogue-query').inputValue(), '');
+  assert(await page.getByText('Enter a word or phrase to search, or browse the', { exact: false }).isVisible());
+  report.checks.push('real nested 404 retains missing path and automatically searches; editable keyboard search; desktop/mobile; encoded and malformed paths; no query/fragment leakage or HTML injection; direct 404 recovery');
   await page.goto(base + '/library/search/?q=relational', { waitUntil: 'networkidle' });
   assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 2));
   await page.screenshot({ path: path.join(out, 'shared-search-mobile.png'), fullPage: true });
@@ -92,6 +132,10 @@ async function main() {
   assert.equal(await plain.locator('[data-route]').count(), 6);
   await plain.goto(base + '/library/search/');
   assert(await plain.locator('noscript').isVisible());
+  await plain.goto(base + '/missing-without-javascript/');
+  assert.equal(await plain.locator('h1').innerText(), 'Not here.');
+  assert(await plain.locator('noscript').isVisible());
+  assert.equal(await plain.locator('a[href="/"]').count(), 3);
   await nojs.close();
   report.checks.push('routes and source links usable without JavaScript');
   assert.equal(errors.length, 0, JSON.stringify(errors));

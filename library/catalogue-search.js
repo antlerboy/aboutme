@@ -10,11 +10,27 @@
   const source = document.querySelector('#catalogue-source');
   const match = document.querySelector('#catalogue-match');
   const permalink = document.querySelector('#catalogue-link');
+  const missingPage = document.querySelector('[data-missing-page]');
   const stopwords = new Set('a an and are as at be been being but by can could did do does for from had has have he her here him his how i if in into is it its may me more most my no not of on one only or other our out over she should so some than that the their them then there these they this those through to too under up us very was we were what when where which who why will with would you your'.split(' '));
   const sourceTypes = { library: 'Curated library entry', 'chosen-path': 'Writing archive', syscoi: 'Community link record' };
   const pageSize = 24;
   let catalogue, activeTopic = 'all', visible = pageSize, current = [];
   const escape = value => String(value ?? '').replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
+
+  function queryFromMissingPath() {
+    return location.pathname.split('/').map(part => {
+      try { return decodeURIComponent(part); } catch { return part; }
+    }).filter(part => !/^(?:library|index\.[a-z]+|default\.[a-z]+|404(?:\.html)?)$/i.test(part))
+      .join(' ').replace(/\.(?:html?|php|aspx?)\b/gi, '')
+      .replace(/[-_./]+/g, ' ').replace(/\s+/g, ' ').trim();
+  }
+
+  if (missingPage) {
+    missingPage.textContent = location.pathname;
+    query.value = queryFromMissingPath();
+    if (match) match.value = 'any';
+    updateLink();
+  }
 
   function tokenise(value) {
     return [...new Set((value.toLowerCase().match(/[a-z0-9][a-z0-9’'-]{1,}/g) || [])
@@ -35,11 +51,11 @@
   }
 
   function updateLink() {
-    const url = new URL(location.href);
+    const url = missingPage ? new URL('/library/search/', location.origin) : new URL(location.href);
     for (const key of ['q', 'year', 'sort', 'source', 'topic', 'match']) url.searchParams.delete(key);
     const state = { q: query.value.trim(), year: year.value, sort: sort.value, source: source?.value, topic: activeTopic, match: match?.value };
     for (const [key, value] of Object.entries(state)) if (value && value !== 'all' && value !== 'relevance') url.searchParams.set(key, value);
-    history.replaceState(null, '', url);
+    if (!missingPage) history.replaceState(null, '', url);
     if (permalink) permalink.href = url.href;
   }
 
@@ -52,9 +68,10 @@
   }
 
   function restoreState() {
-    const params = new URL(location.href).searchParams;
-    query.value = params.get('q') || '';
-    for (const [element, key, fallback] of [[year, 'year', 'all'], [sort, 'sort', 'relevance'], [source, 'source', 'all'], [match, 'match', 'all']]) {
+    // A missing address supplies path words only, never query strings or fragments.
+    const params = missingPage ? new URLSearchParams() : new URL(location.href).searchParams;
+    query.value = missingPage ? queryFromMissingPath() : params.get('q') || '';
+    for (const [element, key, fallback] of [[year, 'year', 'all'], [sort, 'sort', 'relevance'], [source, 'source', 'all'], [match, 'match', missingPage ? 'any' : 'all']]) {
       if (!element) continue;
       const value = params.get(key) || fallback;
       element.value = [...element.options].some(option => option.value === value) ? value : fallback;
@@ -66,7 +83,7 @@
   function apply() {
     if (!catalogue) return;
     const terms = tokenise(query.value.trim());
-    current = scoreDocuments(terms)
+    current = (missingPage && !terms.length ? [] : scoreDocuments(terms))
       .filter(({ document }) => year.value === 'all' || document.year === year.value)
       .filter(({ document }) => activeTopic === 'all' || document.topics.includes(activeTopic))
       .filter(({ document }) => !source || source.value === 'all' || document.source === source.value || document.sourceKeys?.includes(source.value));
@@ -92,7 +109,9 @@
     const shown = current.slice(0, visible);
     status.textContent = `${current.length.toLocaleString()} item${current.length === 1 ? '' : 's'} found · catalogue updated ${new Date(catalogue.generatedAt).toLocaleDateString('en-GB')}`;
     results.innerHTML = shown.map(({ document }) => `<article class="catalogue-result"><div><div class="tags provenance">${provenance(document)}</div>${document.date ? `<p class="eyebrow">${escape(document.date)}</p>` : ''}<h3><a href="${escape(document.url)}">${escape(document.title)}</a></h3><p>${escape(document.excerpt || 'No excerpt available.')}</p><div class="tags">${document.topics.map(topic => `<span class="tag">${escape(catalogue.topics.find(item => item.key === topic)?.label || topic)}</span>`).join('')}</div></div></article>`).join('');
-    if (!shown.length) results.innerHTML = '<div class="note">No matching entries. Try fewer words, choose ‘Any word’, or browse the <a href="/library/use/">practical routes</a>.</div>';
+    if (!shown.length) results.innerHTML = missingPage && !tokenise(query.value.trim()).length
+      ? '<div class="note">Enter a word or phrase to search, or browse the <a href="/library/">library</a>.</div>'
+      : '<div class="note">No matching entries. Try fewer words, choose ‘Any word’, or browse the <a href="/library/use/">practical routes</a>.</div>';
     more.classList.toggle('hidden', visible >= current.length);
   }
 
@@ -100,7 +119,7 @@
 
   async function start() {
     try {
-      const response = await fetch('catalogue.json');
+      const response = await fetch(missingPage ? '/library/search/catalogue.json' : 'catalogue.json');
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       catalogue = await response.json();
       if (source && catalogue.sources?.length > 1) source.insertAdjacentHTML('beforeend', catalogue.sources.map(item => `<option value="${escape(item.key)}">${escape(item.label)}</option>`).join(''));
@@ -117,6 +136,7 @@
   }
 
   query.addEventListener('input', apply);
+  document.querySelector('#catalogue-form')?.addEventListener('submit', event => { event.preventDefault(); apply(); });
   year.addEventListener('change', apply);
   sort.addEventListener('change', apply);
   source?.addEventListener('change', apply);
@@ -126,7 +146,7 @@
   clear.addEventListener('click', () => {
     query.value = ''; year.value = 'all'; sort.value = 'relevance';
     if (source) source.value = 'all';
-    if (match) match.value = 'all';
+    if (match) match.value = missingPage ? 'any' : 'all';
     selectTopic('all'); query.focus();
   });
   start();
