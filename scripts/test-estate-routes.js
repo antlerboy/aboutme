@@ -78,7 +78,9 @@ async function main() {
   for (const width of [1365, 390]) {
     await page.setViewportSize({ width, height: 900 });
     const missing = '/library/relational-public-services-zz-moved.html?token=private-query#private-fragment';
-    const response = await page.goto(base + missing, { waitUntil: 'networkidle' });
+    const response = page.url() === base + missing
+      ? await page.reload({ waitUntil: 'networkidle' })
+      : await page.goto(base + missing, { waitUntil: 'networkidle' });
     assert.equal(response.status(), 404);
     assert.equal(await page.locator('h1').innerText(), 'Not here.');
     assert.equal(await page.locator('[data-missing-page]').innerText(), missing.split('?')[0]);
