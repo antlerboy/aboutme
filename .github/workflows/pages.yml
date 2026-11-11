@@ -90,7 +90,9 @@ jobs:
       - name: Install pinned browser test runner
         run: |
           npm install --prefix /tmp/practice-browser --no-save playwright@1.64.1
-          /tmp/practice-browser/node_modules/.bin/playwright install --with-deps chromium
+          # Ubuntu 26.04 supplies the browser libraries and Latin fonts.
+          # Avoid optional font downloads blocking publication on a slow apt mirror.
+          /tmp/practice-browser/node_modules/.bin/playwright install chromium
       - name: Check practice tool files and disclosure boundaries
         run: python3 scripts/check-practice-tools.py _site
       - name: Check practice tool interactions and mobile layout
