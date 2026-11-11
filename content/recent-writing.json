@@ -1,8 +1,33 @@
 {
-  "checked": "2026-11-06",
+  "checked": "2026-11-11",
   "coverage_start": "2026-09-21",
   "author": "Benjamin P Taylor",
   "works": [
+    {
+      "title": "Making things change: a guide to systems change for young people",
+      "date": "2026-11-10",
+      "url": "https://chosen-path.org/2026/11/10/ive-written-making-things-change-a-free-illustrated-32-page-guide-to-systems-change-for-young-people/",
+      "aliases": [
+        "https://stream.syscoi.com/2026/11/10/making-things-change-a-free-illustrated-32-page-guide-to-systems-change-for-young-people-taylor-2026/"
+      ],
+      "authorship": "Benjamin P Taylor; original article and both 32-page PDF drafts inspected 11 November 2026.",
+      "description": "A free, illustrated, 32-page guide for young people who want to change something harmful, protect something valuable, or create something new. Two working drafts are available.",
+      "tags": [
+        "systems",
+        "change",
+        "leadership",
+        "practice",
+        "writing"
+      ],
+      "author": "Benjamin P Taylor",
+      "source": "Chosen Path",
+      "relatedLinks": [
+        {
+          "title": "Both PDF editions and revision notes",
+          "url": "https://antlerboy.com/library/making-things-change/"
+        }
+      ]
+    },
     {
       "title": "Who are we trying to help, and how would they know we’d made their lives better?",
       "date": "2026-11-05",
@@ -208,6 +233,11 @@
   ],
   "newsletter_issues": [
     {
+      "title": "Transduction – leading transformation – Issue #246",
+      "date": "2026-11-06",
+      "url": "https://chosen-path.org/2026/11/06/transduction-leading-transformation-issue-246/"
+    },
+    {
       "title": "Transduction – leading transformation – Issue #245",
       "date": "2026-10-30",
       "url": "https://chosen-path.org/2026/10/30/transduction-leading-transformation-issue-245/"
@@ -244,10 +274,10 @@
     5697
   ],
   "authorship_note": "WordPress publisher identity is insufficient: SysCoI originals were read and distinguished from curation. Chosen Path pointer to Myron and SysCoI pointer to systems leadership are aliases. The two later leadership posts are components of the combined essay.",
-  "successful_cutoff": "2026-11-06T12:36:00+00:00",
+  "successful_cutoff": "2026-11-11T14:00:00+00:00",
   "source_review": {
-    "chosen_path": "Native chronological published list from 21 October overlap: 8 items, exhausted; all new full original posts and both newsletters read. The 2 November Islington event invitation remains historical, excluded from original-essay selections.",
-    "syscoi": "Native chronological published list from 21 October overlap: 6 items, exhausted; complete bodies inspected and original destination links distinguished. All six are third-party curation, excluded from Benjamin’s authored collection.",
-    "date_note": "Source publication dates retained; this is an editorial review on 6 November, not a claim the pieces were first published today."
+    "chosen_path": "Native public post list since 4 November inspected, all three records read. Guide article 5730 and newsletter 5724 added; existing article 5703 retained.",
+    "syscoi": "Native public post list since 4 November inspected. Post 29454 points to the same original guide; three other items are third-party curation. Full public catalogues refreshed separately.",
+    "date_note": "Original publication dates retained. Two PDF versions remain one authored work."
   }
 }

@@ -35,6 +35,10 @@ jobs:
         run: python3 scripts/build-large-group-index.py
       - name: Maintain systems leadership sources and canonical records
         run: python3 scripts/add-systems-leadership.py
+      - name: Publish both guide editions and reviewed recent writing
+        run: |
+          python3 scripts/build_making_things_change.py
+          python3 scripts/build_recent_writing.py
       - name: Maintain practical routes and shared programme details
         run: |
           python3 scripts/sync-programme-record.py --check
@@ -144,6 +148,10 @@ jobs:
           name: relational-build-check
           path: validation/relational
           if-no-files-found: ignore
+      - name: Check both guide editions and download names
+        env:
+          NODE_PATH: /tmp/practice-browser/node_modules
+        run: node scripts/test_guide_editions.cjs
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6
         with:

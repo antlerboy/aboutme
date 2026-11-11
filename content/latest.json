@@ -1,32 +1,32 @@
 [
   {
-    "topic": "commissioning-and-lived-outcomes",
-    "source": "Chosen Path · 5 November 2026",
-    "title": "Who are we trying to help, and how would they know we’d made their lives better?",
-    "summary": "Chrissie Gregory and Sharon Davidson describe moving from service thinking to system thinking, bringing staff and family experience into leadership decisions, and what effective coproduction asks leaders to give up.",
-    "href": "https://chosen-path.org/2026/11/05/who-are-we-trying-to-help-and-how-would-they-know-wed-made-their-lives-better/",
-    "link_label": "Read it",
-    "reviewed_on": "2026-11-06",
-    "evergreen": true
-  },
-  {
     "topic": "systems-change-for-young-people",
-    "source": "Chosen Path · working draft · 10 November 2026",
-    "title": "Making things change: a guide to systems change for young people",
-    "summary": "A free, illustrated, 32-page working draft, with a student’s unreliable bus as its starting point. Diagrams, questions, and a worksheet help readers investigate recurring problems, power, evidence, and possible action. Comments and practical trials are welcome.",
-    "href": "https://chosen-path.org/2026/11/10/ive-written-making-things-change-a-free-illustrated-32-page-guide-to-systems-change-for-young-people/",
-    "link_label": "Read and try the guide",
+    "source": "Free guide · Revised 10 November 2026",
+    "title": "Making things change: a guide for young people",
+    "summary": "Two illustrated, 32-page working drafts. Start with the revised guide, compare the first edition, and try its questions on something you want to change or create.",
+    "href": "/library/making-things-change/",
+    "link_label": "Read both editions",
     "reviewed_on": "2026-11-11",
     "evergreen": true
   },
   {
-    "topic": "systems-leadership",
-    "source": "Chosen Path · 18 October 2026",
-    "title": "Where are the systems in ‘systems leadership’?",
-    "summary": "Investigating and changing recurring patterns, including our own part in them. A combined essay on leadership development, public health, power, and the conditions that keep problems recurring.",
-    "href": "https://chosen-path.org/2026/10/18/where-are-the-systems-in-systems-leadership/",
-    "link_label": "Read it",
-    "reviewed_on": "2026-11-05",
+    "topic": "costs-of-neighbourhood-change",
+    "source": "Chosen Path · 3 November 2026",
+    "title": "How much of your successful project is being held together by somebody else’s unpaid work?",
+    "summary": "Following the piece with Dr Amy Hochadel on Pride in Place, Benjamin examines costs passed to households, evidence residents can challenge, and six decisions before committing neighbourhood investment.",
+    "href": "https://chosen-path.org/2026/11/03/how-much-of-your-successful-project-is-being-held-together-by-somebody-elses-unpaid-work/",
+    "link_label": "Read the argument",
+    "reviewed_on": "2026-11-11",
+    "evergreen": true
+  },
+  {
+    "topic": "von-foerster-maxims",
+    "source": "The Necessary Tangle · Collected sayings and sources",
+    "title": "Heinz von Foerster: said to someone",
+    "summary": "Aphorisms, reported sayings, recollections, video, audio, and writing. Follow the sources, compare variants, and find the imagined conversation with Captain Beefheart.",
+    "href": "https://transduction.systems/saidtosomeone/",
+    "link_label": "Explore the collection",
+    "reviewed_on": "2026-11-11",
     "evergreen": true
   }
 ]
