@@ -111,7 +111,8 @@ if TANGLE:
 else:
     path = ROOT / 'library/manifest.json'
     manifest = json.loads(path.read_text())
-    manifest['pages'] = [p for p in manifest['pages'] if p['slug'] != 'making-things-change'] + [{'slug':'making-things-change','title':title,'type':'guide','description':DATA['summary'],'tags':['systems','change','practice','writing']}]
+    # The richer resource record indexes this page; do not also add a second search hit.
+    manifest['pages'] = [p for p in manifest['pages'] if p['slug'] != 'making-things-change']
     manifest['resources'] = [r for r in manifest['resources'] if r.get('url') != ROUTE]
     manifest['resources'].append({'title':title,'date':'2026-11-10','year':2026,'format':'Illustrated guide · two working drafts','url':ROUTE,'description':DATA['summary'],'tags':['systems','change','practice','writing'],'pages':['articles-and-essays','preprints-and-working-papers']})
     manifest['updated'] = max(manifest.get('updated',''),DATA['checked_on'])
