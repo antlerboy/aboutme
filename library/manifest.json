@@ -1,6 +1,6 @@
 {
   "title": "Benjamin P Taylor public work library",
-  "updated": "2026-11-06",
+  "updated": "2026-11-19",
   "pages": [
     {
       "slug": "cybernetics-is-not-the-banana",
@@ -5925,6 +5925,36 @@
       "format": "Essay",
       "pages": [
         "articles-and-essays"
+      ]
+    },
+    {
+      "title": "Facilitation and workshop design",
+      "url": "/faciliation/",
+      "description": "A worked example, a printable facilitation canvas, and resources for designing and running workshops.",
+      "format": "Online guide",
+      "year": 2026,
+      "tags": [
+        "practice",
+        "systems",
+        "facilitation"
+      ],
+      "pages": [
+        "facilitation-and-systems-consulting"
+      ]
+    },
+    {
+      "title": "A facilitation canvas",
+      "url": "/faciliation/canvas/",
+      "description": "Twelve prompts for planning, vibes, and process. Fill in the canvas online or print a blank working sheet.",
+      "format": "Printable worksheet",
+      "year": 2026,
+      "tags": [
+        "practice",
+        "systems",
+        "facilitation"
+      ],
+      "pages": [
+        "facilitation-and-systems-consulting"
       ]
     }
   ]

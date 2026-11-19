@@ -66,6 +66,7 @@ jobs:
           cp -R conversations _site/conversations
           cp -R sysprac26 _site/sysprac26
           cp -R flawfulconsulting _site/flawfulconsulting
+          cp -R faciliation facilitation _site/
           cp -R four-dynamics _site/four-dynamics
           cp -R arms-lengthiness _site/arms-lengthiness
           cp -R delphi _site/delphi

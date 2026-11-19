@@ -229,6 +229,7 @@ resourcePage({ slug: 'relational-public-services', title: 'Relational public ser
 ] }] });
 
 resourcePage({ slug: 'facilitation-and-systems-consulting', title: 'Facilitation and systems consulting', description: 'Helping from inside a system without pretending to stand outside it.', groups: [{ title: 'Material', items: [
+  { title: 'Facilitation and workshop design', meta: 'Benjamin P Taylor · practice guide', description: 'A worked example, a printable facilitation canvas, and resources for designing and running workshops.', url: '/faciliation/' },
   {"title": "Facilitation and workshop design reading list", "description": "Original working document.", "url": "https://docs.google.com/document/d/1OdGHAOcehnAurCc00vcF_vnA4N8L4UUynDhbD5J1yPc/edit?tab=t.0"},
   {"title": "Consulting skills reading list", "description": "Original working document.", "url": "https://docs.google.com/document/d/185jk4Z43JsU39QxoKOcuNwgvETZKHsJ7guR4qLYG53g/edit?usp=sharing"},
   {"title": "RedQuadrant facilitation tools", "description": "Original working document.", "url": "https://docs.google.com/document/d/1ARHMRY_qbfpxQh0-mmL2dUyWPJPRjTL3eg-jySPtyZQ/edit?usp=sharing"},
