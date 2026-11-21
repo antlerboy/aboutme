@@ -1,0 +1,53 @@
+[
+  {
+    "label": "Possible segues and mixes in the Psion notes",
+    "sources": [
+      "DEADAIR1.WRD",
+      "DEADAIR2.WRD",
+      "@A.002/WRD/DEADAIR2.WRD",
+      "@A.003/WRD/DEADAIR2.WRD"
+    ],
+    "note": "These ideas cannot be tied to a particular dated broadcast.",
+    "tracks": [
+      {
+        "artist": "Chuck Berry",
+        "title": "Memphis, Tennessee"
+      },
+      {
+        "artist": "",
+        "title": "Walking in Memphis",
+        "note": "‘Paul Simon, Walking In Memphis’ is bracketed in the source; no performer inferred."
+      },
+      {
+        "artist": "",
+        "title": "I Think We’re Alone Now",
+        "note": "Proposed triple mix, referring to the Windswept set."
+      },
+      {
+        "artist": "Gene",
+        "title": "For the Dead",
+        "note": "Part of a proposed ‘Dead’ sequence with the Dead Kennedys and the Grateful Dead, whose tracks are unnamed."
+      },
+      {
+        "artist": "",
+        "title": "Chelsea Hotel",
+        "note": "‘Sid Vicious, Leonard Cohen’ listed for a possible segue, not as a shared performance."
+      }
+    ]
+  },
+  {
+    "label": "Recording and editing plans",
+    "sources": [
+      "OXYGEN.WRD",
+      "OXYGEN mail 4"
+    ],
+    "note": "The show proposal mentions multiple recordings, including Queen and Bad News.",
+    "tracks": [
+      {
+        "artist": "",
+        "title": "Bohemian Rhapsody",
+        "note": "The Psion list says to sort it out; Maxie arranged editing time. No broadcast date identified."
+      }
+    ]
+  }
+]

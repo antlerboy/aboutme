@@ -1,0 +1,15 @@
+.source-main,.source-footer{max-width:57rem;padding:1.6rem clamp(1rem,4vw,3.5rem);margin:auto}
+.source-main h1{font-family:var(--display);font-size:clamp(2.6rem,7vw,5.3rem);line-height:1.02;margin:.3rem 0 1.1rem}
+.source-main h2{font-family:var(--display);font-size:clamp(1.7rem,4vw,2.6rem);line-height:1.07;margin:.3rem 0}
+.source-main article{scroll-margin-top:1rem;border-top:1px solid var(--line);margin-top:2rem;padding-top:1.25rem}
+.source-main p,.source-main .directory{font:1.08rem/1.55 var(--serif);margin:.8rem 0}
+.source-main .file-ref,.source-main .crumb{font:.85rem/1.5 var(--mono);margin:.4rem 0 1rem}
+.source-main .transcript{border-left:3px solid var(--red);padding-left:clamp(.8rem,2.5vw,1.6rem);max-width:47rem}
+.source-main .contents{margin:1.4rem 0;padding:.65rem .85rem;border:1px solid var(--line)}
+.source-main .contents li,.source-main .directory li{margin:.45rem 0}
+.source-main a,.source-footer a{color:var(--red);text-decoration:underline;text-underline-offset:.18em}
+.source-main .scroll,.source-main pre{overflow:auto;max-width:100%}
+.source-main table{width:100%;border-collapse:collapse;font:.93rem/1.4 system-ui,sans-serif}
+.source-main th,.source-main td{border-bottom:1px solid var(--line);text-align:left;vertical-align:top;padding:.42rem .5rem}
+.source-main figure{margin:1rem 0}.source-main figure img{display:block;max-width:100%;height:auto;margin-top:.5rem}
+.source-footer{border-top:1px solid var(--line);padding-bottom:2rem}

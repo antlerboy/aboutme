@@ -11,15 +11,135 @@
       "BTSHOW.WRD"
     ],
     "guests": [],
-    "music": [
-      "An Aztec Camera song each week",
-      "A particularly long song each week"
+    "features": [
+      "An Aztec Camera record every week, and a particularly long song every week.",
+      "‘Songs That Sound Better At The Wrong Speed’. We never did find a second song that sounded better at the wrong speed.",
+      "‘News from Pijnacker all the latest local gossip from this happening Dutch town’.",
+      "The French speaking clock, giving the wrong time."
     ],
-    "cues": [
-      "Songs That Sound Better At The Wrong Speed",
-      "News from Pijnacker",
-      "A French speaking clock giving the wrong time"
-    ]
+    "musicGroups": [
+      {
+        "label": "Possible themes and opening records",
+        "sources": [
+          "BTSHOW.DOC",
+          "BTSHOW2.DOC",
+          "BTSHOW.WRD",
+          "RADC.DOC"
+        ],
+        "note": "",
+        "tracks": [
+          {
+            "artist": "London Symphony Orchestra",
+            "title": "Whole Lotta Love"
+          },
+          {
+            "artist": "",
+            "title": "King of the Road",
+            "note": "Hammond version proposed."
+          },
+          {
+            "artist": "",
+            "title": "Popcorn",
+            "note": "Original or Phantom Surfers version; Ben’s letter prefers the latter."
+          },
+          {
+            "artist": "The Undertones",
+            "title": "Teenage Kicks",
+            "note": "Suggested opener."
+          },
+          {
+            "artist": "",
+            "title": "The Electrician",
+            "note": "Suggested second record."
+          },
+          {
+            "artist": "",
+            "title": "Queen of the New Year",
+            "note": "Paired with Shifting Sand in the notes."
+          },
+          {
+            "artist": "",
+            "title": "Shifting Sand"
+          },
+          {
+            "artist": "Paul Simon",
+            "title": "St Matthew’s Passion",
+            "note": "As written in the Psion proposal. No recording identified."
+          }
+        ]
+      },
+      {
+        "label": "Sounds considered for links",
+        "sources": [
+          "BTSHOW.DOC",
+          "BTSHOW.WRD"
+        ],
+        "note": "Other notes mention Felicity Kendal, the Troggs, Mr Bungle, Jonathan Richman, the Manics, and Sir Arnold Bax without identifying a track.",
+        "tracks": [
+          {
+            "artist": "Donovan",
+            "title": "Hurdy Gurdy Man",
+            "note": "Potential folk-music cue."
+          },
+          {
+            "artist": "",
+            "title": "Are ‘Friends’ Electric?",
+            "note": "Opening sound."
+          },
+          {
+            "artist": "Janis Joplin",
+            "title": "Ball and Chain",
+            "note": "Proposed sample."
+          },
+          {
+            "artist": "",
+            "title": "Cheap Seats",
+            "note": "Described by sound, not artist."
+          },
+          {
+            "artist": "",
+            "title": "Runway Picnic",
+            "note": "Described by sound, not artist."
+          },
+          {
+            "artist": "Bad News",
+            "title": "Bohemian Rhapsody",
+            "note": "A spoken sample from the cover."
+          },
+          {
+            "artist": "",
+            "title": "Joe’s Garage",
+            "note": "A ‘hello’ from the recording."
+          },
+          {
+            "artist": "",
+            "title": "Cold Beverages",
+            "note": "Opening sound, plural as written."
+          },
+          {
+            "artist": "",
+            "title": "Space Oddity",
+            "note": "Countdown."
+          },
+          {
+            "artist": "",
+            "title": "Decades",
+            "note": "Introduction."
+          },
+          {
+            "artist": "",
+            "title": "Star Wars theme",
+            "note": "Laser sounds in the proposal. Recording unspecified."
+          },
+          {
+            "artist": "The Beautiful South",
+            "title": "Timecheck sample",
+            "note": "Song unnamed. A recording of the speaking clock in France would follow."
+          }
+        ]
+      }
+    ],
+    "musicEntryCount": 20
   },
   {
     "date": "1996-12",
@@ -34,12 +154,362 @@
     "guests": [
       "Sam Willetts, poet, identified by Ben as a demo guest in April"
     ],
-    "music": [
-      "‘Popcorn’ among the candidate theme tunes",
-      "‘Dancing Queen’ in different versions"
+    "evidence": "The team wrote its assessment after making the demo.",
+    "features": [
+      "Music trivia, the phone box outside the station, and the same song in several versions."
     ],
-    "cues": [],
-    "evidence": "The team wrote its assessment after making the demo."
+    "musicGroups": [
+      {
+        "label": "The timed two-hour demo plan",
+        "sources": [
+          "DEMO.DOC"
+        ],
+        "note": "The cues include unnamed live songs. Post-demo feedback confirms that a demo was made, without itemising all records played.",
+        "tracks": [
+          {
+            "artist": "",
+            "title": "Popcorn",
+            "note": "Opening and closing theme; the performing artist is not identified in the timed plan."
+          },
+          {
+            "artist": "The Undertones",
+            "title": "Teenage Kicks"
+          },
+          {
+            "artist": "Consolidated",
+            "title": "College Radio",
+            "note": "Tape."
+          },
+          {
+            "artist": "Manic Street Preachers",
+            "title": "Faster"
+          },
+          {
+            "artist": "The Damned",
+            "title": "New Rose"
+          },
+          {
+            "artist": "Nick Drake",
+            "title": "One of These Things First"
+          },
+          {
+            "artist": "Pet Shop Boys",
+            "title": "Later Tonight"
+          },
+          {
+            "artist": "Lord Tanamo",
+            "title": "I’m in the Mood for Ska"
+          },
+          {
+            "artist": "Robert Wyatt",
+            "title": "Shipbuilding",
+            "note": "First of three linked songs."
+          },
+          {
+            "artist": "Aztec Camera",
+            "title": "Pillar to Post",
+            "note": "Linked songs."
+          },
+          {
+            "artist": "Elvis Costello",
+            "title": "Miracle Man",
+            "note": "Linked songs."
+          },
+          {
+            "artist": "The Fall",
+            "title": "Totally Wired"
+          },
+          {
+            "artist": "Darlene Love",
+            "title": "(Christmas) Baby Please Come Home"
+          },
+          {
+            "artist": "Klaus Wunderlich",
+            "title": "Hammond Pops 8",
+            "note": "Reading bed."
+          },
+          {
+            "artist": "Joy Division",
+            "title": "Decades"
+          },
+          {
+            "artist": "New Order",
+            "title": "The Beach"
+          },
+          {
+            "artist": "Jonathan Richman",
+            "title": "I Was Dancing in the Lesbian Bar"
+          },
+          {
+            "artist": "Caroline Trettine",
+            "title": "Sleep With Me",
+            "note": "Two-speed cue. The brainstorming list elsewhere in this file gives Be A Devil."
+          },
+          {
+            "artist": "Gery Butler",
+            "title": "King of the Road",
+            "note": "Gery as typed in the running order; ‘The Happy Hammond Goes Pop Country’."
+          },
+          {
+            "artist": "ABBA",
+            "title": "Reina Danzante",
+            "note": "Spanish Dancing Queen."
+          },
+          {
+            "artist": "ABBA / Felicity Kendal",
+            "title": "Dancing Queen",
+            "note": "Shape Up and Dance version."
+          }
+        ]
+      },
+      {
+        "label": "Demo standby records",
+        "sources": [
+          "DEMO.DOC"
+        ],
+        "note": "",
+        "tracks": [
+          {
+            "artist": "The Velvet Underground",
+            "title": "Pale Blue Eyes"
+          },
+          {
+            "artist": "Richard Hell and the Voidoids",
+            "title": "Love Comes in Spurts"
+          },
+          {
+            "artist": "The Flamin’ Groovies",
+            "title": "Shake Some Action",
+            "note": "‘Flaming Groovies’ in the document."
+          },
+          {
+            "artist": "Love",
+            "title": "Alone Again Or"
+          },
+          {
+            "artist": "David Bowie",
+            "title": "The Man Who Sold the World"
+          }
+        ]
+      },
+      {
+        "label": "Earlier shortlist in the demo file",
+        "sources": [
+          "DEMO.DOC"
+        ],
+        "note": "Several entries name an artist, album, or collection only: Fatima Mansions, Mercury Rev, Blue Nile, Denim, the Manics, Felicity Kendal, and America Strikes Back. Additional jingle ideas repeat the November proposal.",
+        "tracks": [
+          {
+            "artist": "David Bowie",
+            "title": "The Man Who Sold the World"
+          },
+          {
+            "artist": "Bruce Springsteen",
+            "title": "Atlantic City"
+          },
+          {
+            "artist": "The Who",
+            "title": "Sister Disco",
+            "note": "Question mark in the source."
+          },
+          {
+            "artist": "Joni Mitchell",
+            "title": "My Old Man"
+          },
+          {
+            "artist": "Republica",
+            "title": "Ready to Go"
+          },
+          {
+            "artist": "Django Reinhardt",
+            "title": "Nuages"
+          },
+          {
+            "artist": "Riot",
+            "title": "Narita"
+          },
+          {
+            "artist": "Darlene Love",
+            "title": "(Christmas) Baby Please Come Home"
+          },
+          {
+            "artist": "Elvis Costello",
+            "title": "Miracle Man",
+            "note": "Question mark in the shortlist."
+          },
+          {
+            "artist": "The Band",
+            "title": "I Shall Be Released"
+          },
+          {
+            "artist": "The Band",
+            "title": "The Night They Drove Old Dixie Down",
+            "note": "Alternative on the same line."
+          },
+          {
+            "artist": "Robert Wyatt",
+            "title": "Shipbuilding"
+          },
+          {
+            "artist": "Love",
+            "title": "Andmoreagain"
+          },
+          {
+            "artist": "Love",
+            "title": "Alone Again Or",
+            "note": "Alternative."
+          },
+          {
+            "artist": "The Controllers",
+            "title": "Neutron Bomb"
+          },
+          {
+            "artist": "The Clash",
+            "title": "Safe European Home"
+          },
+          {
+            "artist": "Aztec Camera",
+            "title": "Pillar to Post"
+          },
+          {
+            "artist": "Paul Simon",
+            "title": "One Trick Pony",
+            "note": "A choice from the album; no title specified."
+          },
+          {
+            "artist": "David Gray",
+            "title": "Shine"
+          },
+          {
+            "artist": "The Walker Brothers",
+            "title": "Love Minus Zero (No Limits)",
+            "note": "Source wording."
+          },
+          {
+            "artist": "Patti Smith",
+            "title": "Piss Factory",
+            "note": "From the New Wave compilation."
+          },
+          {
+            "artist": "Richard Hell and the Voidoids",
+            "title": "Love Comes in Spurts"
+          },
+          {
+            "artist": "The Damned",
+            "title": "New Rose"
+          },
+          {
+            "artist": "The Flamin’ Groovies",
+            "title": "Shake Some Action"
+          },
+          {
+            "artist": "Neil Young",
+            "title": "Out on the Weekend"
+          },
+          {
+            "artist": "Prince",
+            "title": "The Cross"
+          },
+          {
+            "artist": "Terry Hall",
+            "title": "Forever J"
+          },
+          {
+            "artist": "Tom Waits",
+            "title": "16 Shells from a 30.6",
+            "note": "As written."
+          },
+          {
+            "artist": "Lisa Germano",
+            "title": "Bruises"
+          },
+          {
+            "artist": "The Fall",
+            "title": "Totally Wired"
+          },
+          {
+            "artist": "K Foundation",
+            "title": "Theme from thingt",
+            "note": "Incomplete title as typed."
+          },
+          {
+            "artist": "The Velvet Underground",
+            "title": "Pale Blue Eyes"
+          },
+          {
+            "artist": "Deacon Blue",
+            "title": "He Looks Like Spencer Tracy Now"
+          },
+          {
+            "artist": "Tim Buckley",
+            "title": "Dolphins"
+          },
+          {
+            "artist": "John Martyn",
+            "title": "Don’t Think Twice"
+          },
+          {
+            "artist": "Scotty",
+            "title": "Skank in Bed"
+          },
+          {
+            "artist": "Caroline Trettine",
+            "title": "Be a Devil",
+            "note": "Wrong-speed proposal, differently named in the demo’s timed plan."
+          },
+          {
+            "artist": "New Order",
+            "title": "Blue Monday",
+            "note": "Possible long record."
+          },
+          {
+            "artist": "",
+            "title": "Popcorn",
+            "note": "In the kitsch list."
+          },
+          {
+            "artist": "ABBA",
+            "title": "Reina Danzante"
+          },
+          {
+            "artist": "Klaus Wunderlich",
+            "title": "Hammond Pops",
+            "note": "Hammond selections proposed."
+          },
+          {
+            "artist": "Ross Carpenter",
+            "title": "Wichita Lineman",
+            "note": "Artist as typed."
+          },
+          {
+            "artist": "The Undertones",
+            "title": "Teenage Kicks",
+            "note": "Possible starter."
+          },
+          {
+            "artist": "",
+            "title": "Weather with You",
+            "note": "One half of a possible ‘intro corner’."
+          },
+          {
+            "artist": "",
+            "title": "Tommy",
+            "note": "Second part of ‘intro corner’."
+          },
+          {
+            "artist": "London Symphony Orchestra",
+            "title": "Whole Lotta Love",
+            "note": "Possible theme."
+          },
+          {
+            "artist": "",
+            "title": "King of the Road",
+            "note": "Hammond arrangement among theme options."
+          }
+        ]
+      }
+    ],
+    "musicEntryCount": 73
   },
   {
     "date": "1997-01",
@@ -53,12 +523,83 @@
       "WEBSITE.DOC"
     ],
     "guests": [],
-    "music": [],
-    "cues": [
-      "Batman-style jingles for the time check, tea break, and phone-in",
-      "Record scratches and a whispered ident",
-      "Several versions of the same song to end the show"
-    ]
+    "features": [
+      "Batman-style jingles for the time check, tea break, and phone-in. ‘dead air dead air dead air DEAD AIR!’",
+      "Record scratches, a whispered ident, and several versions of the same song to finish."
+    ],
+    "musicGroups": [
+      {
+        "label": "Versions and jingle sources",
+        "sources": [
+          "BTSHOW4.DOC",
+          "JINGLES.DOC"
+        ],
+        "note": "Other contemplated snippets name Donovan, Felicity Kendal, Ghostface Killah, the Troggs, Mr Bungle, Jonathan Richman, and the Manics. One line considers a Beatles/Tijuana version without a song title.",
+        "tracks": [
+          {
+            "artist": "",
+            "title": "Dancing Queen",
+            "note": "Felicity Kendal and a Spanish version."
+          },
+          {
+            "artist": "Queen / Bad News",
+            "title": "Bohemian Rhapsody",
+            "note": "Also an unnamed rap version."
+          },
+          {
+            "artist": "",
+            "title": "Batman theme",
+            "note": "Tune for the Dead Air vocal jingle and its variants."
+          },
+          {
+            "artist": "",
+            "title": "Larn Yersel’ Geordie",
+            "note": "A sample proposed for a jingle."
+          },
+          {
+            "artist": "The Beautiful South",
+            "title": "Timecheck sample",
+            "note": "No track title stated in the notes."
+          },
+          {
+            "artist": "Janis Joplin",
+            "title": "Ball and Chain",
+            "note": "Jingle sample."
+          },
+          {
+            "artist": "",
+            "title": "Cheap Seats",
+            "note": "Jingle sample."
+          },
+          {
+            "artist": "",
+            "title": "Runway Picnic",
+            "note": "Jingle sample."
+          },
+          {
+            "artist": "",
+            "title": "Joe’s Garage",
+            "note": "Jingle sample."
+          },
+          {
+            "artist": "",
+            "title": "Cold Beverages",
+            "note": "Jingle sample."
+          },
+          {
+            "artist": "",
+            "title": "Space Oddity",
+            "note": "Countdown sample."
+          },
+          {
+            "artist": "",
+            "title": "Decades",
+            "note": "Intro."
+          }
+        ]
+      }
+    ],
+    "musicEntryCount": 12
   },
   {
     "date": "1997-02-02",
@@ -72,16 +613,164 @@
       "JOE mail 9"
     ],
     "guests": [],
-    "music": [
-      "Aztec Camera – Good Morning Britain",
-      "The Clash – Safe European Home",
-      "Tom Waits – 16 Shells from a 30.6"
+    "evidence": "2 February is the save date of DEMO2.DOC. DEMO3.DOC was saved on 9 February. DEMO4.DOC is a later revision.",
+    "features": [
+      "The theme after the news, the trivia slot, and ‘Dancing Queen’ in several versions on the way out."
     ],
-    "cues": [
-      "16:04 – Theme tune",
-      "17:24 – Several versions of Dancing Queen"
+    "musicGroups": [
+      {
+        "label": "First February rehearsal sheet",
+        "sources": [
+          "DEMO2.DOC"
+        ],
+        "note": "",
+        "tracks": [
+          {
+            "artist": "",
+            "title": "Popcorn",
+            "note": "Theme, repeated after the news and at the end."
+          },
+          {
+            "artist": "Aztec Camera",
+            "title": "Good Morning Britain"
+          },
+          {
+            "artist": "The Clash",
+            "title": "Safe European Home"
+          },
+          {
+            "artist": "Paul Simon",
+            "title": "Late in the Evening"
+          },
+          {
+            "artist": "Klaus Wunderlich",
+            "title": "Hammond Pops 8",
+            "note": "Bed under Rufus’s readings. Eoin’s session entries are labelled ‘Replaced’."
+          },
+          {
+            "artist": "The Flamin’ Groovies",
+            "title": "Shake Some Action"
+          },
+          {
+            "artist": "Elmore James",
+            "title": "The Sky Is Crying"
+          },
+          {
+            "artist": "The Kingsmen",
+            "title": "Louie Louie"
+          },
+          {
+            "artist": "Tom Waits",
+            "title": "16 Shells from a 30.6",
+            "note": "As written."
+          },
+          {
+            "artist": "Richard Hell and the Voidoids",
+            "title": "Love Comes in Spurts"
+          },
+          {
+            "artist": "The Cadillacs",
+            "title": "Speedo"
+          },
+          {
+            "artist": "Terry Hall",
+            "title": "Forever J"
+          },
+          {
+            "artist": "Scotty",
+            "title": "Skank in Bed"
+          },
+          {
+            "artist": "ABBA",
+            "title": "Reina Danzante",
+            "note": "First part of the mix."
+          },
+          {
+            "artist": "ABBA",
+            "title": "Dancing Queen"
+          },
+          {
+            "artist": "ABBA / Felicity Kendal",
+            "title": "Dancing Queen",
+            "note": "Shape Up and Dance version."
+          },
+          {
+            "artist": "The Velvet Underground",
+            "title": "Pale Blue Eyes",
+            "note": "Standby."
+          }
+        ]
+      },
+      {
+        "label": "Further rehearsal and revision",
+        "sources": [
+          "DEMO3.DOC",
+          "DEMO4.DOC"
+        ],
+        "note": "Some new-release slots have no track named. DEMO3 and DEMO4 give the same musical selections. Their footer initials differ.",
+        "tracks": [
+          {
+            "artist": "",
+            "title": "Popcorn",
+            "note": "Theme."
+          },
+          {
+            "artist": "The Clash",
+            "title": "Safe European Home"
+          },
+          {
+            "artist": "David Gray",
+            "title": "Shine"
+          },
+          {
+            "artist": "Klaus Wunderlich",
+            "title": "Hammond Pops 8",
+            "note": "Under Rufus’s readings."
+          },
+          {
+            "artist": "The Rolling Stones",
+            "title": "Paint It Black"
+          },
+          {
+            "artist": "Tom Waits",
+            "title": "16 Shells from a 30.6",
+            "note": "As written."
+          },
+          {
+            "artist": "S*M*A*S*H",
+            "title": "Real Surreal"
+          },
+          {
+            "artist": "Orange",
+            "title": "Judy Over the Rainbow"
+          },
+          {
+            "artist": "Cog Sinister / Mark E Smith",
+            "title": "Theme from ERROR-ORRORI",
+            "note": "Credits as typed."
+          },
+          {
+            "artist": "The Velvet Underground",
+            "title": "Pale Blue Eyes"
+          },
+          {
+            "artist": "ABBA",
+            "title": "Reina Danzante",
+            "note": "Closing mix."
+          },
+          {
+            "artist": "ABBA",
+            "title": "Dancing Queen"
+          },
+          {
+            "artist": "ABBA / Felicity Kendal",
+            "title": "Dancing Queen",
+            "note": "Shape Up and Dance version."
+          }
+        ]
+      }
     ],
-    "evidence": "2 February is the save date of DEMO2.DOC. DEMO3.DOC was saved on 9 February. DEMO4.DOC is a later revision."
+    "musicEntryCount": 30
   },
   {
     "date": "1997-02-16",
@@ -98,27 +787,118 @@
       "Eoin Quiery – session",
       "Fraser – readings in the running order"
     ],
-    "music": [
-      "The Undertones – Teenage Kicks",
-      "Television – Venus",
-      "Nick Drake – One of These Things First",
-      "DJ Shadow – Organ Donor",
-      "Caroline Trettine – Be A Devil"
+    "evidence": "A listener reported hearing the entire show on 20 February. Maxie later compared Eoin’s first-week session with Katie’s second-week one. These accounts establish both appearances; individual cues come from the running order.",
+    "features": [
+      "Maxie’s trivia slot, with the Meco ‘Star Wars’ record underneath.",
+      "The wrong-speed record and the phone-in."
     ],
-    "cues": [
-      "16:00 – News",
-      "16:03:20 – Shout over the start of Popcorn",
-      "16:23:30 – Eoin Quiery session",
-      "17:22:39 – Jonathan Richman, I Was Dancing In The Lesbian Bar",
-      "17:30 – Station ident"
+    "musicGroups": [
+      {
+        "label": "The records, theme, and beds on the running order",
+        "sources": [
+          "DEAD1.DOC"
+        ],
+        "note": "Eoin Quiery is booked for three sessions without titles. Maxie and a listener confirm the programme, and Maxie confirms Eoin’s appearance.",
+        "tracks": [
+          {
+            "artist": "",
+            "title": "Popcorn",
+            "note": "Theme."
+          },
+          {
+            "artist": "The Undertones",
+            "title": "Teenage Kicks"
+          },
+          {
+            "artist": "Television",
+            "title": "Venus"
+          },
+          {
+            "artist": "Nick Drake",
+            "title": "One of These Things First"
+          },
+          {
+            "artist": "DJ Shadow",
+            "title": "Organ Donor"
+          },
+          {
+            "artist": "Stina Nordenstam",
+            "title": "Little Star",
+            "note": "Eoin’s choice. Spelled two different ways in the source."
+          },
+          {
+            "artist": "The Fall",
+            "title": "Totally Wired"
+          },
+          {
+            "artist": "Klaus Wunderlich",
+            "title": "Happy Hammond",
+            "note": "Under Fraser’s reading."
+          },
+          {
+            "artist": "Tiger",
+            "title": "On the Rose"
+          },
+          {
+            "artist": "Caroline Trettine",
+            "title": "Be a Devil",
+            "note": "45rpm for thirty seconds, then 33rpm."
+          },
+          {
+            "artist": "Monaco",
+            "title": "What Do You Want from Me?"
+          },
+          {
+            "artist": "Meco",
+            "title": "Star Wars Theme / Cantina Band",
+            "note": "Bed for Maxie’s trivia."
+          },
+          {
+            "artist": "Aztec Camera",
+            "title": "Good Morning Britain"
+          },
+          {
+            "artist": "Joy Division",
+            "title": "Love Will Tear Us Apart",
+            "note": "Under Fraser’s reading."
+          },
+          {
+            "artist": "Urusei Yatsura",
+            "title": "Strategic Hamlets"
+          },
+          {
+            "artist": "Jonathan Richman",
+            "title": "I Was Dancing in the Lesbian Bar"
+          },
+          {
+            "artist": "",
+            "title": "Dancing Queen",
+            "note": "Disc mix; performers not named in the timed sheet."
+          }
+        ]
+      },
+      {
+        "label": "Record listed as missing",
+        "sources": [
+          "DEAD1.DOC"
+        ],
+        "note": "",
+        "tracks": [
+          {
+            "artist": "Lord Tanamo",
+            "title": "I’m in the Mood for Ska",
+            "note": "The Roots of Reggae volume is marked ‘MISSING’ in the preparation notes."
+          }
+        ]
+      }
     ],
-    "evidence": "A listener reported hearing the entire show on 20 February. Maxie later compared Eoin’s first-week session with Katie’s second-week one. These accounts establish both appearances; individual cues come from the running order."
+    "musicEntryCount": 18
   },
   {
     "date": "1997-02-23",
     "title": "Katie Buckhaven in session",
     "status": "Broadcast corroborated",
-    "summary": "Katie Buckhaven’s three session entries are ‘Let Her Cry’, ‘It’s A Funny World’, and ‘Silver Dagger’. Between them sit White Town, Love, and Aztec Camera’s version of ‘Jump’. Klaus Wunderlich’s Hammond provides the music under the trivia slot.",
+    "summary": "Katie Buckhaven’s three session entries are ‘Let Her Cry’, ‘It’s A Funny World’, and ‘Silver Dagger’. Between them sit White Town, Love, and Aztec Camera’s version of ‘Jump’. An organ version of ‘King of the Road’ provides the music under the trivia slot.",
     "sources": [
       "DEAD2.DOC",
       "OXYGEN mail 4"
@@ -126,110 +906,527 @@
     "guests": [
       "Katie Buckhaven – session"
     ],
-    "music": [
-      "David Gray – What Are You?",
-      "Manic Street Preachers – Faster",
-      "White Town – Undressed",
-      "Love – Alone Again Or",
-      "Aztec Camera – Jump",
-      "Beck – The New Pollution"
+    "evidence": "Maxie wrote the following day about how Katie had sounded and the change in microphone levels since the first week.",
+    "features": [
+      "The trivia slot, this time over ‘King of the Road’."
     ],
-    "cues": [
-      "16:13 – Let Her Cry",
-      "16:46 – It’s A Funny World",
-      "17:06 – Silver Dagger"
+    "musicGroups": [
+      {
+        "label": "The records, guest songs, and bed on the desk sheet",
+        "sources": [
+          "DEAD2.DOC"
+        ],
+        "note": "Maxie’s next-day email confirms Katie’s appearance. Track titles are supplied by the sheet.",
+        "tracks": [
+          {
+            "artist": "",
+            "title": "Popcorn",
+            "note": "Theme."
+          },
+          {
+            "artist": "David Gray",
+            "title": "What Are You?"
+          },
+          {
+            "artist": "Manic Street Preachers",
+            "title": "Faster"
+          },
+          {
+            "artist": "Katie Buckhaven",
+            "title": "Let Her Cry",
+            "note": "Session."
+          },
+          {
+            "artist": "White Town",
+            "title": "Undressed"
+          },
+          {
+            "artist": "Love",
+            "title": "Alone Again Or"
+          },
+          {
+            "artist": "Republica",
+            "title": "Ready to Go"
+          },
+          {
+            "artist": "The Flamin’ Groovies",
+            "title": "Shake Some Action"
+          },
+          {
+            "artist": "Nerf Herder",
+            "title": "Van Halen"
+          },
+          {
+            "artist": "Aztec Camera",
+            "title": "Jump"
+          },
+          {
+            "artist": "Katie Buckhaven",
+            "title": "It’s a Funny World",
+            "note": "Session."
+          },
+          {
+            "artist": "Gene",
+            "title": "Where Are They Now"
+          },
+          {
+            "artist": "The Damned",
+            "title": "New Rose"
+          },
+          {
+            "artist": "Katie Buckhaven",
+            "title": "Silver Dagger",
+            "note": "Session."
+          },
+          {
+            "artist": "",
+            "title": "King of the Road",
+            "note": "Happy Hammond Goes Pop Country, side two, track two. The desk sheet does not name the organist."
+          },
+          {
+            "artist": "Beck",
+            "title": "The New Pollution"
+          },
+          {
+            "artist": "The Black Crowes",
+            "title": "Sometimes Salvation"
+          },
+          {
+            "artist": "Primitive Radio Gods",
+            "title": "Standing Outside a Broken Phone Booth with Money in My Hand",
+            "note": "Title as typed."
+          }
+        ]
+      },
+      {
+        "label": "Additional preparation notes",
+        "sources": [
+          "DEAD2.DOC"
+        ],
+        "note": "",
+        "tracks": [
+          {
+            "artist": "Richard Hell and the Voidoids",
+            "title": "Love Comes in Spurts"
+          },
+          {
+            "artist": "The Kingsmen",
+            "title": "Louie Louie"
+          },
+          {
+            "artist": "Monaco",
+            "title": "What Do You Want from Me?"
+          },
+          {
+            "artist": "New Order",
+            "title": "Blue Monday",
+            "note": "Possible backing for Maxie."
+          },
+          {
+            "artist": "Klaus Wunderlich",
+            "title": "Happy Hammond",
+            "note": "Backing listed for Fraser; no individual track specified."
+          }
+        ]
+      }
     ],
-    "evidence": "Maxie wrote the following day about how Katie had sounded and the change in microphone levels since the first week."
+    "musicEntryCount": 23
   },
   {
     "date": "1997-03-02",
     "title": "George Kirby, Dave Dwan, and Professor Pea",
     "status": "Dated running order",
-    "summary": "George Kirby is down for ‘To Ramona’, ‘I Cannot Yet Choose To Die’, and ‘I Feel Realer’. Dave Dwan has two readings and Professor Pea has a literary slot. The sheet marks two records that could be dropped if time ran short.",
+    "summary": "George Kirby, a Catweazle Club regular and an incredible Dylan impersonator, later became a staple of both Oxygen and Oxford TV. He’s on this sheet for ‘To Ramona’, ‘I Cannot Yet Choose To Die’, and ‘I Feel Realer’. Dave Dwan has two readings, and Professor Pea has a literary slot.",
     "sources": [
-      "DEAD3.DOC"
+      "DEAD3.DOC",
+      "OXYGEN mail 46"
     ],
     "guests": [
       "George Kirby – session",
       "Dave Dwan – readings",
       "Professor Pea – literary feature"
     ],
-    "music": [
-      "The Damned – New Rose",
-      "Lord Tanamo – I’m In The Mood for Ska",
-      "Trash Can Sinatras – To Sir With Love",
-      "Django Reinhardt – Nagasaki",
-      "Jeff Buckley – Hallelujah"
+    "features": [
+      "Music trivia and a reading from Professor Pea."
     ],
-    "cues": [
-      "16:14:30 – George, To Ramona",
-      "16:42 – Professor Pea",
-      "17:20 – Dave Dwan, Gospel"
-    ]
+    "musicGroups": [
+      {
+        "label": "Desk sheet, including the live session",
+        "sources": [
+          "DEAD3.DOC"
+        ],
+        "note": "",
+        "tracks": [
+          {
+            "artist": "",
+            "title": "Popcorn",
+            "note": "Theme."
+          },
+          {
+            "artist": "The Damned",
+            "title": "New Rose"
+          },
+          {
+            "artist": "Lord Tanamo",
+            "title": "I’m in the Mood for Ska",
+            "note": "Later notes use ‘Love’ in place of ‘Ska’."
+          },
+          {
+            "artist": "The Wannadies",
+            "title": "Untitled selection",
+            "note": "Disc 4 in the notes; intro six seconds and end at 2:20."
+          },
+          {
+            "artist": "George Kirby",
+            "title": "To Ramona",
+            "note": "Session."
+          },
+          {
+            "artist": "Trash Can Sinatras",
+            "title": "To Sir with Love"
+          },
+          {
+            "artist": "Aztec Camera",
+            "title": "Rainy Season"
+          },
+          {
+            "artist": "Placebo",
+            "title": "Bruise Pristine",
+            "note": "Listed among ‘Tracks to cut’."
+          },
+          {
+            "artist": "The Flaming Stars",
+            "title": "Money to Burn"
+          },
+          {
+            "artist": "George Kirby",
+            "title": "I Cannot Yet Choose to Die",
+            "note": "Session."
+          },
+          {
+            "artist": "Veruca Salt",
+            "title": "With David Bowie"
+          },
+          {
+            "artist": "David Bowie",
+            "title": "Rock ’n’ Roll with Me"
+          },
+          {
+            "artist": "Elvis Costello and the Attractions",
+            "title": "(The Angels Wanna Wear My) Red Shoes",
+            "note": "The prep notes correct ‘Red Shows’; also listed among ‘Tracks to cut’."
+          },
+          {
+            "artist": "Cypress Hill",
+            "title": "Tres Equis"
+          },
+          {
+            "artist": "The Lemonheads",
+            "title": "The Outdoor Type"
+          },
+          {
+            "artist": "George Kirby",
+            "title": "I Feel Realer",
+            "note": "Session."
+          },
+          {
+            "artist": "Django Reinhardt",
+            "title": "Nagasaki"
+          },
+          {
+            "artist": "Jeff Buckley",
+            "title": "Hallelujah"
+          }
+        ]
+      },
+      {
+        "label": "Background, standby, and alternative notes",
+        "sources": [
+          "DEAD3.DOC"
+        ],
+        "note": "",
+        "tracks": [
+          {
+            "artist": "",
+            "title": "Fabian Road Warrior",
+            "note": "Proposed background."
+          },
+          {
+            "artist": "Aztec Camera",
+            "title": "Pillar to Post",
+            "note": "Bracketed in the prep notes."
+          },
+          {
+            "artist": "The Associates",
+            "title": "Party Fears 2",
+            "note": "Standby."
+          }
+        ]
+      }
+    ],
+    "musicEntryCount": 21,
+    "evidence": "In June George asked for a tape of his performance."
   },
   {
     "date": "1997-03-09",
     "title": "Unclassified and Andreas Beltzer",
     "status": "Guest appearances corroborated",
-    "summary": "Unclassified were Julian Dickinson and Julia Middleton, on guitar, voice, and soprano sax. Their session shares the sheet with Catweazle host Andreas Beltzer’s readings. The detailed version makes room for Uncle Anton’s Problem Corner and Rufus testing the microphones.",
+    "summary": "Unclassified were Julian Dickinson and Julia Middleton (Jules and Jules), on guitar, voice, and soprano sax. Their session shares the sheet with Catweazle host Andreas Beltzer’s readings. Rufus tests the microphones, and Uncle Anton answers problems.",
     "sources": [
       "DEAD4.DOC",
       "DEAD4ONE.DOC",
       "OXYGEN mail 47"
     ],
     "guests": [
-      "Unclassified – Julian Dickinson and Julia Middleton",
+      "Unclassified – Julian Dickinson and Julia Middleton (Jules and Jules)",
       "Andreas Beltzer – readings"
     ],
-    "music": [
-      "The Clash – Safe European Home",
-      "Django Reinhardt – Nagasaki",
-      "The Associates – Party Fears 2",
-      "Aztec Camera – Pillar to Post"
+    "evidence": "In April Ben recorded that the duo had played and that Andreas had been on Dead Air the preceding term. The running order supplies the date and planned sequence.",
+    "features": [
+      "Uncle Anton’s Problem Corner, Professor Pea, ‘Is There Anybody Out There?’, and the phone box outside the station."
     ],
-    "cues": [
-      "16:13:30 – Andreas",
-      "16:19:30 – Uncle Anton’s Problem Corner",
-      "16:25 – Unclassified",
-      "16:42 – Unclassified again"
+    "musicGroups": [
+      {
+        "label": "The detailed running order",
+        "sources": [
+          "DEAD4ONE.DOC"
+        ],
+        "note": "Three slots for Unclassified (Julian Dickinson and Julia Middleton) contain no song titles. Their appearance is independently confirmed in Ben’s April performer handover.",
+        "tracks": [
+          {
+            "artist": "",
+            "title": "Popcorn",
+            "note": "Theme."
+          },
+          {
+            "artist": "The Clash",
+            "title": "Safe European Home"
+          },
+          {
+            "artist": "Django Reinhardt",
+            "title": "Nagasaki"
+          },
+          {
+            "artist": "Elvis Costello and the Attractions",
+            "title": "(The Angels Wanna Wear My) Red Shoes"
+          },
+          {
+            "artist": "The Flaming Stars",
+            "title": "Money to Burn"
+          },
+          {
+            "artist": "DJ Shadow",
+            "title": "Track 6",
+            "note": "Title and disc unspecified in the link."
+          },
+          {
+            "artist": "The Associates",
+            "title": "Party Fears 2"
+          },
+          {
+            "artist": "Aztec Camera",
+            "title": "Pillar to Post"
+          },
+          {
+            "artist": "Veruca Salt",
+            "title": "With David Bowie"
+          },
+          {
+            "artist": "David Bowie",
+            "title": "Rock ’n’ Roll with Me"
+          },
+          {
+            "artist": "",
+            "title": "Fabian Road Warrior",
+            "note": "Repeated instruction before records."
+          }
+        ]
+      },
+      {
+        "label": "Earlier worksheet for the same afternoon",
+        "sources": [
+          "DEAD4.DOC",
+          "DEAD4ONE.DOC"
+        ],
+        "note": "",
+        "tracks": [
+          {
+            "artist": "The Damned",
+            "title": "New Rose",
+            "note": "In the early layout; absent from the opening of DEAD4ONE."
+          },
+          {
+            "artist": "The Stone Roses",
+            "title": "I Wanna Be Adored",
+            "note": "Under ‘Jax’s Records’."
+          },
+          {
+            "artist": "The Kinks",
+            "title": "Apeman",
+            "note": "Under ‘Jax’s Records’."
+          },
+          {
+            "artist": "James",
+            "title": "Sit Down",
+            "note": "7-inch, under ‘Jax’s Records’."
+          },
+          {
+            "artist": "Chuck Berry",
+            "title": "Untitled selection",
+            "note": "Only the artist is named under ‘Jax’s Records’."
+          }
+        ]
+      }
     ],
-    "evidence": "In April Ben recorded that the duo had played and that Andreas had been on Dead Air the preceding term. The running order supplies the date and planned sequence."
+    "musicEntryCount": 16
   },
   {
     "date": "1997-03-16",
     "title": "An extra half-hour",
     "status": "Dated running order",
-    "summary": "With News Review off the schedule, the station offered Ben an extra half-hour. The revised sheet runs to 17:58. It calls for three sessions from Superfly, readings by Sam, a fishing phone-in, and Echo and the Bunnymen’s ‘The Killing Moon’ before the theme.",
+    "summary": "With News Review off the schedule, the station offered us an extra half-hour. The revised sheet runs to 17:58. Superfly were booked to play ‘Short Skirts’, ‘Egg Beater Soul’, and ‘Circle-shaped’. Sam was to read, and the fishing phone-in would follow. The last record before the theme was to be Echo and the Bunnymen’s ‘The Killing Moon’.",
     "sources": [
       "DEAD5.DOC",
       "DEAD5ONE.DOC",
+      "OXYGEN mail 6",
+      "OXYGEN mail 8",
       "OXYGEN mail 12",
+      "OXYGEN mail 37",
       "OXYGEN mail 47"
     ],
     "guests": [
       "Superfly – three scheduled sessions",
       "Sam Willetts – poetry"
     ],
-    "music": [
-      "Paul Simon – Late In The Evening",
-      "Kenickie – Nightlife, on tape",
-      "Ghostface Killah – 260",
-      "Terry Hall – Sense",
-      "Bix Beiderbecke with Frankie Trumbauer and Eddie Lang – Singin’ the Blues",
-      "Echo and the Bunnymen – The Killing Moon"
+    "evidence": "In April Ben confirmed that Sam had done the demo and one show in the previous term. The 16 March sheet lists him as Sam.",
+    "features": [
+      "‘Is There Anybody Out There?’, Professor Pea, and the fishing phone-in."
     ],
-    "cues": [
-      "16:21 – Is There Anybody Out There?",
-      "17:23 – Fishing phone-in",
-      "17:58 – Out"
+    "musicGroups": [
+      {
+        "label": "Timed running order and production worksheet",
+        "sources": [
+          "DEAD5ONE.DOC",
+          "DEAD5.DOC"
+        ],
+        "note": "",
+        "tracks": [
+          {
+            "artist": "",
+            "title": "Popcorn",
+            "note": "Theme."
+          },
+          {
+            "artist": "Paul Simon",
+            "title": "Late in the Evening"
+          },
+          {
+            "artist": "S*M*A*S*H",
+            "title": "Real Surreal"
+          },
+          {
+            "artist": "Kenickie",
+            "title": "Nightlife",
+            "note": "Tape; ‘Possible world exclusive’ in the notes."
+          },
+          {
+            "artist": "The The",
+            "title": "This Is the Day"
+          },
+          {
+            "artist": "Aztec Camera",
+            "title": "The Birth of the True"
+          },
+          {
+            "artist": "Arab Strap",
+            "title": "The Clearing"
+          },
+          {
+            "artist": "Ghostface Killah",
+            "title": "260"
+          },
+          {
+            "artist": "Terry Hall",
+            "title": "Sense"
+          },
+          {
+            "artist": "The Ramones",
+            "title": "Judy is a Punk Rocker",
+            "note": "‘If time’; title as typed."
+          },
+          {
+            "artist": "Duran Duran",
+            "title": "Planet Earth"
+          },
+          {
+            "artist": "The Zombies",
+            "title": "She’s Not There"
+          },
+          {
+            "artist": "The Velvet Underground",
+            "title": "Pale Blue Eyes"
+          },
+          {
+            "artist": "Bix Beiderbecke with Frankie Trumbauer and Eddie Lang",
+            "title": "Singin’ the Blues"
+          },
+          {
+            "artist": "White Town",
+            "title": "Undressed"
+          },
+          {
+            "artist": "The New York Dolls",
+            "title": "Personality Crisis"
+          },
+          {
+            "artist": "Scotty",
+            "title": "Skank in Bed"
+          },
+          {
+            "artist": "Echo and the Bunnymen",
+            "title": "The Killing Moon"
+          }
+        ]
+      },
+      {
+        "label": "The three songs agreed with Superfly",
+        "sources": [
+          "OXYGEN mail 6",
+          "OXYGEN mail 8",
+          "OXYGEN mail 37"
+        ],
+        "note": "The band previously called itself Pants. The desk sheet has three session slots. The emails specify the intended songs.",
+        "tracks": [
+          {
+            "artist": "Superfly",
+            "title": "Short Skirts",
+            "note": "Planned acoustic session."
+          },
+          {
+            "artist": "Superfly",
+            "title": "Egg Beater Soul",
+            "note": "Planned acoustic session."
+          },
+          {
+            "artist": "Superfly",
+            "title": "Circle-shaped",
+            "note": "Third song confirmed on 13 March after rehearsal."
+          },
+          {
+            "artist": "Curtis Mayfield",
+            "title": "Untitled selection",
+            "note": "Ben suggested a Curtis Mayfield track in response to the band’s change of name."
+          }
+        ]
+      }
     ],
-    "evidence": "In April Ben confirmed that Sam had done the demo and one show in the previous term. The 16 March sheet lists him as Sam."
+    "musicEntryCount": 22
   },
   {
     "date": "1997-04",
     "title": "The April programmes",
     "status": "Working music lists",
-    "summary": "April sheets arrange records by the Undertones, Jan & Dean, and Jonathan Richman alongside Eoin’s ‘The Time, The Place’ and ‘My First Cigarette’. A second list marks up Microdisney, Jimmy Cliff, and Everything but the Girl, with ‘Machine Gun’ by the Commodores as a music bed. On 26 April Ben wrote that an Ian Green session was due that week and three further songs were on MiniDisc.",
+    "summary": "Eoin’s ‘The Time, The Place’ and ‘My First Cigarette’ sit alongside Jan & Dean, the Undertones, and Jonathan Richman. A second list marks up tracks by Microdisney and Everything but the Girl, and gives the Commodores’ ‘Machine Gun’ as a bed. On 26 April I wrote that an Ian Green session was due that week and that I had three more of his songs on MiniDisc.",
     "sources": [
       "2DEAD1A.DOC",
       "2DEAD1B.DOC",
@@ -240,15 +1437,421 @@
     "guests": [
       "Ian Green – recorded guitar and vocal session"
     ],
-    "music": [
-      "Jan & Dean – Dead Man’s Curve",
-      "Jonathan Richman – That Summer Feeling",
-      "Jimmy Cliff – Many Rivers to Cross",
-      "Everything but the Girl – Alison",
-      "Microdisney – Everybody is Dead"
+    "evidence": "Sunday 27 April 1997 is the likeliest date. Both April lists give Jimmy Cliff’s record as 2:30, side one, track two. I put an asterisk beside it on the second list and saved the file at 3.55 pm, five minutes before we were due on air.",
+    "features": [],
+    "musicGroups": [
+      {
+        "label": "Numbered April selections",
+        "sources": [
+          "2DEAD1A.DOC"
+        ],
+        "note": "The two numbering schemes and stars have been retained. Their meaning is not explained in the document.",
+        "tracks": [
+          {
+            "artist": "Eoin Quiery",
+            "title": "The Time, The Place",
+            "note": "B8."
+          },
+          {
+            "artist": "Terry Hall",
+            "title": "Ballad of a Landlord",
+            "note": "9."
+          },
+          {
+            "artist": "Jan & Dean",
+            "title": "Dead Man’s Curve",
+            "note": "6."
+          },
+          {
+            "artist": "Prefab Sprout",
+            "title": "A Prisoner of the Past",
+            "note": "B4/5."
+          },
+          {
+            "artist": "",
+            "title": "Everything Must Go",
+            "note": "Play a short extract before the Prefab Sprout record. Artist not stated here."
+          },
+          {
+            "artist": "Loudon Wainwright III",
+            "title": "That Hospital",
+            "note": "B9."
+          },
+          {
+            "artist": "The Cadillacs",
+            "title": "Speedo",
+            "note": "B10. The file reverses title and artist."
+          },
+          {
+            "artist": "The Champs",
+            "title": "Tequila",
+            "note": "B6."
+          },
+          {
+            "artist": "The Undertones",
+            "title": "Girls Don’t Like It",
+            "note": "B1."
+          },
+          {
+            "artist": "Billy Bragg",
+            "title": "Sugar Daddy",
+            "note": "B7."
+          },
+          {
+            "artist": "Frankie Valli",
+            "title": "Can’t Take My Eyes Off You",
+            "note": "B2, starred."
+          },
+          {
+            "artist": "Aztec Camera",
+            "title": "Spanish Horses",
+            "note": "7, starred; produced by Ryuichi Sakamoto."
+          },
+          {
+            "artist": "Ryuichi Sakamoto",
+            "title": "Asadoya Yunta",
+            "note": "8, starred."
+          },
+          {
+            "artist": "The Cramps",
+            "title": "New Kind of Kick",
+            "note": "10, starred."
+          },
+          {
+            "artist": "Jonathan Richman",
+            "title": "That Summer Feeling",
+            "note": "2, starred."
+          },
+          {
+            "artist": "Rollins Band",
+            "title": "Do It",
+            "note": "1, starred."
+          },
+          {
+            "artist": "Donovan",
+            "title": "Sunshine Superman",
+            "note": "B11."
+          },
+          {
+            "artist": "Eoin Quiery",
+            "title": "My First Cigarette",
+            "note": "B2.5."
+          },
+          {
+            "artist": "Gorky’s Zygotic Mynci",
+            "title": "Lucy’s Hamper",
+            "note": "B3."
+          },
+          {
+            "artist": "CJ Bolland",
+            "title": "The Prophet",
+            "note": "4."
+          },
+          {
+            "artist": "Dogs D’Amour",
+            "title": "Satellite Kid",
+            "note": "3; Fraser’s choice."
+          }
+        ]
+      },
+      {
+        "label": "Further choices in the same April file",
+        "sources": [
+          "2DEAD1A.DOC"
+        ],
+        "note": "",
+        "tracks": [
+          {
+            "artist": "The Kingsmen",
+            "title": "Louie Louie"
+          },
+          {
+            "artist": "The Beatles",
+            "title": "Boys"
+          },
+          {
+            "artist": "Elmore James",
+            "title": "The Sky Is Crying",
+            "note": "The file types ‘Elmore Janes’."
+          },
+          {
+            "artist": "Aztec Camera",
+            "title": "How Men Are",
+            "note": "Live version."
+          },
+          {
+            "artist": "Soul Coughing",
+            "title": "Super Bon Bon",
+            "note": "Fraser’s choice."
+          },
+          {
+            "artist": "Catatonia",
+            "title": "All Girls Are Fly",
+            "note": "Fraser’s choice; ‘Da-De? Remix’ in the notes."
+          },
+          {
+            "artist": "Elvis Costello and the Attractions",
+            "title": "Shallow Grave"
+          },
+          {
+            "artist": "Bob Mould",
+            "title": "I Hate Alternative Rock"
+          },
+          {
+            "artist": "John Lennon / Plastic Ono Band",
+            "title": "God"
+          },
+          {
+            "artist": "Palace Songs",
+            "title": "Winter Lady"
+          },
+          {
+            "artist": "The Maytals",
+            "title": "Monkey Man"
+          },
+          {
+            "artist": "The Velvet Underground",
+            "title": "Candy Says"
+          },
+          {
+            "artist": "The Smiths",
+            "title": "Still Ill"
+          },
+          {
+            "artist": "Chet Baker",
+            "title": "My Funny Valentine"
+          },
+          {
+            "artist": "The Beach Boys",
+            "title": "Hang On to Your Ego"
+          },
+          {
+            "artist": "The Fall",
+            "title": "Carrie Grant’s Wedding",
+            "note": "Spelling from the list."
+          },
+          {
+            "artist": "Butthole Surfers",
+            "title": "Jingle of a Dog’s Collar"
+          },
+          {
+            "artist": "Lisa Germano",
+            "title": "Bruises"
+          },
+          {
+            "artist": "Star Turn on 45 Pints",
+            "title": "Are You Affiliated"
+          },
+          {
+            "artist": "Aztec Camera",
+            "title": "Set the Killing Free",
+            "note": "Single B-side."
+          },
+          {
+            "artist": "Microdisney",
+            "title": "Everybody Is Dead"
+          },
+          {
+            "artist": "The Clash",
+            "title": "The Right Profile"
+          },
+          {
+            "artist": "Jimmy Cliff",
+            "title": "Many Rivers to Cross",
+            "note": "2:30, side 1, track 2. No star on this sheet."
+          },
+          {
+            "artist": "Art Garfunkel",
+            "title": "Crying in My Sleep"
+          },
+          {
+            "artist": "Johnny Harris and His Orchestra",
+            "title": "Mr. Tambourine Man"
+          },
+          {
+            "artist": "Everything but the Girl",
+            "title": "Alison"
+          },
+          {
+            "artist": "Stan Freberg",
+            "title": "The Great Pretender"
+          },
+          {
+            "artist": "Gram Parsons",
+            "title": "Untitled selection",
+            "note": "Only the artist appears."
+          },
+          {
+            "artist": "Patti Smith",
+            "title": "Piss Factory"
+          },
+          {
+            "artist": "Prince",
+            "title": "The Cross"
+          },
+          {
+            "artist": "The Controllers",
+            "title": "Neutron Bomb"
+          },
+          {
+            "artist": "The Walker Brothers",
+            "title": "Love Minus Zero (No Limits)",
+            "note": "Wording from the list."
+          }
+        ]
+      },
+      {
+        "label": "Second April music list",
+        "sources": [
+          "2DEAD2.DOC"
+        ],
+        "note": "Ben’s 26 April handover separately says an Ian Green session was due that week and another three songs were on MiniDisc. It supplies no song titles. The April sheets do not establish which records were transmitted.",
+        "tracks": [
+          {
+            "artist": "Star Turn on 45 Pints",
+            "title": "Are You Affiliated",
+            "note": "Starred, 3:33."
+          },
+          {
+            "artist": "Aztec Camera",
+            "title": "Set the Killing Free",
+            "note": "Starred; single B-side."
+          },
+          {
+            "artist": "John Lennon / Plastic Ono Band",
+            "title": "God",
+            "note": "Starred."
+          },
+          {
+            "artist": "Prince",
+            "title": "The Cross",
+            "note": "Also appears a second time below the bed, unstarred."
+          },
+          {
+            "artist": "MC Tunes",
+            "title": "The Only Rhyme That Bites"
+          },
+          {
+            "artist": "Microdisney",
+            "title": "Everybody Is Dead",
+            "note": "Starred."
+          },
+          {
+            "artist": "The Clash",
+            "title": "The Right Profile",
+            "note": "Starred."
+          },
+          {
+            "artist": "Jimmy Cliff",
+            "title": "Many Rivers to Cross",
+            "note": "Starred, 2:30, side 1, track 2."
+          },
+          {
+            "artist": "Art Garfunkel",
+            "title": "Crying in My Sleep",
+            "note": "Starred."
+          },
+          {
+            "artist": "Everything but the Girl",
+            "title": "Alison",
+            "note": "Starred."
+          },
+          {
+            "artist": "The Wildhearts",
+            "title": "Pump It Up",
+            "note": "Starred."
+          },
+          {
+            "artist": "Elvis Costello and the Attractions",
+            "title": "Shallow Grave",
+            "note": "Starred; this title runs into the Smiths entry."
+          },
+          {
+            "artist": "The Smiths",
+            "title": "Frankly Mr Shankly",
+            "note": "Runs straight on from the Costello track; no separate star visible."
+          },
+          {
+            "artist": "Chet Baker",
+            "title": "My Funny Valentine"
+          },
+          {
+            "artist": "The Beach Boys",
+            "title": "Hang On to Your Ego"
+          },
+          {
+            "artist": "The Commodores",
+            "title": "Machine Gun",
+            "note": "Bed."
+          },
+          {
+            "artist": "Stan Freberg",
+            "title": "The Great Pretender"
+          },
+          {
+            "artist": "Gram Parsons",
+            "title": "Untitled selection"
+          },
+          {
+            "artist": "Patti Smith",
+            "title": "Piss Factory"
+          },
+          {
+            "artist": "The Controllers",
+            "title": "Neutron Bomb"
+          },
+          {
+            "artist": "The Walker Brothers",
+            "title": "Love Minus Zero (No Limits)"
+          },
+          {
+            "artist": "The Kingsmen",
+            "title": "Louie Louie"
+          },
+          {
+            "artist": "Soul Coughing",
+            "title": "Super Bon Bon",
+            "note": "Fraser’s choice."
+          },
+          {
+            "artist": "Catatonia",
+            "title": "All Girls Are Fly",
+            "note": "Fraser’s choice, ‘Da-De? Remix’."
+          },
+          {
+            "artist": "Bob Mould",
+            "title": "I Hate Alternative Rock"
+          },
+          {
+            "artist": "Palace Songs",
+            "title": "Winter Lady"
+          },
+          {
+            "artist": "The Maytals",
+            "title": "Monkey Man"
+          },
+          {
+            "artist": "The Velvet Underground",
+            "title": "Candy Says"
+          },
+          {
+            "artist": "The Fall",
+            "title": "Carrie Grant’s Wedding",
+            "note": "Spelling from the list."
+          },
+          {
+            "artist": "Butthole Surfers",
+            "title": "Jingle of a Dog’s Collar"
+          },
+          {
+            "artist": "Lisa Germano",
+            "title": "Bruises"
+          }
+        ]
+      }
     ],
-    "cues": [],
-    "evidence": "The four April files are working lists and reading material. Only the email identifies the Ian Green recording and its intended week."
+    "musicEntryCount": 84,
+    "recollection": "One Sunday I played Jimmy Cliff’s ‘Many Rivers to Cross’. Jasper rang and asked, ‘Why are all your songs so miserable?’ Which made me sad."
   },
   {
     "date": "1997-06-08",
@@ -267,14 +1870,203 @@
       "George Kirby – live songs listed",
       "Dylan Bedford – poetry in the script"
     ],
-    "music": [
-      "Ministry – Lay Lady Lay",
-      "Aztec Camera – I Threw It All Away",
-      "Harry Nilsson – Subterranean Homesick Blues",
-      "Emmylou Harris – Every Grain of Sand"
+    "evidence": "The source is headed ‘Dead Air 8/6/97 – Songs’. The newspaper listing quoted that morning announced Ben and Rufus with music and poetry.",
+    "features": [
+      "Professor P and the Boo Boys."
     ],
-    "cues": [],
-    "evidence": "The source is headed ‘Dead Air 8/6/97 – Songs’. The newspaper listing quoted that morning announced Ben and Rufus with music and poetry."
+    "musicGroups": [
+      {
+        "label": "Cover versions on the dated 8 June song sheet",
+        "sources": [
+          "3DEAD1A.DOC"
+        ],
+        "note": "",
+        "tracks": [
+          {
+            "artist": "Carleen Carter",
+            "title": "Trust Yourself",
+            "note": "Artist spelling in the sheet; 3:20."
+          },
+          {
+            "artist": "The Zimmermen",
+            "title": "Series of Dreams",
+            "note": "5:38 in the sheet."
+          },
+          {
+            "artist": "Ministry",
+            "title": "Lay Lady Lay",
+            "note": "3:40."
+          },
+          {
+            "artist": "John Martyn",
+            "title": "Don’t Think Twice Its Alright",
+            "note": "Title as written."
+          },
+          {
+            "artist": "Jimi Hendrix",
+            "title": "All Along the Watchtowers",
+            "note": "Plural in the sheet."
+          },
+          {
+            "artist": "Emmylou Harris",
+            "title": "Every Grain of Sand"
+          },
+          {
+            "artist": "Aztec Camera",
+            "title": "I Threw It All Away",
+            "note": "Starred."
+          },
+          {
+            "artist": "Arthur Louis",
+            "title": "Knocking on Heaven’s Door",
+            "note": "Starred, 2:45."
+          },
+          {
+            "artist": "The Walker Brothers",
+            "title": "Love Minus Zero (No Limits)",
+            "note": "As typed."
+          },
+          {
+            "artist": "Johnny Harris and His Orchestra",
+            "title": "Mr Tambourine Man",
+            "note": "Starred."
+          },
+          {
+            "artist": "Harry Nilsson",
+            "title": "Subterranean Homesick Blues"
+          }
+        ]
+      },
+      {
+        "label": "Dylan albums and concert recordings",
+        "sources": [
+          "3DEAD1A.DOC"
+        ],
+        "note": "",
+        "tracks": [
+          {
+            "artist": "Bob Dylan",
+            "title": "A Hard Rain’s Gonna Fall",
+            "note": "Concert for Bangladesh."
+          },
+          {
+            "artist": "Bob Dylan",
+            "title": "It Takes a Lot to Laugh…",
+            "note": "Concert for Bangladesh; starred, abbreviated in the sheet."
+          },
+          {
+            "artist": "Bob Dylan",
+            "title": "Blowin’ in the Wind",
+            "note": "Concert for Bangladesh."
+          },
+          {
+            "artist": "Bob Dylan",
+            "title": "Mr. Tambourine Man",
+            "note": "Concert for Bangladesh."
+          },
+          {
+            "artist": "",
+            "title": "I Shall Be Released",
+            "note": "The Last Waltz; starred. The note mentions talking at the start."
+          },
+          {
+            "artist": "Bob Dylan",
+            "title": "Highway 61",
+            "note": "Before the Flood; starred, abbreviated in the sheet."
+          },
+          {
+            "artist": "Bob Dylan",
+            "title": "All Along the Watchtowers",
+            "note": "Before the Flood; source spelling."
+          },
+          {
+            "artist": "Bob Dylan",
+            "title": "It Ain’t Me, Babe",
+            "note": "Before the Flood; starred."
+          },
+          {
+            "artist": "Bob Dylan",
+            "title": "On a Night Like This",
+            "note": "Planet Waves; starred."
+          },
+          {
+            "artist": "Bob Dylan",
+            "title": "Is Your Love in Vain",
+            "note": "Street Legal."
+          },
+          {
+            "artist": "Jeff Buckley",
+            "title": "Grace",
+            "note": "The sheet reads ‘Jeff Buckley – Grace’, without indicating whether it means the track or the album."
+          }
+        ]
+      },
+      {
+        "label": "Live songs and spare versions",
+        "sources": [
+          "3DEAD1A.DOC",
+          "3DEAD1.DOC"
+        ],
+        "note": "The companion script has a repeated gag requesting something by Womack and Womack; no recording is named.",
+        "tracks": [
+          {
+            "artist": "Eoin Quiery",
+            "title": "Tangled Up in Blue",
+            "note": "Starred; listed under LIVE."
+          },
+          {
+            "artist": "Eoin Quiery",
+            "title": "Simple Twist of Fate",
+            "note": "Starred; listed under LIVE."
+          },
+          {
+            "artist": "George Kirby",
+            "title": "Sad Eyed Lady of the Lowlands",
+            "note": "Starred; ten minutes."
+          },
+          {
+            "artist": "George Kirby",
+            "title": "My Back Pages",
+            "note": "Starred; four minutes, introduction."
+          },
+          {
+            "artist": "George Kirby",
+            "title": "She Belongs to Me",
+            "note": "Three minutes; no star."
+          },
+          {
+            "artist": "Melanie",
+            "title": "Mr. Tambourine Man",
+            "note": "Under ‘doubles’."
+          },
+          {
+            "artist": "Johnny Cash",
+            "title": "Don’t Think Twice",
+            "note": "Under ‘doubles’."
+          }
+        ]
+      },
+      {
+        "label": "Earlier Dylan research note",
+        "sources": [
+          "DYLAN.DOC"
+        ],
+        "note": "",
+        "tracks": [
+          {
+            "artist": "David Bowie",
+            "title": "Song for Bob Dylan",
+            "note": "From Hunky Dory."
+          },
+          {
+            "artist": "Simon & Garfunkel",
+            "title": "Untitled song about Dylan",
+            "note": "Described as on Parsley, Sage, Rosemary & Thyme. The source does not name the track."
+          }
+        ]
+      }
+    ],
+    "musicEntryCount": 31
   },
   {
     "date": "1997-06-15",
@@ -288,23 +2080,146 @@
       "DEADAIR2.WRD"
     ],
     "guests": [],
-    "music": [
-      "Jonathan Richman – I Was Dancing In The Lesbian Bar",
-      "Robert Wyatt – Shipbuilding",
-      "The Smiths – I Know It’s Over",
-      "Gram Parsons – Cry One More Time"
-    ],
-    "cues": [
-      "The Phone Box Outside the Station",
+    "features": [
+      "The phone box outside the station",
       "What’s on the radio then?",
       "BT phones home"
-    ]
+    ],
+    "musicGroups": [
+      {
+        "label": "June music list",
+        "sources": [
+          "3DEAD2.DOC"
+        ],
+        "note": "The file was saved on 15 June; it contains suggestions for records and features rather than a timed final log.",
+        "tracks": [
+          {
+            "artist": "White Buffalo",
+            "title": "Lola’s Son"
+          },
+          {
+            "artist": "Jonathan Richman",
+            "title": "I Was Dancing in the Lesbian Bar"
+          },
+          {
+            "artist": "Lisa Germano",
+            "title": "Bruises"
+          },
+          {
+            "artist": "Gram Parsons",
+            "title": "Cry One More Time"
+          },
+          {
+            "artist": "Brendan Benson",
+            "title": "I’m Blessed"
+          },
+          {
+            "artist": "Tindersticks",
+            "title": "Track 6?",
+            "note": "‘Jarvis?’ in the notes; no title."
+          },
+          {
+            "artist": "",
+            "title": "Hollies/Creep",
+            "note": "Single unresolved line. The relationship is unspecified."
+          },
+          {
+            "artist": "R.E.M.",
+            "title": "Swan Swan etc",
+            "note": "Abbreviated in the notes."
+          },
+          {
+            "artist": "Echo",
+            "title": "New single",
+            "note": "Title unspecified."
+          },
+          {
+            "artist": "Aztec Camera",
+            "title": "How Men Are",
+            "note": "Live. The sheet types ‘Axtec Camera – How Me Are’."
+          },
+          {
+            "artist": "Mark Eitzel",
+            "title": "In Your Life"
+          },
+          {
+            "artist": "Catatonia",
+            "title": "You’ve Got a Lot to Answer For"
+          },
+          {
+            "artist": "The Smiths",
+            "title": "I Know It’s Over"
+          },
+          {
+            "artist": "Billy Bragg",
+            "title": "Never Had No-One Ever"
+          },
+          {
+            "artist": "Prefab Sprout",
+            "title": "Steal Your Thunger",
+            "note": "Spelling from the notes."
+          },
+          {
+            "artist": "Spookey Ruben",
+            "title": "These Days Are Old"
+          },
+          {
+            "artist": "Robert Wyatt",
+            "title": "Shipbuilding"
+          },
+          {
+            "artist": "",
+            "title": "Blue Moon",
+            "note": "Described as ‘Doo Wop’; no artist identified."
+          },
+          {
+            "artist": "Leo Sayer",
+            "title": "Moonlighting"
+          },
+          {
+            "artist": "Raintree County",
+            "title": "Wild Honey"
+          },
+          {
+            "artist": "Raintree County",
+            "title": "Here It Comes",
+            "note": "Alternative to Wild Honey."
+          },
+          {
+            "artist": "George Martin and His Orchestra",
+            "title": "Please Please Me"
+          },
+          {
+            "artist": "Patti Smith",
+            "title": "Piss Factory"
+          },
+          {
+            "artist": "Loudon Wainwright III",
+            "title": "Red Guitar"
+          },
+          {
+            "artist": "Madder Rose",
+            "title": "Car Song"
+          },
+          {
+            "artist": "Madder Rose",
+            "title": "Panic On",
+            "note": "Alternative to Car Song."
+          },
+          {
+            "artist": "Mercury Rev",
+            "title": "Frittering"
+          }
+        ]
+      }
+    ],
+    "musicEntryCount": 27
   },
   {
     "date": "1997-06-22",
     "title": "Christmas in June",
-    "status": "Slot confirmed; theme proposed",
-    "summary": "The final June plan called for a Christmas special. Ben proposed a William Shatner-style spoken ‘Eternal Flame’ and a Rufus Doors orchestral ‘Every Loser Wins’ for the two sides of a Christmas single. On the morning of 22 June, the station confirmed Dan Lester would operate the desk from 3 to 5pm.",
+    "status": "Christmas special",
+    "summary": "Our Christmas single was going to have me doing ‘Eternal Flame’ in the style of William Shatner, with Rufus Doors’ orchestral ‘Every Loser Wins’ on the other side. Sadly Rufus chose to leave town before the recording. On the morning of 22 June the station confirmed Dan Lester would operate the desk from 3 to 5 pm.",
     "sources": [
       "OXYGEN mail 48",
       "OXYGEN mail 51",
@@ -316,8 +2231,47 @@
       "Ben Taylor – presenter",
       "Dan Lester – booked to operate the desk"
     ],
-    "music": [],
-    "cues": [],
-    "evidence": "The schedule and desk booking survive. The pitch records the Christmas items; it does not establish a recording or release of the single."
+    "features": [],
+    "musicGroups": [
+      {
+        "label": "The proposed Christmas single and music",
+        "sources": [
+          "DEADAIR1.WRD",
+          "DEADAIR2.WRD",
+          "OXYGEN mail 48",
+          "JOE mail 24",
+          "JOE mail 26"
+        ],
+        "note": "These were ideas for the Christmas show and its single. Dan Lester was booked to operate the desk from 3 to 5 pm.",
+        "tracks": [
+          {
+            "artist": "Mr Ben",
+            "title": "Eternal Flame",
+            "note": "Proposed spoken-word A-side, in the style of William Shatner. A panpipe version underneath is specified in the Psion notes."
+          },
+          {
+            "artist": "Rufus Doors",
+            "title": "Every Loser Wins",
+            "note": "Proposed orchestral B-side."
+          },
+          {
+            "artist": "Aztec Camera",
+            "title": "The Red Flag",
+            "note": "Proposed ‘last ever song’; the note refers to O Christmas Tree."
+          },
+          {
+            "artist": "",
+            "title": "Silent Night",
+            "note": "Ben requested an instrumental version."
+          },
+          {
+            "artist": "Jerry",
+            "title": "Christmas message",
+            "note": "Proposed spoken record in the style of Phil Spector’s Christmas message."
+          }
+        ]
+      }
+    ],
+    "musicEntryCount": 5
   }
 ]
