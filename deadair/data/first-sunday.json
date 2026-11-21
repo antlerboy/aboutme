@@ -1,0 +1,266 @@
+{
+  "title": "Dead Air, Sunday 16 February 1997",
+  "source": "DEAD1.DOC",
+  "credit": "The original footer reads ‘DEAD AIR / BpT / 16/2/1997’.",
+  "summary": "The studio running order, from the four o’clock news to the half-past-five ident. The operator had timings, disc and track numbers, instructions for the mics, and warnings about fades and false endings.",
+  "editorialNote": "Times follow the desk sheet, including the repeated 17:26:30. Adjacent untimed actions are grouped with their cue. Studio instructions are abridged and the spelling of Stina Nordenstam’s name is regularised; it appears two different ways in the file. Contemporary correspondence confirms the broadcast and Eoin’s session. The sheet records how the team meant the programme to run.",
+  "entries": [
+    {
+      "sequence": 1,
+      "time": "16:00:00",
+      "kind": "News",
+      "title": "Station news"
+    },
+    {
+      "sequence": 2,
+      "time": "16:03:00",
+      "kind": "Link",
+      "title": "Start of show",
+      "detail": "Cue the sound of the team running in late."
+    },
+    {
+      "sequence": 3,
+      "time": "16:03:20",
+      "kind": "Theme",
+      "title": "Popcorn",
+      "detail": "Shout over the start, then talk over the theme."
+    },
+    {
+      "sequence": 4,
+      "time": "16:04:30",
+      "kind": "Record",
+      "title": "The Undertones – Teenage Kicks",
+      "detail": "CD, track 5. Straight in; fade from 2:19."
+    },
+    {
+      "sequence": 5,
+      "time": "16:06:50",
+      "kind": "Record",
+      "title": "Television – Venus",
+      "detail": "Whisper over the outgoing fade. Vinyl at 45rpm, side A, track 1; ends at 3:43. Follow with the ‘Yikes!’ hit."
+    },
+    {
+      "sequence": 6,
+      "time": "16:10:40",
+      "kind": "Trail",
+      "title": "Station trail"
+    },
+    {
+      "sequence": 7,
+      "time": "16:11:30",
+      "kind": "Link",
+      "title": "Introducing Dead Air, Maxie, and Rufus",
+      "detail": "Identify the records, preview the programme, and introduce Rufus as the work-experience member of the team."
+    },
+    {
+      "sequence": 8,
+      "time": "16:13:15",
+      "kind": "Record",
+      "title": "Nick Drake – One of These Things First",
+      "detail": "Keep the mics up at the start. Bryter Layter, track 4; piano at 0:13."
+    },
+    {
+      "sequence": 9,
+      "time": "16:18:00",
+      "kind": "Station break",
+      "title": "Advertisements and ident"
+    },
+    {
+      "sequence": 10,
+      "time": "16:20:00",
+      "kind": "Link",
+      "title": "Rufus’s choice",
+      "detail": "‘Yo!’ hit, identify the records, then the scripted link."
+    },
+    {
+      "sequence": 11,
+      "time": "16:21:30",
+      "kind": "Record",
+      "title": "DJ Shadow – Organ Donor",
+      "detail": "1:57; follow with the ‘Wait just a minute’ hit."
+    },
+    {
+      "sequence": 12,
+      "time": "16:23:30",
+      "kind": "Session",
+      "title": "Eoin Quiery",
+      "detail": "Talk to the musicians. Introduce Eoin’s choice."
+    },
+    {
+      "sequence": 13,
+      "time": "16:29",
+      "kind": "Record",
+      "title": "Stina Nordenstam – Little Star",
+      "detail": "Romeo + Juliet soundtrack; straight in, 3:36. The disc track number is left as question marks."
+    },
+    {
+      "sequence": 14,
+      "time": "16:32:30",
+      "kind": "Record",
+      "title": "The Fall – Totally Wired",
+      "detail": "Station ident and whisper. The Collection, track 13; three seconds of drums."
+    },
+    {
+      "sequence": 15,
+      "time": "16:36",
+      "kind": "Reading",
+      "title": "Fraser reads",
+      "detail": "Klaus Wunderlich’s Happy Hammond underneath. The script calls for the decks to go off in the middle of the reading."
+    },
+    {
+      "sequence": 16,
+      "time": "16:38",
+      "kind": "Record",
+      "title": "Tiger – On The Rose",
+      "detail": "Keep the mics up. CD, track 1; five seconds of intro, guitars at 0:13."
+    },
+    {
+      "sequence": 17,
+      "time": "16:40:40",
+      "kind": "Station break",
+      "title": "Advertisements, ident, and link",
+      "detail": "Identify the records; scripted link on interview advice."
+    },
+    {
+      "sequence": 18,
+      "time": "16:42",
+      "kind": "Session",
+      "title": "Eoin Quiery",
+      "detail": "Second session slot."
+    },
+    {
+      "sequence": 19,
+      "time": "16:46:30",
+      "kind": "Feature",
+      "title": "Caroline Trettine – Be A Devil",
+      "detail": "After the link, play side one, track one at 45rpm, fade after thirty seconds, then replay at 33rpm. Watch for the false ending."
+    },
+    {
+      "sequence": 20,
+      "time": "16:51",
+      "kind": "Ident",
+      "title": "Promotional ident"
+    },
+    {
+      "sequence": 21,
+      "time": "16:52",
+      "kind": "Record",
+      "title": "Monaco – What Do You Want From Me?",
+      "detail": "Three short hits and a link into the record. Five seconds of bass at the start; start talking over the fade at 3:42."
+    },
+    {
+      "sequence": 22,
+      "time": "16:56:30",
+      "kind": "Feature",
+      "title": "Maxie’s trivia slot",
+      "detail": "Introduce the New Order connection. Meco’s Star Wars Theme/Cantina Band underneath, on vinyl at 45rpm."
+    },
+    {
+      "sequence": 23,
+      "time": "16:58",
+      "kind": "Station break",
+      "title": "Advertisements and news intro"
+    },
+    {
+      "sequence": 24,
+      "time": "17:00:00",
+      "kind": "News",
+      "title": "Station news"
+    },
+    {
+      "sequence": 25,
+      "time": "17:03:00",
+      "kind": "Theme",
+      "title": "Popcorn",
+      "detail": "Batman hit, talk over the theme, and introduce the last half-hour."
+    },
+    {
+      "sequence": 26,
+      "time": "17:03:40",
+      "kind": "Record",
+      "title": "Aztec Camera – Good Morning Britain",
+      "detail": "Stray, track 5; guitar and drums, ends at 3:58."
+    },
+    {
+      "sequence": 27,
+      "time": "17:07:40",
+      "kind": "Reading",
+      "title": "Fraser reads",
+      "detail": "Pretend not to notice the previous record has ended. Joy Division’s Love Will Tear Us Apart is the bed, from Permanent, track 1."
+    },
+    {
+      "sequence": 28,
+      "time": "17:10",
+      "kind": "Trail",
+      "title": "Promotional trail"
+    },
+    {
+      "sequence": 29,
+      "time": "17:11",
+      "kind": "Session",
+      "title": "Eoin Quiery",
+      "detail": "A shout into Eoin’s third session slot."
+    },
+    {
+      "sequence": 30,
+      "time": "17:14:30",
+      "kind": "Phone-in",
+      "title": "Phone-in"
+    },
+    {
+      "sequence": 31,
+      "time": "17:18",
+      "kind": "Station break",
+      "title": "Link, advertisements, and ident",
+      "detail": "Identify the records; scripted ‘Simple Simon’ link."
+    },
+    {
+      "sequence": 32,
+      "time": "17:20",
+      "kind": "Record",
+      "title": "Urusei Yatsura – Strategic Hamlets",
+      "detail": "Track 1; eight seconds of guitar. No fade. Play the hit at the end."
+    },
+    {
+      "sequence": 33,
+      "time": "17:22:39",
+      "kind": "Record",
+      "title": "Jonathan Richman – I Was Dancing In The Lesbian Bar",
+      "detail": "I, Jonathan, track 5. Straight in; ends at 3:39."
+    },
+    {
+      "sequence": 34,
+      "time": "17:26:30",
+      "kind": "Link",
+      "title": "FA Cup bet",
+      "detail": "Whisper hit, identify the tracks, then the FA Cup link."
+    },
+    {
+      "sequence": 35,
+      "time": "17:26:30",
+      "kind": "Mix",
+      "title": "Dancing Queen",
+      "detail": "The desk sheet gives this mix the same start time as the preceding link."
+    },
+    {
+      "sequence": 36,
+      "time": "17:28:50",
+      "kind": "Theme",
+      "title": "Popcorn",
+      "detail": "Talk over the closing theme."
+    },
+    {
+      "sequence": 37,
+      "time": "17:29:50",
+      "kind": "Link",
+      "title": "End of show",
+      "detail": "‘We’re not live now are we?’"
+    },
+    {
+      "sequence": 38,
+      "time": "17:30",
+      "kind": "Ident",
+      "title": "Station ident and out"
+    }
+  ]
+}

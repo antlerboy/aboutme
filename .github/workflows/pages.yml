@@ -70,6 +70,7 @@ jobs:
           cp -R four-dynamics _site/four-dynamics
           cp -R arms-lengthiness _site/arms-lengthiness
           cp -R delphi _site/delphi
+          cp -R deadair _site/deadair
           cp practice-rules.js _site/practice-rules.js
           touch _site/.nojekyll
           test -s _site/sysprac26/relational/index.html

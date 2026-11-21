@@ -1,0 +1,197 @@
+A, 1, 5, 4:00, Aztec Camera, Somewhere In My Heart
+B, 1, 2, 3:38, Aztec Camera, How Men Are
+C, 2, 14, 3:48, Billy Eckstine, In The Still Of the Night
+B, 3, 1, 2:49, The Wannadies, You And Me Song
+A, 3, 2, 3:18, The Wannadies, Might Be Stars
+B, 4, 6, 5:04, Paul Simon, Graceland (Unplugged)
+C, 4, 11, 2:53, Paul McCartney, We Can Work It Out (Unplugged)
+D, 5, 1, 4:00, Lucas, Lucas with the lid off (radio version)
+A, 6, 1, 3:37, Marc Bolan & T-Rex, 20th Century Boy
+C, 7, 1, 4:27, The Barenaked Ladies, If I Had One Million Dollars
+B, 8, 1, 4:12, Spearhead, Hole In The Bucket (Single Mix)
+B, 9, 1, 3:10, Billy Bragg, You Woke Up My Neighbourhood
+B, 10, 4, 3:16, Nat King Cole, Just One of Those Things
+C, 11, 4, 5:17, REM, Everybody Hurts
+B, 11, 3, 4:06, REM, The Sidewinder Sleeps Tonite
+A, 12, 1, 2:25, Frank Sinatra, Strangers In The Night
+C, 12, 6, 2:50, Frank Sinatra, Blue Moon
+A, 13, 1, 3:30, The Frank & Walters, This Is Not A Song
+C, 14, 8, 3:26, Elvis Costello and the Attractions, 20% Amnesia
+B, 15, 6, 3:45, Prefab Sprout, Tiffanys
+C, 16, 1, 2:20, The Monkees, Theme
+A, 16, 7, 2:40, The Monkees, Last Train to Clarksville
+D, 16, 3, 2:24, The Monkees , I Wanna Be Free
+A, 17, 16, 2:25, Lord Tanamo, I'm In The Mood For Ska
+B, 17, 1, 2:43, Bob Marley & The Wailers, Caution
+D, 18, 9, 4:03, Del Amitri, To Last A Lifetime
+B, 19, 3, 2:54, Johnny Cash, I Walk The Line (Live San Quentin)
+C, 19, 8, 3:36, Johnny Cash, A Boy Named Sue (Live San Quentin)
+C, 20, 1, 3:00, Widespread Panic, Send Your Mind
+A, 21, 1, 3:30, A House, Take It Easy On Me
+C, 21, 3, 3:11, A House, Everything's Wrong
+AA, 22, 3, 2:53, Jan & Dean, Dead Man's Curve
+B, 23, 1, 3:16, Elvis Costello, Sulky Girl (single version)
+A, 24, 1, 2:38, The The, I Saw The Light
+A, 25, 1, 3:!5, Toad The Wet Sprocket, All I Want
+B, 26, 1, 2:34, Erma Franklin, (Take A Little) Piece of My Heart
+C, 26, 2, 2:45, Erma Franklin, Ev'ry Time We Say Goodbye
+A, 27, 4, 5:33, The Velvet Underground, Pale Blue Eyes
+A, 27, 6, 4:27, The Velvet Underground, Beginning To See The Light
+B, 28, 10, 4:13, Freakpower, Turn On Tune In Cop Out
+C, 29, 7, 3:50, Deacon Blue, Will We Be Lovers
+AA, 30, 14, 3:24, David Gray, What Are You
+D, 30, 3, 3:35, S*M*A*S*H, Real Surreal
+A, 31, 2, 4:27, The Fall, Hey! Student
+B, 31, 1, 2:52, The Fall, 15 Ways
+B, 32, 1, 4:15, G-Love and Special Sauce, Blues Music
+AA, 33, 2, 3:55, Edwyn Collins, A Girl Like You
+D, 33, 1, 6:30, Edwyn Collins, The Campaign for Real Rock
+C, 33, 7, 4:05, Edwyn Collins, Gorgeous George
+B, 34(1), 7, 4:45, Dave Brubeck, Take Five
+C, 34(2), 2, 4:42, Bill Evans, Autumn Leaves
+AA, 35, 18, 2:57, Bix Beiderbecke, Singin' The Blues
+B, 35, 11, 3:10, Thelonious Monk, 'Round Midnight
+D, 35, 13, 2:47, Errol Garner, Misty
+D, 35, 8, 3:03, Quincy Jones Orchestra, Moanin'
+B, 35, 1, 5:43, Miles Davis, Miles
+A, 36, 3, 3:20, Everything But The Girl, I Don't Want To Talk About It (live)
+B, 36, 1, 4:04, Everything But The Girl, Missing (Album Version)
+C, 36, 4, 3:23, Everything But The Girl, These Days (Live)
+B, 37, 1, 3:59, The Verve, History (Radio Edit)
+B, 38, 1, 2:21, Bob Dylan, Subterranean Homesick Blues
+D, 38, 8, 5:27, Bob Dylan, Mr Tambourine Man
+B, 38, 11, 4:07, Bob Dylan, It's All Over Now Baby Blue
+C, 38, 4, 2:47, Bob Dylan, Love Minus Zero
+B, 39(1), 1, 3:38, American Music Club, Johnny Mathis' Feet
+A, 40, 8, 5:13, Aztec Camera, Sister Ann
+D, 40, 6, 3:26, Aztec Camera, Dream Sweet Dreams
+B, 40, 4, 5:03, Aztec Camera, Let Your Love Decide
+C, 40, 3, 3:59, Aztec Camera, Black Lucia
+B, 41, 1, 4:18, Rolling Stones, Like A Rolling Stone
+C, 42, 7, 6:59, Count Basie Orchestra, Lover Man
+B, 42, 1, 4:23, Gerry Mulligan, Four And One Moore
+B, 43, 1, 3:53, Everything But The Girl vs Todd Terry, Missing (Blanco/Eternal Radio Edit)
+A, 44, 5, 2:40, The La's, There She Goes
+B, 44, 1, 1:51, The La's, Son Of A Gun
+AA, 45, 5, 3:40, Jonathan Richman , I Was Dancing In The Lesbian Bar
+B, 45, 9, 3:02, Jonathan Richman, A Higher Power
+C, 45, 3, 2:49, Jonathan Richman, You Can't Talk To The Dude
+B, 45, 3, 4:42, Jonathan Richman, Parties In The USA
+A, 46, 4, 4:49, Emmylou Harris, Wrecking Ball
+A, 47, 6, 6:43, The Smiths, How Soon Is Now?
+C, 47, 7, 2:36, The Smiths, Nowhere Fast
+A, 48, 2, 3:52, Stanton-Miranda, Love Will Tear Us Apart
+D, 48, 1, 3:26, Girls Against Boys, She's Lost Control
+B, 49, 1, 4:03, Ash, Angel Interceptor
+A, 50, 4, 4:15, Radiohead, Lucky (War Child)
+C, 50, 8, 3:12, Suede, Shipbuilding
+D, 50, 13, 2:48, Manic Street Preachers, Raindrops Keep Falling On My Head
+B, 50, 15, 2:12, KLF, The Magnificent Seven
+A, 50, 17, 3:22, Terry Hall & Marijne Van Der Vlugt, Dream A LIttle Dream Of Me
+AA, 51, 1, 5:46, Pulp, Common People
+A, 51, 2, 4:03, Pulp, Underwear
+A, 52, 1, 3:13, Orange, Judy Over The Rainbow
+B, 53, 1, 4:28, Aztec Camera, Sun
+B, 54, 1, 2:37, Rampage, The Monkees
+A, 55, 4, 2:40, Cypress Hill, Hits From The Bong
+AA, 56, 4, 4:46, Nick Drake, One Of These Things First
+C, 56, 9, 3:42, Nick Drake, Northern Sky
+B, 56, 6, 3:16, Nick Drake, Bryter Layter
+A, 57, 1, 4:18, Oasis, Wonderwall
+A, 57, 4, 5:12, Oasis, The Masterplan
+D, 57, 2, 5:39, Oasis, Round Are Way
+B, 58, 1, 3:54, The Lightning Seeds, Lucky You
+C, 58, 3, 3:39, The Lightning Seeds, The Likely Lads
+A, 59, 5, 3:43, Stevie Wonder, Higher Ground
+C, 59, 1, 4:37, Stevie Wonder, Too High
+B, 60, 1, 5:56, The Smiths, Reel Around The Fountain
+C, 60, 7, 3:20, The Smiths, Still Ill
+B, 60, 6, 2:42, The Smiths, This Charming Man
+AA, 61, 1, 4:03, Terry Hall, Forever J
+AA, 62, 1, 3:39, Terry Hall, Sense
+B, 62, 3, 2:27, Terry Hall, This Guy's In Love With You
+AA, 63, 1, 2:32, G-Love & Special Sauce, Cold Beverage
+B, 64, 1, 6:45, The Pet Shop Boys, Being Boring
+C, 64, 2, 5:25, The Pet Shop Boys, This must be the place I waited years to leave
+C, 64, 10, 4:45, The Pet Shop Boys, Jealousy
+A, 65, 6, 2:47, Elvis Costello & The Attractions, Almost Blue
+C, 65, 4, 4:15, Elvis Costello & The Attractions, The Long Honeymoon
+B, 65, 3, 4:42, Elvis Costello & The Attractions, Shabby Doll
+B, 66, 3, 3:24, David Bowie, Ziggy Stardust
+B, 66, 8, 5:22, David Bowie, Space Oddity
+B, 67, 1, 3:40, Aztec Camera, The Crying Scene
+D, 67, 2, 4:30, Aztec Camera, True Colours
+A, 67, 4, 2:04, Aztec Camera, I Threw It All Away
+A, 68, 12, 4:17, Gram Parsons, Return of the Grievous Angel
+B, 68, 9, 3:30, Gram Parsons, Cry One More Time
+C, 68, 20, 3:42, Gram Parsons, In My Hour Of Darkness
+C, 69, 1, 4:05, The Disposable Heroes of Hiphoprisy, Famous And Dandy (Like Amons 'n' Andy) (Radio)
+A, 69, 3, 4:20, The Disposable Heroes of Hiphoprisy, Positive
+C, 69, 4, 4:42, The Disposable Heroes of Hiphoprisy, Language of Violence (Jazz Version)
+B, 70, 1, 4:19, Aztec Camera, Spanish Horses
+D, 70, 2, 3:59, Aztec Camera, Birth of the True (Live at Ronnie Scott's)
+A, 71, 15, 3:12, The Beach Boys, Hang On To Your Ego
+B, 71, 8, 2:47, The Beach Boys, God Only Knows
+C, 71, 4, 2:47, The Beach Boys, Don't Talk (Put Your Head On My Shoulder)
+D, 72, 3, 3:40, Aztec Camera, The Bugle Sounds Again (Live at Ronnie Scott's)
+B, 72, 4, 4:40, Aztec Camera, Dolphins (Live at Ronnie Scott's)
+B, 73(2), 3, 2:34, Prefab Sprout, Lions In My Own Garden (Exit Someone)
+C, 73(1), 1, 3:43, Prefab Sprout, If You Don't Love Me
+B, 74, 1, 3:47, Billy Bragg, Accident Waiting to Happen (Red Star Version)
+C, 74, 2, 3:46, Billy Bragg, Sulk
+B, 74, 4, 1:47, Billy Bragg, Revolution
+C, 75, 1, 3:25, Toad The Wet Sprocket, Fall Down
+B, 76, 1, 3:50, Paul Weller, Above the Clouds
+C, 76, 3, 4:08, Paul Weller, Everything Has a Price to Pay
+B, 76, 4, 4:00, Paul Weller, Feeling Alright
+B, 77, 1, 4:10, Manic Street Preachers, Roses in the Hospital
+B, 78, 1, 3:28, Del Amitri, Be My Downfall
+A, 79, 4, 3:12, Deacon Blue, Wages Day (piano version)
+A, 80, 1, 3:18, Frente!, Accidentally Kelly Street
+AA, 80, 3, 2:33, Frente!, Ordinary Angels (Vara Radio Holland)
+A, 81, 13, 3:24, The Fall, Totally Wired
+A, 81, 19, 4:22, The Fall, A Day In The Life
+C, 82, 1, 3:14, The Smiths, Ask
+B, 82, 2, 2:40, The Smiths, Cemetry Gates
+C, 83, 2, 4:45, The Pet Shop Boys, West End Girls
+B, 83, 5, 5:05, The Pet Shop Boys, Suburbia
+C, 84, 1, 3:20, Teenage Fanclub, The Concept
+B, 85, 4, 3:47, Deacon Blue, He Looks Like Spencer Tracy Now
+C, 85, 5, 4:27, Deacon Blue, Loaded
+B, 85, 6, 4:57, Deacon Blue, When Will You (Make My Telephone Ring)
+A, 85, 7, 3:15, Deacon Blue, Chocolate Girl
+A, 85, 8, 3:53, Deacon Blue, Dignity
+B, 86, 11, 3:20, Guru featuring MC Solaar, Le Bien Le Mal
+C, 86, 2, 3:00, Blondie, Sunday Girl (French Version)
+C, 86, 15, 5:26, Sinead O'Connor, Nothing Compares 2 U (Live Video Version)
+D, 86, 1, 4:40, The Waterboys, The Big Music
+D, 87, 1, 3:46, The High Llamas, Checkin In Checking Out (Radio Edit)
+B, 88, 1, 3:08, The Clash, Train In Vain
+B, 88, 2, 3:52, The Clash, The Right Profile
+B, 89, 1, 4:51, Marvin Gaye, Let's Get It On
+C, 89, 8, 4:27, Marvin Gaye, Just To Keep You Satisfied
+B, 90, 5, 2:02, Menswea@r, Daydreamer
+D, 90, 4, 2:14, Menswea@r, Little Miss Pinpoint Eyes
+C, 91, 1, 2:58, Neil Young with Crazy Horse, Cinnamon Girl
+B, 91, 2, 2:26, Neil Young with Crazy Horse, Everybody Knows This Is Nowhere
+B, 92, 5, 3:20, Aimee Mann, 4th Of July
+C, 92, 13, 4:55, Coldcut, Pearls Before Swine
+B, 92, 15, 8:15, Don McLean, American Pie
+B, 93, 1, 5:31, Big Audio, Looking For A Song
+B, 94, 1, 3:26, Martin Stephenson and the Daintees, Left Us To Burn
+A, 94, 2, 2:51, Martin Stephenson and the Daintees, Big North Lights
+B, 95, 1, 4:26, Soul Asylum, Runaway Train
+A, 96, 2, 4:00, The Jayhawks, Nevada California
+B, 97, 9, 5:17, Crowded House, Waether With You (Live)
+C, 97, 10, 2:32, Radiohead, Thinking About You
+C, 97, 15, 4:06, Television, Call Mr Lee
+C, 98, 7, 2:58, Morrissey, You're The Onme For Me Fatty
+C, 98, 8, 5:07, Morrissey, Seasick Yet Still Docked
+B, 98, 9, 4:20, Morriseey, I Know It's Gonna Happen Someday
+A, 99, 1, 2:28, John Lee Hooker, Boom Boom
+C, 99, 9, 2:08, John Lee Hooker, Ground Hog Blues
+A, 99, 16, 3:44, John Lee Hooker, This Is Hip
+B, 99, 2, 2:42, John Lee Hooker, Crawlin' Kingsnake
+C, 100, 1, 3:06, Terry Hall, Chasing A Rainbow
+C, 100, 3, 4:03, Terry Hall, See No Evil (Live)
+B, 100, 4, 3:59, Terry Hall and Tricky, Ghost Town (Live

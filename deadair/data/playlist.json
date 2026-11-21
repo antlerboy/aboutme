@@ -1,0 +1,2505 @@
+{
+  "title": "NightAir Playlist",
+  "credit": "Ben Taylor",
+  "date": "1995-10-31",
+  "sources": [
+    "LIST3.TXT",
+    "PLAYLIST.DOC",
+    "SORTED",
+    "CDTIPS.DOC",
+    "CDLIST.DOC",
+    "LABELS.DOC",
+    "LIST.BAS"
+  ],
+  "ranks": {
+    "A": 42,
+    "B": 74,
+    "C": 52,
+    "D": 18,
+    "AA": 11
+  },
+  "notes": [
+    "Ben Taylor and his brother supplied the CDs. The printed labels name Ben Taylor, St Anne’s.",
+    "Ben described the rank as a rough guide: AA first, then A to D. Presenters were to tick each track they used so the same music did not turn up every day. AA and A tracks could be repeated.",
+    "The track order, spellings, versions, timings, and CD references follow the 1995 list. The Word table retains punctuation lost in the comma-separated text file. Parentheses in a CD number distinguish references inside the same numbered slot.",
+    "CD titles follow the printed labels, which cover 99 of the 100 numbers. Each number appears in the track list."
+  ],
+  "discs": [
+    {
+      "number": 1,
+      "label": "Aztec Camera - Love",
+      "trackCount": 2
+    },
+    {
+      "number": 2,
+      "label": "Cole Porter Songbook",
+      "trackCount": 1
+    },
+    {
+      "number": 3,
+      "label": "Wannadies - Be A Girl",
+      "trackCount": 2
+    },
+    {
+      "number": 4,
+      "label": "Unplugged Collection Vol 1",
+      "trackCount": 2
+    },
+    {
+      "number": 5,
+      "label": "Lucas with the lid off",
+      "trackCount": 1
+    },
+    {
+      "number": 6,
+      "label": "T-Rex - 20th Century Boy",
+      "trackCount": 1
+    },
+    {
+      "number": 7,
+      "label": "Barenakeds - If I had $1million",
+      "trackCount": 1
+    },
+    {
+      "number": 8,
+      "label": "Spearhead - Hole in the Bucket",
+      "trackCount": 1
+    },
+    {
+      "number": 9,
+      "label": "Billy Bragg - You Woke Up...",
+      "trackCount": 1
+    },
+    {
+      "number": 10,
+      "label": "Stardust Jazz Piano Greats",
+      "trackCount": 1
+    },
+    {
+      "number": 11,
+      "label": "REM - Automatic for the People",
+      "trackCount": 2
+    },
+    {
+      "number": 12,
+      "label": "Sinatra - Strangers in the Night",
+      "trackCount": 2
+    },
+    {
+      "number": 13,
+      "label": "Frank + Walters - This Is Not A Song",
+      "trackCount": 1
+    },
+    {
+      "number": 14,
+      "label": "Elvis Costello - Brutal Youth",
+      "trackCount": 1
+    },
+    {
+      "number": 15,
+      "label": "Prefab Sprout - Protest Songs",
+      "trackCount": 1
+    },
+    {
+      "number": 16,
+      "label": "The Monkees",
+      "trackCount": 3
+    },
+    {
+      "number": 17,
+      "label": "Roots of Reggae 3",
+      "trackCount": 2
+    },
+    {
+      "number": 18,
+      "label": "Del Amitri - Change Everything",
+      "trackCount": 1
+    },
+    {
+      "number": 19,
+      "label": "Johnny Cash Live at San Quentin",
+      "trackCount": 2
+    },
+    {
+      "number": 20,
+      "label": "Widespread Panic",
+      "trackCount": 1
+    },
+    {
+      "number": 21,
+      "label": "A House - Take It Easy On Me",
+      "trackCount": 2
+    },
+    {
+      "number": 22,
+      "label": "Jan and Dean - Gold Collection",
+      "trackCount": 1
+    },
+    {
+      "number": 23,
+      "label": "Elvis Costello - Sulky Girl",
+      "trackCount": 1
+    },
+    {
+      "number": 24,
+      "label": "The The - I Saw The Light",
+      "trackCount": 1
+    },
+    {
+      "number": 25,
+      "label": "Toad the Wet Sprocket - All I Want",
+      "trackCount": 1
+    },
+    {
+      "number": 26,
+      "label": "Erma Franklin - Piece of my Heart",
+      "trackCount": 2
+    },
+    {
+      "number": 27,
+      "label": "The Velvet Underground",
+      "trackCount": 2
+    },
+    {
+      "number": 28,
+      "label": "Vox CD Free '94",
+      "trackCount": 1
+    },
+    {
+      "number": 29,
+      "label": "Deacon Blue - Whatever you Say...",
+      "trackCount": 1
+    },
+    {
+      "number": 30,
+      "label": "Virgin Promo - Signed Sealed Delivered",
+      "trackCount": 2
+    },
+    {
+      "number": 31,
+      "label": "The Fall - 15 Ways",
+      "trackCount": 2
+    },
+    {
+      "number": 32,
+      "label": "G Love and Special Sauce - Blues Music",
+      "trackCount": 1
+    },
+    {
+      "number": 33,
+      "label": "Edwyn Collins - Gorgeous George",
+      "trackCount": 3
+    },
+    {
+      "number": 34,
+      "label": "Jazz Be Bop to Electric",
+      "trackCount": 2
+    },
+    {
+      "number": 35,
+      "label": "18 Gems of the Giants of Jazz",
+      "trackCount": 5
+    },
+    {
+      "number": 36,
+      "label": "Everything But The Girl - Missing",
+      "trackCount": 3
+    },
+    {
+      "number": 37,
+      "label": "The Verve - History",
+      "trackCount": 1
+    },
+    {
+      "number": 38,
+      "label": "Bob Dylan - Bringing It All Back Home",
+      "trackCount": 4
+    },
+    {
+      "number": 39,
+      "label": "American Music Club - Johnny Mathis' Feet",
+      "trackCount": 1
+    },
+    {
+      "number": 40,
+      "label": "Aztec Camera - Dreamland",
+      "trackCount": 4
+    },
+    {
+      "number": 41,
+      "label": "Rolling Stones - Like a Rolling",
+      "trackCount": 1
+    },
+    {
+      "number": 42,
+      "label": "Supreme Saxophone",
+      "trackCount": 2
+    },
+    {
+      "number": 43,
+      "label": "ebtg vs Todd Terry- Missing",
+      "trackCount": 1
+    },
+    {
+      "number": 44,
+      "label": "The La's",
+      "trackCount": 2
+    },
+    {
+      "number": 45,
+      "label": "I, Jonathan",
+      "trackCount": 4
+    },
+    {
+      "number": 46,
+      "label": "Emmylou Harris - Wrecking Ball",
+      "trackCount": 1
+    },
+    {
+      "number": 47,
+      "label": "The Smiths - Meat is Murder",
+      "trackCount": 2
+    },
+    {
+      "number": 48,
+      "label": "AND - Joy Division Covers",
+      "trackCount": 2
+    },
+    {
+      "number": 49,
+      "label": "Ash - Angel Interceptor",
+      "trackCount": 1
+    },
+    {
+      "number": 50,
+      "label": "Help",
+      "trackCount": 5
+    },
+    {
+      "number": 51,
+      "label": "Pulp - Common People",
+      "trackCount": 2
+    },
+    {
+      "number": 52,
+      "label": "Orange - Judy Over The Rainbow",
+      "trackCount": 1
+    },
+    {
+      "number": 53,
+      "label": "Aztec Camera - Sun",
+      "trackCount": 1
+    },
+    {
+      "number": 54,
+      "label": "Rampage - The Monkees",
+      "trackCount": 1
+    },
+    {
+      "number": 55,
+      "label": "Voxy Music - Free CD",
+      "trackCount": 1
+    },
+    {
+      "number": 56,
+      "label": "Nick Drake - Bryter Later",
+      "trackCount": 3
+    },
+    {
+      "number": 57,
+      "label": "Terry Hall - Rainbow",
+      "trackCount": 3
+    },
+    {
+      "number": 58,
+      "label": "Lightning Seeds - Lucky You",
+      "trackCount": 2
+    },
+    {
+      "number": 59,
+      "label": "Stevie Wonder - Innervisions",
+      "trackCount": 2
+    },
+    {
+      "number": 60,
+      "label": "The Smiths",
+      "trackCount": 3
+    },
+    {
+      "number": 61,
+      "label": "Terry Hall - Forever J",
+      "trackCount": 1
+    },
+    {
+      "number": 62,
+      "label": "Terry Hall - Sense",
+      "trackCount": 2
+    },
+    {
+      "number": 63,
+      "label": "G-Love & Special Sauce - Cold Beverages",
+      "trackCount": 1
+    },
+    {
+      "number": 64,
+      "label": "Pet Shop Boys - Behaviour",
+      "trackCount": 3
+    },
+    {
+      "number": 65,
+      "label": "Costello + Attractions - Imperial Bedroom",
+      "trackCount": 3
+    },
+    {
+      "number": 66,
+      "label": "David Bowie - Santa Monica '72",
+      "trackCount": 2
+    },
+    {
+      "number": 67,
+      "label": "Aztec Camera - The Crying Scene",
+      "trackCount": 3
+    },
+    {
+      "number": 68,
+      "label": "Gram Parsons - GP/Grievous Angel",
+      "trackCount": 3
+    },
+    {
+      "number": 69,
+      "label": "Disposables - Famous and Dandy",
+      "trackCount": 3
+    },
+    {
+      "number": 70,
+      "label": "Aztec Camera - Spanish Horses",
+      "trackCount": 2
+    },
+    {
+      "number": 71,
+      "label": "The Beach Boys - Pet Sounds",
+      "trackCount": 3
+    },
+    {
+      "number": 72,
+      "label": "Aztec Camera - Spanish Horses (Live)",
+      "trackCount": 2
+    },
+    {
+      "number": 73,
+      "label": "Prefab Sprout - If You Don't Love Me",
+      "trackCount": 2
+    },
+    {
+      "number": 74,
+      "label": "Billy Bragg - Accident Waiting to Happen",
+      "trackCount": 3
+    },
+    {
+      "number": 75,
+      "label": "Toad The Wet Sprocket - Fall Down",
+      "trackCount": 1
+    },
+    {
+      "number": 76,
+      "label": "Paul Weller - Above The Clouds",
+      "trackCount": 3
+    },
+    {
+      "number": 77,
+      "label": "Manic Street Preachers - Roses....",
+      "trackCount": 1
+    },
+    {
+      "number": 78,
+      "label": "Del Amitri - Be My Downfall",
+      "trackCount": 1
+    },
+    {
+      "number": 79,
+      "label": "Deacon Blue - I Was Right...",
+      "trackCount": 1
+    },
+    {
+      "number": 80,
+      "label": "Frente! - Accidentally Kelly Street",
+      "trackCount": 2
+    },
+    {
+      "number": 81,
+      "label": "The Fall - The Collection",
+      "trackCount": 2
+    },
+    {
+      "number": 82,
+      "label": "The Smiths - Ask",
+      "trackCount": 2
+    },
+    {
+      "number": 83,
+      "label": "The Pet Shop Boys - Please",
+      "trackCount": 2
+    },
+    {
+      "number": 84,
+      "label": "Teenage Fanclub - The Concept",
+      "trackCount": 1
+    },
+    {
+      "number": 85,
+      "label": "Deacon Blue - Raintown",
+      "trackCount": 5
+    },
+    {
+      "number": 86,
+      "label": "Vox Free CD - Chrysalis Special",
+      "trackCount": 4
+    },
+    {
+      "number": 87,
+      "label": "The High Llamas - Checking In Checking Out",
+      "trackCount": 1
+    },
+    {
+      "number": 88,
+      "label": "The Clash - Train In Vain",
+      "trackCount": 2
+    },
+    {
+      "number": 89,
+      "label": "Marvin Gaye - Let's Get It On",
+      "trackCount": 2
+    },
+    {
+      "number": 90,
+      "label": "Meanswe@r - Nuisance",
+      "trackCount": 2
+    },
+    {
+      "number": 91,
+      "label": "Neil Young - Everbody Knows...",
+      "trackCount": 2
+    },
+    {
+      "number": 92,
+      "label": "Q DCC CD 2",
+      "trackCount": 3
+    },
+    {
+      "number": 93,
+      "label": "Big Audio - Looking For A Song",
+      "trackCount": 1
+    },
+    {
+      "number": 94,
+      "label": "Martin Stephenson - Let Us To Burn",
+      "trackCount": 2,
+      "note": "The printed label reads ‘Let Us To Burn’. The inventory reads ‘Left Us To Burn’."
+    },
+    {
+      "number": 95,
+      "label": "Soul Asylum - Runaway Train",
+      "trackCount": 1
+    },
+    {
+      "number": 96,
+      "label": "Q DCC CD",
+      "trackCount": 1
+    },
+    {
+      "number": 97,
+      "label": "Sweet Sixteen",
+      "trackCount": 3
+    },
+    {
+      "number": 98,
+      "label": "Morrisey - Your Arsenal",
+      "trackCount": 3
+    },
+    {
+      "number": 99,
+      "label": null,
+      "trackCount": 4,
+      "note": "CDLIST.DOC leaves the title blank and LABELS.DOC has no label for this number. The track list identifies the artist as John Lee Hooker."
+    },
+    {
+      "number": 100,
+      "label": "Terry Hall - Rainbows",
+      "trackCount": 3
+    }
+  ],
+  "tracks": [
+    {
+      "id": 1,
+      "rank": "A",
+      "disc": 1,
+      "discRef": "1",
+      "track": 5,
+      "time": "4:00",
+      "artist": "Aztec Camera",
+      "title": "Somewhere In My Heart"
+    },
+    {
+      "id": 2,
+      "rank": "B",
+      "disc": 1,
+      "discRef": "1",
+      "track": 2,
+      "time": "3:38",
+      "artist": "Aztec Camera",
+      "title": "How Men Are"
+    },
+    {
+      "id": 3,
+      "rank": "C",
+      "disc": 2,
+      "discRef": "2",
+      "track": 14,
+      "time": "3:48",
+      "artist": "Billy Eckstine",
+      "title": "In The Still Of the Night"
+    },
+    {
+      "id": 4,
+      "rank": "B",
+      "disc": 3,
+      "discRef": "3",
+      "track": 1,
+      "time": "2:49",
+      "artist": "The Wannadies",
+      "title": "You And Me Song"
+    },
+    {
+      "id": 5,
+      "rank": "A",
+      "disc": 3,
+      "discRef": "3",
+      "track": 2,
+      "time": "3:18",
+      "artist": "The Wannadies",
+      "title": "Might Be Stars"
+    },
+    {
+      "id": 6,
+      "rank": "B",
+      "disc": 4,
+      "discRef": "4",
+      "track": 6,
+      "time": "5:04",
+      "artist": "Paul Simon",
+      "title": "Graceland (Unplugged)"
+    },
+    {
+      "id": 7,
+      "rank": "C",
+      "disc": 4,
+      "discRef": "4",
+      "track": 11,
+      "time": "2:53",
+      "artist": "Paul McCartney",
+      "title": "We Can Work It Out (Unplugged)"
+    },
+    {
+      "id": 8,
+      "rank": "D",
+      "disc": 5,
+      "discRef": "5",
+      "track": 1,
+      "time": "4:00",
+      "artist": "Lucas",
+      "title": "Lucas with the lid off (radio version)"
+    },
+    {
+      "id": 9,
+      "rank": "A",
+      "disc": 6,
+      "discRef": "6",
+      "track": 1,
+      "time": "3:37",
+      "artist": "Marc Bolan & T-Rex",
+      "title": "20th Century Boy"
+    },
+    {
+      "id": 10,
+      "rank": "C",
+      "disc": 7,
+      "discRef": "7",
+      "track": 1,
+      "time": "4:27",
+      "artist": "The Barenaked Ladies",
+      "title": "If I Had One Million Dollars"
+    },
+    {
+      "id": 11,
+      "rank": "B",
+      "disc": 8,
+      "discRef": "8",
+      "track": 1,
+      "time": "4:12",
+      "artist": "Spearhead",
+      "title": "Hole In The Bucket (Single Mix)"
+    },
+    {
+      "id": 12,
+      "rank": "B",
+      "disc": 9,
+      "discRef": "9",
+      "track": 1,
+      "time": "3:10",
+      "artist": "Billy Bragg",
+      "title": "You Woke Up My Neighbourhood"
+    },
+    {
+      "id": 13,
+      "rank": "B",
+      "disc": 10,
+      "discRef": "10",
+      "track": 4,
+      "time": "3:16",
+      "artist": "Nat King Cole",
+      "title": "Just One of Those Things"
+    },
+    {
+      "id": 14,
+      "rank": "C",
+      "disc": 11,
+      "discRef": "11",
+      "track": 4,
+      "time": "5:17",
+      "artist": "REM",
+      "title": "Everybody Hurts"
+    },
+    {
+      "id": 15,
+      "rank": "B",
+      "disc": 11,
+      "discRef": "11",
+      "track": 3,
+      "time": "4:06",
+      "artist": "REM",
+      "title": "The Sidewinder Sleeps Tonite"
+    },
+    {
+      "id": 16,
+      "rank": "A",
+      "disc": 12,
+      "discRef": "12",
+      "track": 1,
+      "time": "2:25",
+      "artist": "Frank Sinatra",
+      "title": "Strangers In The Night"
+    },
+    {
+      "id": 17,
+      "rank": "C",
+      "disc": 12,
+      "discRef": "12",
+      "track": 6,
+      "time": "2:50",
+      "artist": "Frank Sinatra",
+      "title": "Blue Moon"
+    },
+    {
+      "id": 18,
+      "rank": "A",
+      "disc": 13,
+      "discRef": "13",
+      "track": 1,
+      "time": "3:30",
+      "artist": "The Frank & Walters",
+      "title": "This Is Not A Song"
+    },
+    {
+      "id": 19,
+      "rank": "C",
+      "disc": 14,
+      "discRef": "14",
+      "track": 8,
+      "time": "3:26",
+      "artist": "Elvis Costello and the Attractions",
+      "title": "20% Amnesia"
+    },
+    {
+      "id": 20,
+      "rank": "B",
+      "disc": 15,
+      "discRef": "15",
+      "track": 6,
+      "time": "3:45",
+      "artist": "Prefab Sprout",
+      "title": "Tiffanys"
+    },
+    {
+      "id": 21,
+      "rank": "C",
+      "disc": 16,
+      "discRef": "16",
+      "track": 1,
+      "time": "2:20",
+      "artist": "The Monkees",
+      "title": "Theme"
+    },
+    {
+      "id": 22,
+      "rank": "A",
+      "disc": 16,
+      "discRef": "16",
+      "track": 7,
+      "time": "2:40",
+      "artist": "The Monkees",
+      "title": "Last Train to Clarksville"
+    },
+    {
+      "id": 23,
+      "rank": "D",
+      "disc": 16,
+      "discRef": "16",
+      "track": 3,
+      "time": "2:24",
+      "artist": "The Monkees",
+      "title": "I Wanna Be Free"
+    },
+    {
+      "id": 24,
+      "rank": "A",
+      "disc": 17,
+      "discRef": "17",
+      "track": 16,
+      "time": "2:25",
+      "artist": "Lord Tanamo",
+      "title": "I'm In The Mood For Ska"
+    },
+    {
+      "id": 25,
+      "rank": "B",
+      "disc": 17,
+      "discRef": "17",
+      "track": 1,
+      "time": "2:43",
+      "artist": "Bob Marley & The Wailers",
+      "title": "Caution"
+    },
+    {
+      "id": 26,
+      "rank": "D",
+      "disc": 18,
+      "discRef": "18",
+      "track": 9,
+      "time": "4:03",
+      "artist": "Del Amitri",
+      "title": "To Last A Lifetime"
+    },
+    {
+      "id": 27,
+      "rank": "B",
+      "disc": 19,
+      "discRef": "19",
+      "track": 3,
+      "time": "2:54",
+      "artist": "Johnny Cash",
+      "title": "I Walk The Line (Live San Quentin)"
+    },
+    {
+      "id": 28,
+      "rank": "C",
+      "disc": 19,
+      "discRef": "19",
+      "track": 8,
+      "time": "3:36",
+      "artist": "Johnny Cash",
+      "title": "A Boy Named Sue (Live San Quentin)"
+    },
+    {
+      "id": 29,
+      "rank": "C",
+      "disc": 20,
+      "discRef": "20",
+      "track": 1,
+      "time": "3:00",
+      "artist": "Widespread Panic",
+      "title": "Send Your Mind"
+    },
+    {
+      "id": 30,
+      "rank": "A",
+      "disc": 21,
+      "discRef": "21",
+      "track": 1,
+      "time": "3:30",
+      "artist": "A House",
+      "title": "Take It Easy On Me"
+    },
+    {
+      "id": 31,
+      "rank": "C",
+      "disc": 21,
+      "discRef": "21",
+      "track": 3,
+      "time": "3:11",
+      "artist": "A House",
+      "title": "Everything's Wrong"
+    },
+    {
+      "id": 32,
+      "rank": "AA",
+      "disc": 22,
+      "discRef": "22",
+      "track": 3,
+      "time": "2:53",
+      "artist": "Jan & Dean",
+      "title": "Dead Man's Curve"
+    },
+    {
+      "id": 33,
+      "rank": "B",
+      "disc": 23,
+      "discRef": "23",
+      "track": 1,
+      "time": "3:16",
+      "artist": "Elvis Costello",
+      "title": "Sulky Girl (single version)"
+    },
+    {
+      "id": 34,
+      "rank": "A",
+      "disc": 24,
+      "discRef": "24",
+      "track": 1,
+      "time": "2:38",
+      "artist": "The The",
+      "title": "I Saw The Light"
+    },
+    {
+      "id": 35,
+      "rank": "A",
+      "disc": 25,
+      "discRef": "25",
+      "track": 1,
+      "time": "3:!5",
+      "artist": "Toad The Wet Sprocket",
+      "title": "All I Want",
+      "note": "The timing reads ‘3:!5’ in both the typescript and the Word table."
+    },
+    {
+      "id": 36,
+      "rank": "B",
+      "disc": 26,
+      "discRef": "26",
+      "track": 1,
+      "time": "2:34",
+      "artist": "Erma Franklin",
+      "title": "(Take A Little) Piece of My Heart"
+    },
+    {
+      "id": 37,
+      "rank": "C",
+      "disc": 26,
+      "discRef": "26",
+      "track": 2,
+      "time": "2:45",
+      "artist": "Erma Franklin",
+      "title": "Ev'ry Time We Say Goodbye"
+    },
+    {
+      "id": 38,
+      "rank": "A",
+      "disc": 27,
+      "discRef": "27",
+      "track": 4,
+      "time": "5:33",
+      "artist": "The Velvet Underground",
+      "title": "Pale Blue Eyes"
+    },
+    {
+      "id": 39,
+      "rank": "A",
+      "disc": 27,
+      "discRef": "27",
+      "track": 6,
+      "time": "4:27",
+      "artist": "The Velvet Underground",
+      "title": "Beginning To See The Light"
+    },
+    {
+      "id": 40,
+      "rank": "B",
+      "disc": 28,
+      "discRef": "28",
+      "track": 10,
+      "time": "4:13",
+      "artist": "Freakpower",
+      "title": "Turn On, Tune In, Cop Out"
+    },
+    {
+      "id": 41,
+      "rank": "C",
+      "disc": 29,
+      "discRef": "29",
+      "track": 7,
+      "time": "3:50",
+      "artist": "Deacon Blue",
+      "title": "Will We Be Lovers"
+    },
+    {
+      "id": 42,
+      "rank": "AA",
+      "disc": 30,
+      "discRef": "30",
+      "track": 14,
+      "time": "3:24",
+      "artist": "David Gray",
+      "title": "What Are You"
+    },
+    {
+      "id": 43,
+      "rank": "D",
+      "disc": 30,
+      "discRef": "30",
+      "track": 3,
+      "time": "3:35",
+      "artist": "S*M*A*S*H",
+      "title": "Real Surreal"
+    },
+    {
+      "id": 44,
+      "rank": "A",
+      "disc": 31,
+      "discRef": "31",
+      "track": 2,
+      "time": "4:27",
+      "artist": "The Fall",
+      "title": "Hey! Student"
+    },
+    {
+      "id": 45,
+      "rank": "B",
+      "disc": 31,
+      "discRef": "31",
+      "track": 1,
+      "time": "2:52",
+      "artist": "The Fall",
+      "title": "15 Ways"
+    },
+    {
+      "id": 46,
+      "rank": "B",
+      "disc": 32,
+      "discRef": "32",
+      "track": 1,
+      "time": "4:15",
+      "artist": "G-Love and Special Sauce",
+      "title": "Blues Music"
+    },
+    {
+      "id": 47,
+      "rank": "AA",
+      "disc": 33,
+      "discRef": "33",
+      "track": 2,
+      "time": "3:55",
+      "artist": "Edwyn Collins",
+      "title": "A Girl Like You"
+    },
+    {
+      "id": 48,
+      "rank": "D",
+      "disc": 33,
+      "discRef": "33",
+      "track": 1,
+      "time": "6:30",
+      "artist": "Edwyn Collins",
+      "title": "The Campaign for Real Rock"
+    },
+    {
+      "id": 49,
+      "rank": "C",
+      "disc": 33,
+      "discRef": "33",
+      "track": 7,
+      "time": "4:05",
+      "artist": "Edwyn Collins",
+      "title": "Gorgeous George"
+    },
+    {
+      "id": 50,
+      "rank": "B",
+      "disc": 34,
+      "discRef": "34(1)",
+      "track": 7,
+      "time": "4:45",
+      "artist": "Dave Brubeck",
+      "title": "Take Five"
+    },
+    {
+      "id": 51,
+      "rank": "C",
+      "disc": 34,
+      "discRef": "34(2)",
+      "track": 2,
+      "time": "4:42",
+      "artist": "Bill Evans",
+      "title": "Autumn Leaves"
+    },
+    {
+      "id": 52,
+      "rank": "AA",
+      "disc": 35,
+      "discRef": "35",
+      "track": 18,
+      "time": "2:57",
+      "artist": "Bix Beiderbecke",
+      "title": "Singin' The Blues"
+    },
+    {
+      "id": 53,
+      "rank": "B",
+      "disc": 35,
+      "discRef": "35",
+      "track": 11,
+      "time": "3:10",
+      "artist": "Thelonious Monk",
+      "title": "'Round Midnight"
+    },
+    {
+      "id": 54,
+      "rank": "D",
+      "disc": 35,
+      "discRef": "35",
+      "track": 13,
+      "time": "2:47",
+      "artist": "Errol Garner",
+      "title": "Misty"
+    },
+    {
+      "id": 55,
+      "rank": "D",
+      "disc": 35,
+      "discRef": "35",
+      "track": 8,
+      "time": "3:03",
+      "artist": "Quincy Jones Orchestra",
+      "title": "Moanin'"
+    },
+    {
+      "id": 56,
+      "rank": "B",
+      "disc": 35,
+      "discRef": "35",
+      "track": 1,
+      "time": "5:43",
+      "artist": "Miles Davis",
+      "title": "Miles"
+    },
+    {
+      "id": 57,
+      "rank": "A",
+      "disc": 36,
+      "discRef": "36",
+      "track": 3,
+      "time": "3:20",
+      "artist": "Everything But The Girl",
+      "title": "I Don't Want To Talk About It (live)"
+    },
+    {
+      "id": 58,
+      "rank": "B",
+      "disc": 36,
+      "discRef": "36",
+      "track": 1,
+      "time": "4:04",
+      "artist": "Everything But The Girl",
+      "title": "Missing (Album Version)"
+    },
+    {
+      "id": 59,
+      "rank": "C",
+      "disc": 36,
+      "discRef": "36",
+      "track": 4,
+      "time": "3:23",
+      "artist": "Everything But The Girl",
+      "title": "These Days (Live)"
+    },
+    {
+      "id": 60,
+      "rank": "B",
+      "disc": 37,
+      "discRef": "37",
+      "track": 1,
+      "time": "3:59",
+      "artist": "The Verve",
+      "title": "History (Radio Edit)"
+    },
+    {
+      "id": 61,
+      "rank": "B",
+      "disc": 38,
+      "discRef": "38",
+      "track": 1,
+      "time": "2:21",
+      "artist": "Bob Dylan",
+      "title": "Subterranean Homesick Blues"
+    },
+    {
+      "id": 62,
+      "rank": "D",
+      "disc": 38,
+      "discRef": "38",
+      "track": 8,
+      "time": "5:27",
+      "artist": "Bob Dylan",
+      "title": "Mr Tambourine Man"
+    },
+    {
+      "id": 63,
+      "rank": "B",
+      "disc": 38,
+      "discRef": "38",
+      "track": 11,
+      "time": "4:07",
+      "artist": "Bob Dylan",
+      "title": "It's All Over Now, Baby Blue"
+    },
+    {
+      "id": 64,
+      "rank": "C",
+      "disc": 38,
+      "discRef": "38",
+      "track": 4,
+      "time": "2:47",
+      "artist": "Bob Dylan",
+      "title": "Love Minus Zero"
+    },
+    {
+      "id": 65,
+      "rank": "B",
+      "disc": 39,
+      "discRef": "39(1)",
+      "track": 1,
+      "time": "3:38",
+      "artist": "American Music Club",
+      "title": "Johnny Mathis' Feet"
+    },
+    {
+      "id": 66,
+      "rank": "A",
+      "disc": 40,
+      "discRef": "40",
+      "track": 8,
+      "time": "5:13",
+      "artist": "Aztec Camera",
+      "title": "Sister Ann"
+    },
+    {
+      "id": 67,
+      "rank": "D",
+      "disc": 40,
+      "discRef": "40",
+      "track": 6,
+      "time": "3:26",
+      "artist": "Aztec Camera",
+      "title": "Dream Sweet Dreams"
+    },
+    {
+      "id": 68,
+      "rank": "B",
+      "disc": 40,
+      "discRef": "40",
+      "track": 4,
+      "time": "5:03",
+      "artist": "Aztec Camera",
+      "title": "Let Your Love Decide"
+    },
+    {
+      "id": 69,
+      "rank": "C",
+      "disc": 40,
+      "discRef": "40",
+      "track": 3,
+      "time": "3:59",
+      "artist": "Aztec Camera",
+      "title": "Black Lucia"
+    },
+    {
+      "id": 70,
+      "rank": "B",
+      "disc": 41,
+      "discRef": "41",
+      "track": 1,
+      "time": "4:18",
+      "artist": "Rolling Stones",
+      "title": "Like A Rolling Stone"
+    },
+    {
+      "id": 71,
+      "rank": "C",
+      "disc": 42,
+      "discRef": "42",
+      "track": 7,
+      "time": "6:59",
+      "artist": "Count Basie Orchestra",
+      "title": "Lover Man"
+    },
+    {
+      "id": 72,
+      "rank": "B",
+      "disc": 42,
+      "discRef": "42",
+      "track": 1,
+      "time": "4:23",
+      "artist": "Gerry Mulligan",
+      "title": "Four And One Moore"
+    },
+    {
+      "id": 73,
+      "rank": "B",
+      "disc": 43,
+      "discRef": "43",
+      "track": 1,
+      "time": "3:53",
+      "artist": "Everything But The Girl vs Todd Terry",
+      "title": "Missing (Blanco/Eternal Radio Edit)"
+    },
+    {
+      "id": 74,
+      "rank": "A",
+      "disc": 44,
+      "discRef": "44",
+      "track": 5,
+      "time": "2:40",
+      "artist": "The La's",
+      "title": "There She Goes"
+    },
+    {
+      "id": 75,
+      "rank": "B",
+      "disc": 44,
+      "discRef": "44",
+      "track": 1,
+      "time": "1:51",
+      "artist": "The La's",
+      "title": "Son Of A Gun"
+    },
+    {
+      "id": 76,
+      "rank": "AA",
+      "disc": 45,
+      "discRef": "45",
+      "track": 5,
+      "time": "3:40",
+      "artist": "Jonathan Richman",
+      "title": "I Was Dancing In The Lesbian Bar"
+    },
+    {
+      "id": 77,
+      "rank": "B",
+      "disc": 45,
+      "discRef": "45",
+      "track": 9,
+      "time": "3:02",
+      "artist": "Jonathan Richman",
+      "title": "A Higher Power"
+    },
+    {
+      "id": 78,
+      "rank": "C",
+      "disc": 45,
+      "discRef": "45",
+      "track": 3,
+      "time": "2:49",
+      "artist": "Jonathan Richman",
+      "title": "You Can't Talk To The Dude"
+    },
+    {
+      "id": 79,
+      "rank": "B",
+      "disc": 45,
+      "discRef": "45",
+      "track": 3,
+      "time": "4:42",
+      "artist": "Jonathan Richman",
+      "title": "Parties In The USA"
+    },
+    {
+      "id": 80,
+      "rank": "A",
+      "disc": 46,
+      "discRef": "46",
+      "track": 4,
+      "time": "4:49",
+      "artist": "Emmylou Harris",
+      "title": "Wrecking Ball"
+    },
+    {
+      "id": 81,
+      "rank": "A",
+      "disc": 47,
+      "discRef": "47",
+      "track": 6,
+      "time": "6:43",
+      "artist": "The Smiths",
+      "title": "How Soon Is Now?"
+    },
+    {
+      "id": 82,
+      "rank": "C",
+      "disc": 47,
+      "discRef": "47",
+      "track": 7,
+      "time": "2:36",
+      "artist": "The Smiths",
+      "title": "Nowhere Fast"
+    },
+    {
+      "id": 83,
+      "rank": "A",
+      "disc": 48,
+      "discRef": "48",
+      "track": 2,
+      "time": "3:52",
+      "artist": "Stanton-Miranda",
+      "title": "Love Will Tear Us Apart"
+    },
+    {
+      "id": 84,
+      "rank": "D",
+      "disc": 48,
+      "discRef": "48",
+      "track": 1,
+      "time": "3:26",
+      "artist": "Girls Against Boys",
+      "title": "She's Lost Control"
+    },
+    {
+      "id": 85,
+      "rank": "B",
+      "disc": 49,
+      "discRef": "49",
+      "track": 1,
+      "time": "4:03",
+      "artist": "Ash",
+      "title": "Angel Interceptor"
+    },
+    {
+      "id": 86,
+      "rank": "A",
+      "disc": 50,
+      "discRef": "50",
+      "track": 4,
+      "time": "4:15",
+      "artist": "Radiohead",
+      "title": "Lucky (War Child)"
+    },
+    {
+      "id": 87,
+      "rank": "C",
+      "disc": 50,
+      "discRef": "50",
+      "track": 8,
+      "time": "3:12",
+      "artist": "Suede",
+      "title": "Shipbuilding"
+    },
+    {
+      "id": 88,
+      "rank": "D",
+      "disc": 50,
+      "discRef": "50",
+      "track": 13,
+      "time": "2:48",
+      "artist": "Manic Street Preachers",
+      "title": "Raindrops Keep Falling On My Head"
+    },
+    {
+      "id": 89,
+      "rank": "B",
+      "disc": 50,
+      "discRef": "50",
+      "track": 15,
+      "time": "2:12",
+      "artist": "KLF",
+      "title": "The Magnificent Seven"
+    },
+    {
+      "id": 90,
+      "rank": "A",
+      "disc": 50,
+      "discRef": "50",
+      "track": 17,
+      "time": "3:22",
+      "artist": "Terry Hall & Marijne Van Der Vlugt",
+      "title": "Dream A LIttle Dream Of Me"
+    },
+    {
+      "id": 91,
+      "rank": "AA",
+      "disc": 51,
+      "discRef": "51",
+      "track": 1,
+      "time": "5:46",
+      "artist": "Pulp",
+      "title": "Common People"
+    },
+    {
+      "id": 92,
+      "rank": "A",
+      "disc": 51,
+      "discRef": "51",
+      "track": 2,
+      "time": "4:03",
+      "artist": "Pulp",
+      "title": "Underwear"
+    },
+    {
+      "id": 93,
+      "rank": "A",
+      "disc": 52,
+      "discRef": "52",
+      "track": 1,
+      "time": "3:13",
+      "artist": "Orange",
+      "title": "Judy Over The Rainbow"
+    },
+    {
+      "id": 94,
+      "rank": "B",
+      "disc": 53,
+      "discRef": "53",
+      "track": 1,
+      "time": "4:28",
+      "artist": "Aztec Camera",
+      "title": "Sun"
+    },
+    {
+      "id": 95,
+      "rank": "B",
+      "disc": 54,
+      "discRef": "54",
+      "track": 1,
+      "time": "2:37",
+      "artist": "Rampage",
+      "title": "The Monkees"
+    },
+    {
+      "id": 96,
+      "rank": "A",
+      "disc": 55,
+      "discRef": "55",
+      "track": 4,
+      "time": "2:40",
+      "artist": "Cypress Hill",
+      "title": "Hits From The Bong"
+    },
+    {
+      "id": 97,
+      "rank": "AA",
+      "disc": 56,
+      "discRef": "56",
+      "track": 4,
+      "time": "4:46",
+      "artist": "Nick Drake",
+      "title": "One Of These Things First"
+    },
+    {
+      "id": 98,
+      "rank": "C",
+      "disc": 56,
+      "discRef": "56",
+      "track": 9,
+      "time": "3:42",
+      "artist": "Nick Drake",
+      "title": "Northern Sky"
+    },
+    {
+      "id": 99,
+      "rank": "B",
+      "disc": 56,
+      "discRef": "56",
+      "track": 6,
+      "time": "3:16",
+      "artist": "Nick Drake",
+      "title": "Bryter Layter"
+    },
+    {
+      "id": 100,
+      "rank": "A",
+      "disc": 57,
+      "discRef": "57",
+      "track": 1,
+      "time": "4:18",
+      "artist": "Oasis",
+      "title": "Wonderwall"
+    },
+    {
+      "id": 101,
+      "rank": "A",
+      "disc": 57,
+      "discRef": "57",
+      "track": 4,
+      "time": "5:12",
+      "artist": "Oasis",
+      "title": "The Masterplan"
+    },
+    {
+      "id": 102,
+      "rank": "D",
+      "disc": 57,
+      "discRef": "57",
+      "track": 2,
+      "time": "5:39",
+      "artist": "Oasis",
+      "title": "Round Are Way"
+    },
+    {
+      "id": 103,
+      "rank": "B",
+      "disc": 58,
+      "discRef": "58",
+      "track": 1,
+      "time": "3:54",
+      "artist": "The Lightning Seeds",
+      "title": "Lucky You"
+    },
+    {
+      "id": 104,
+      "rank": "C",
+      "disc": 58,
+      "discRef": "58",
+      "track": 3,
+      "time": "3:39",
+      "artist": "The Lightning Seeds",
+      "title": "The Likely Lads"
+    },
+    {
+      "id": 105,
+      "rank": "A",
+      "disc": 59,
+      "discRef": "59",
+      "track": 5,
+      "time": "3:43",
+      "artist": "Stevie Wonder",
+      "title": "Higher Ground"
+    },
+    {
+      "id": 106,
+      "rank": "C",
+      "disc": 59,
+      "discRef": "59",
+      "track": 1,
+      "time": "4:37",
+      "artist": "Stevie Wonder",
+      "title": "Too High"
+    },
+    {
+      "id": 107,
+      "rank": "B",
+      "disc": 60,
+      "discRef": "60",
+      "track": 1,
+      "time": "5:56",
+      "artist": "The Smiths",
+      "title": "Reel Around The Fountain"
+    },
+    {
+      "id": 108,
+      "rank": "C",
+      "disc": 60,
+      "discRef": "60",
+      "track": 7,
+      "time": "3:20",
+      "artist": "The Smiths",
+      "title": "Still Ill"
+    },
+    {
+      "id": 109,
+      "rank": "B",
+      "disc": 60,
+      "discRef": "60",
+      "track": 6,
+      "time": "2:42",
+      "artist": "The Smiths",
+      "title": "This Charming Man"
+    },
+    {
+      "id": 110,
+      "rank": "AA",
+      "disc": 61,
+      "discRef": "61",
+      "track": 1,
+      "time": "4:03",
+      "artist": "Terry Hall",
+      "title": "Forever J"
+    },
+    {
+      "id": 111,
+      "rank": "AA",
+      "disc": 62,
+      "discRef": "62",
+      "track": 1,
+      "time": "3:39",
+      "artist": "Terry Hall",
+      "title": "Sense"
+    },
+    {
+      "id": 112,
+      "rank": "B",
+      "disc": 62,
+      "discRef": "62",
+      "track": 3,
+      "time": "2:27",
+      "artist": "Terry Hall",
+      "title": "This Guy's In Love With You"
+    },
+    {
+      "id": 113,
+      "rank": "AA",
+      "disc": 63,
+      "discRef": "63",
+      "track": 1,
+      "time": "2:32",
+      "artist": "G-Love & Special Sauce",
+      "title": "Cold Beverage"
+    },
+    {
+      "id": 114,
+      "rank": "B",
+      "disc": 64,
+      "discRef": "64",
+      "track": 1,
+      "time": "6:45",
+      "artist": "The Pet Shop Boys",
+      "title": "Being Boring"
+    },
+    {
+      "id": 115,
+      "rank": "C",
+      "disc": 64,
+      "discRef": "64",
+      "track": 2,
+      "time": "5:25",
+      "artist": "The Pet Shop Boys",
+      "title": "This must be the place I waited years to leave"
+    },
+    {
+      "id": 116,
+      "rank": "C",
+      "disc": 64,
+      "discRef": "64",
+      "track": 10,
+      "time": "4:45",
+      "artist": "The Pet Shop Boys",
+      "title": "Jealousy"
+    },
+    {
+      "id": 117,
+      "rank": "A",
+      "disc": 65,
+      "discRef": "65",
+      "track": 6,
+      "time": "2:47",
+      "artist": "Elvis Costello & The Attractions",
+      "title": "Almost Blue"
+    },
+    {
+      "id": 118,
+      "rank": "C",
+      "disc": 65,
+      "discRef": "65",
+      "track": 4,
+      "time": "4:15",
+      "artist": "Elvis Costello & The Attractions",
+      "title": "The Long Honeymoon"
+    },
+    {
+      "id": 119,
+      "rank": "B",
+      "disc": 65,
+      "discRef": "65",
+      "track": 3,
+      "time": "4:42",
+      "artist": "Elvis Costello & The Attractions",
+      "title": "Shabby Doll"
+    },
+    {
+      "id": 120,
+      "rank": "B",
+      "disc": 66,
+      "discRef": "66",
+      "track": 3,
+      "time": "3:24",
+      "artist": "David Bowie",
+      "title": "Ziggy Stardust"
+    },
+    {
+      "id": 121,
+      "rank": "B",
+      "disc": 66,
+      "discRef": "66",
+      "track": 8,
+      "time": "5:22",
+      "artist": "David Bowie",
+      "title": "Space Oddity"
+    },
+    {
+      "id": 122,
+      "rank": "B",
+      "disc": 67,
+      "discRef": "67",
+      "track": 1,
+      "time": "3:40",
+      "artist": "Aztec Camera",
+      "title": "The Crying Scene"
+    },
+    {
+      "id": 123,
+      "rank": "D",
+      "disc": 67,
+      "discRef": "67",
+      "track": 2,
+      "time": "4:30",
+      "artist": "Aztec Camera",
+      "title": "True Colours"
+    },
+    {
+      "id": 124,
+      "rank": "A",
+      "disc": 67,
+      "discRef": "67",
+      "track": 4,
+      "time": "2:04",
+      "artist": "Aztec Camera",
+      "title": "I Threw It All Away"
+    },
+    {
+      "id": 125,
+      "rank": "A",
+      "disc": 68,
+      "discRef": "68",
+      "track": 12,
+      "time": "4:17",
+      "artist": "Gram Parsons",
+      "title": "Return of the Grievous Angel"
+    },
+    {
+      "id": 126,
+      "rank": "B",
+      "disc": 68,
+      "discRef": "68",
+      "track": 9,
+      "time": "3:30",
+      "artist": "Gram Parsons",
+      "title": "Cry One More Time"
+    },
+    {
+      "id": 127,
+      "rank": "C",
+      "disc": 68,
+      "discRef": "68",
+      "track": 20,
+      "time": "3:42",
+      "artist": "Gram Parsons",
+      "title": "In My Hour Of Darkness"
+    },
+    {
+      "id": 128,
+      "rank": "C",
+      "disc": 69,
+      "discRef": "69",
+      "track": 1,
+      "time": "4:05",
+      "artist": "The Disposable Heroes of Hiphoprisy",
+      "title": "Famous And Dandy (Like Amons 'n' Andy) (Radio)"
+    },
+    {
+      "id": 129,
+      "rank": "A",
+      "disc": 69,
+      "discRef": "69",
+      "track": 3,
+      "time": "4:20",
+      "artist": "The Disposable Heroes of Hiphoprisy",
+      "title": "Positive"
+    },
+    {
+      "id": 130,
+      "rank": "C",
+      "disc": 69,
+      "discRef": "69",
+      "track": 4,
+      "time": "4:42",
+      "artist": "The Disposable Heroes of Hiphoprisy",
+      "title": "Language of Violence (Jazz Version)"
+    },
+    {
+      "id": 131,
+      "rank": "B",
+      "disc": 70,
+      "discRef": "70",
+      "track": 1,
+      "time": "4:19",
+      "artist": "Aztec Camera",
+      "title": "Spanish Horses"
+    },
+    {
+      "id": 132,
+      "rank": "D",
+      "disc": 70,
+      "discRef": "70",
+      "track": 2,
+      "time": "3:59",
+      "artist": "Aztec Camera",
+      "title": "Birth of the True (Live at Ronnie Scott's)"
+    },
+    {
+      "id": 133,
+      "rank": "A",
+      "disc": 71,
+      "discRef": "71",
+      "track": 15,
+      "time": "3:12",
+      "artist": "The Beach Boys",
+      "title": "Hang On To Your Ego"
+    },
+    {
+      "id": 134,
+      "rank": "B",
+      "disc": 71,
+      "discRef": "71",
+      "track": 8,
+      "time": "2:47",
+      "artist": "The Beach Boys",
+      "title": "God Only Knows"
+    },
+    {
+      "id": 135,
+      "rank": "C",
+      "disc": 71,
+      "discRef": "71",
+      "track": 4,
+      "time": "2:47",
+      "artist": "The Beach Boys",
+      "title": "Don't Talk (Put Your Head On My Shoulder)"
+    },
+    {
+      "id": 136,
+      "rank": "D",
+      "disc": 72,
+      "discRef": "72",
+      "track": 3,
+      "time": "3:40",
+      "artist": "Aztec Camera",
+      "title": "The Bugle Sounds Again (Live at Ronnie Scott's)"
+    },
+    {
+      "id": 137,
+      "rank": "B",
+      "disc": 72,
+      "discRef": "72",
+      "track": 4,
+      "time": "4:40",
+      "artist": "Aztec Camera",
+      "title": "Dolphins (Live at Ronnie Scott's)"
+    },
+    {
+      "id": 138,
+      "rank": "B",
+      "disc": 73,
+      "discRef": "73(2)",
+      "track": 3,
+      "time": "2:34",
+      "artist": "Prefab Sprout",
+      "title": "Lions In My Own Garden (Exit Someone)"
+    },
+    {
+      "id": 139,
+      "rank": "C",
+      "disc": 73,
+      "discRef": "73(1)",
+      "track": 1,
+      "time": "3:43",
+      "artist": "Prefab Sprout",
+      "title": "If You Don't Love Me"
+    },
+    {
+      "id": 140,
+      "rank": "B",
+      "disc": 74,
+      "discRef": "74",
+      "track": 1,
+      "time": "3:47",
+      "artist": "Billy Bragg",
+      "title": "Accident Waiting to Happen (Red Star Version)"
+    },
+    {
+      "id": 141,
+      "rank": "C",
+      "disc": 74,
+      "discRef": "74",
+      "track": 2,
+      "time": "3:46",
+      "artist": "Billy Bragg",
+      "title": "Sulk"
+    },
+    {
+      "id": 142,
+      "rank": "B",
+      "disc": 74,
+      "discRef": "74",
+      "track": 4,
+      "time": "1:47",
+      "artist": "Billy Bragg",
+      "title": "Revolution"
+    },
+    {
+      "id": 143,
+      "rank": "C",
+      "disc": 75,
+      "discRef": "75",
+      "track": 1,
+      "time": "3:25",
+      "artist": "Toad The Wet Sprocket",
+      "title": "Fall Down"
+    },
+    {
+      "id": 144,
+      "rank": "B",
+      "disc": 76,
+      "discRef": "76",
+      "track": 1,
+      "time": "3:50",
+      "artist": "Paul Weller",
+      "title": "Above the Clouds"
+    },
+    {
+      "id": 145,
+      "rank": "C",
+      "disc": 76,
+      "discRef": "76",
+      "track": 3,
+      "time": "4:08",
+      "artist": "Paul Weller",
+      "title": "Everything Has a Price to Pay"
+    },
+    {
+      "id": 146,
+      "rank": "B",
+      "disc": 76,
+      "discRef": "76",
+      "track": 4,
+      "time": "4:00",
+      "artist": "Paul Weller",
+      "title": "Feeling Alright"
+    },
+    {
+      "id": 147,
+      "rank": "B",
+      "disc": 77,
+      "discRef": "77",
+      "track": 1,
+      "time": "4:10",
+      "artist": "Manic Street Preachers",
+      "title": "Roses in the Hospital"
+    },
+    {
+      "id": 148,
+      "rank": "B",
+      "disc": 78,
+      "discRef": "78",
+      "track": 1,
+      "time": "3:28",
+      "artist": "Del Amitri",
+      "title": "Be My Downfall"
+    },
+    {
+      "id": 149,
+      "rank": "A",
+      "disc": 79,
+      "discRef": "79",
+      "track": 4,
+      "time": "3:12",
+      "artist": "Deacon Blue",
+      "title": "Wages Day (piano version)"
+    },
+    {
+      "id": 150,
+      "rank": "A",
+      "disc": 80,
+      "discRef": "80",
+      "track": 1,
+      "time": "3:18",
+      "artist": "Frente!",
+      "title": "Accidentally Kelly Street"
+    },
+    {
+      "id": 151,
+      "rank": "AA",
+      "disc": 80,
+      "discRef": "80",
+      "track": 3,
+      "time": "2:33",
+      "artist": "Frente!",
+      "title": "Ordinary Angels (Vara Radio Holland)"
+    },
+    {
+      "id": 152,
+      "rank": "A",
+      "disc": 81,
+      "discRef": "81",
+      "track": 13,
+      "time": "3:24",
+      "artist": "The Fall",
+      "title": "Totally Wired"
+    },
+    {
+      "id": 153,
+      "rank": "A",
+      "disc": 81,
+      "discRef": "81",
+      "track": 19,
+      "time": "4:22",
+      "artist": "The Fall",
+      "title": "A Day In The Life"
+    },
+    {
+      "id": 154,
+      "rank": "C",
+      "disc": 82,
+      "discRef": "82",
+      "track": 1,
+      "time": "3:14",
+      "artist": "The Smiths",
+      "title": "Ask"
+    },
+    {
+      "id": 155,
+      "rank": "B",
+      "disc": 82,
+      "discRef": "82",
+      "track": 2,
+      "time": "2:40",
+      "artist": "The Smiths",
+      "title": "Cemetry Gates"
+    },
+    {
+      "id": 156,
+      "rank": "C",
+      "disc": 83,
+      "discRef": "83",
+      "track": 2,
+      "time": "4:45",
+      "artist": "The Pet Shop Boys",
+      "title": "West End Girls"
+    },
+    {
+      "id": 157,
+      "rank": "B",
+      "disc": 83,
+      "discRef": "83",
+      "track": 5,
+      "time": "5:05",
+      "artist": "The Pet Shop Boys",
+      "title": "Suburbia"
+    },
+    {
+      "id": 158,
+      "rank": "C",
+      "disc": 84,
+      "discRef": "84",
+      "track": 1,
+      "time": "3:20",
+      "artist": "Teenage Fanclub",
+      "title": "The Concept"
+    },
+    {
+      "id": 159,
+      "rank": "B",
+      "disc": 85,
+      "discRef": "85",
+      "track": 4,
+      "time": "3:47",
+      "artist": "Deacon Blue",
+      "title": "He Looks Like Spencer Tracy Now"
+    },
+    {
+      "id": 160,
+      "rank": "C",
+      "disc": 85,
+      "discRef": "85",
+      "track": 5,
+      "time": "4:27",
+      "artist": "Deacon Blue",
+      "title": "Loaded"
+    },
+    {
+      "id": 161,
+      "rank": "B",
+      "disc": 85,
+      "discRef": "85",
+      "track": 6,
+      "time": "4:57",
+      "artist": "Deacon Blue",
+      "title": "When Will You (Make My Telephone Ring)"
+    },
+    {
+      "id": 162,
+      "rank": "A",
+      "disc": 85,
+      "discRef": "85",
+      "track": 7,
+      "time": "3:15",
+      "artist": "Deacon Blue",
+      "title": "Chocolate Girl"
+    },
+    {
+      "id": 163,
+      "rank": "A",
+      "disc": 85,
+      "discRef": "85",
+      "track": 8,
+      "time": "3:53",
+      "artist": "Deacon Blue",
+      "title": "Dignity"
+    },
+    {
+      "id": 164,
+      "rank": "B",
+      "disc": 86,
+      "discRef": "86",
+      "track": 11,
+      "time": "3:20",
+      "artist": "Guru featuring MC Solaar",
+      "title": "Le Bien, Le Mal"
+    },
+    {
+      "id": 165,
+      "rank": "C",
+      "disc": 86,
+      "discRef": "86",
+      "track": 2,
+      "time": "3:00",
+      "artist": "Blondie",
+      "title": "Sunday Girl (French Version)"
+    },
+    {
+      "id": 166,
+      "rank": "C",
+      "disc": 86,
+      "discRef": "86",
+      "track": 15,
+      "time": "5:26",
+      "artist": "Sinead O'Connor",
+      "title": "Nothing Compares 2 U (Live Video Version)"
+    },
+    {
+      "id": 167,
+      "rank": "D",
+      "disc": 86,
+      "discRef": "86",
+      "track": 1,
+      "time": "4:40",
+      "artist": "The Waterboys",
+      "title": "The Big Music"
+    },
+    {
+      "id": 168,
+      "rank": "D",
+      "disc": 87,
+      "discRef": "87",
+      "track": 1,
+      "time": "3:46",
+      "artist": "The High Llamas",
+      "title": "Checkin In, Checking Out (Radio Edit)"
+    },
+    {
+      "id": 169,
+      "rank": "B",
+      "disc": 88,
+      "discRef": "88",
+      "track": 1,
+      "time": "3:08",
+      "artist": "The Clash",
+      "title": "Train In Vain"
+    },
+    {
+      "id": 170,
+      "rank": "B",
+      "disc": 88,
+      "discRef": "88",
+      "track": 2,
+      "time": "3:52",
+      "artist": "The Clash",
+      "title": "The Right Profile"
+    },
+    {
+      "id": 171,
+      "rank": "B",
+      "disc": 89,
+      "discRef": "89",
+      "track": 1,
+      "time": "4:51",
+      "artist": "Marvin Gaye",
+      "title": "Let's Get It On"
+    },
+    {
+      "id": 172,
+      "rank": "C",
+      "disc": 89,
+      "discRef": "89",
+      "track": 8,
+      "time": "4:27",
+      "artist": "Marvin Gaye",
+      "title": "Just To Keep You Satisfied"
+    },
+    {
+      "id": 173,
+      "rank": "B",
+      "disc": 90,
+      "discRef": "90",
+      "track": 5,
+      "time": "2:02",
+      "artist": "Menswea@r",
+      "title": "Daydreamer"
+    },
+    {
+      "id": 174,
+      "rank": "D",
+      "disc": 90,
+      "discRef": "90",
+      "track": 4,
+      "time": "2:14",
+      "artist": "Menswea@r",
+      "title": "Little Miss Pinpoint Eyes"
+    },
+    {
+      "id": 175,
+      "rank": "C",
+      "disc": 91,
+      "discRef": "91",
+      "track": 1,
+      "time": "2:58",
+      "artist": "Neil Young with Crazy Horse",
+      "title": "Cinnamon Girl"
+    },
+    {
+      "id": 176,
+      "rank": "B",
+      "disc": 91,
+      "discRef": "91",
+      "track": 2,
+      "time": "2:26",
+      "artist": "Neil Young with Crazy Horse",
+      "title": "Everybody Knows This Is Nowhere"
+    },
+    {
+      "id": 177,
+      "rank": "B",
+      "disc": 92,
+      "discRef": "92",
+      "track": 5,
+      "time": "3:20",
+      "artist": "Aimee Mann",
+      "title": "4th Of July"
+    },
+    {
+      "id": 178,
+      "rank": "C",
+      "disc": 92,
+      "discRef": "92",
+      "track": 13,
+      "time": "4:55",
+      "artist": "Coldcut",
+      "title": "Pearls Before Swine"
+    },
+    {
+      "id": 179,
+      "rank": "B",
+      "disc": 92,
+      "discRef": "92",
+      "track": 15,
+      "time": "8:15",
+      "artist": "Don McLean",
+      "title": "American Pie"
+    },
+    {
+      "id": 180,
+      "rank": "B",
+      "disc": 93,
+      "discRef": "93",
+      "track": 1,
+      "time": "5:31",
+      "artist": "Big Audio",
+      "title": "Looking For A Song"
+    },
+    {
+      "id": 181,
+      "rank": "B",
+      "disc": 94,
+      "discRef": "94",
+      "track": 1,
+      "time": "3:26",
+      "artist": "Martin Stephenson and the Daintees",
+      "title": "Left Us To Burn"
+    },
+    {
+      "id": 182,
+      "rank": "A",
+      "disc": 94,
+      "discRef": "94",
+      "track": 2,
+      "time": "2:51",
+      "artist": "Martin Stephenson and the Daintees",
+      "title": "Big North Lights"
+    },
+    {
+      "id": 183,
+      "rank": "B",
+      "disc": 95,
+      "discRef": "95",
+      "track": 1,
+      "time": "4:26",
+      "artist": "Soul Asylum",
+      "title": "Runaway Train"
+    },
+    {
+      "id": 184,
+      "rank": "A",
+      "disc": 96,
+      "discRef": "96",
+      "track": 2,
+      "time": "4:00",
+      "artist": "The Jayhawks",
+      "title": "Nevada, California"
+    },
+    {
+      "id": 185,
+      "rank": "B",
+      "disc": 97,
+      "discRef": "97",
+      "track": 9,
+      "time": "5:17",
+      "artist": "Crowded House",
+      "title": "Waether With You (Live)"
+    },
+    {
+      "id": 186,
+      "rank": "C",
+      "disc": 97,
+      "discRef": "97",
+      "track": 10,
+      "time": "2:32",
+      "artist": "Radiohead",
+      "title": "Thinking About You"
+    },
+    {
+      "id": 187,
+      "rank": "C",
+      "disc": 97,
+      "discRef": "97",
+      "track": 15,
+      "time": "4:06",
+      "artist": "Television",
+      "title": "Call Mr Lee"
+    },
+    {
+      "id": 188,
+      "rank": "C",
+      "disc": 98,
+      "discRef": "98",
+      "track": 7,
+      "time": "2:58",
+      "artist": "Morrissey",
+      "title": "You're The Onme For Me, Fatty"
+    },
+    {
+      "id": 189,
+      "rank": "C",
+      "disc": 98,
+      "discRef": "98",
+      "track": 8,
+      "time": "5:07",
+      "artist": "Morrissey",
+      "title": "Seasick, Yet Still Docked"
+    },
+    {
+      "id": 190,
+      "rank": "B",
+      "disc": 98,
+      "discRef": "98",
+      "track": 9,
+      "time": "4:20",
+      "artist": "Morriseey",
+      "title": "I Know It's Gonna Happen Someday"
+    },
+    {
+      "id": 191,
+      "rank": "A",
+      "disc": 99,
+      "discRef": "99",
+      "track": 1,
+      "time": "2:28",
+      "artist": "John Lee Hooker",
+      "title": "Boom Boom"
+    },
+    {
+      "id": 192,
+      "rank": "C",
+      "disc": 99,
+      "discRef": "99",
+      "track": 9,
+      "time": "2:08",
+      "artist": "John Lee Hooker",
+      "title": "Ground Hog Blues"
+    },
+    {
+      "id": 193,
+      "rank": "A",
+      "disc": 99,
+      "discRef": "99",
+      "track": 16,
+      "time": "3:44",
+      "artist": "John Lee Hooker",
+      "title": "This Is Hip"
+    },
+    {
+      "id": 194,
+      "rank": "B",
+      "disc": 99,
+      "discRef": "99",
+      "track": 2,
+      "time": "2:42",
+      "artist": "John Lee Hooker",
+      "title": "Crawlin' Kingsnake"
+    },
+    {
+      "id": 195,
+      "rank": "C",
+      "disc": 100,
+      "discRef": "100",
+      "track": 1,
+      "time": "3:06",
+      "artist": "Terry Hall",
+      "title": "Chasing A Rainbow"
+    },
+    {
+      "id": 196,
+      "rank": "C",
+      "disc": 100,
+      "discRef": "100",
+      "track": 3,
+      "time": "4:03",
+      "artist": "Terry Hall",
+      "title": "See No Evil (Live)"
+    },
+    {
+      "id": 197,
+      "rank": "B",
+      "disc": 100,
+      "discRef": "100",
+      "track": 4,
+      "time": "3:59",
+      "artist": "Terry Hall and Tricky",
+      "title": "Ghost Town (Live",
+      "note": "The original ends after ‘Live’, without a closing bracket."
+    }
+  ]
+}

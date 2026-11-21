@@ -1,0 +1,91 @@
+[
+  {
+    "date": "1995-02",
+    "title": "Four proposals for Oxford Student Radio",
+    "text": "Ben’s proposals ranged from a quarter-hour walk through one part of Oxford to a weekly guide to the Internet and the World-Wide Web. ‘Inspirations’ invited contributors to choose a poem, memory, or practical idea; ‘The Hidden Link’ imagined two regular presenters spinning conspiracy theories.",
+    "sources": [
+      "DICOVER.DOC",
+      "INTERNET.DOC",
+      "INSPIRE.DOC",
+      "LINK.DOC"
+    ],
+    "status": "Programme proposals"
+  },
+  {
+    "date": "1995-10-25",
+    "title": "Maxie’s live discussion",
+    "text": "Two draft invitations on Oxygen 107fm letterhead ask the University Counsellor and Nightline to join a live panel on 14 November. They describe callers’ questions and the option of a pre-recorded contribution. The Nightline letter is signed by Maxie Haddow-Allen.",
+    "sources": [
+      "LETTER1.DOC",
+      "LETTER2.DOC",
+      "MAXIE.TXT"
+    ],
+    "status": "Draft invitations"
+  },
+  {
+    "date": "1995-10-31",
+    "title": "A box of CDs",
+    "text": "Ben numbered the discs, picked 197 tracks, and supplied the disc and track references, durations, and ranks for the night presenters. The labels name him at St Anne’s; his instructions say the records belonged to him and his brother. Presenters were to tick what they played and check the track against the CD.",
+    "sources": [
+      "CDLIST.DOC",
+      "PLAYLIST.DOC",
+      "LABELS.DOC",
+      "CDTIPS.DOC"
+    ],
+    "status": "Signed and dated operating documents"
+  },
+  {
+    "date": "1995-11-01",
+    "title": "Five files from one list",
+    "text": "The BASIC program reads six fields from LIST3.TXT and writes each row into AA, A, B, C, or D. There are eleven AA records, from Jan & Dean’s ‘Dead Man’s Curve’ to Frente!’s ‘Ordinary Angels’ from Vara Radio Holland.",
+    "sources": [
+      "LIST.BAS",
+      "LIST3.TXT",
+      "AA",
+      "A",
+      "B",
+      "C",
+      "D",
+      "SORTED"
+    ],
+    "status": "Surviving code, inputs, and outputs"
+  },
+  {
+    "date": "1995-11-07",
+    "title": "The evening’s talking points",
+    "text": "NightAir notes put Russian and French political news, the Ashes, Pride and Prejudice, and Maradona’s visit to the Oxford Union on the same sheet. Its date is the file’s save date.",
+    "sources": [
+      "NIGHTAIR.DOC",
+      "NIGHTAIR"
+    ],
+    "status": "Presenter research"
+  },
+  {
+    "date": "1996-09-22",
+    "title": "Writing to Mark Radcliffe",
+    "text": "In a letter saved in September, Ben said the station had secured a full regional licence starting the following February. He hoped to make a show with live music, poetry, and his charity-shop records. He asked the DJ for an interview and recorded idents.",
+    "sources": [
+      "RADC.DOC"
+    ],
+    "status": "Letter draft"
+  },
+  {
+    "date": "1996-11-25",
+    "title": "Getting the station built",
+    "text": "A draft JCR motion in Joe Taylor’s Psion files says the Oxford and Brookes students had secured the city’s frequency and proposes £200 for studio set-up. The same file maps out specialist music and programming roles.",
+    "sources": [
+      "JOE_TAYL/I/WRD/OXYGEN.WRD"
+    ],
+    "status": "Draft motion; file save date"
+  },
+  {
+    "date": "1995–1997",
+    "title": "Ben’s account of the two licences",
+    "text": "His college CV records November 1995 to June 1997 as ‘program team leader’ at Oxygen and says he worked on the test licence and full-time broadcasting. A separate application describes his role in originating Dead Air and producing and presenting it weekly.",
+    "sources": [
+      "CVWIZZ.DOC",
+      "KEEN4.TXT"
+    ],
+    "status": "Personal account"
+  }
+]

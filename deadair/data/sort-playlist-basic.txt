@@ -1,0 +1,31 @@
+OPEN "list3.txt" FOR INPUT AS #1
+OPEN "AA" FOR OUTPUT AS #2
+OPEN "A" FOR OUTPUT AS #3
+OPEN "b" FOR OUTPUT AS #4
+OPEN "c" FOR OUTPUT AS #5
+OPEN "d" FOR OUTPUT AS #6
+DO UNTIL EOF(1)
+INPUT #1, a$, b$, c$, d$, e$, f$
+SELECT CASE a$
+CASE "AA"
+PRINT #2, a$; ","; b$; ","; c$; ","; d$; ","; e$; ","; f$
+CASE "A"
+PRINT #3, a$; ","; b$; ","; c$; ","; d$; ","; e$; ","; f$
+CASE "B"
+PRINT #4, a$; ","; b$; ","; c$; ","; d$; ","; e$; ","; f$
+CASE "C"
+PRINT #5, a$; ","; b$; ","; c$; ","; d$; ","; e$; ","; f$
+CASE "D"
+PRINT #6, a$; ","; b$; ","; c$; ","; d$; ","; e$; ","; f$
+CASE ELSE
+PRINT "ERROR"
+PRINT a$; ","; b$; ","; c$; ","; d$; ","; e$; ","; f$
+END
+END SELECT
+LOOP
+CLOSE #1
+CLOSE #2
+CLOSE #3
+CLOSE #4
+CLOSE #5
+CLOSE #6
