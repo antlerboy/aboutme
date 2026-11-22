@@ -16,7 +16,7 @@ def main():
     contract = load_contract(REPO)
     cards = render_cards(contract["selected"], "latest")
     runtime = runtime_markup(contract, "latest")
-    panel = f'''<section id="latest" class="alt" data-latest-panel><div class="wrap"><div class="latest-panel-heading"><div><p class="eyebrow">Latest news and social media</p><h2 class="section-title">Three things worth a look</h2></div><p>Selected for relevance, not simply whatever was posted last.</p></div><div class="latest-grid" data-latest-grid>{cards}</div></div>{runtime}</section>'''
+    panel = f'''<section id="latest" class="alt" data-latest-panel><div class="wrap"><div class="latest-panel-heading"><div><h2 class="section-title">Three things worth a look</h2></div></div><div class="latest-grid" data-latest-grid>{cards}</div></div>{runtime}</section>'''
     markup, count = re.subn(r'<section id="latest"(?=[\s>]).*?</section>', lambda match: panel, home.read_text(), flags=re.S)
     if count != 1:
         raise SystemExit(f"Expected exactly one latest panel, found {count}")

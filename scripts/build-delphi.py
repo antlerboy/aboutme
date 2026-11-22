@@ -27,7 +27,7 @@ target.parent.mkdir(parents=True, exist_ok=True)
 target.write_text(page, encoding='utf-8')
 
 home = (ROOT / 'index.html').read_text(encoding='utf-8')
-callout = f'''<!-- delphi-experiment:start --><section id="delphi-experiment" class="alt"><div class="wrap"><div class="section-head"><p class="eyebrow">AI experiment</p><h2 class="section-title">{h(data['title'])}</h2><p>{h(data['homeIntro'])}</p></div><p><a class="button secondary" href="/delphi/">Try the experiment and give me feedback</a></p></div></section><!-- delphi-experiment:end -->'''
+callout = '<!-- delphi-experiment:start --><section id="delphi-experiment"><div class="wrap"><h2 class="section-title">Argue with a digital approximation of me</h2><p>My AI experiment on Delphi will argue back. I’d like to know where it’s useful, wrong, or unnecessarily pompous. <a href="/delphi/">Try Benjamin on Delphi</a>.</p></div></section><!-- delphi-experiment:end -->'
 pattern = r'<!-- delphi-experiment:start -->[\s\S]*?<!-- delphi-experiment:end -->'
 if re.search(pattern, home):
     home = re.sub(pattern, lambda _: callout, home)

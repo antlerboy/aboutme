@@ -16,8 +16,8 @@ OLD = '/sysprac26/relational/'
 NEW = '/relational/'
 CANONICAL = 'https://antlerboy.com' + NEW
 DESCRIPTION = (
-    'Practical tools, papers, and teaching on relational public services, demand, '
-    'place-based working, and the conditions that let useful practice endure.'
+    'When someone asks a public service for help, the person who hears them may need a manager '
+    'or another agency to act. Trace one such decision with the people involved.'
 )
 
 
@@ -57,7 +57,7 @@ def build(root):
         'Workshop &amp; practical tool &middot; 8 October 2026',
         'Relational public services &middot; tools, writing, and practice')
     text = replace_required(text,
-        '<p class="lead">Follow a person\'s situation into organisational decisions. Find what gets lost, who can act, and what must change for useful practice to last.</p>',
+        '<p class="lead">When someone asks a public service for help, the person who hears them may need a manager or another agency to act. Trace one such decision with the people involved.</p>',
         '<p class="lead">' + DESCRIPTION + '</p>')
     text = replace_required(text,
         '<a class="button secondary" href="#case">Start with Asha\'s story</a>',

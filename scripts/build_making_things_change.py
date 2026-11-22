@@ -57,14 +57,14 @@ for version in DATA['versions']:
         (FOLDER / 'files' / legacy_name).write_bytes((FOLDER / 'files' / version['filename']).read_bytes())
 
 body = '<p class="lead">' + h(DATA['summary']) + '</p><p>' + h(DATA['introduction']) + '</p>'
-body += '<section><h2>Choose an edition</h2><p>Start with the revised draft. The first draft is kept here so you can compare them.</p><div class="guide-editions">'
+body += '<section><h2>Download the guide</h2><div class="guide-editions">'
 for version in DATA['versions']:
     name = version['filename']
     body += '<article id="' + version['id'] + '"><h3>' + h(version['label']) + '</h3><p class="meta">' + h(version['version'] + ' · ' + version['date_label']) + ' · 32 pages · PDF</p><p>' + h(version['description']) + '</p>'
     body += '<p><a href="files/' + h(name, quote=True) + '" download="' + h(name, quote=True) + '">' + h(name) + '</a></p></article>'
 body += '</div></section><section><h2>What changed in the second draft?</h2><p>' + h(DATA['revision_note']) + '</p></section>'
-body += '<section><h2>Use it on a situation you care about</h2><p>Read in any order. Try a question with someone whose view differs from yours. The examples are fictional; the guide offers ways to investigate and act, rather than evidence that a particular intervention will work.</p><p>The worksheet is on page 28 of the revised draft; sources and further learning are on pages 30–31.</p><p><a href="' + h(DATA['discussion_url']) + '">Read the original article</a> · <a href="' + h(DATA['linkedin_url']) + '">Join the LinkedIn discussion</a></p></section>'
-body += '<p class="meta">Benjamin P Taylor · Both editions are working drafts. Published here with the author’s permission.</p>'
+body += '<section><h2>Try the worksheet</h2><p>Pick something you want to change at school, at work, or where you live. Try the questions on page 28 of the revised draft with somebody who sees it differently. The reading list is on pages 30–31.</p><p><a href="' + h(DATA['discussion_url']) + '">Read the original article</a> · <a href="' + h(DATA['linkedin_url']) + '">Join the LinkedIn discussion</a></p></section>'
+body += '<p class="meta">Benjamin P Taylor</p>'
 style = '<style>.guide-editions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.5rem}.guide-editions article{min-width:0;padding:1.25rem;border:1px solid #b9aaa0;border-radius:.4rem}.guide-editions a{overflow-wrap:anywhere}.guide-editions h3{margin-top:0}@media(max-width:650px){.guide-editions{grid-template-columns:1fr}}</style>'
 title = DATA['title'] + ': a guide to systems change for young people'
 if TANGLE:

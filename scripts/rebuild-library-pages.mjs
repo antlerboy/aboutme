@@ -27,7 +27,7 @@ function shell({ slug, title, description, eyebrow = 'Public work library', lead
 <body>
 ${nav}
 <main>
-  <section class="hero"><div class="wrap">${slug ? `<div class="crumbs"><a href="/library/">Library</a> / ${h(title)}</div>` : ''}<p class="eyebrow">${h(eyebrow)}</p><h1>${h(title)}</h1><p class="lead">${h(lead)}</p></div></section>
+  <section class="hero"><div class="wrap">${slug ? `<div class="crumbs"><a href="/library/">Library</a> / ${h(title)}</div>` : ''}${eyebrow ? `<p class="eyebrow">${h(eyebrow)}</p>` : ''}<h1>${h(title)}</h1><p class="lead">${h(lead)}</p></div></section>
 ${body}
 </main>
 <footer><div class="wrap">Benjamin P Taylor, <a href="/library/">working public library</a> · <a href="https://github.com/antlerboy/aboutme/issues/1">Suggest a correction or addition</a></div></footer>
@@ -47,7 +47,7 @@ function tagList(tags = []) {
 }
 
 function card(item) {
-  return `<article class="card" data-tags="${h((item.tags || []).join(' '))}">${item.kicker ? `<p class="eyebrow">${h(item.kicker)}</p>` : ''}<h3>${h(item.title)}</h3><p>${h(item.description)}</p>${tagList(item.tags)}<a class="go" href="${h(item.url)}">${h(item.action || 'Open')} →</a>${item.source ? `<a class="go" href="${h(item.source)}">${h(item.sourceLabel || 'Presentation details')} →</a>` : ''}</article>`;
+  return `<article class="card" data-tags="${h((item.tags || []).join(' '))}">${item.kicker ? `<p class="eyebrow">${h(item.kicker)}</p>` : ''}<h3>${item.action ? h(item.title) : `<a href="${h(item.url)}">${h(item.title)}</a>`}</h3><p>${h(item.description)}</p>${tagList(item.tags)}${item.action ? `<a class="go" href="${h(item.url)}">${h(item.action)} →</a>` : ''}${item.source ? `<a class="go" href="${h(item.source)}">${h(item.sourceLabel || 'Presentation details')} →</a>` : ''}</article>`;
 }
 
 function cardSection(title, description, items, { alt = false, toolbar = false } = {}) {
@@ -58,7 +58,7 @@ function resources(items) {
   return `<ul class="resource-list">${items.map(item => `<li><strong><a href="${h(item.url)}">${h(item.title)}</a></strong><small>${h(item.meta)}</small><p>${h(item.description)}</p></li>`).join('')}</ul>`;
 }
 
-function resourcePage({ slug, title, description, eyebrow = 'Body of work', groups, note, actions = [] }) {
+function resourcePage({ slug, title, description, eyebrow = '', groups, note, actions = [] }) {
   const body = groups.map((group, index) => `<section class="section${index % 2 ? ' alt' : ''}"><div class="wrap"><div class="section-head"><h2>${h(group.title)}</h2>${group.description ? `<p>${h(group.description)}</p>` : ''}</div>${resources(group.items)}${group.note ? `<div class="note">${h(group.note)}</div>` : ''}</div></section>`).join('')
     + (note || actions.length ? `<section class="section"><div class="wrap">${note ? `<div class="note">${h(note)}</div>` : ''}${actions.length ? `<div class="actions">${actions.map(action => `<a class="button" href="${h(action.url)}">${h(action.title)}</a>`).join('')}</div>` : ''}</div></section>` : '');
   save(slug, shell({ slug, title, description, eyebrow, body }));
@@ -82,10 +82,10 @@ const themes = [
   { title: 'Relational public services', description: 'Relationships, judgement, and the conditions around relational practice.', tags: ['public-services', 'practice'], url: '/library/relational-public-services/' },
   { title: 'Viable System Model', description: 'Several routes into Stafford Beer’s model and its use in practice.', tags: ['systems', 'practice'], url: '/library/viable-system-model/' },
   { title: 'Outcomes and complexity', description: 'Outcomes as results of complex adaptive systems.', tags: ['public-services', 'systems'], url: '/library/outcomes-and-complexity/' },
-  { title: 'Facilitation and systems consulting', description: 'Helping from inside a system without pretending to stand outside it.', tags: ['systems', 'practice'], url: '/library/facilitation-and-systems-consulting/' },
+  { title: 'Facilitation and systems consulting', description: 'Questions for facilitators and consultants about the decisions a group can make and the influence they themselves have on the work.', tags: ['systems', 'practice'], url: '/library/facilitation-and-systems-consulting/' },
   { title: 'Five core leadership practices', description: 'Intent, honest conversations, clarity, culture, and learning.', tags: ['leadership', 'practice'], url: '/library/five-core-practices/' },
   { title: 'Large-group processes', description: 'Whole-system and participatory methods, with a searchable process collection.', tags: ['practice'], url: '/library/large-group-processes/' },
-  { title: 'Productive conversations', description: 'Conversation as infrastructure for shared understanding and learning.', tags: ['practice', 'leadership'], url: '/library/productive-conversations/' },
+  { title: 'Productive conversations', description: 'Exercises for discussing what colleagues think but leave unsaid.', tags: ['practice', 'leadership'], url: '/library/productive-conversations/' },
   { title: 'Four quadrants of thinking threats', description: 'A model for noticing ways in which systems thinking can go wrong.', tags: ['systems'], url: '/library/four-quadrants/' },
   { title: 'Cybernetics is not the banana', description: 'A story about cybernetics, representation, and practice transfer.', tags: ['systems', 'practice'], url: '/library/cybernetics-is-not-the-banana/' },
   { title: 'Public-service transformation', description: 'Adaptive councils, commissioning, learning, and reform.', tags: ['public-services'], url: '/library/public-service-transformation/' },
@@ -95,10 +95,10 @@ save('', shell({
   slug: '',
   title: 'A working library',
   description: 'A selected library of Benjamin P Taylor’s public writing, talks, tools, models, recordings, and reference material.',
-  eyebrow: 'Public work library',
-  lead: 'Public writing, talks, tools, models, recordings, and reference material from my work in systems practice and public services.',
-  body: cardSection('Find a way in', 'Use the route that best fits what you are looking for.', waysIn, { toolbar: true })
-    + cardSection('Recurring themes', 'Ideas and practices I keep returning to, often in unfinished or changing forms.', themes, { alt: true }),
+  eyebrow: '',
+  lead: 'I’m Benjamin P Taylor. This is where I keep the papers, talks, and exercises I use when teaching and working with public services.',
+  body: cardSection('Browse the collections', '', waysIn, { toolbar: true })
+    + cardSection('Recurring themes', '', themes, { alt: true }),
   scripts: ['/library/app.js'],
 }));
 
@@ -109,7 +109,7 @@ const publicationCollections = [
   { title: 'Visual models and short publications', description: 'Diagrams, visual arguments, and short publications.', tags: ['visual'], url: '/library/visual-models/' },
   { title: 'Groups and communities', description: 'Public communities, networks, and shared learning spaces.', tags: ['community'], url: '/library/groups-and-communities/' },
 ];
-save('publications', shell({ slug: 'publications', title: 'Browse the library', description: 'Browse writing, talks, recordings, visual work, reports, and organisational reference material.', eyebrow: 'Collections', body: cardSection('Collections', 'Different routes into the same body of work.', publicationCollections, { toolbar: true }), scripts: ['/library/app.js'] }));
+save('publications', shell({ slug: 'publications', title: 'Browse the library', description: 'Browse writing, talks, recordings, visual work, reports, and organisational reference material.', eyebrow: 'Collections', body: cardSection('Collections', '', publicationCollections, { toolbar: true }), scripts: ['/library/app.js'] }));
 
 const articles = [
  ...readerRecordings.written,
@@ -125,7 +125,7 @@ const articles = [
   { kicker: '2011 · journal article', title: 'The situation facing UK public libraries and the need to change the status and approach of interlending', description: 'A peer-reviewed early article, included here as a curiosity rather than as part of the current systems canon.', tags: ['public-services', 'writing'], url: 'https://doi.org/10.1108/02641611111164618' },
   { kicker: '2026 · earlier working paper', title: 'The ladder of relationality in public service', description: 'The earlier solo paper remains available. A substantially updated, co-authored version is listed under preprints as Degrees of relationality.', tags: ['public-services', 'writing'], url: 'https://docs.google.com/document/d/1FewYqWndCJbjGYOlkWFZGBHxbs3AM4lA/edit?usp=sharing', action: 'Open earlier version' },
 ];
-save('articles-and-essays', shell({ slug: 'articles-and-essays', title: 'Published articles and essays', description: 'Published writing, with early and superseded material labelled rather than silently erased.', eyebrow: 'Writing', lead: 'Published writing, with early and superseded material labelled rather than silently erased.', body: cardSection('Writing', '', articles, { toolbar: true }) + `<section class="section alt"><div class="wrap"><div class="note"><strong>Looking for current unfinished work?</strong> The latest substantial manuscripts are separated into <a href="/library/preprints-and-working-papers/">preprints and working papers</a>.</div></div></section>`, scripts: ['/library/app.js'] }));
+save('articles-and-essays', shell({ slug: 'articles-and-essays', title: 'Published articles and essays', description: 'Articles and essays by Benjamin P Taylor, including early work and later versions where my thinking changed.', eyebrow: 'Writing', lead: 'Articles and essays by Benjamin P Taylor, including early work and later versions where my thinking changed.', body: cardSection('Writing', '', articles, { toolbar: true }) + `<section class="section alt"><div class="wrap"><div class="note"><strong>Looking for current unfinished work?</strong> The latest substantial manuscripts are separated into <a href="/library/preprints-and-working-papers/">preprints and working papers</a>.</div></div></section>`, scripts: ['/library/app.js'] }));
 
 const preprints = [
   { kicker: 'v12 · 26 August 2026', title: 'Degrees of relationality', description: 'Benjamin P Taylor and Philip Boxer. Preprint/working paper; the updated development of the earlier ladder paper.', tags: ['public-services', 'writing'], url: '/library/files/preprints/2026-degrees-of-relationality-v12-taylor-boxer.pdf' },
@@ -133,7 +133,7 @@ const preprints = [
   { kicker: 'v4 · 20 August 2026', title: 'Anxiety, ideology and the evacuation of the public realm', description: 'Philip Boxer and Benjamin P Taylor. Preprint/working paper.', tags: ['public-services', 'writing'], url: '/library/files/preprints/2026-anxiety-ideology-and-the-evacuation-of-the-public-realm-v4-boxer-taylor.pdf' },
   { kicker: 'v3 · 20 August 2026', title: 'Service systems, citizen ecosystems, and the politics we deny', description: 'Benjamin P Taylor. Towards a binocular public service science. Preprint/working paper.', tags: ['public-services', 'systems', 'writing'], url: '/library/files/preprints/2026-service-systems-citizen-ecosystems-and-the-politics-we-deny-v3-taylor.pdf' },
 ];
-save('preprints-and-working-papers', shell({ slug: 'preprints-and-working-papers', title: 'Preprints and working papers', description: 'Current substantial manuscripts shared before or outside formal publication.', eyebrow: 'Writing in progress', lead: 'Current substantial manuscripts shared before or outside formal publication. These versions may change and should not be treated as peer-reviewed final articles.', body: cardSection('Current manuscripts', 'Version, author order, and date are stated explicitly.', preprints, { toolbar: true }), scripts: ['/library/app.js'] }));
+save('preprints-and-working-papers', shell({ slug: 'preprints-and-working-papers', title: 'Preprints and working papers', description: 'Current substantial manuscripts shared before or outside formal publication.', eyebrow: 'Writing in progress', lead: 'Working papers by Benjamin P Taylor and co-authors. I share drafts here before formal publication. Check the version and date when citing one.', body: cardSection('Current manuscripts', '', preprints, { toolbar: true }), scripts: ['/library/app.js'] }));
 
 const scio = [
   { kicker: 'April 2014 · SCiO', title: 'Power+Systems: systems blindness and systems sight', description: 'An introduction to Barry Oshry’s approach to patterns of power and experience in organisations.', tags: ['systems', 'leadership', 'scio'], url: 'https://www.systemspractice.org/resources/powersystems-systems-blindness-and-systems-sight', action: 'View presentation details' },
@@ -193,7 +193,7 @@ const stateReports = [
   { title: 'State of Transformation survey 2019', meta: '2019 · PSTA and PSSE survey report', description: 'The full 2019 survey report.', url: 'https://www.dropbox.com/scl/fi/rjn18l01shgalkvkal6ar/State-of-Transformation-2019-survey-from-the-PSTA-and-PSSE.pdf?rlkey=wr3fb4fja5xj4nktscqsz5z3t&dl=0' },
 ];
 for (const slug of ['state-of-transformation', 'reports-and-surveys']) {
-  resourcePage({ slug, title: slug === 'state-of-transformation' ? 'Public Service: State of Transformation' : 'Reports and surveys', description: 'The five principal State of Transformation reports from 2018 and 2019.', eyebrow: 'Selected reports', groups: [{ title: 'Five main reports', description: 'This index keeps the three principal 2018 publications and the two principal 2019 publications. Individual chapters, case studies, fragments, and promotional pages are not duplicated here.', items: stateReports }] });
+  resourcePage({ slug, title: slug === 'state-of-transformation' ? 'Public Service: State of Transformation' : 'Reports and surveys', description: 'The five principal State of Transformation reports from 2018 and 2019.', eyebrow: 'Selected reports', groups: [{ title: 'Five main reports', description: '', items: stateReports }] });
 }
 
 const referenceGroups = [
@@ -218,9 +218,9 @@ const referenceGroups = [
     { title: 'How IT outsourcing can fail,  SCiO', meta: 'SCiO public resource', description: 'The public SCiO resource page for the outsourcing argument.', url: 'https://www.systemspractice.org/resources/how-it-outsourcing-can-fail-and-how-fix-it' },
   ] },
 ];
-resourcePage({ slug: 'redquadrant-psta-reference', title: 'RedQuadrant and PSTA reference library', description: 'A selected organisational shelf of public RedQuadrant and Public Service Transformation Academy material.', eyebrow: 'Organisational reference', groups: referenceGroups, note: 'This is a selected historical and practice reference shelf. Inclusion does not mean that every document is current, definitive, or solely authored by Benjamin; the organisation and date are stated where known.' });
+resourcePage({ slug: 'redquadrant-psta-reference', title: 'RedQuadrant and PSTA reference library', description: 'Reports and teaching materials from RedQuadrant and the Public Service Transformation Academy (PSTA).', eyebrow: 'Organisational reference', groups: referenceGroups, note: 'This is a selected historical and practice reference shelf. Inclusion does not mean that every document is current, definitive, or solely authored by Benjamin; the organisation and date are stated where known.' });
 
-resourcePage({ slug: 'relational-public-services', title: 'Relational public services', description: 'Relationships, judgement, and the organisational conditions around relational practice.', groups: [{ title: 'Current and earlier material', items: [
+resourcePage({ slug: 'relational-public-services', title: 'Relational public services', description: 'What authority does a public servant need to follow through on what they learn from someone asking for help?', groups: [{ title: 'Current and earlier material', items: [
   { title: 'Degrees of relationality', meta: '2026 · v12 · Benjamin P Taylor and Philip Boxer · preprint', description: 'The current, substantially updated paper.', url: '/library/files/preprints/2026-degrees-of-relationality-v12-taylor-boxer.pdf' },
   { title: 'The ladder of relationality in public service', meta: '2026 · earlier solo working paper', description: 'Retained as an earlier stage in the argument. An updated co-authored version is available above.', url: 'https://docs.google.com/document/d/1FewYqWndCJbjGYOlkWFZGBHxbs3AM4lA/edit?usp=sharing' },
   { title: 'The demand side of public services', meta: '2026 · v9 · Philip Boxer and Benjamin P Taylor · preprint', description: 'A companion account of the demand-side problem.', url: '/library/files/preprints/2026-the-demand-side-of-public-services-v9-boxer-taylor.pdf' },
@@ -228,7 +228,7 @@ resourcePage({ slug: 'relational-public-services', title: 'Relational public ser
   { title: 'Collection of posts on relational public services', meta: '2026 · Chosen Path', description: 'A reading route through the related posts.', url: 'https://chosen-path.org/2026/03/21/collection-of-posts-on-relational-public-services/' },
 ] }] });
 
-resourcePage({ slug: 'facilitation-and-systems-consulting', title: 'Facilitation and systems consulting', description: 'Helping from inside a system without pretending to stand outside it.', groups: [{ title: 'Material', items: [
+resourcePage({ slug: 'facilitation-and-systems-consulting', title: 'Facilitation and systems consulting', description: 'Questions for facilitators and consultants about the decisions a group can make and the influence they themselves have on the work.', groups: [{ title: 'Material', items: [
   { title: 'Facilitation and workshop design', meta: 'Benjamin P Taylor · practice guide', description: 'A worked example, a printable facilitation canvas, and resources for designing and running workshops.', url: '/faciliation/' },
   {"title": "Facilitation and workshop design reading list", "description": "Original working document.", "url": "https://docs.google.com/document/d/1OdGHAOcehnAurCc00vcF_vnA4N8L4UUynDhbD5J1yPc/edit?tab=t.0"},
   {"title": "Consulting skills reading list", "description": "Original working document.", "url": "https://docs.google.com/document/d/185jk4Z43JsU39QxoKOcuNwgvETZKHsJ7guR4qLYG53g/edit?usp=sharing"},
@@ -255,14 +255,14 @@ resourcePage({ slug: 'systems-leadership-change-practice', title: 'Systems leade
   { title: 'Systems leadership, change, theory and practice,  SCiO', meta: 'SCiO public resource', description: 'The SCiO resource page and presentation.', url: 'https://www.systemspractice.org/resources/systems-leadership-change-theory-and-practice' },
 ] }] });
 
-resourcePage({ slug: 'viable-system-model', title: 'Viable System Model', description: 'Practical routes into Stafford Beer’s Viable System Model and its use in organisations and public services.', groups: [{ title: 'Material', items: [
+resourcePage({ slug: 'viable-system-model', title: 'Viable System Model', description: 'Stafford Beer’s Viable System Model looks at how an organisation manages its work and adapts to change. The teaching slides introduce the model and show how to use it.', groups: [{ title: 'Material', items: [
   { title: 'Viable System Model lecture', meta: '2025 · long-form teaching deck', description: 'A comprehensive introduction and teaching resource.', url: '/library/files/talks/viable-system-model-lecture.pdf' },
   { title: 'A simplification of the Viable System Model', meta: '2023 · four-slide introduction', description: 'A concise way into organisational viability.', url: '/library/files/talks/simplifying-the-viable-system-model.pdf' },
   { title: 'Power, systems, and the Viable System Model', meta: '2023 · Metaphorum presentation', description: 'VSM through the lenses of power and human systems dynamics.', url: '/library/files/talks/power-systems-and-the-viable-system-model.pdf' },
   { title: 'Systems Innovation London VSM workshop', meta: '2019 · with Patrick Hoverstadt', description: 'Workshop material co-delivered with Patrick Hoverstadt.', url: 'https://www.dropbox.com/scl/fi/nuzy6oofhmi2zoeu1a4jk/2019-09-03-Systems-Innovation-London-VSM-workshop.pdf?rlkey=u0orouifyc8yzwvgxqamq56ix&dl=0' },
 ] }] });
 
-resourcePage({ slug: 'outcomes-and-complexity', title: 'Outcomes and complexity', description: 'Why outcomes arise from complex adaptive systems rather than being produced by individual services alone.', groups: [{ title: 'Material', items: [
+resourcePage({ slug: 'outcomes-and-complexity', title: 'Outcomes and complexity', description: 'Several services can contribute to what happens in one person’s life. How should each service account for its part?', groups: [{ title: 'Material', items: [
   { title: 'Outcomes are the results of complex adaptive systems', meta: '2025 · presentation', description: 'A direct introduction to the argument and its public-service implications.', url: '/library/files/talks/outcomes-and-complex-adaptive-systems.pdf' },
   { title: 'Outcomes thinking, with Benjamin Taylor for LGE', meta: '2022 · video', description: 'A recorded introduction to outcomes thinking.', url: 'https://www.dropbox.com/scl/fi/0xfike9t4l078sg7r4r8z/Outcomes-thinking-with-Benjamin-Taylor-for-LGE.mp4?rlkey=sb9sybgi09gqqdcpe51iuk794&dl=0' },
 ] }] });
@@ -279,7 +279,7 @@ resourcePage({ slug: 'large-group-processes', title: 'Large-group processes', de
   { title: 'Interrogate the large-group-process mentor', meta: 'ChatGPT mentor', description: 'Ask about method choice, process design, risks, and adaptation.', url: 'https://link.redquadrant.com/ChatGPTlargegroupprocessmentor' },
 ] }], note: 'The collection includes work by many authors and organisations. Attribution and the terms of the original sources apply.' });
 
-resourcePage({ slug: 'productive-conversations', title: 'Productive conversations', description: 'Conversation as practical infrastructure for truth-seeking, shared understanding, commitment, and learning.', groups: [{ title: 'Material', items: [
+resourcePage({ slug: 'productive-conversations', title: 'Productive conversations', description: 'The Left-Hand Column exercise asks people to write down what they thought during a conversation alongside what they actually said. Two presentations explore what colleagues can learn from the difference.', groups: [{ title: 'Material', items: [
   { title: 'Better conversations for better realities', meta: '2025 · presentation', description: 'Learning loops to break the devil’s bargain.', url: '/library/files/talks/better-conversations-for-better-realities.pdf' },
   { title: 'Productive conversations,  SCiO', meta: '2024 · presentation', description: 'A practical session on honest, constructive conversations and shared learning.', url: 'https://www.dropbox.com/scl/fi/ztetuy2oydh3va0c4u5zm/2024-111-20-SCiO-Benjamin-P-Taylor-productive-conversations-v1.2.pdf?rlkey=69mwjlj2yyr6nc0hkl9aral3m&dl=0' },
   { title: 'The Left-Hand Column exercise', meta: '2021 · exercise', description: 'Noticing the gap between what is thought and what is said.', url: 'https://www.dropbox.com/scl/fi/pi2on6gywe0k61w9r3hp5/2021-02-17-RedQuadrant-the-Left-Hand-Column-exercise.pdf?rlkey=z542btrygdabkb2pdfpq2u9dr&dl=0' },
@@ -296,10 +296,10 @@ function catalogueBody(note, links = '', withSource = false) {
 }
 
 const searchScript = ['/library/catalogue-search.js'];
-save('chosen-path', shell({ slug: 'chosen-path', title: 'Search Chosen Path', description: 'A keyword catalogue of the public essays and fragments on chosen-path.org.', eyebrow: 'Searchable writing archive', lead: 'Chosen Path is Benjamin P Taylor’s main blog: essays, arguments, working notes, and fragments on public services, systems, change, and practice.', body: catalogueBody('<strong>A search aid, not an oracle.</strong> This catalogue indexes public posts from Chosen Path. Older posts may no longer represent my view.', '<div class="actions"><a class="button primary" href="https://chosen-path.org/">Visit Chosen Path</a><a class="button" href="/library/syscoi/">Search SysCoi</a><a class="button" href="/library/search/">Search everything</a></div>'), scripts: searchScript }));
-save('syscoi', shell({ slug: 'syscoi', title: 'Search the Systems Community of Inquiry', description: 'A keyword catalogue of public posts from the Systems Community of Inquiry.', eyebrow: 'Searchable systems weblog', lead: 'The Systems Community of Inquiry is a long-running shared weblog and link stream about systems, cybernetics, complexity, and related practice.', body: catalogueBody('<strong>A broad community record.</strong> SysCoi contains linked material from many authors and sources. Inclusion is not endorsement, and the original source and attribution remain decisive.', '<div class="actions"><a class="button primary" href="https://stream.syscoi.com/">Visit SysCoi</a><a class="button" href="/library/chosen-path/">Search Chosen Path</a><a class="button" href="/library/search/">Search everything</a></div>'), scripts: searchScript }));
-save('catalogue', shell({ slug: 'catalogue', title: 'Search the public library', description: 'Search Benjamin P Taylor’s curated public library, including writing, talks, podcasts, tools, models, recordings, and reference material.', eyebrow: 'Curated catalogue', lead: 'Search the library itself, including papers, working papers, talks, podcasts, videos, tools, models, collections, and reference documents.', body: catalogueBody('<strong>The catalogue follows the public library.</strong> It searches titles, descriptions, formats, and themes. It does not search the full text inside every linked PDF or recording.', '<div class="actions"><a class="button" href="/library/chosen-path/">Search Chosen Path</a><a class="button" href="/library/syscoi/">Search SysCoi</a><a class="button primary" href="/library/search/">Search everything</a></div>'), scripts: searchScript }));
-save('search', shell({ slug: 'search', title: 'Search all public work', description: 'Search the public library, Chosen Path, and the Systems Community of Inquiry together.', eyebrow: 'Combined catalogue', lead: 'One search across the curated public library, Chosen Path, and the Systems Community of Inquiry.', body: catalogueBody('<strong>Three different kinds of collection.</strong> The library is curated; Chosen Path is Benjamin’s writing archive; SysCoi is a much broader community link stream. Search results preserve those distinctions.', '<div class="actions"><a class="button" href="/library/catalogue/">Library only</a><a class="button" href="/library/chosen-path/">Chosen Path only</a><a class="button" href="/library/syscoi/">SysCoi only</a></div>', true), scripts: searchScript }));
+save('chosen-path', shell({ slug: 'chosen-path', title: 'Search Chosen Path', description: 'A keyword catalogue of the public essays and fragments on chosen-path.org.', eyebrow: 'Searchable writing archive', lead: 'Chosen Path is Benjamin P Taylor’s main blog: essays, arguments, working notes, and fragments on public services, systems, change, and practice.', body: catalogueBody('Each result links to the original, dated post. My views have changed on some questions.', '<div class="actions"><a class="button primary" href="https://chosen-path.org/">Visit Chosen Path</a><a class="button" href="/library/syscoi/">Search SysCoi</a><a class="button" href="/library/search/">Search everything</a></div>'), scripts: searchScript }));
+save('syscoi', shell({ slug: 'syscoi', title: 'Search the Systems Community of Inquiry', description: 'A keyword catalogue of public posts from the Systems Community of Inquiry.', eyebrow: 'Searchable systems weblog', lead: 'The Systems Community of Inquiry is a long-running shared weblog and link stream about systems, cybernetics, complexity, and related practice.', body: catalogueBody('Members share work by many authors. Follow a result to see who wrote it and where it first appeared.', '<div class="actions"><a class="button primary" href="https://stream.syscoi.com/">Visit SysCoi</a><a class="button" href="/library/chosen-path/">Search Chosen Path</a><a class="button" href="/library/search/">Search everything</a></div>'), scripts: searchScript }));
+save('catalogue', shell({ slug: 'catalogue', title: 'Search the public library', description: 'Search Benjamin P Taylor’s curated public library, including writing, talks, podcasts, tools, models, recordings, and reference material.', eyebrow: 'Curated catalogue', lead: 'Search the library itself, including papers, working papers, talks, podcasts, videos, tools, models, collections, and reference documents.', body: catalogueBody('Use a title, a format, or a subject. The search covers library descriptions. Open a paper or recording to check its contents.', '<div class="actions"><a class="button" href="/library/chosen-path/">Search Chosen Path</a><a class="button" href="/library/syscoi/">Search SysCoi</a><a class="button primary" href="/library/search/">Search everything</a></div>'), scripts: searchScript }));
+save('search', shell({ slug: 'search', title: 'Search all public work', description: 'Search the public library, Chosen Path, and the Systems Community of Inquiry together.', eyebrow: 'Combined catalogue', lead: 'One search across the curated public library, Chosen Path, and the Systems Community of Inquiry.', body: catalogueBody('Choose Library for papers, talks, and tools, Chosen Path for my own writing, or SysCoI for work shared by members of the Systems Community of Inquiry.', '<div class="actions"><a class="button" href="/library/catalogue/">Library only</a><a class="button" href="/library/chosen-path/">Chosen Path only</a><a class="button" href="/library/syscoi/">SysCoi only</a></div>', true), scripts: searchScript }));
 
 console.log('Rebuilt the curated library pages.');
 

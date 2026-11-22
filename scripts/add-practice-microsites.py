@@ -11,18 +11,17 @@ TOOLS = [
     ('four-dynamics', 'Four team dynamics',
      'Segment, blend, empower, and harmonise. Diagnose a pattern, examine its relationships, and design an intervention you can test.'),
     ('arms-lengthiness', 'The arms-lengthiness tool',
-     'Compare delivery arrangements across 21 dimensions. Examine relative fit, mismatches, and the conditions a model would need to work.'),
+     'Answer 21 questions about a service to see which delivery arrangements come closest to the control and independence it needs.'),
 ]
 
 
-def entry_section(items, title='Tools for working on a real situation'):
+def entry_section(items, title='Assessment tools'):
     cards = ''.join(
         '<article class="card"><h3><a href="/' + slug + '/">' + escape(name) +
-        '</a></h3><p>' + escape(description) + '</p><p><a href="/' + slug +
-        '/">Open the guide and tool →</a></p></article>'
+        '</a></h3><p>' + escape(description) + '</p></article>'
         for slug, name, description in items)
     return (START + '<section class="section" id="practice-tools"><div class="wrap">'
-            '<div class="section-head"><p class="eyebrow">Practice tools</p><h2>' + title +
+            '<div class="section-head"><h2>' + title +
             '</h2></div><div class="grid">' + cards + '</div></div></section>' + END)
 
 
@@ -32,7 +31,7 @@ def connect_page(relative, items=TOOLS, first=False):
         return
     text = path.read_text(encoding='utf-8')
     text = re.sub(re.escape(START) + r'.*?' + re.escape(END), '', text, flags=re.S)
-    section = entry_section(items)
+    section = (START + '<section id="practice-tools"><div class="wrap"><h2 class="section-title">Two tools you can use here</h2><dl class="home-index"><div><dt><a href="/four-dynamics/">Four team dynamics</a></dt><dd>Look at how a team divides work, works together, gives people discretion, and reaches agreements.</dd></div><div><dt><a href="/arms-lengthiness/">The arms-lengthiness tool</a></dt><dd>Compare ways of running a service. Where should decisions sit, and how much independence would each arrangement allow?</dd></div></dl></div></section>' + END) if relative == "index.html" else entry_section(items)
     if first:
         text = text.replace('</section>', '</section>' + section, 1)
     else:
@@ -57,7 +56,7 @@ landing.write_text('''<!doctype html>
 <link rel="stylesheet" href="/library/style.css"></head><body>
 <header><div class="wrap top"><a class="brand" href="/">Benjamin P Taylor, antlerboy</a><nav class="nav" aria-label="Library navigation"><a href="/library/">Library</a><a href="/library/search/">Search all</a><a href="/">Home</a></nav></div></header>
 <main><section class="hero"><div class="wrap"><p class="eyebrow">Practice tool</p><h1>The arms-lengthiness tool</h1>
-<p class="lead">Compare delivery arrangements across 21 dimensions. Examine relative fit, mismatches, and the conditions a model would need to work.</p>
+<p class="lead">Answer 21 questions about a service to see which delivery arrangements come closest to the control and independence it needs.</p>
 <p><a class="button" href="/arms-lengthiness/">Open the guide and tool →</a></p></div></section></main>
 <footer><div class="wrap">Benjamin P Taylor · <a href="/library/">Public work library</a></div></footer></body></html>
 ''', encoding='utf-8')
