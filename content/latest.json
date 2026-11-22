@@ -1,32 +1,32 @@
 [
   {
-    "topic": "public-service-accountability",
-    "source": "Chosen Path · 23 October 2026",
-    "title": "When a chief executive sorts it out, what changes for the next family?",
-    "summary": "A chief executive gets a family the help it has been waiting for. Who has the authority to change the rule that held it up?",
-    "href": "https://chosen-path.org/2026/10/23/suppose-a-chief-executive-makes-a-phone-call-and-sorts-out-a-problem-that-public-services-have-spent-months-passing-between-them-what-happens-to-the-next-person-to-face-the-same-problem/",
-    "link_label": "Read it",
-    "reviewed_on": "2026-11-05",
-    "evergreen": true
-  },
-  {
-    "topic": "costs-of-neighbourhood-change",
-    "source": "Chosen Path · 3 November 2026",
-    "title": "How much of your successful project is being held together by somebody else’s unpaid work?",
-    "summary": "A neighbourhood project can look affordable because families cover costs that never appear in its accounts. Who could challenge those figures before the money is committed?",
-    "href": "https://chosen-path.org/2026/11/03/how-much-of-your-successful-project-is-being-held-together-by-somebody-elses-unpaid-work/",
+    "topic": "procurement-direct-awards",
+    "source": "Chosen Path · 22 November 2026",
+    "title": "On direct awards, frameworks, and a fair fight for public consultancy",
+    "summary": "Why winning a place on a framework can still leave a supplier outside the contest, and five proposals for changing how buyers choose.",
+    "href": "https://chosen-path.org/2026/11/22/direct-awards-frameworks-and-a-fair-fight/",
     "link_label": "Read the argument",
-    "reviewed_on": "2026-11-11",
+    "reviewed_on": "2026-11-22",
     "evergreen": true
   },
   {
-    "topic": "von-foerster-maxims",
-    "source": "The Necessary Tangle · Collected sayings and sources",
-    "title": "Heinz von Foerster: said to someone",
-    "summary": "Where did Heinz von Foerster say that, and to whom? Recordings and recollections sometimes give different versions. There’s also an imagined conversation with Captain Beefheart.",
-    "href": "https://transduction.systems/saidtosomeone/",
-    "link_label": "Explore the collection",
-    "reviewed_on": "2026-11-11",
+    "topic": "relational-public-services-practice",
+    "source": "Practical guide and browser tool · Benjamin P Taylor",
+    "title": "Relational public services: follow the decision",
+    "summary": "Trace what happens as a person's account becomes a service record, a management report, and a decision. Includes a fictional case and a working tool.",
+    "href": "/relational/",
+    "link_label": "Try the guide",
+    "reviewed_on": "2026-11-22",
+    "evergreen": true
+  },
+  {
+    "topic": "systems-change-for-young-people",
+    "source": "Free guide · Benjamin P Taylor",
+    "title": "Making things change: a guide for young people",
+    "summary": "Two illustrated, 32-page working drafts about purpose, power, organisation, action, and learning, with questions to try on a real change.",
+    "href": "/library/making-things-change/",
+    "link_label": "Read both editions",
+    "reviewed_on": "2026-11-22",
     "evergreen": true
   }
 ]
