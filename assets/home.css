@@ -25,3 +25,8 @@
   .hero .wrap, .guide-spread { grid-template-columns: 1fr; }
   .home-index > div { grid-template-columns: 1fr; gap: .25rem; }
 }
+@media (max-width: 460px) {
+  .hero .wrap, .contact-grid { grid-template-columns: minmax(0, 1fr); }
+  .hero .strap { font-size: 1.05rem; }
+  .contact-block { overflow-wrap: anywhere; }
+}
