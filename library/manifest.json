@@ -3,6 +3,17 @@
   "updated": "2026-11-19",
   "pages": [
     {
+      "slug": "seven-ways",
+      "title": "Seven ways to save and improve",
+      "type": "practice-guide",
+      "description": "Seven ways to save and improve and the Viable System Model (VSM) questions, applied to the Kupiškis food route. A workshop guide in English and Lithuanian.",
+      "tags": [
+        "public-services",
+        "systems",
+        "practice"
+      ]
+    },
+    {
       "slug": "cybernetics-is-not-the-banana",
       "title": "Cybernetics is not the banana",
       "type": "body-of-work",

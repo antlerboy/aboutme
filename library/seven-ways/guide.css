@@ -1,0 +1,21 @@
+main .wrap, footer .wrap, header .wrap { max-width: 54rem; }
+h1, h2, .model dt { font-family: inherit; }
+h1 { font-size: clamp(2.3rem, 6vw, 4.4rem); max-width: 17ch; }
+h2 { font-size: clamp(1.55rem, 3.6vw, 2.35rem); }
+.hero { padding: clamp(2rem, 5vw, 4rem) 0 2rem; }
+.lead { max-width: 59ch; color: var(--chocolate); font-size: clamp(1.15rem, 2.5vw, 1.45rem); }
+.section { padding: clamp(1.7rem, 4vw, 3rem) 0; }
+p { max-width: 72ch; }
+.top { flex-direction: row; align-items: center; flex-wrap: wrap; }
+.nav [aria-current="page"] { color: var(--ink); text-decoration: underline; text-decoration-thickness: 2px; }
+.ways { padding-inline-start: 1.8rem; }
+.ways li { padding: .55rem 0 .55rem .35rem; max-width: 72ch; }
+.ways li::marker { color: var(--red); font-weight: 700; }
+.model > div { border-top: 1px solid var(--line); padding: .85rem 0; }
+.model dt { font-weight: 750; color: var(--chocolate); }
+.model dt span { display: inline-block; min-width: 2.6rem; font-variant-numeric: tabular-nums; color: var(--red); }
+.model dd { margin: .18rem 0 0 2.6rem; max-width: 68ch; }
+.sources { padding-inline-start: 1.2rem; }
+.sources li { margin-block: .35rem; }
+footer p { margin: 0; }
+@media print { header, footer { display: none; } .hero, .section { padding: .8rem 0; } .section.alt { background: white; } li, .model > div { break-inside: avoid; } }
