@@ -167,9 +167,9 @@
     },
     {
       "slug": "john-seddon-method",
-      "title": "The John Seddon Method",
+      "title": "The John Seddon method for public sector transformation – self-enlightenment, coercion, or both?",
       "type": "body-of-work",
-      "description": "Action learning, transformation, self-enlightenment and coercion.",
+      "description": "Ben Taylor. Essay review in Action Learning: Research and Practice, 9(1), March 2012, pp. 65–82. DOI: 10.1080/14767333.2012.656892.",
       "tags": [
         "public-services",
         "practice"
@@ -2060,11 +2060,11 @@
       ]
     },
     {
-      "title": "Action Learning and Practice; The John Seddon Method for public sector transformation",
-      "year": 2017,
+      "title": "The John Seddon method for public sector transformation – self-enlightenment, coercion, or both?",
+      "year": 2012,
       "format": "PDF",
       "url": "https://www.dropbox.com/scl/fi/r4jtm2p2nqqjr3639ocbt/Action-Learning-and-Practice-The-John-Seddon-Method-for-public-sector-transformation-self-enlightenment-coercion-or-both.pdf?rlkey=k5mylvd0agkzybd005yu9uj2u&dl=0",
-      "description": "A paper on action learning, self-enlightenment, coercion and public-sector transformation.",
+      "description": "Ben Taylor. Essay review in Action Learning: Research and Practice, 9(1), March 2012, pp. 65–82. DOI: 10.1080/14767333.2012.656892.",
       "tags": [
         "public-services",
         "systems",
@@ -2072,7 +2072,16 @@
       ],
       "pages": [
         "john-seddon-method"
-      ]
+      ],
+      "date": "2012-03",
+      "author": "Ben Taylor",
+      "journal": "Action Learning: Research and Practice",
+      "volume": 9,
+      "issue": 1,
+      "doi": "10.1080/14767333.2012.656892",
+      "pageRange": "65–82",
+      "pageStart": 65,
+      "pageEnd": 82
     },
     {
       "title": "The Human Current 040: The myth of the dysfunctional system",
