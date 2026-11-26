@@ -75,6 +75,14 @@ async function main() {
   assert.equal(await page.locator('#catalogue-source').inputValue(), 'all');
   assert.equal(await page.locator('script:not([src])').count(), 0);
   report.checks.push('shared query and filter restoration; source/type labels; all/any matching; reset and focus; invalid filters and escaped input');
+  const railway = 'https://chosen-path.org/2021/02/03/this-intriguing-image-contains-two-possibilities-for-organisations-and-the-people-who-spend-their-lives-in-them/';
+  for (const phrase of ['original org chart', 'original org chat', 'Daniel McCallum', 'Lake Erie railroad', 'nourishing root ball']) {
+    await page.goto(base + '/library/search/?q=' + encodeURIComponent(phrase), { waitUntil: 'networkidle' });
+    await page.waitForFunction(() => !document.querySelector('#catalogue-status').textContent.includes('Loading'));
+    assert(await page.locator('.catalogue-result a').evaluateAll((links, expected) => links.some(link => link.href === expected), railway), phrase + ' finds the railway article');
+    if (phrase === 'original org chat') assert((await page.locator('#catalogue-status').innerText()).includes('close matches'));
+  }
+  report.checks.push('railway article found by title concepts, remembered railway name, author reference, and a one-letter typo');
   for (const width of [1365, 390]) {
     await page.setViewportSize({ width, height: 900 });
     const missing = '/library/relational-public-services-zz-moved.html?token=private-query#private-fragment';

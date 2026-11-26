@@ -23,12 +23,26 @@ for item in items:
         if '<div class="grid">' in text: text=text.replace('<div class="grid">','<div class="grid">'+a+card+b,1)
         else: text=text.replace('<ul class="resource-list">','<ul class="resource-list">'+a+'<li><strong><a href="'+h(item['url'])+'">'+h(title)+'</a></strong><small>'+h(item['kicker'])+'</small><p>'+h(item['description'])+'</p></li>'+b,1)
         path.write_text(text)
-manifest=root/'library/manifest.json';m=json.loads(manifest.read_text());m['updated']='2026-09-09'
+manifest=root/'library/manifest.json';m=json.loads(manifest.read_text());m['updated']=max(m.get('updated',''),'2026-11-25')
 for item in items:
     m['resources']=[x for x in m['resources'] if x['url']!=item['url']]
     m['resources'].insert(0,dict(title=item['title'],year=2026,format='Working paper' if item.get('draft') else 'Article',url=item['url'],description=item['description'],tags=item['tags'],pages=item['pages']))
     m['pages']=[x for x in m['pages'] if x['slug']!=item['slug']]
     m['pages'].append(dict(slug=item['slug'],title=item['title'],type='writing',description=item['description'],tags=item['tags']))
+# Preserve reviewed media facts when regenerating the library records.
+media=json.loads((root/'scripts/reader-recordings.json').read_text())
+for category in ('podcasts','written'):
+    for record in media[category]:
+        if not record.get('metadata_reviewed_on'): continue
+        resource=next((x for x in m['resources'] if x['url']==record['url']),None)
+        if resource:
+            for key in ('date','year','description'):
+                if key in record: resource[key]=record[key]
+metaphor=next((x for x in m['resources'] if x['url']=='https://www.systemspractice.org/resources/metaphor-presented-scio-development-event'),None)
+if metaphor:
+    links=metaphor.setdefault('relatedLinks',[])
+    presentation={'title':'Metaphor presentation slides (PDF)','url':'https://www.dropbox.com/scl/fi/kucx1f6b5y0e7qr7fbu86/2021-04-12-SCiO-development-day-metaphors-as-delivered.pdf?rlkey=d40z6lh65ytxpgc51mm3i3ig9&dl=0'}
+    if not any(x['url']==presentation['url'] for x in links): links.append(presentation)
 manifest.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n')
 sitemap=root/'sitemap.xml';text=sitemap.read_text()
 for item in items:

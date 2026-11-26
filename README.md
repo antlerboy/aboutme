@@ -2,7 +2,9 @@
 
 Static personal homepage for Benjamin P Taylor / @antlerboy.
 
-This replaces the old About.me-hosted page while preserving its useful information and links. The public site is deliberately simple: one HTML page, no framework, no analytics, no cookies, and no dependency on About.me.
+This replaces the old About.me-hosted page while preserving its useful information and links. The site has a static homepage, a public library, and practical guides and tools, with no application framework or dependency on About.me.
+
+Most reading pages load the page-visit script from transduction.systems. The four-dynamics and arms-lengthiness tools, the Delphi entrance, and the facilitation canvas are excluded by the publishing script. Working tool records aren't part of the catalogue.
 
 ## Public content
 
@@ -50,3 +52,7 @@ The public `/assets/data/latest.json` manifest records `selection_as_of`, `sourc
 The existing 06:00 UK editorial automation should inspect the manifest and source files, check approved news, events, resources, and social material, and update the primary choices when warranted. It must compare expiry timestamps with the current time even if an old manifest says `review_needed: false`, because the public manifest records build-time state. Keep one panel of three distinct topics. Preserve useful evergreen items when they remain the better choice. The existing Friday check covers stale dates, promotions, and broken links; no second publishing schedule is needed.
 
 Run `python3 -m unittest discover -s tests -p test_curated_latest.py` before publishing. The tests cover date boundaries, explicit timezones, future items, duplicate topics and links, missing expiry decisions, evergreen replacement capacity, escaped markup, and matching browser/build selections.
+
+## Search
+
+The catalogue indexes the full public text of Chosen Path articles as well as titles, descriptions, and themes. `content/search-aliases.json` links familiar names and remembered descriptions to verified existing entries; aliases don't change an article's title or attribution. All-words searches also try single-letter spelling corrections, giving exact words more weight and labelling when close matches are included. The browser checks cover the railway organisation-chart article, including 'original org chat', and automatic searches from missing addresses.

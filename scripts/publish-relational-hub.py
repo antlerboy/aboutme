@@ -73,6 +73,18 @@ def build(root):
                         '<a href="#session">Workshop discussion</a>')
     text = text.replace('<a href="#resources">Related tools</a>',
                         '<a href="#resources">Tools and papers</a>')
+    text = text.replace('<p class="eyebrow">Related practical work</p><h2>Choose the next tool by the work you need to do</h2>',
+                        '<p class="eyebrow">Papers and practical resources</p><h2>Relational public services: reading and practice</h2>')
+    if 'id="relational-source-papers"' not in text:
+        papers = '''<div id="relational-source-papers" class="resources">
+<article class="resource"><span class="label">Reading collection</span><h3><a href="/library/relational-public-services/">Relational public services library</a></h3><p>The dedicated collection of papers, presentations, and published writing. Earlier versions are labelled separately.</p></article>
+<article class="resource"><span class="label">Taylor and Boxer · working paper</span><h3><a href="/library/files/preprints/2026-degrees-of-relationality-v12-taylor-boxer.pdf">Degrees of relationality</a></h3><p>The ladder for distinguishing different kinds of relational public service design.</p></article>
+<article class="resource"><span class="label">Taylor and Boxer · working paper</span><h3><a href="/library/what-the-boundary-cannot-carry-alone/">What the boundary cannot carry alone</a></h3><p>The organisational conditions needed to support relational public services, including authority, funding, risk, and learning.</p></article>
+<article class="resource"><span class="label">Boxer and Taylor · working paper</span><h3><a href="/library/files/preprints/2026-the-demand-side-of-public-services-v9-boxer-taylor.pdf">The demand side of public services</a></h3><p>A companion account of the demand-side problem.</p></article>
+</div><h3>Related tools and exercises</h3>'''
+        resource_start = text.index('<section class="section alt" id="resources">')
+        insertion = text.index('<div class="resources">', resource_start)
+        text = text[:insertion] + papers + text[insertion:]
     text = text.replace('Updated: 8 October 2026 &middot; v0.02',
                         'Updated: 8 October 2026 &middot; v0.03')
     if 'id="posts-collection"' not in text:

@@ -15,7 +15,7 @@ async function main(){
  for(const width of [1365,390]){
   await page.setViewportSize({width,height:900});
   const response=await page.goto(base+'/library/public-service-writing/',{waitUntil:'load'});assert.equal(response.status(),200);
-  assert.equal(await page.locator('tbody tr').count(),11);
+  assert.equal(await page.locator('tbody tr').count(),13);
   assert.equal(await page.getByRole('columnheader',{name:'Access and review',exact:true}).count(),1);
   assert.equal(await page.locator('tbody tr').filter({hasText:'News report quoting Benjamin Taylor'}).count(),1);
   assert(await page.getByText('Public article read; quoted participant, not credited as author',{exact:true}).isVisible());

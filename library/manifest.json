@@ -1,6 +1,6 @@
 {
   "title": "Benjamin P Taylor public work library",
-  "updated": "2026-11-19",
+  "updated": "2026-11-25",
   "pages": [
     {
       "slug": "seven-ways",
@@ -394,16 +394,6 @@
       ]
     },
     {
-      "slug": "public-service-writing",
-      "title": "Public-service articles and interviews",
-      "type": "collection",
-      "description": "Publisher-identified writing and interviews in the public-service press.",
-      "tags": [
-        "public-services",
-        "writing"
-      ]
-    },
-    {
       "slug": "arms-lengthiness",
       "title": "The arms-lengthiness tool",
       "type": "body-of-work",
@@ -423,6 +413,16 @@
         "practice",
         "public-services",
         "systems"
+      ]
+    },
+    {
+      "slug": "public-service-writing",
+      "title": "Public-service articles and interviews",
+      "type": "collection",
+      "description": "Publisher-identified writing and interviews in the public-service press.",
+      "tags": [
+        "public-services",
+        "writing"
       ]
     }
   ],
@@ -1118,20 +1118,6 @@
       ]
     },
     {
-      "title": "Tips on making place-based working work",
-      "year": 2021,
-      "format": "visual or article",
-      "url": "https://www.dropbox.com/scl/fi/epj0a6h6o3d0ijpr1fe8a/Benjamin-Taylor_-Tips-on-making-place-based-working-work-_-Local-Government-Chronicle-LGC.pdf?rlkey=d3fxipow0pkv4hk6bxpifmhwq&dl=0",
-      "description": "Practical advice on place-based public-service work.",
-      "tags": [
-        "writing",
-        "article"
-      ],
-      "pages": [
-        "articles-and-essays"
-      ]
-    },
-    {
       "title": "The four quadrants of thinking threats; SCiO open event",
       "year": 2021,
       "format": "Video",
@@ -1585,16 +1571,26 @@
     },
     {
       "title": "We must find a future where systems change can take root",
-      "year": 2019,
+      "year": 2018,
       "format": "visual or article",
       "url": "https://www.dropbox.com/scl/fi/6wwckqg9dq49yhq1nz7rn/We-must-find-a-future-where-systems-change-can-take-root-Opinion-LGC.pdf?rlkey=ecsfovlrz4vcqszjmtgpk3ftf&dl=0",
-      "description": "An article on the conditions required for systems change.",
+      "description": "Author-supplied PDF of the LGC article, also reproduced in PPI SyEN 69 in 2018. The exact original publication date was not verified.",
       "tags": [
         "writing",
         "article"
       ],
       "pages": [
         "articles-and-essays"
+      ],
+      "relatedLinks": [
+        {
+          "title": "LGC publisher page",
+          "url": "https://www.lgcplus.com/politics-and-policy/service-reform/we-must-find-a-future-where-systems-change-can-take-root/7025345.article"
+        },
+        {
+          "title": "PPI reproduction: Systems Change: A Growing Need for the Shift to Take Root",
+          "url": "https://www.ppi-int.com/systems-engineering-newsjournal/ppi-syen-69/"
+        }
       ]
     },
     {
@@ -2678,7 +2674,7 @@
       "year": "2021",
       "format": "SCiO public resource",
       "url": "https://www.systemspractice.org/resources/metaphor-presented-scio-development-event",
-      "description": "Niki Jobson and Benjamin P Taylor.",
+      "description": "Niki Jobson and Benjamin P Taylor on metaphor, framing, and problem-setting. Presentation slides from the April 2021 SCiO Development Event.",
       "tags": [
         "systems",
         "scio"
@@ -2686,6 +2682,12 @@
       "pages": [
         "talks-and-sessions",
         "facilitation-and-systems-consulting"
+      ],
+      "relatedLinks": [
+        {
+          "title": "Metaphor presentation slides (PDF)",
+          "url": "https://www.dropbox.com/scl/fi/kucx1f6b5y0e7qr7fbu86/2021-04-12-SCiO-development-day-metaphors-as-delivered.pdf?rlkey=d40z6lh65ytxpgc51mm3i3ig9&dl=0"
+        }
       ]
     },
     {
@@ -2962,7 +2964,7 @@
       "year": "",
       "format": "Recorded interview",
       "url": "https://www.youtube.com/watch?v=qi7neufVcEc",
-      "description": "My route into systems thinking, consulting, human systems, and organisational complexity.",
+      "description": "A conversation with Laksh Raghavan of Cyb3rSyn Labs about my route into systems thinking, consulting, human systems, and organisational complexity.",
       "tags": [
         "video",
         "systems",
@@ -2978,7 +2980,7 @@
       "year": "",
       "format": "Recorded interview",
       "url": "https://www.youtube.com/watch?v=0IBjnZlcdfQ",
-      "description": "A further conversation about cybernetics, maps, models, and practice.",
+      "description": "A further conversation with Laksh Raghavan of Cyb3rSyn Labs about cybernetics, maps, models, and practice.",
       "tags": [
         "video",
         "systems",
@@ -3006,7 +3008,7 @@
     },
     {
       "title": "The future of work: Benjamin Taylor",
-      "year": "",
+      "year": 2023,
       "format": "Written interview",
       "url": "https://www.techfinitive.com/features/future-work-benjamin-taylor/",
       "description": "An interview with Tim Danton about the future of work and organisations.",
@@ -3017,7 +3019,8 @@
       "pages": [
         "podcasts",
         "articles-and-essays"
-      ]
+      ],
+      "date": "2023-05-29"
     },
     {
       "title": "The four quadrants of thinking threats",
@@ -3257,166 +3260,6 @@
         "articles-and-essays",
         "viable-system-model",
         "public-service-transformation"
-      ]
-    },
-    {
-      "title": "A surprising new role for local government",
-      "year": 2021,
-      "format": "Article",
-      "url": "https://www.themj.co.uk/surprising-role-local-government",
-      "description": "Benjamin Taylor and Kate Cooper; The MJ. Publisher access terms apply.",
-      "tags": [
-        "public-services",
-        "writing"
-      ],
-      "pages": [
-        "articles-and-essays",
-        "public-service-transformation",
-        "public-service-writing"
-      ]
-    },
-    {
-      "title": "Long live commissioning",
-      "year": 2021,
-      "format": "Article",
-      "url": "https://www.themj.co.uk/long-live-commissioning",
-      "description": "Benjamin Taylor; The MJ. Publisher access terms apply.",
-      "tags": [
-        "public-services",
-        "writing"
-      ],
-      "pages": [
-        "articles-and-essays",
-        "public-service-transformation",
-        "public-service-writing"
-      ]
-    },
-    {
-      "title": "Compassion, care and reconstruction",
-      "year": 2020,
-      "format": "Article",
-      "url": "https://www.themj.co.uk/compassion-care-reconstruction",
-      "description": "Benjamin Taylor; The MJ. Publisher access terms apply.",
-      "tags": [
-        "public-services",
-        "writing"
-      ],
-      "pages": [
-        "articles-and-essays",
-        "public-service-transformation",
-        "public-service-writing"
-      ]
-    },
-    {
-      "title": "Creating success from a crisis",
-      "year": 2020,
-      "format": "Article",
-      "url": "https://www.themj.co.uk/creating-success-crisis",
-      "description": "Benjamin Taylor; The MJ. Publisher access terms apply.",
-      "tags": [
-        "public-services",
-        "writing"
-      ],
-      "pages": [
-        "articles-and-essays",
-        "public-service-transformation",
-        "public-service-writing"
-      ]
-    },
-    {
-      "title": "The days after: creating a new learning  community",
-      "year": 2020,
-      "format": "Article",
-      "url": "https://www.themj.co.uk/days-creating-learning%C2%A0-community",
-      "description": "Benjamin Taylor; The MJ. Publisher access terms apply.",
-      "tags": [
-        "public-services",
-        "writing"
-      ],
-      "pages": [
-        "articles-and-essays",
-        "public-service-transformation",
-        "public-service-writing"
-      ]
-    },
-    {
-      "title": "Lessons learned from two years of the State of Transformation",
-      "year": 2019,
-      "format": "Article",
-      "url": "https://www.themj.co.uk/lessons-learned-transformation",
-      "description": "Benjamin Taylor; The MJ. Publisher access terms apply.",
-      "tags": [
-        "public-services",
-        "writing"
-      ],
-      "pages": [
-        "articles-and-essays",
-        "public-service-transformation",
-        "public-service-writing"
-      ]
-    },
-    {
-      "title": "Commissioning's pivotal role on the road to transformation",
-      "year": 2017,
-      "format": "Article",
-      "url": "https://www.themj.co.uk/commissioning-pivotal-role-road-transformation",
-      "description": "Benjamin Taylor; The MJ. Publisher access terms apply.",
-      "tags": [
-        "public-services",
-        "writing"
-      ],
-      "pages": [
-        "articles-and-essays",
-        "public-service-transformation",
-        "public-service-writing"
-      ]
-    },
-    {
-      "title": "Focus on outcomes to achieve better social care results with less money",
-      "year": 2017,
-      "format": "Article",
-      "url": "https://www.publicfinance.co.uk/opinion/2017/04/focus-outcomes-achieve-better-social-care-results-less-money",
-      "description": "Benjamin Taylor; Public Finance. Publisher author index verified; full article access was unavailable.",
-      "tags": [
-        "public-services",
-        "writing"
-      ],
-      "pages": [
-        "articles-and-essays",
-        "public-service-transformation",
-        "public-service-writing"
-      ]
-    },
-    {
-      "title": "Commissioning for the future",
-      "year": 2016,
-      "format": "Interview",
-      "url": "https://www.publicsectorexecutive.com/News/commissioning-for-the-future",
-      "description": "Interview with Benjamin Taylor; Public Sector Executive. Public interview.",
-      "tags": [
-        "public-services",
-        "writing"
-      ],
-      "pages": [
-        "articles-and-essays",
-        "public-service-transformation",
-        "public-service-writing"
-      ]
-    },
-    {
-      "title": "Cabinet Office Commissioning Academy to be run as not-for-profit",
-      "year": 2016,
-      "format": "Press coverage",
-      "url": "https://www.publicsectorexecutive.com/Service-transformation/cabinet-office-commissioning-academy-to-be-run-as-not-for-profit",
-      "description": "News report quoting Benjamin Taylor; Public Sector Executive. Public article read; quoted participant, not credited as author.",
-      "tags": [
-        "public-services",
-        "writing"
-      ],
-      "pages": [
-        "articles-and-essays",
-        "public-service-transformation",
-        "public-service-writing"
       ]
     },
     {
@@ -5975,6 +5818,216 @@
       ],
       "pages": [
         "facilitation-and-systems-consulting"
+      ]
+    },
+    {
+      "title": "A surprising new role for local government",
+      "date": "2021-12-13",
+      "year": 2021,
+      "format": "Article",
+      "url": "https://www.themj.co.uk/surprising-role-local-government",
+      "description": "Benjamin Taylor and Kate Cooper; The MJ. Publisher access terms apply",
+      "tags": [
+        "public-services",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "public-service-transformation",
+        "public-service-writing"
+      ]
+    },
+    {
+      "title": "Long live commissioning",
+      "date": "2021-08-10",
+      "year": 2021,
+      "format": "Article",
+      "url": "https://www.themj.co.uk/long-live-commissioning",
+      "description": "Benjamin Taylor; The MJ. Publisher access terms apply",
+      "tags": [
+        "public-services",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "public-service-transformation",
+        "public-service-writing"
+      ]
+    },
+    {
+      "title": "Tips on making place-based working work",
+      "date": "2021",
+      "year": 2021,
+      "format": "Article",
+      "url": "https://www.dropbox.com/scl/fi/epj0a6h6o3d0ijpr1fe8a/Benjamin-Taylor_-Tips-on-making-place-based-working-work-_-Local-Government-Chronicle-LGC.pdf?rlkey=d3fxipow0pkv4hk6bxpifmhwq&dl=0",
+      "description": "Benjamin Taylor; Local Government Chronicle (LGC). Author-supplied PDF. Year identified in the existing source record and the author’s contemporary newsletter; exact publication date and publisher archive access not verified.",
+      "tags": [
+        "public-services",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "public-service-transformation",
+        "public-service-writing"
+      ]
+    },
+    {
+      "title": "Compassion, care and reconstruction",
+      "date": "2020-10-07",
+      "year": 2020,
+      "format": "Article",
+      "url": "https://www.themj.co.uk/compassion-care-reconstruction",
+      "description": "Benjamin Taylor; The MJ. Publisher access terms apply",
+      "tags": [
+        "public-services",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "public-service-transformation",
+        "public-service-writing"
+      ]
+    },
+    {
+      "title": "Creating success from a crisis",
+      "date": "2020-04-29",
+      "year": 2020,
+      "format": "Article",
+      "url": "https://www.themj.co.uk/creating-success-crisis",
+      "description": "Benjamin Taylor; The MJ. Publisher access terms apply",
+      "tags": [
+        "public-services",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "public-service-transformation",
+        "public-service-writing"
+      ]
+    },
+    {
+      "title": "The days after: creating a new learning  community",
+      "date": "2020-04-28",
+      "year": 2020,
+      "format": "Article",
+      "url": "https://www.themj.co.uk/days-creating-learning%C2%A0-community",
+      "description": "Benjamin Taylor; The MJ. Publisher access terms apply",
+      "tags": [
+        "public-services",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "public-service-transformation",
+        "public-service-writing"
+      ]
+    },
+    {
+      "title": "Lessons learned from two years of the State of Transformation",
+      "date": "2019-11-13",
+      "year": 2019,
+      "format": "Article",
+      "url": "https://www.themj.co.uk/lessons-learned-transformation",
+      "description": "Benjamin Taylor; The MJ. Publisher access terms apply",
+      "tags": [
+        "public-services",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "public-service-transformation",
+        "public-service-writing"
+      ]
+    },
+    {
+      "title": "We must find a future where systems change can take root",
+      "date": "2018",
+      "year": 2018,
+      "format": "Article",
+      "url": "https://www.lgcplus.com/politics-and-policy/service-reform/we-must-find-a-future-where-systems-change-can-take-root/7025345.article",
+      "description": "Benjamin Taylor (credited in PPI’s reproduction); Local Government Chronicle (LGC). Public reproduction in PPI SyEN 69 under “Systems Change: A Growing Need for the Shift to Take Root”. The year refers to that reproduction; the original LGC publication date and full original byline were not verified.",
+      "tags": [
+        "public-services",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "public-service-transformation",
+        "public-service-writing"
+      ],
+      "relatedLinks": [
+        {
+          "title": "Read the public PPI reproduction",
+          "url": "https://www.ppi-int.com/systems-engineering-newsjournal/ppi-syen-69/"
+        }
+      ]
+    },
+    {
+      "title": "Commissioning's pivotal role on the road to transformation",
+      "date": "2017-03-08",
+      "year": 2017,
+      "format": "Article",
+      "url": "https://www.themj.co.uk/commissioning-pivotal-role-road-transformation",
+      "description": "Benjamin Taylor; The MJ. Publisher access terms apply",
+      "tags": [
+        "public-services",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "public-service-transformation",
+        "public-service-writing"
+      ]
+    },
+    {
+      "title": "Focus on outcomes to achieve better social care results with less money",
+      "date": "2017",
+      "year": 2017,
+      "format": "Article",
+      "url": "https://www.publicfinance.co.uk/opinion/2017/04/focus-outcomes-achieve-better-social-care-results-less-money",
+      "description": "Benjamin Taylor; Public Finance. Publisher author index verified; full article access was unavailable",
+      "tags": [
+        "public-services",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "public-service-transformation",
+        "public-service-writing"
+      ]
+    },
+    {
+      "title": "Commissioning for the future",
+      "date": "2016-06-02",
+      "year": 2016,
+      "format": "Interview",
+      "url": "https://www.publicsectorexecutive.com/News/commissioning-for-the-future",
+      "description": "Interview with Benjamin Taylor; Public Sector Executive. Public interview",
+      "tags": [
+        "public-services",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "public-service-transformation",
+        "public-service-writing"
+      ]
+    },
+    {
+      "title": "Cabinet Office Commissioning Academy to be run as not-for-profit",
+      "date": "2016-04-15",
+      "year": 2016,
+      "format": "Press coverage",
+      "url": "https://www.publicsectorexecutive.com/Service-transformation/cabinet-office-commissioning-academy-to-be-run-as-not-for-profit",
+      "description": "News report quoting Benjamin Taylor; Public Sector Executive. Public article read; quoted participant, not credited as author",
+      "tags": [
+        "public-services",
+        "writing"
+      ],
+      "pages": [
+        "articles-and-essays",
+        "public-service-transformation",
+        "public-service-writing"
       ]
     }
   ]

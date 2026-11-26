@@ -72,7 +72,7 @@ async function fetchWordPress(endpoint, source) {
     const title = plain(post.title?.rendered);
     const excerpt = [...plain(post.excerpt?.rendered)].slice(0, 420).join('');
     const content = plain(post.content?.rendered || '');
-    return { id: `${source.key}-${post.id}`, date: post.date.slice(0, 10), year: post.date.slice(0, 4), title, url: post.link, excerpt, topics: topicsFor(`${title} ${excerpt} ${content}`), source: source.key };
+    return { id: `${source.key}-${post.id}`, date: post.date.slice(0, 10), year: post.date.slice(0, 4), title, url: post.link, excerpt, searchText: content, topics: topicsFor(`${title} ${excerpt} ${content}`), source: source.key };
   });
 }
 
@@ -86,9 +86,12 @@ function libraryDocuments() {
 function catalogue(documents, sources) {
   const index = Object.create(null);
   documents.forEach((document, position) => {
-    for (const token of tokens(`${document.title} ${document.excerpt} ${document.searchAliases || ''} ${document.topics.join(' ')}`)) (index[token] ||= []).push(position);
+    const words = new Set([...tokens(`${document.title} ${document.excerpt} ${document.searchText || ''} ${document.searchAliases || ''} ${document.topics.join(' ')}`), ...(document.searchTokens || [])]);
+    for (const token of words) (index[token] ||= []).push(position);
   });
-  return { generatedAt: new Date().toISOString(), documents, index, years: [...new Set(documents.map(document => document.year).filter(Boolean))].sort((a, b) => b.localeCompare(a)), topics: topicRules.map(([key, label]) => ({ key, label })), sources };
+  // Keep article bodies out of the result payload; their words remain searchable.
+  const summaries = documents.map(({ searchText, searchTokens, ...document }) => document);
+  return { generatedAt: new Date().toISOString(), documents: summaries, index, years: [...new Set(documents.map(document => document.year).filter(Boolean))].sort((a, b) => b.localeCompare(a)), topics: topicRules.map(([key, label]) => ({ key, label })), sources };
 }
 
 function save(slug, data) {
@@ -104,12 +107,32 @@ const sourceList = [
   { key: 'library', label: 'Antlerboy public library', url: 'https://antlerboy.com/library/' },
 ];
 function existingDocuments(slug) {
-  return JSON.parse(readFileSync(resolve(outputRoot, slug, 'catalogue.json'), 'utf8')).documents;
+  const previous = JSON.parse(readFileSync(resolve(outputRoot, slug, 'catalogue.json'), 'utf8'));
+  const documents = previous.documents.map(document => ({ ...document, searchTokens: [] }));
+  // Reuse the full-text postings, not just the result excerpts. Token lists are
+  // kept transient and are omitted from the rebuilt document payload too.
+  for (const [token, positions] of Object.entries(previous.index)) {
+    for (const position of positions) {
+      if (!Number.isInteger(position) || !documents[position]) throw new Error(`Invalid cached catalogue position: ${slug}`);
+      documents[position].searchTokens.push(token);
+    }
+  }
+  return documents;
 }
 const reuse = process.env.CATALOGUE_REUSE === '1';
 const chosen = reuse ? existingDocuments('chosen-path') : await fetchWordPress('https://public-api.wordpress.com/wp/v2/sites/chosenpath.wordpress.com/posts', sourceList[0]);
 const syscoi = reuse ? existingDocuments('syscoi') : await fetchWordPress('https://public-api.wordpress.com/wp/v2/sites/syscoi.wordpress.com/posts', sourceList[1]);
 const library = libraryDocuments();
+const searchAliases = JSON.parse(readFileSync('content/search-aliases.json', 'utf8'));
+for (const item of searchAliases) {
+  const document = [...library, ...chosen, ...syscoi].find(document => document.url.replace(/\/$/, '') === item.url.replace(/\/$/, ''));
+  if (!document || !Array.isArray(item.aliases) || !item.aliases.every(alias => typeof alias === 'string' && alias.trim())) {
+    throw new Error(`Invalid or missing search-alias destination: ${item.url}`);
+  }
+  for (const alias of item.aliases) {
+    if (!(document.searchAliases || '').includes(alias)) document.searchAliases = [document.searchAliases || '', alias].join(' ').trim();
+  }
+}
 
 // Merge only versions explicitly reconciled in the topic's source register.
 // Preserve source memberships so all source filters can still find the work.
@@ -146,6 +169,8 @@ function mergeSystemsLeadershipVersions(documents) {
     if (existing) {
       existing.sourceKeys = [...new Set([...existing.sourceKeys, document.source])];
       existing.searchAliases += ` ${document.title} ${document.excerpt} ${document.searchAliases || ''}`;
+      existing.searchText = `${existing.searchText || ''} ${document.searchText || ''}`;
+      existing.searchTokens = [...new Set([...(existing.searchTokens || []), ...(document.searchTokens || [])])];
       existing.topics = [...new Set([...existing.topics, ...document.topics])];
     } else {
       const merged = { ...document, url: canonical, sourceKeys: [document.source], searchAliases: document.searchAliases || '' };

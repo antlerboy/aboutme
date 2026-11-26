@@ -36,6 +36,18 @@
       "access": "Publisher access terms apply"
     },
     {
+      "title": "Tips on making place-based working work",
+      "date": "2021",
+      "year": 2021,
+      "url": "https://www.dropbox.com/scl/fi/epj0a6h6o3d0ijpr1fe8a/Benjamin-Taylor_-Tips-on-making-place-based-working-work-_-Local-Government-Chronicle-LGC.pdf?rlkey=d3fxipow0pkv4hk6bxpifmhwq&dl=0",
+      "publisher": "Local Government Chronicle (LGC)",
+      "format": "Article",
+      "authors": "Benjamin Taylor",
+      "access": "Author-supplied PDF. Year identified in the existing source record and the author’s contemporary newsletter; exact publication date and publisher archive access not verified.",
+      "checked_on": "2026-11-25",
+      "evidence_url": "https://www.linkedin.com/pulse/transduction-leading-transformation-issue-27-benjamin-p-taylor"
+    },
+    {
       "title": "Compassion, care and reconstruction",
       "date": "2020-10-07",
       "year": 2020,
@@ -74,6 +86,19 @@
       "format": "Article",
       "authors": "Benjamin Taylor",
       "access": "Publisher access terms apply"
+    },
+    {
+      "title": "We must find a future where systems change can take root",
+      "date": "2018",
+      "year": 2018,
+      "url": "https://www.lgcplus.com/politics-and-policy/service-reform/we-must-find-a-future-where-systems-change-can-take-root/7025345.article",
+      "publisher": "Local Government Chronicle (LGC)",
+      "format": "Article",
+      "authors": "Benjamin Taylor (credited in PPI’s reproduction)",
+      "access": "Public reproduction in PPI SyEN 69 under “Systems Change: A Growing Need for the Shift to Take Root”. The year refers to that reproduction; the original LGC publication date and full original byline were not verified.",
+      "available_url": "https://www.ppi-int.com/systems-engineering-newsjournal/ppi-syen-69/",
+      "available_label": "Read the public PPI reproduction",
+      "checked_on": "2026-11-25"
     },
     {
       "title": "Commissioning's pivotal role on the road to transformation",
@@ -116,5 +141,6 @@
       "access": "Public article read; quoted participant, not credited as author"
     }
   ],
-  "remaining": "The current MJ author index is represented here. Public Finance full-text access and the LGC archive remain unverified; wider historical publication and appearance discovery is incomplete."
+  "remaining": "The MJ author index checked in September 2026 is represented here, alongside selected LGC, Public Finance, and Public Sector Executive items. The complete LGC archive and Public Finance full text remain unverified; wider historical publication and appearance discovery is incomplete.",
+  "additions_reviewed": "2026-11-25"
 }
