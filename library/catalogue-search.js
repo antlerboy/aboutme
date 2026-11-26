@@ -14,7 +14,7 @@
   const stopwords = new Set('a an and are as at be been being but by can could did do does for from had has have he her here him his how i if in into is it its may me more most my no not of on one only or other our out over she should so some than that the their them then there these they this those through to too under up us very was we were what when where which who why will with would you your'.split(' '));
   const sourceTypes = { library: 'Curated library entry', 'chosen-path': 'Writing archive', syscoi: 'Community link record' };
   const pageSize = 24;
-  let catalogue, activeTopic = 'all', visible = pageSize, current = [];
+  let catalogue, activeTopic = 'all', visible = pageSize, current = [], closeMatches = false;
   const escape = value => String(value ?? '').replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
 
   function queryFromMissingPath() {
@@ -38,15 +38,46 @@
       .filter(token => token.length > 1 && !stopwords.has(token)))];
   }
 
-  function scoreDocuments(terms) {
+  function oneEditApart(left, right) {
+    if (Math.abs(left.length - right.length) > 1) return false;
+    if (left.length === right.length) {
+      const differences = [];
+      for (let index = 0; index < left.length; index += 1) if (left[index] !== right[index]) differences.push(index);
+      return differences.length === 1 || (differences.length === 2 && differences[1] === differences[0] + 1 && left[differences[0]] === right[differences[1]] && left[differences[1]] === right[differences[0]]);
+    }
+    const [shorter, longer] = left.length < right.length ? [left, right] : [right, left];
+    let shortIndex = 0, longIndex = 0, skipped = false;
+    while (shortIndex < shorter.length && longIndex < longer.length) {
+      if (shorter[shortIndex] === longer[longIndex]) { shortIndex += 1; longIndex += 1; }
+      else if (skipped) return false;
+      else { skipped = true; longIndex += 1; }
+    }
+    return true;
+  }
+
+  function scoreDocuments(terms, allowCloseMatches = false) {
     if (!terms.length) return catalogue.documents.map((document, position) => ({ document, position, score: 0 }));
-    const scores = new Map();
-    for (const term of terms) for (const position of catalogue.index[term] || []) scores.set(position, (scores.get(position) || 0) + 1);
-    return [...scores].filter(([, count]) => match?.value === 'any' || count === terms.length).map(([position, score]) => {
+    const scores = new Map(), counts = new Map();
+    for (const term of terms) {
+      const positions = new Map((catalogue.index[term] || []).map(position => [position, 5]));
+      if (allowCloseMatches && term.length >= 4 && term.length <= 32) {
+        for (const candidate of Object.keys(catalogue.index)) {
+          if (oneEditApart(term, candidate)) for (const position of catalogue.index[candidate]) if (!positions.has(position)) positions.set(position, 1);
+        }
+      }
+      for (const [position, quality] of positions) {
+        counts.set(position, (counts.get(position) || 0) + 1);
+        scores.set(position, (scores.get(position) || 0) + quality);
+      }
+    }
+    return [...scores].filter(([position]) => match?.value === 'any' || counts.get(position) === terms.length).map(([position, score]) => {
       const document = catalogue.documents[position], title = document.title.toLowerCase(), excerpt = (document.excerpt || '').toLowerCase();
+      const close = allowCloseMatches && score < terms.length * 5;
       for (const term of terms) { if (title.includes(term)) score += 4; else if (excerpt.includes(term)) score += 1; }
       if (title.includes(query.value.trim().toLowerCase())) score += 8;
-      return { document, position, score };
+      const aliases = tokenise(document.searchAliases || '');
+      if (aliases.length && terms.every(term => aliases.includes(term) || (allowCloseMatches && term.length >= 4 && aliases.some(alias => oneEditApart(term, alias))))) score += 6;
+      return { document, position, score, close };
     });
   }
 
@@ -83,10 +114,15 @@
   function apply() {
     if (!catalogue) return;
     const terms = tokenise(query.value.trim());
-    current = (missingPage && !terms.length ? [] : scoreDocuments(terms))
+    closeMatches = false;
+    // A misspelling can itself be a real word ('chat' for 'chart'). Rank close
+    // matches alongside exact ones, with stronger weight for exact words.
+    const matches = missingPage && !terms.length ? [] : scoreDocuments(terms, match?.value !== 'any');
+    current = matches
       .filter(({ document }) => year.value === 'all' || document.year === year.value)
       .filter(({ document }) => activeTopic === 'all' || document.topics.includes(activeTopic))
       .filter(({ document }) => !source || source.value === 'all' || document.source === source.value || document.sourceKeys?.includes(source.value));
+    closeMatches = current.some(result => result.close);
     current.sort((a, b) => {
       if (sort.value === 'oldest') return a.document.date.localeCompare(b.document.date);
       if (sort.value === 'newest' || !terms.length) return b.document.date.localeCompare(a.document.date);
@@ -107,7 +143,7 @@
 
   function render() {
     const shown = current.slice(0, visible);
-    status.textContent = `${current.length.toLocaleString()} item${current.length === 1 ? '' : 's'} found · catalogue updated ${new Date(catalogue.generatedAt).toLocaleDateString('en-GB')}`;
+    status.textContent = `${current.length.toLocaleString()} item${current.length === 1 ? '' : 's'} found${closeMatches ? ' · close matches' : ''} · catalogue updated ${new Date(catalogue.generatedAt).toLocaleDateString('en-GB')}`;
     results.innerHTML = shown.map(({ document }) => `<article class="catalogue-result"><div><div class="tags provenance">${provenance(document)}</div>${document.date ? `<p class="eyebrow">${escape(document.date)}</p>` : ''}<h3><a href="${escape(document.url)}">${escape(document.title)}</a></h3><p>${escape(document.excerpt || 'No excerpt available.')}</p><div class="tags">${document.topics.map(topic => `<span class="tag">${escape(catalogue.topics.find(item => item.key === topic)?.label || topic)}</span>`).join('')}</div></div></article>`).join('');
     if (!shown.length) results.innerHTML = missingPage && !tokenise(query.value.trim()).length
       ? '<div class="note">Enter a word or phrase to search, or browse the <a href="/library/">library</a>.</div>'

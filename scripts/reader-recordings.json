@@ -27,24 +27,26 @@
     {
       "title": "Cybernetics is not the banana: part one",
       "kicker": "Cyb3rSyn Labs · Laksh Raghavan · 42 minutes",
-      "description": "My route into systems thinking, consulting, human systems, and organisational complexity.",
+      "description": "A conversation with Laksh Raghavan of Cyb3rSyn Labs about my route into systems thinking, consulting, human systems, and organisational complexity.",
       "tags": [
         "video",
         "systems",
         "audio"
       ],
-      "url": "https://www.youtube.com/watch?v=qi7neufVcEc"
+      "url": "https://www.youtube.com/watch?v=qi7neufVcEc",
+      "metadata_reviewed_on": "2026-11-25"
     },
     {
       "title": "Cybernetics is not the banana: part two",
       "kicker": "Cyb3rSyn Labs · Laksh Raghavan · 34 minutes",
-      "description": "A further conversation about cybernetics, maps, models, and practice.",
+      "description": "A further conversation with Laksh Raghavan of Cyb3rSyn Labs about cybernetics, maps, models, and practice.",
       "tags": [
         "video",
         "systems",
         "audio"
       ],
-      "url": "https://www.youtube.com/watch?v=0IBjnZlcdfQ"
+      "url": "https://www.youtube.com/watch?v=0IBjnZlcdfQ",
+      "metadata_reviewed_on": "2026-11-25"
     },
     {
       "title": "Evolving Enterprises: public sector transformation",
@@ -93,13 +95,16 @@
     },
     {
       "title": "The future of work: Benjamin Taylor",
-      "kicker": "2023 · written interview · TechFinitive",
+      "kicker": "29 May 2023 · written interview · TechFinitive",
       "description": "An interview with Tim Danton about the future of work and organisations.",
       "tags": [
         "writing",
         "business"
       ],
-      "url": "https://www.techfinitive.com/features/future-work-benjamin-taylor/"
+      "url": "https://www.techfinitive.com/features/future-work-benjamin-taylor/",
+      "date": "2023-05-29",
+      "year": 2023,
+      "metadata_reviewed_on": "2026-11-25"
     }
   ],
   "recordings": [
@@ -292,7 +297,11 @@
       "title": "Reboot #yakmeet: organising for human needs",
       "kicker": "Yak Collective · Ben Mosior · 12 minutes",
       "description": "A conversation with Ben Mosior about human needs, organisational dynamics, and the practices that help people work together.",
-      "tags": ["video", "leadership", "practice"],
+      "tags": [
+        "video",
+        "leadership",
+        "practice"
+      ],
       "url": "https://www.youtube.com/watch?v=nrdXKNgwo-g",
       "source": "https://chosen-path.org/2021/02/25/what-are-your-fundamental-needs-at-work-and-are-they-being-met/",
       "sourceLabel": "Read the accompanying article"
@@ -301,7 +310,10 @@
       "title": "Diversity and universality in systems thinking",
       "kicker": "2021 · Ecology of Systems Thinking · panel discussion",
       "description": "A discussion with Nora Bateson, Derek Cabrera, Laura Cabrera, Peter Jones, Gerald Midgley, and Benjamin Taylor about diversity and universality in systems thinking.",
-      "tags": ["video", "systems"],
+      "tags": [
+        "video",
+        "systems"
+      ],
       "url": "https://www.youtube.com/watch?v=VBvFnE8p22Y",
       "source": "https://stream.syscoi.com/2021/04/29/diversity-universality-in-systems-thinking-youtube/",
       "sourceLabel": "Read the discussion and source notes"

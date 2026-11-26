@@ -40,11 +40,12 @@ library = '<section class="section alt" id="start-here"><div class="wrap"><h2>St
 replace_section(ROOT / 'library/index.html', 'estate-start', library, '<section class="section">')
 
 controls = '<label class="field"><span>Match</span><select id="catalogue-match"><option value="all">All words</option><option value="any">Any word</option></select></label>'
-help_text = '<p class="search-help">Search titles, descriptions, and themes. Choose ‘Any word’ to include results that match only part of your search.</p><p><a href="/library/use/">Start with a practical question instead</a></p>'
+help_text = '<p class="search-help">Search titles, descriptions, themes, and the full text of Chosen Path articles. Choose ‘Any word’ to include results that match only part of your search.</p><p><a href="/library/use/">Start with a practical question instead</a></p>'
 for slug in ['chosen-path', 'syscoi', 'catalogue', 'search']:
     path = ROOT / 'library' / slug / 'index.html'
     text = path.read_text(encoding='utf-8').replace('/library/chosen-path/catalogue.js', '/library/catalogue-search.js')
-    text = text.replace('Ask in keywords', 'Search in keywords')
+    text = text.replace('Ask in keywords', 'Search words').replace('Search in keywords', 'Search words')
+    text = text.replace('Search titles, descriptions, and themes.', 'Search titles, descriptions, themes, and the full text of Chosen Path articles.')
     if 'id="catalogue-match"' not in text:
         text = text.replace('<label class="field"><span>Year</span>', controls + '<label class="field"><span>Year</span>')
     if 'class="search-help"' not in text:

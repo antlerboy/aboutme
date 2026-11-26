@@ -95,6 +95,14 @@ let server, browser;
   const toolLink = page.locator('.hero').getByRole('link', { name: 'Run the tool' });
   assert.ok(await toolLink.isVisible(), 'The opening must offer a route to the working tool');
   assert.equal(await toolLink.getAttribute('href'), '#tool');
+  await page.goto(base + route + '#resources', { waitUntil: 'networkidle' });
+  assert.ok(await page.getByRole('heading', { name: 'Relational public services: reading and practice', exact: true }).isVisible());
+  assert.equal(await page.locator('#relational-source-papers article').count(), 4);
+  assert.equal(await page.locator('#relational-source-papers a[href="/library/relational-public-services/"]').count(), 1);
+  for (const link of await page.locator('#relational-source-papers a').all()) {
+    const resource = await api.get(new URL(await link.getAttribute('href'), base).href);
+    assert.equal(resource.status(), 200, 'Dedicated relational paper link');
+  }
   assert.equal(await page.locator('a[href*="/sysprac26/relational/"]').count(),0);
   await page.locator('#steps button').first().waitFor();
   assert.equal(await page.locator('#steps button').count(),9);
